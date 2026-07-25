@@ -356,7 +356,8 @@ class GovApp:
         if self.reader_pdf_viewer.doc_obj:
             full_pdf_text = []
             for page in self.reader_pdf_viewer.doc_obj:
-                full_pdf_text.append(page.get_text("text"))
+                textpage = page.get_textpage()
+                full_pdf_text.append(textpage.get_text_range())
             current_text = "\n".join(full_pdf_text)
 
         if not current_text.strip() and self.selected_doc:
@@ -1489,7 +1490,7 @@ class GovApp:
         ttk.Button(pop, text="Search PDFs", command=run).pack(pady=5)
 
     def _cross_pdf_search_worker(self, term: str, txt: scrolledtext.ScrolledText, status: ttk.Label) -> None:
-        import fitz
+        import pypdfium2 as pdfium
 
         matches_found = 0
         for r, _dirs, files in os.walk(config.DATA_DIR):
@@ -1497,12 +1498,13 @@ class GovApp:
                 if not file.endswith(".pdf"):
                     continue
                 try:
-                    doc = fitz.open(os.path.join(r, file))
-                except (RuntimeError, OSError) as exc:
+                    doc = pdfium.PdfDocument(os.path.join(r, file))
+                except Exception as exc:
                     logger.info("Skipping unreadable PDF %s: %s", file, exc)
                     continue
                 for p_num, page in enumerate(doc):
-                    if term in page.get_text("text").lower():
+                    textpage = page.get_textpage()
+                    if term in textpage.get_text_range().lower():
                         matches_found += 1
                         line = f"📌 [File: {file} | Page {p_num + 1}]\n"
                         self.root.after(0, lambda line=line: txt.insert(tk.END, line))
