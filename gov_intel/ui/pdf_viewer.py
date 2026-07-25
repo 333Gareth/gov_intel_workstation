@@ -1,15 +1,15 @@
-"""A reusable, embeddable PDF viewer widget with highlighting, annotations, and advanced search."""
+"""A reusable, embeddable PDF viewer widget with highlighting, annotations, and advanced search.
+Powered by pypdfium2 for permissive, AGPL-free rendering."""
 
 from __future__ import annotations
 
 import fnmatch
-import io
 import re
 import tkinter as tk
 from tkinter import messagebox, scrolledtext, simpledialog, ttk
 from typing import Callable
 
-import fitz  # PyMuPDF
+import pypdfium2 as pdfium
 from PIL import Image, ImageTk
 
 KeywordRulesCallback = Callable[[], dict]
@@ -46,25 +46,35 @@ def _rgb_to_badge(rgb: tuple[float, float, float] | list[float]) -> str:
     return "🟨"
 
 
+def _rgb_to_hex(rgb: tuple[float, float, float] | list[float]) -> str:
+    """Convert a 0.0-1.0 RGB tuple to a Tkinter hex color string."""
+    r, g, b = [int(min(max(c, 0.0), 1.0) * 255) for c in rgb]
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
 class PDFViewerWidget(ttk.Frame):
     """Scrollable, zoomable PDF renderer with interactive canvas overlay, search highlighting, and TOC."""
 
     def __init__(self, parent: tk.Widget, get_kw_rules_cb: KeywordRulesCallback):
         super().__init__(parent)
         self.get_kw_rules_cb = get_kw_rules_cb
-        self.doc_obj: fitz.Document | None = None
+        self.doc_obj: pdfium.PdfDocument | None = None
         self.pdf_path = ""
         self.zoom = 1.3
         self.highlight_color = _DEFAULT_COLOR
         self.pen_active = tk.BooleanVar(value=False)
         self.images: list[ImageTk.PhotoImage] = []
         self.page_offsets: list[dict] = []
+        
         self.selected_text = ""
         self.selected_page_num = 0
         self.search_matches: list[dict] = []
         self.current_match_idx = -1
         self.drag_start: tuple[float, float] | None = None
-        self.auto_highlights_index: list[dict] = []
+        
+        # Store UI-level annotations (highlights and notes)
+        self.custom_highlights: list[dict] = []
+        self.custom_notes: list[dict] = []
 
         # Search Modifiers
         self.use_regex = tk.BooleanVar(value=False)
@@ -90,7 +100,6 @@ class PDFViewerWidget(ttk.Frame):
         self.color_cb.set("Yellow 🟨")
         self.color_cb.bind("<<ComboboxSelected>>", self._change_color)
 
-        ttk.Button(tb1, text="💾 Save", command=self.save_pdf).pack(side="left", padx=4)
         ttk.Button(tb1, text="✨ Auto Highlight", command=self.auto_highlight).pack(side="left", padx=4)
         ttk.Button(tb1, text="📤 Export Notes", command=self.export_annotations_report).pack(side="left", padx=4)
 
@@ -127,7 +136,6 @@ class PDFViewerWidget(ttk.Frame):
         body = ttk.Frame(self)
         body.pack(fill="both", expand=True)
 
-        # 3-Tab Sidebar: Pages, Outline, Highlights
         self.sidebar_nb = ttk.Notebook(body, width=200)
         self.sidebar_nb.pack(side="left", fill="y")
 
@@ -192,10 +200,11 @@ class PDFViewerWidget(ttk.Frame):
 
     def load_pdf(self, path: str) -> None:
         self.pdf_path = path
-        self.doc_obj = fitz.open(path)
+        self.doc_obj = pdfium.PdfDocument(path)
         self.search_matches = []
         self.current_match_idx = -1
-        self.auto_highlights_index = []
+        self.custom_highlights = []
+        self.custom_notes = []
         self.lb_highlights.delete(0, tk.END)
 
         self.lb_page_index.delete(0, tk.END)
@@ -205,10 +214,12 @@ class PDFViewerWidget(ttk.Frame):
         for item in self.toc_tree.get_children():
             self.toc_tree.delete(item)
             
-        toc = self.doc_obj.get_toc()
-        for idx, (_lvl, title, page_no) in enumerate(toc):
-            # Using unique item ID index to prevent duplicate key collisions for identical page numbers
-            self.toc_tree.insert("", "end", iid=f"toc_{idx}_{page_no}", text=f"{title} (p.{page_no})")
+        try:
+            for idx, item in enumerate(self.doc_obj.get_toc()):
+                # PDFium page indexes are 0-based
+                self.toc_tree.insert("", "end", iid=f"toc_{idx}_{item.page_index}", text=f"{item.title} (p.{item.page_index + 1})")
+        except Exception:
+            pass  # Document might not have a TOC
 
         self.render()
 
@@ -220,28 +231,53 @@ class PDFViewerWidget(ttk.Frame):
         self.images.clear()
         self.page_offsets.clear()
 
-        mat = fitz.Matrix(self.zoom, self.zoom)
         y_offset, max_width = 15, 100
 
         for page_num in range(len(self.doc_obj)):
             page = self.doc_obj[page_num]
-            pix = page.get_pixmap(matrix=mat)
-            img = ImageTk.PhotoImage(Image.open(io.BytesIO(pix.tobytes("ppm"))))
+            bitmap = page.render(scale=self.zoom)
+            pil_img = bitmap.to_pil()
+            img = ImageTk.PhotoImage(pil_img)
             self.images.append(img)
 
             self.canvas.create_image(15, y_offset, anchor="nw", image=img, tags=("pdf_page", f"p_{page_num}"))
-            p_w, p_h = pix.width, pix.height
+            
+            p_w, p_h = pil_img.width, pil_img.height
+            orig_w, orig_h = page.get_size()
+            
             max_width = max(max_width, p_w)
             self.page_offsets.append({
                 "page_num": page_num,
                 "y_start": y_offset,
                 "y_end": y_offset + p_h,
-                "width": p_w,
-                "height": p_h,
+                "orig_w": orig_w,
+                "orig_h": orig_h
             })
             y_offset += p_h + 15
 
+        # Draw our custom UI highlights over the rendered images
+        for hl in self.custom_highlights:
+            p_num = hl["page_num"]
+            p_info = self.page_offsets[p_num]
+            left, bottom, right, top = hl["rect"]
+            
+            # Map PDF coordinates (bottom-left origin) to Tkinter coordinates (top-left origin)
+            x0 = 15 + (left * self.zoom)
+            y0 = p_info["y_start"] + ((p_info["orig_h"] - top) * self.zoom)
+            x1 = 15 + (right * self.zoom)
+            y1 = p_info["y_start"] + ((p_info["orig_h"] - bottom) * self.zoom)
+            
+            hex_color = _rgb_to_hex(hl["color"])
+            self.canvas.create_rectangle(
+                x0, y0, x1, y1,
+                fill=hex_color, outline=hex_color, stipple="gray50", tags="custom_highlight"
+            )
+
         self.canvas.configure(scrollregion=(0, 0, max_width + 30, y_offset + 30))
+        
+        # Keep search matches visible if they exist
+        if self.search_matches and self.current_match_idx >= 0:
+            self._jump_to_current_search_match()
 
     def _on_sidebar_page_select(self, _event: tk.Event) -> None:
         sel = self.lb_page_index.curselection()
@@ -253,15 +289,19 @@ class PDFViewerWidget(ttk.Frame):
         if sel:
             parts = sel[0].split("_")
             if len(parts) >= 3 and parts[-1].isdigit():
-                p_num = int(parts[-1]) - 1
+                p_num = int(parts[-1])
                 self.scroll_to_page(p_num)
 
     def _on_highlight_item_select(self, _event: tk.Event) -> None:
         sel = self.lb_highlights.curselection()
-        if sel and self.auto_highlights_index:
+        if sel and self.custom_highlights:
             idx = sel[0]
-            item = self.auto_highlights_index[idx]
-            self.scroll_to_page(item["page_num"], item["y_offset"] * self.zoom)
+            item = self.custom_highlights[idx]
+            p_info = self.page_offsets[item["page_num"]]
+            
+            # Y offset maps the PDF 'top' coordinate to the canvas top-down coordinate
+            y_offset = (p_info["orig_h"] - item["rect"][3]) * self.zoom
+            self.scroll_to_page(item["page_num"], y_offset)
 
     def scroll_to_page(self, page_num: int, y_offset_within_page: float = 0) -> None:
         if not (0 <= page_num < len(self.page_offsets)):
@@ -269,29 +309,34 @@ class PDFViewerWidget(ttk.Frame):
         y_pos = self.page_offsets[page_num]["y_start"] + y_offset_within_page
         total_h = float(self.canvas.cget("scrollregion").split()[3])
         if total_h > 0:
-            self.canvas.yview_moveto(y_pos / total_h)
+            self.canvas.yview_moveto(max(0, (y_pos - 20) / total_h))
 
     def perform_in_doc_search(self, forward: bool = True) -> None:
         term = self.e_find.get().strip()
         if not term or not self.doc_obj:
             return
         self.search_matches = []
-        flags = getattr(fitz, "TEXT_PRESERVE_CASE", 1) if self.match_case.get() else 0
+        flags = 0 if self.match_case.get() else re.IGNORECASE
 
         for p_num in range(len(self.doc_obj)):
             page = self.doc_obj[p_num]
+            textpage = page.get_textpage()
+            text = textpage.get_text_range()
+
             if self.use_regex.get():
-                try:
-                    p_text = page.get_text("text")
-                    for m in re.finditer(term, p_text, flags=0 if self.match_case.get() else re.IGNORECASE):
-                        for rect in page.search_for(m.group(0)):
-                            self.search_matches.append({"page_num": p_num, "rect": rect})
-                except re.error:
-                    self.lbl_search_count.config(text="Invalid Regex")
-                    return
+                pattern = term
             else:
-                for rect in page.search_for(term, flags=flags):
-                    self.search_matches.append({"page_num": p_num, "rect": rect})
+                pattern = re.escape(term)
+
+            try:
+                for m in re.finditer(pattern, text, flags=flags):
+                    n_rects = textpage.count_rects(index=m.start(), count=m.end() - m.start())
+                    rects = [textpage.get_rect(i) for i in range(n_rects)]
+                    if rects:
+                        self.search_matches.append({"page_num": p_num, "rect": rects[0]})
+            except re.error:
+                self.lbl_search_count.config(text="Invalid Regex")
+                return
 
         if self.search_matches:
             self.current_match_idx = 0
@@ -310,20 +355,22 @@ class PDFViewerWidget(ttk.Frame):
     def _jump_to_current_search_match(self) -> None:
         m = self.search_matches[self.current_match_idx]
         p_num = m["page_num"]
-        rect = m["rect"]
+        left, bottom, right, top = m["rect"]
 
-        self.scroll_to_page(p_num, rect.y0 * self.zoom)
+        p_info = self.page_offsets[p_num]
+        
+        # PDF coordinates are bottom-left origin; Tkinter is top-left origin
+        box_x0 = 15 + (left * self.zoom)
+        box_y0 = p_info["y_start"] + ((p_info["orig_h"] - top) * self.zoom)
+        box_x1 = 15 + (right * self.zoom)
+        box_y1 = p_info["y_start"] + ((p_info["orig_h"] - bottom) * self.zoom)
+
+        self.scroll_to_page(p_num, (p_info["orig_h"] - top) * self.zoom)
 
         self.canvas.delete("search_match_box")
-        p_info = self.page_offsets[p_num]
-        box_x0 = 15 + (rect.x0 * self.zoom)
-        box_y0 = p_info["y_start"] + (rect.y0 * self.zoom)
-        box_x1 = 15 + (rect.x1 * self.zoom)
-        box_y1 = p_info["y_start"] + (rect.y1 * self.zoom)
-
         self.canvas.create_rectangle(
             box_x0, box_y0, box_x1, box_y1,
-            outline="#f59e0b", width=3, fill="#fef08a", tags="search_match_box"
+            outline="#f59e0b", width=3, fill="#fef08a", stipple="gray50", tags="search_match_box"
         )
 
     def _on_drag_start(self, event: tk.Event) -> None:
@@ -343,33 +390,37 @@ class PDFViewerWidget(ttk.Frame):
         self.canvas.delete("selection_box")
         if self.drag_start is None or not self.doc_obj:
             return
+            
         canvas_ex, canvas_ey = self.canvas.canvasx(event.x), self.canvas.canvasy(event.y)
         sx, sy = self.drag_start
 
         for p_info in self.page_offsets:
             if not (p_info["y_start"] <= sy <= p_info["y_end"]):
                 continue
+            
             page_num = p_info["page_num"]
-
-            x0 = (min(sx, canvas_ex) - 15) / self.zoom
-            y0 = (min(sy, canvas_ey) - p_info["y_start"]) / self.zoom
-            x1 = (max(sx, canvas_ex) - 15) / self.zoom
-            y1 = (max(sy, canvas_ey) - p_info["y_start"]) / self.zoom
-
-            rect = fitz.Rect(x0, y0, x1, y1)
             page = self.doc_obj[page_num]
+            textpage = page.get_textpage()
+
+            # Map Tkinter canvas selection back to PDF coordinate space
+            left = (min(sx, canvas_ex) - 15) / self.zoom
+            right = (max(sx, canvas_ex) - 15) / self.zoom
+            top = p_info["orig_h"] - ((min(sy, canvas_ey) - p_info["y_start"]) / self.zoom)
+            bottom = p_info["orig_h"] - ((max(sy, canvas_ey) - p_info["y_start"]) / self.zoom)
+
+            extracted = textpage.get_text_bounded(left=left, bottom=bottom, right=right, top=top).strip()
 
             if self.pen_active.get():
-                quads = page.search_for(page.get_text("text", clip=rect), quads=True)
-                for q in quads:
-                    annot = page.add_highlight_annot(q)
-                    annot.set_colors(stroke=self.highlight_color)
-                    annot.set_opacity(0.35)
-                    annot.update()
-                if quads:
+                if extracted:
+                    self.custom_highlights.append({
+                        "page_num": page_num,
+                        "rect": (left, bottom, right, top),
+                        "color": self.highlight_color,
+                        "text": extracted[:32],
+                        "cat": "Manual"
+                    })
                     self.render()
             else:
-                extracted = page.get_text("text", clip=rect).strip()
                 if extracted:
                     self.selected_text = extracted
                     self.selected_page_num = page_num + 1
@@ -400,23 +451,32 @@ class PDFViewerWidget(ttk.Frame):
                 continue
             note = simpledialog.askstring("Add Sticky Note", f"Enter note for Page {p_info['page_num'] + 1}:")
             if note:
-                point = fitz.Point((cx - 15) / self.zoom, (cy - p_info["y_start"]) / self.zoom)
-                annot = self.doc_obj[p_info["page_num"]].add_text_annot(point, note)
-                annot.update()
-                self.render()
+                self.custom_notes.append({
+                    "page_num": p_info["page_num"],
+                    "note": note
+                })
+                messagebox.showinfo("Note Added", "Note saved to your exportable report.")
             break
 
     def export_annotations_report(self) -> None:
         if not self.doc_obj:
             return
         report = [f"📋 ANNOTATION REPORT: {self.pdf_path.rsplit('/', 1)[-1]}\n{'=' * 50}"]
-        for p_num in range(len(self.doc_obj)):
-            annots = self.doc_obj[p_num].annots()
-            if not annots:
-                continue
+        
+        # Collate highlights and notes by page
+        page_items = {}
+        for hl in self.custom_highlights:
+            page_items.setdefault(hl["page_num"], []).append(f"  ↳ [HIGHLIGHT - {hl.get('cat', 'Manual')}] {hl['text']}...")
+        for note in self.custom_notes:
+            page_items.setdefault(note["page_num"], []).append(f"  ↳ [STICKY NOTE] {note['note']}")
+
+        for p_num in sorted(page_items.keys()):
             report.append(f"\n📌 PAGE {p_num + 1}:")
-            for a in annots:
-                report.append(f"  ↳ [{a.type[1].upper()}] {a.info.get('content', '').strip() or 'Highlight'}")
+            report.extend(page_items[p_num])
+            
+        if not page_items:
+            report.append("\nNo annotations or highlights created yet.")
+
         pop = tk.Toplevel(self)
         pop.title("📤 Annotations Export")
         pop.geometry("600x450")
@@ -438,31 +498,28 @@ class PDFViewerWidget(ttk.Frame):
             return
         rules = self.get_kw_rules_cb()
         count = 0
-        self.auto_highlights_index = []
+        self.custom_highlights = []
         self.lb_highlights.delete(0, tk.END)
 
         no_text_pages = []
 
         for p_num in range(len(self.doc_obj)):
             page = self.doc_obj[p_num]
-            raw_p_text = page.get_text("text")
+            textpage = page.get_textpage()
+            raw_p_text = textpage.get_text_range()
 
             if not raw_p_text.strip():
                 no_text_pages.append(p_num + 1)
                 continue
 
-            p_text_normalized = " ".join(raw_p_text.replace('\xa0', ' ').split()).lower()
-            highlighted_rects_on_page = set()
+            text_lower = raw_p_text.lower()
 
             for cat, data in rules.items():
                 raw_color = data.get("color", [1.0, 0.9, 0.2])
-
-                clean_rgb = []
-                for val in raw_color:
-                    clean_rgb.append(val / 255.0 if val > 1.0 else float(val))
+                clean_rgb = [val / 255.0 if val > 1.0 else float(val) for val in raw_color]
                 cat_color = tuple(clean_rgb)
-
                 badge = _rgb_to_badge(cat_color)
+                
                 active_terms = [t for t, enabled in data.get("terms", {}).items() if enabled]
                 if not active_terms:
                     continue
@@ -472,48 +529,33 @@ class PDFViewerWidget(ttk.Frame):
                     if not term_clean:
                         continue
 
-                    matching_queries = []
+                    # Handle wildcards if present, otherwise exact match
                     if ("*" in term_clean or "?" in term_clean) and (" " not in term_clean):
-                        words = set(re.findall(r'\b[\w\-]+\b', p_text_normalized))
-                        for w in words:
-                            if fnmatch.fnmatch(w, term_clean):
-                                matching_queries.append(w)
+                        pattern = fnmatch.translate(term_clean)
                     else:
-                        if term_clean in p_text_normalized:
-                            matching_queries.append(term_clean)
+                        pattern = re.escape(term_clean)
 
-                    for search_term in matching_queries:
-                        rects = page.search_for(search_term)
-
-                        if not rects and " " in search_term:
-                            words = search_term.split()
-                            word_rects = []
-                            for w in words:
-                                word_rects.extend(page.search_for(w))
-                            rects = word_rects
-
-                        for rect in rects:
-                            rect_key = (round(rect.x0), round(rect.y0), round(rect.x1), round(rect.y1))
-                            if rect_key in highlighted_rects_on_page:
-                                continue
-                            highlighted_rects_on_page.add(rect_key)
-
-                            annot = page.add_highlight_annot(rect)
-                            annot.set_colors(stroke=cat_color)
-                            annot.set_opacity(0.35)
-                            annot.update()
-                            count += 1
-
-                            lines = [line.strip() for line in raw_p_text.splitlines() if any(w in line.lower() for w in search_term.split())]
-                            snippet = lines[0][:32] if lines else search_term
-
-                            snippet_label = f"{badge} P.{p_num + 1} [{cat[:10]}] {snippet}..."
-                            self.lb_highlights.insert(tk.END, snippet_label)
-                            self.auto_highlights_index.append({
-                                "page_num": p_num,
-                                "y_offset": rect.y0,
-                                "text": snippet,
-                            })
+                    for m in re.finditer(pattern, text_lower):
+                        n_rects = textpage.count_rects(index=m.start(), count=m.end() - m.start())
+                        rects = [textpage.get_rect(i) for i in range(n_rects)]
+                        if not rects:
+                            continue
+                            
+                        # Use the first bounding box for the UI representation
+                        rect = rects[0]
+                        snippet = raw_p_text[max(0, m.start() - 10):m.end() + 20].replace('\n', ' ').strip()
+                        
+                        self.custom_highlights.append({
+                            "page_num": p_num,
+                            "rect": rect,
+                            "color": cat_color,
+                            "text": snippet,
+                            "cat": cat
+                        })
+                        
+                        snippet_label = f"{badge} P.{p_num + 1} [{cat[:10]}] {snippet[:32]}..."
+                        self.lb_highlights.insert(tk.END, snippet_label)
+                        count += 1
 
         if count > 0:
             self.render()
@@ -524,17 +566,3 @@ class PDFViewerWidget(ttk.Frame):
             if no_text_pages:
                 msg += f"\n\n⚠️ Note: Page(s) {', '.join(map(str, no_text_pages[:5]))} contain no extractable text."
             messagebox.showinfo("Auto Highlight Results", msg)
-
-    def save_pdf(self) -> None:
-        if not (self.doc_obj and self.pdf_path):
-            return
-        try:
-            self.doc_obj.save(self.pdf_path, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
-            messagebox.showinfo("Saved", "Highlights saved directly!")
-        except (RuntimeError, OSError, ValueError) as exc:
-            fallback_path = f"{self.pdf_path}_modified.pdf"
-            self.doc_obj.save(fallback_path)
-            messagebox.showwarning(
-                "Saved to a New File",
-                f"Could not save in place ({exc}). Saved a copy instead:\n{fallback_path}",
-            )
