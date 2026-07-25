@@ -117,3 +117,18 @@ functions rather than reimplementing that logic inline.
 =======
 # gov_intel_workstation
 >>>>>>> 7dbaebd987c2398594fc4bf98c525592a2c21367
+
+
+
+## 🤖 AI & NLP Engine (100% Free & Offline)
+
+The workstation uses a resilient dual-engine architecture for document summarization:
+
+1. **Local NLP Fallback (Default):** Out of the box, the app requires zero setup. If you don't have local AI software installed, it uses an advanced extractive **NLTK** sentence-scoring engine to extract key insights instantly.
+2. **Generative Local AI via Ollama (Optional Upgrade):** For full, human-like executive briefings and policy synthesis, the app integrates seamlessly with [Ollama](https://ollama.com). 
+
+### How to Enable Local AI Briefings
+1. Download and install [Ollama](https://ollama.com) for your operating system.
+2. Open your terminal and pull the recommended model:
+   ```bash
+   ollama run llama3.2

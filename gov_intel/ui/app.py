@@ -347,9 +347,19 @@ class GovApp:
 
         self.lbl_ai_status = ttk.Label(briefing_tb, text="", font=("Segoe UI", 9, "italic"))
         self.lbl_ai_status.pack(side="left", padx=8)
+        
+        # Check local Ollama readiness in background
+        threading.Thread(target=self.check_ai_readiness, daemon=True).start()
 
         self.txt_briefing = scrolledtext.ScrolledText(briefing_frame, wrap="word")
         self.txt_briefing.pack(fill="both", expand=True)
+
+    def check_ai_readiness(self) -> None:
+        """Checks if Ollama is live and updates the UI status badge."""
+        if ai_engine.check_ollama_status():
+            self.root.after(0, lambda: self.lbl_ai_status.config(text="🟢 Local AI (Ollama) Ready", foreground="#16a34a"))
+        else:
+            self.root.after(0, lambda: self.lbl_ai_status.config(text="⚡ Using Local NLP Fallback (Ollama offline)", foreground="#d97706"))
 
     def run_ai_briefing(self) -> None:
         current_text = ""
@@ -380,7 +390,7 @@ class GovApp:
     def _display_ai_summary(self, summary_text: str) -> None:
         self.txt_briefing.delete("1.0", tk.END)
         self.txt_briefing.insert(tk.END, summary_text)
-        self.lbl_ai_status.config(text="✅ AI Analysis Complete!")
+        self.check_ai_readiness()
 
     def refresh_doc_list(self) -> None:
         self.lb_docs.delete(0, tk.END)
