@@ -1,0 +1,206 @@
+🇬🇧 BRIEFING: SCHOOL AI
+TOTAL: 50
+==================================================
+
+📌 [1] Using AI in education settings: support materials
+   🔗 Link: https://www.gov.uk/government/collections/using-ai-in-education-settings-support-materials
+   ↳ Support materials to help schools and colleges use AI (artificial intelligence) safely and effectively.
+
+📌 [2] AI in coursework: resources for schools
+   🔗 Link: https://www.gov.uk/government/publications/ai-in-coursework-resources-for-schools
+   ↳ Classroom resources designed to help teachers and school and college leaders develop an approach to the use of AI in assessed work, and to speak to students about it.
+
+📌 [3] Generative artificial intelligence (AI) and data protection in schools
+   🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/generative-artificial-intelligence-ai-and-data-protection-in-schools
+   ↳ How to address the potential data protection risks of using generative AI in schools.
+
+📌 [4] Using AI in education: support for school and college leaders
+   🔗 Link: https://www.gov.uk/government/publications/using-ai-in-education-support-for-school-and-college-leaders
+   ↳ Free support materials for school and college leaders about using AI (artificial intelligence) effectively and safely. 
+
+📌 [5] AI in schools and further education: findings from early adopters
+   🔗 Link: https://www.gov.uk/government/publications/ai-in-schools-and-further-education-findings-from-early-adopters
+   ↳ How schools and further education (FE) colleges are embedding AI and responding to some of the challenges and barriers identified in literature.
+
+📌 [6] AI in education: how schools and further education colleges are making it work
+   🔗 Link: https://www.gov.uk/government/news/ai-in-education-how-schools-and-further-education-colleges-are-making-it-work
+   ↳ A new report published today by Ofsted shares insights into how ‘early adopter’ schools and further education (FE) colleges across England are integrating generative artificial intelligence (AI) into teaching, learning, and administration.
+
+📌 [7] Mr AI Patel v Governing Body Of Pleckgate High School & Education Partnership Trust: 2406085/2016
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mr-ai-patel-v-governing-body-of-pleckgate-high-school-education-partnership-trust-2406085-2016
+   ↳ Employment Tribunal decision of Judge Howard on 14 February 2017.
+
+📌 [8] TechFirst
+   🔗 Link: https://www.gov.uk/guidance/techfirst
+   ↳ TechFirst is the government’s flagship tech skills programme opening pathways into the UK’s fast-growing tech sector, providing opportunities across all parts of the UK. 
+
+📌 [9] Improve your school's and trust's digital and financial planning
+   🔗 Link: https://www.gov.uk/guidance/improve-your-schools-and-trusts-digital-and-financial-planning
+   ↳ Information about the range of support available to schools and trusts to build capability, improve commercial expertise and meet digital standards. 
+
+📌 [10] Understanding AI in education: module 1
+   🔗 Link: https://www.gov.uk/government/publications/understanding-ai-in-education-module-1
+   ↳ Free support materials to help all staff in schools and colleges understand how to use AI (artificial intelligence) safely and effectively in their settings.
+
+📌 [11] Interacting with generative AI in education: module 2
+   🔗 Link: https://www.gov.uk/government/publications/interacting-with-generative-ai-in-education-module-2
+   ↳ Free support materials to help all staff in schools and colleges use generative AI (artificial intelligence) in education settings 
+
+📌 [12] Use cases of generative AI in education: module 4
+   🔗 Link: https://www.gov.uk/government/publications/use-cases-of-generative-ai-in-education-module-4
+   ↳ Free support materials to help all staff in schools and colleges use generative AI (artificial intelligence) safely and effectively.
+
+
+
+📌 [13] Pro-Worker AI Adoption Prize: how to nominate
+   🔗 Link: https://www.gov.uk/guidance/pro-worker-ai-adoption-prize-how-to-nominate
+   ↳ How to nominate a UK organisation for the Pro-Worker AI Adoption Prize, recognising organisations using AI that benefits workers.
+
+📌 [14] Safe use of generative AI in education: module 3
+   🔗 Link: https://www.gov.uk/government/publications/safe-use-of-generative-ai-in-education-module-3
+   ↳ Free support materials to help all staff in schools and colleges understand the risks of using AI (artificial intelligence) and how to mitigate against them.
+
+📌 [15] Apply to have your qualifications regulated
+   🔗 Link: https://www.gov.uk/guidance/apply-to-have-your-qualifications-regulated
+   ↳ Who and what Ofqual regulates, how to apply to be regulated and what happens when you want to stop being regulated.
+
+📌 [16] Parliamentary Under-Secretary of State (Minister for Early Education)
+   🔗 Link: https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--256
+   ↳ The minister’s responsibilities include: early years education including for children with special educational needs and disabilities (SEND) childcare and the home learning environment early years workforce early communication skills and early intervention Best Start Family Hubs and parenting breakfast clubs school food, including free school meals holiday activities and food (HAF) programme school attendance, including register of children who are not in school reception admissions changes to existing schools home-to-school transport mental health support in schools behaviour, preventing bullying and exclusions in schools school uniform young carers independent schools illegal schools faith schools intervention in failing schools and school improvement use of data, digital technology and artificial intelligence (AI) in education use of research, science and evidence at DfE
+
+📌 [17] Priya Lakhani OBE
+   🔗 Link: https://www.gov.uk/government/people/priya-lakhani
+   ↳ Priya Lakhani OBE is the Founder CEO of CENTURY Tech, an artificial intelligence education technology company that develops AI-powered learning tools for schools, colleges, universities and employers across the world. In 2008, Priya left her career as a barrister to launch a fresh cooking-sauce business, which through its charitable foundation provided millions of meals and thousands of vaccinations to the underprivileged in India and Africa, and funded several schools. Priya was awarded Business Entrepreneur of the Year by the Chancellor in 2009 and Officer of the Order of the British Empire in 2014. She was a business advisor to the UK’s coalition government, was appointed to the UK government’s AI Council in 2019. In 2018, Priya co-founded the Institute for Ethical AI in Education, which helps to enable learners to benefit from AI in education in an ethical way.
+
+📌 [18] Ofsted schools research
+   🔗 Link: https://www.gov.uk/government/collections/ofsted-schools-research
+   ↳ Ofsted carries out research alongside its main inspection programme to look at specific issues, subjects or policies in more detail.
+
+📌 [19] FCDO Next Generation Economics 2026 competition
+   🔗 Link: https://www.gov.uk/guidance/fcdo-next-generation-economics-competition
+   ↳ The Foreign, Commonwealth & Development Office (FCDO) invites UK school students to write about big economic challenges. This competition is now closed.
+
+📌 [20] Latest updates from Ofqual
+   🔗 Link: https://www.gov.uk/guidance/latest-updates-from-ofqual
+   ↳ Recent news and key messages from Ofqual on regulated qualifications, examinations and assessments.
+
+📌 [21] Henry De Zoete
+   🔗 Link: https://www.gov.uk/government/people/henry-de-zoete
+   ↳ Henry de Zoete is a tech entrepreneur and angel investor. In 2014, he co-founded The Big Deal which did collective bargaining for consumers. In 2018, he established and was CEO of Look After My Bills, an auto-switching service which saved families money on their gas and electricity. After raising global investment including from renowned Silicon Valley based investor Y Combinator and securing the best deal in the history of BBC’s Dragons’ Den, Look After My Bills was acquired by GoCo Group PLC (owners of GoCompare) in July 2019. Henry has angel invested in over a hundred start ups. Henry has previously served on the board of grassroots campaigning organisation 38 Degrees as well as Hornby plc. His previous government work includes: special adviser in the Department for Education (2010-2013), non-executive board member at the Cabinet Office (2020-2024) and as a civil servant he was the Prime Minister’s adviser on AI in 10 Downing Street (2023-2024). He is currently on the board of the arms length body of the Department for Education Oak National Academy and is a Visiting Fellow at the Oxford Martin AI Governance Initiative and the Said Business School at Oxford University. In March 2026 he was appointed to the civil service role of Investment and AI Adviser in the Department for Science, Innovation and Technology.
+
+📌 [22] Nationally Significant Infrastructure Projects: Advice for submitting representations or comments
+   🔗 Link: https://www.gov.uk/guidance/nationally-significant-infrastructure-projects-advice-for-submitting-representations-or-comments
+   ↳ This advice is intended to explain what people and organisations should and should not do when they have their say about a Nationally Significant Infrastructure Project (NSIP).
+
+📌 [23] The AQuA Book
+   🔗 Link: https://www.gov.uk/guidance/the-aqua-book
+   ↳ The AQuA Book is Government guidance about how to produce robust, fit for purpose analysis. It's for all analysts, analytical managers and commissioners.
+
+
+📌 [24] Michael Mire
+   🔗 Link: https://www.gov.uk/government/people/michael-mire
+   ↳ Michael Mire joined the Board of the Competition and Markets Authority as non-executive director in April 2026. Michael Mire is a highly experienced business leader with a background spanning strategy consulting, financial services and public sector governance. Educated at Oxford and Harvard Business School, he spent over 30 years at McKinsey & Company as a Senior Partner before taking on a wide portfolio of non‑executive roles, including Chair of HM Land Registry and board positions at the Department of Health and Social Care, the Care Quality Commission and Aviva plc. He also chairs technology‑focused firms in AI and blockchain and acts as a Senior Adviser to Lazard, bringing deep expertise in transformation, governance and capital markets.
+
+📌 [25] Youth Matters: Your National Youth Strategy (summary report)
+   🔗 Link: https://www.gov.uk/guidance/youth-matters-your-national-youth-strategy-summary-report
+   ↳ An accessible, mobile-friendly version of the summary report for Youth Matters: Your National Youth Strategy. 
+
+📌 [26] Mr Simon Day
+   🔗 Link: https://www.gov.uk/government/people/simon-day
+   ↳ Mr Simon Day has been appointed British High Commissioner to the Gabonese Republic in succession to Ms Jo McPhail, who will be transferring to another Diplomatic Service appointment. Mr Day will take up his appointment during June 2024. Curriculum vitae           Full name: Simon Day Year Role 2022 to 2024 FCDO, Head, China Strategic Analysis 2021 Blavatnik School of Government, University of Oxford, Visiting Fellow 2019 to 2020 FCO, Head, AI Projects 2017 to 2019 Apptivism Govtech, Co-founder 2015 to 2017 Behavioural Insights Team, Senior Advisor 2015 Addis Ababa, Counsellor 2014 Rome, Counsellor 2010 to 2013 UK Mission to the United Nations, 2nd Secretary 2010 France, L’École Nationale d’Administration 2008 to 2010 FCO, Desk Officer
+
+📌 [27] Turing Scheme: apply for funding for international placements
+   🔗 Link: https://www.gov.uk/guidance/turing-scheme-apply-for-funding-for-international-placements
+   ↳ Information on applying for funding for international study and work placements for schools, further education providers and higher education providers.
+
+📌 [28] North East AI drive to boost local skills and business growth opportunities
+   🔗 Link: https://www.gov.uk/government/news/north-east-ai-drive-to-boost-local-skills-and-business-growth-opportunities
+   ↳ Primary school children and teachers set to gain AI and digital skills as North East AI Growth Zone Taskforce meets to drive local opportunity
+
+📌 [29] Edwina Dunn OBE
+   🔗 Link: https://www.gov.uk/government/people/edwina-dunn--2
+   ↳ Edwina has been a member of the Centre for Data Ethics and Innovation’s Board since November 2018 and was appointed as Deputy Chair in November 2020. Edwina also sits on the Board of the Geospatial Commission: an expert committee that sets the UK’s geospatial strategy and promotes the best use of location data. Edwina is a recognised entrepreneur and pioneer in the data and technology industry, with a career of delivering transformational business change. She was CEO and co-founder of dunnhumby, which revolutionised the world of retail and consumer packaged goods, and pioneered Tesco Clubcard and other global loyalty programmes. Edwina is the former Chair of Starcount: a new data science consultancy where she helped to create a new era of consumer insight and AI. She is the founder of The Female Lead: an educational charity dedicated to celebrating the achievements and diversity of women. The foundation has donated 18,000 copies of ‘The Female Lead: Women Who Shape Our World’ to schools and universities across the UK and USA.
+
+📌 [30] 450,000 disadvantaged pupils could benefit from AI tutoring tools
+   🔗 Link: https://www.gov.uk/government/news/450000-disadvantaged-pupils-could-benefit-from-ai-tutoring-tools
+   ↳ Safe AI tutoring tools co-created with teachers to be available to schools by the end of 2027, helping to close the attainment gap.
+
+📌 [31] Education Secretary addresses BETT 2023
+   🔗 Link: https://www.gov.uk/government/speeches/education-secretary-addresses-bett-2023
+   ↳ Gillian Keegan launches set of technology standards for schools and colleges and speaks about AI in education
+
+📌 [32] How to register a charity (CC21b)
+   🔗 Link: https://www.gov.uk/guidance/how-to-register-your-charity-cc21b
+   ↳ How to register your charity once it has been set up, what you need before you start your application and what happens after you apply.
+
+📌 [33] Barnsley becomes UK’s first government-backed Tech Town
+   🔗 Link: https://www.gov.uk/government/news/barnsley-becomes-uks-first-government-backed-tech-town
+   ↳ Barnsley named UK’s first Tech Town – with local schools and college, businesses, NHS and more getting bespoke government support to unleash opportunities of AI.
+
+📌 [34] Dame Patricia Hodgson
+   🔗 Link: https://www.gov.uk/government/people/patricia-hodgson
+   ↳ Dame Patricia Hodgson joined the Board of the Competition and Markets Authority as non-executive director in February 2024. She was a member of DCMS’s Centre for Data Ethics and Innovation from 2018 to 2021 and of the UK’s AI Council from 2020 to 2023. Patricia was appointed Chairman of Ofcom for a 3-year term from April 2014, a member of the Ofcom board in July 2011 and became Deputy Chairman in January 2012. She is Chairman of Ofcom’s Nominations Committee and a member of Ofcom’s Remuneration Committee and Risk and Audit Committee. Patricia began her career as a producer and journalist. She was Director of Policy and Planning at the BBC from 1993 to 2000, where she was responsible for charter and licence renegotiations. She also project managed the BBC’s switch to digital. From 2000 to the end of 2003 she was Chief Executive of the Independent Television Commission. Patricia was appointed Chair of the School Teachers’ Review Body starting on 1 February 2012. She was the Principal of Newnham College, Cambridge (2006 to 2012), a non-executive director of The Competition Commission (2004 to 2011) and a member of the Higher Education Funding Council for England (2005 to 2011). She also chaired the Higher Education Regulation Review Group (2004 to 2006). Patricia was a member of the Wellcome Trust from 2004 to 2008 and of the Committee for Standards in Public Life for the same period. She has also served as a non-executive director of GCap plc and as a member of the Statistics Commission. She was a member of the BBC Trust from its start until June 2011. Disclosure of interests
+
+📌 [35] Debt Relief Orders: Guidance for debt advisers
+   🔗 Link: https://www.gov.uk/guidance/debt-relief-orders-guidance-for-debt-advisers
+   ↳ Guidance on debt relief orders for debt advisers. To search, press ‘control’ and ‘f’ on your keyboard at the same time. A search box will appear.
+
+📌 [36] Sensing: defence science and technology capability
+   🔗 Link: https://www.gov.uk/guidance/sensing-defence-science-and-technology-capability
+   ↳ Dstl ensures the UK can develop and exploit new sensor technologies for our defence and security, to find and assess potential threats and give information to decision-makers.
+
+📌 [37] COVID-19 Commemoration programme: ways to remember
+   🔗 Link: https://www.gov.uk/guidance/covid-19-commemoration-programme-ways-to-remember
+   ↳ Explore different ways you can commemorate COVID-19.
+
+📌 [38] The Local Youth Transformation Pilot
+   🔗 Link: https://www.gov.uk/guidance/the-local-youth-transformation-pilot
+   ↳ Information about the Local Youth Transformation Pilot (LYTP) including its aims, delivery model and participating local authorities.
+
+📌 [39] Generative artificial intelligence (AI) in education
+   🔗 Link: https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education
+   ↳ The Department for Education’s (DfE) position on the use of generative AI in the education sector. 
+
+📌 [40] School inspection: toolkit, operating guides and information
+   🔗 Link: https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information
+   ↳ Guidance for inspectors and schools on inspecting maintained schools and academies in England under the renewed education inspection framework.
+
+📌 [41] Procuring educational technology (EdTech)
+   🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/procuring-educational-technology-edtech
+   ↳ Procuring EdTech and what schools need to know about data protection.
+
+📌 [42] Ofsted research on artificial intelligence in education: terms of reference
+   🔗 Link: https://www.gov.uk/government/publications/ofsted-research-on-artificial-intelligence-in-education-terms-of-reference
+   ↳ Ofsted are carrying out research on artificial intelligence (AI) in education.
+
+📌 [43] Research on parent and pupil attitudes towards the use of AI in education
+   🔗 Link: https://www.gov.uk/government/publications/research-on-parent-and-pupil-attitudes-towards-the-use-of-ai-in-education
+   ↳ This report details findings from a collaboration between DSIT and DfE to deliver a programme of deliberative research exploring parent and pupil attitudes to the use of AI in education.
+
+📌 [44] 5G Testbeds and Trials Programme: complete list of 5G projects
+   🔗 Link: https://www.gov.uk/guidance/5g-testbeds-and-trials-programme-complete-list-of-5g-projects
+   ↳ A complete list of 5G projects involved in the 5G Testbeds and Trials Programme
+
+📌 [45] Generative AI: product safety standards
+   🔗 Link: https://www.gov.uk/government/publications/generative-ai-product-safety-standards
+   ↳ Guidance on the safety standards for generative AI products and systems developed for use in educational settings.
+
+📌 [46] Resources to support data protection in schools
+   🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/resources-to-support-data-protection-in-schools
+   ↳ Download resources to help with data protection in schools, including posters, templates, and learning materials.
+
+📌 [47] Filtering and monitoring: core standard
+   🔗 Link: https://www.gov.uk/guidance/meeting-digital-and-technology-standards-in-schools-and-colleges/filtering-and-monitoring-core-standard
+   ↳ Provide a safe online environment for your school or college with appropriate filtering and monitoring systems.
+
+📌 [48] Sir Ian Bauckham's speech at the Wellington Festival of Education
+   🔗 Link: https://www.gov.uk/government/speeches/sir-ian-bauckhams-speech-at-the-wellington-festival-of-education
+   ↳ A speech given by Ofqual's Chief Regulator, Sir Ian Bauckham, at the Wellington Festival of Education.
+
+📌 [49] DfE Update 29 April 2026
+   🔗 Link: https://www.gov.uk/government/publications/dfe-update-29-april-2026
+   ↳ Latest information and actions from the Department for Education about funding, assurance and resource management, for academies, local authorities and further education providers.
+
+📌 [50] Ofsted annual report 2024/25: education, children’s services and skills
+   🔗 Link: https://www.gov.uk/government/publications/ofsted-annual-report-202425-education-childrens-services-and-skills
+   ↳ Ofsted's annual report presents our findings for the areas we inspect in early years childcare, schools, further education and skills and children's social care.

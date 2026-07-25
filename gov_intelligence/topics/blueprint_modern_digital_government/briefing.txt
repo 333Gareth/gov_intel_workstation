@@ -1,5 +1,5 @@
 🇬🇧 BRIEFING: BLUEPRINT MODERN DIGITAL GOVERNMENT
-TOTAL: 20
+TOTAL: 50
 ==================================================
 
 📌 [1] A blueprint for modern digital government
@@ -83,3 +83,124 @@ TOTAL: 20
 📌 [20] Celebrating smarter working success across the public sector
    🔗 Link: https://www.gov.uk/government/news/celebrating-smarter-working-success-across-the-public-sector
    ↳ The Government Property Agency recently hosted the fourth Smarter Working Live Awards, celebrating outstanding smarter working across the public sector.
+
+📌 [21] Photonics: capturing the opportunities for growth and global leadership
+   🔗 Link: https://www.gov.uk/government/publications/photonics-capturing-the-opportunities-for-growth-and-global-leadership
+   ↳ Advice to the Prime Minister on how the UK can achieve growth and global leadership in the photonics sector.
+
+📌 [22] G7 Digital and Technology Ministerial Declaration: 29 May 2026
+   🔗 Link: https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026
+   ↳ This ministerial declaration on digital and technology was agreed at the G7 on 29 May 2026 in Paris, France.
+
+📌 [23] GLD Business Plan 2024–25
+   🔗 Link: https://www.gov.uk/government/publications/gld-business-plan-2024-25
+   ↳ This business plan outlines the range of high-profile and complex legal work that will form GLD's delivery priorities for the coming year.
+
+📌 [24] GBR: improvements train operators in public ownership are making for customers
+   🔗 Link: https://www.gov.uk/government/case-studies/gbr-improvements-train-operators-in-public-ownership-are-making-for-customers
+   ↳ Train operators in public ownership are demonstrating they are putting passengers first, by delivering customer improvements.
+
+📌 [25] Digital Inclusion Innovation Fund: grant recipients
+   🔗 Link: https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients
+   ↳ Projects awarded grants from the Digital Inclusion Innovation Fund. 
+
+📌 [26] Population Movement Data: unlocking opportunities for a modern digital government
+   🔗 Link: https://www.gov.uk/government/publications/population-movement-data-unlocking-opportunities-for-a-modern-digital-government
+   ↳ Key insights from the Population Movement Data (PMD) Innovation Sandbox 
+
+📌 [27] Jonathan Scott's speech to the European Policy Forum's summit on the strategic outlook for economic regulation
+   🔗 Link: https://www.gov.uk/government/speeches/jonathan-scotts-speech-to-the-european-policy-forums-summit-on-the-strategic-outlook-for-economic-regulation
+   ↳ Jonathan Scott considers the CMA’s experience in relation to competition enforcement and regulatory alternatives, underlining the importance of collaboration across the regulatory community.
+
+📌 [28] Dr Jo Saxton speech at Federation of Awarding Bodies conference
+   🔗 Link: https://www.gov.uk/government/speeches/dr-jo-saxton-speech-at-federation-of-awarding-bodies-conference
+   ↳ The Chief Regulator set out her priority to regulate on behalf of students of all ages and apprentices and welcomed a new era of co-regulation. 
+
+📌 [29] Putting data, digital and tech at the heart of transforming the NHS
+   🔗 Link: https://www.gov.uk/government/publications/putting-data-digital-and-tech-at-the-heart-of-transforming-the-nhs
+   ↳ This independent review from Laura Wade-Gery considers how to ensure a coherent approach to digital transformation in the NHS national bodies.
+
+📌 [30] State of digital government review
+   🔗 Link: https://www.gov.uk/government/publications/state-of-digital-government-review
+   ↳ A review of technology and data in the public sector: successes, challenges and root causes.
+
+📌 [31] Global HR Design
+   🔗 Link: https://www.gov.uk/government/publications/global-hr-design
+   ↳ Developed by Government People Group, the Global HR Design sets the standard for user centric HR services for the public sector, with a focus on UK Government.
+
+📌 [32] Office for Nuclear Regulation strategy 2020 to 2025
+   🔗 Link: https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025
+   ↳ This strategy sets out the vision and direction for the Office for Nuclear Regulation (ONR) and nuclear regulation for the next 5 years,
+
+📌 [33] Apply online for a UK passport
+   🔗 Link: https://www.gov.uk/apply-renew-passport
+   ↳ You can apply for, update, renew or replace a passport online.
+
+📌 [34] Digital driving licence coming this year
+   🔗 Link: https://www.gov.uk/government/news/digital-driving-licence-coming-this-year
+   ↳ The UK government is launching a GOV.UK Wallet and App to simplify access to services and documents like digital driver’s licences, alongside reforms to public sector technology to save £45 billion and drive efficiency and growth.
+
+📌 [35] PPN 009: Tackling modern slavery in government supply chains
+   🔗 Link: https://www.gov.uk/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains
+   ↳ This PPN sets out how UK Government departments and in-scope organisations must take action to ensure modern slavery risks are identified and managed in government supply chains.
+
+📌 [36] 5G Innovation Regions: successful regions
+   🔗 Link: https://www.gov.uk/government/publications/5g-innovation-regions-successful-regions
+   ↳ Successful local and regional authorities across the UK to establish themselves as ‘5G Innovation Regions’ (5GIRs).
+
+📌 [37] Independent Anti-Slavery Commissioner’s annual report 2021 to 2022
+   🔗 Link: https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022
+   ↳ The Commissioner’s annual report sets out the work she has undertaken during 2021 and 2022.
+
+📌 [38] Government Commercial Function Annual Report 2023-2024
+   🔗 Link: https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024
+   ↳ The Government Commercial Function has published its Annual Report for 2023-2024
+
+📌 [39] Cloud Challenge Book 2026
+   🔗 Link: https://www.gov.uk/government/publications/cloud-challenge-book-2026
+   ↳ DSIT’s first Cloud Challenge Book sets out challenges across the UK cloud infrastructure, and invites industry partners to innovate at a national scale. 
+
+📌 [40] Sign in to your childcare account
+   🔗 Link: https://www.gov.uk/sign-in-childcare-account
+   ↳ If you get Tax-Free Childcare or Free Childcare for Working Parents, sign in to confirm your details are up to date, pay money in or apply for an additional child.
+
+
+📌 [41] Government Functional Standard GovS 015: Grants
+   🔗 Link: https://www.gov.uk/government/publications/government-functional-standard-govs-015-grants
+   ↳ The Grants Functional Standard promotes efficiency and effectiveness in grant making across all government departments and arm’s length bodies.
+
+📌 [42] Apply for or renew a Blue Badge
+   🔗 Link: https://www.gov.uk/apply-blue-badge
+   ↳ Check if you're eligible for a Blue Badge and apply or renew
+
+📌 [43] Department of Health and Social Care accounting officer assessments
+   🔗 Link: https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments
+   ↳ Accounting officer assessment summaries for the Department of Health and Social Care’s programmes and projects in the Government Major Projects Portfolio.
+
+📌 [44] Functional Standards Common Glossary
+   🔗 Link: https://www.gov.uk/government/publications/functional-standards-common-glossary
+   ↳ Functional Standards Common Glossary 
+
+📌 [45] Home Office Digital, Data and Technology Strategy 2024
+   🔗 Link: https://www.gov.uk/government/publications/home-office-digital-data-and-technology-strategy-2024
+   ↳ This document sets out a framework to evolve Digital, Data and Technology (DDaT) in the Home Office over the next three years.
+
+📌 [46] National Information Board (NIB): interim report 2015
+   🔗 Link: https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015
+   ↳ The NIB Prospectus provides a review of progress made over the past 18 months.
+
+📌 [47] Digital version of Veteran Card launched for quicker and easier access to support
+   🔗 Link: https://www.gov.uk/government/news/digital-version-of-veteran-card-launched-for-quicker-and-easier-access-to-support
+   ↳ Veterans can now apply for and download a secure digital version of the HM Armed Forces Veteran Card via the GOV.UK One Login app.
+
+📌 [48] Department for Science, Innovation and Technology
+   🔗 Link: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
+   ↳ Accelerate innovation, investment and productivity through world-class science, ensure that new and existing technologies are safely developed and deployed across the UK and drive forward a modern digital government for the benefit of its citizens. DSIT is a ministerial department, supported by 12 agencies and public bodies .
+
+📌 [49] DVLA business plan 2022 to 2023
+   🔗 Link: https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023
+   ↳ Our business plan 2022 to 2023 details what we will deliver in the year.
+
+📌 [50] Unlocking Space - Security Awareness Resources
+   🔗 Link: https://www.gov.uk/government/publications/unlocking-space-security-awareness-resources
+   ↳ Find learning resources for space stakeholders on government security policy, risk assessment, security clearance and classification.

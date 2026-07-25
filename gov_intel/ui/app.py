@@ -537,38 +537,47 @@ class GovApp:
         threading.Thread(target=_download, daemon=True).start()
 
     # ======================================================================
-    # Favorites Hub tab
+    # Favorites Hub tab (Upgraded for full Intelligence Reader parity)
     # ======================================================================
     def _build_favs_tab(self) -> None:
         main_paned = ttk.Panedwindow(self.tab_favs, orient="horizontal")
         main_paned.pack(fill="both", expand=True, padx=5, pady=5)
 
+        # Left panel: Starred Sources List
         left = ttk.LabelFrame(main_paned, text=" ⭐ Starred Sources ", padding=8)
         main_paned.add(left, weight=1)
-        self.lb_favs = tk.Listbox(left, exportselection=False)
+        
+        self.lb_favs = tk.Listbox(left, bg="#ffffff", selectbackground="#00247D", exportselection=False)
         self.lb_favs.pack(fill="both", expand=True)
         self.lb_favs.bind("<<ListboxSelect>>", self.on_fav_select)
         self.lb_favs.bind("<Double-1>", self.on_fav_double_click)
 
+        # Right panel: Vertical split for metadata/attachments at top and reader/briefing at bottom
         right_v_paned = ttk.Panedwindow(main_paned, orient="vertical")
         main_paned.add(right_v_paned, weight=4)
 
-        right_top = ttk.LabelFrame(right_v_paned, text=" Source Metadata & Assets ", padding=6)
-        right_v_paned.add(right_top, weight=1)
+        right_top_frame = ttk.LabelFrame(right_v_paned, text=" Source Metadata & Attachments ", padding=6)
+        right_v_paned.add(right_top_frame, weight=1)
 
-        self.fav_det_att_paned = ttk.Panedwindow(right_top, orient="horizontal")
-        self.fav_det_att_paned.pack(fill="both", expand=True)
+        btn_row = ttk.Frame(right_top_frame)
+        btn_row.pack(fill="x", pady=(0, 4))
+        self.btn_fav_star = ttk.Button(btn_row, text="🌟 Unstar Source", command=self.toggle_starred_from_favs)
+        self.btn_fav_star.pack(side="left", padx=2)
+        ttk.Button(btn_row, text="📋 Copy Citation", command=self.copy_fav_citation_popup).pack(side="left", padx=2)
 
-        fav_det_frame = ttk.Frame(self.fav_det_att_paned)
-        self.fav_det_att_paned.add(fav_det_frame, weight=1)
-        self.txt_fav_details = scrolledtext.ScrolledText(fav_det_frame, height=4, wrap="word")
+        self.fav_details_att_paned = ttk.Panedwindow(right_top_frame, orient="horizontal")
+        self.fav_details_att_paned.pack(fill="both", expand=True)
+
+        fav_details_box_frame = ttk.Frame(self.fav_details_att_paned)
+        self.fav_details_att_paned.add(fav_details_box_frame, weight=1)
+        self.txt_fav_details = scrolledtext.ScrolledText(fav_details_box_frame, height=4, wrap="word")
         self.txt_fav_details.pack(fill="both", expand=True)
 
-        fav_att_frame = ttk.LabelFrame(self.fav_det_att_paned, text=" Attachments ", padding=4)
-        self.fav_det_att_paned.add(fav_att_frame, weight=1)
+        fav_att_box_frame = ttk.LabelFrame(self.fav_details_att_paned, text=" Attachments ", padding=4)
+        self.fav_details_att_paned.add(fav_att_box_frame, weight=1)
 
-        sb_fav_att = ttk.Scrollbar(fav_att_frame, orient="vertical")
-        self.lb_fav_atts = tk.Listbox(fav_att_frame, height=4, exportselection=False, yscrollcommand=sb_fav_att.set)
+        sb_fav_att = ttk.Scrollbar(fav_att_box_frame, orient="vertical")
+        self.lb_fav_atts = tk.Listbox(fav_att_box_frame, height=4, exportselection=False, yscrollcommand=sb_fav_att.set)
         sb_fav_att.config(command=self.lb_fav_atts.yview)
         sb_fav_att.pack(side="right", fill="y")
         self.lb_fav_atts.pack(side="left", fill="both", expand=True)
@@ -577,27 +586,48 @@ class GovApp:
         def _set_fav_sash(event):
             w = event.width
             if w > 100:
-                self.fav_det_att_paned.sashpos(0, int(w * 0.5))
-                self.fav_det_att_paned.unbind("<Configure>")
+                self.fav_details_att_paned.sashpos(0, int(w * 0.5))
+                self.fav_details_att_paned.unbind("<Configure>")
 
-        self.fav_det_att_paned.bind("<Configure>", _set_fav_sash)
+        self.fav_details_att_paned.bind("<Configure>", _set_fav_sash)
 
-        right_bottom = ttk.Frame(right_v_paned)
-        right_v_paned.add(right_bottom, weight=5)
+        # Right bottom frame: Notebook with PDF Viewer and Briefing capability matching Reader tab
+        right_bottom_frame = ttk.Frame(right_v_paned)
+        right_v_paned.add(right_bottom_frame, weight=5)
 
-        fav_hdr = ttk.Frame(right_bottom)
-        fav_hdr.pack(fill="x", pady=(0, 2))
-        ttk.Button(fav_hdr, text="🔍 Pop Out Viewer Window", command=self.pop_out_fav_pdf).pack(side="right", padx=2)
+        fav_viewer_hdr = ttk.Frame(right_bottom_frame)
+        fav_viewer_hdr.pack(fill="x", pady=(0, 2))
+        ttk.Button(fav_viewer_hdr, text="🔍 Pop Out Viewer Window", command=self.pop_out_fav_pdf).pack(side="right", padx=2)
 
-        self.fav_nb = ttk.Notebook(right_bottom)
+        self.fav_nb = ttk.Notebook(right_bottom_frame)
         self.fav_nb.pack(fill="both", expand=True)
+
         self.fav_pdf_viewer = PDFViewerWidget(self.fav_nb, lambda: self.state.keyword_rules)
-        self.fav_nb.add(self.fav_pdf_viewer, text="📕 PDF Preview")
+        self.fav_nb.add(self.fav_pdf_viewer, text="📕 PDF Viewer")
+
+        fav_briefing_frame = ttk.Frame(self.fav_nb)
+        self.fav_nb.add(fav_briefing_frame, text="📰 Briefing")
+
+        fav_briefing_tb = ttk.Frame(fav_briefing_frame, padding=4)
+        fav_briefing_tb.pack(fill="x", side="top")
+
+        ttk.Button(
+            fav_briefing_tb,
+            text="✨ Generate AI Briefing",
+            command=self.run_fav_ai_briefing
+        ).pack(side="left", padx=4)
+
+        self.lbl_fav_ai_status = ttk.Label(fav_briefing_tb, text="", font=("Segoe UI", 9, "italic"))
+        self.lbl_fav_ai_status.pack(side="left", padx=8)
+
+        self.txt_fav_briefing = scrolledtext.ScrolledText(fav_briefing_frame, wrap="word")
+        self.txt_fav_briefing.pack(fill="both", expand=True)
 
     def _favorite_ids(self) -> list[str]:
         return list(self.state.favorite_sources.keys())
 
     def refresh_fav_hub(self) -> None:
+        """Refreshes the sidebar list of starred sources from your persistent state file."""
         self.lb_favs.delete(0, tk.END)
         self.all_fav_attachments = {"pdf": [], "link": [], "data": []}
 
@@ -614,30 +644,103 @@ class GovApp:
         sel = self.lb_favs.curselection()
         if not sel:
             return
+        if sel[0] >= len(ids):
+            return
         doc_id = ids[sel[0]]
         entry = self.state.favorite_sources[doc_id]
         self.fav_selected_doc_id = doc_id
         self.fav_active_atts = list(entry.get("attachments", []))
 
-        self.txt_fav_details.delete("1.0", tk.END)
-        self.txt_fav_details.insert(
-            tk.END, f"TITLE: {entry['title']}\nURL: {entry['url']}\nTOPIC: {entry.get('topic', '')}"
+        details = (
+            f"TITLE: {entry['title']}\nDATE: {entry.get('date', 'N/A')}\nURL: {entry['url']}\nTOPIC: {entry.get('topic', '')}\n"
+            f"{'-' * 40}\n{entry.get('description', 'No description available.')}"
         )
+        self.txt_fav_details.delete("1.0", tk.END)
+        self.txt_fav_details.insert(tk.END, details)
 
         self.lb_fav_atts.delete(0, tk.END)
         for url in self.fav_active_atts:
             self.lb_fav_atts.insert(tk.END, _attachment_label(url))
 
+        # Automatically load the first PDF attachment into the interactive previewer if available
+        pdf_url = next((url for url in self.fav_active_atts if "📕 PDF" in classify_attachment_url(url)), None)
+        if pdf_url:
+            self._open_pdf_attachment(pdf_url, self.fav_pdf_viewer, self.fav_nb)
+
     def on_fav_double_click(self, _event) -> None:
         ids = self._favorite_ids()
         sel = self.lb_favs.curselection()
-        if sel:
+        if sel and sel[0] < len(ids):
             webbrowser.open_new_tab(self.state.favorite_sources[ids[sel[0]]]["url"])
 
     def on_fav_att_open(self, _event) -> None:
         sel = self.lb_favs.curselection()
-        if sel and self.fav_active_atts:
-            self._route_attachment_open(self.fav_active_atts[sel[0]], viewer=self.fav_pdf_viewer, notebook=self.fav_nb)
+        att_sel = self.lb_fav_atts.curselection()
+        if sel and att_sel and self.fav_active_atts:
+            self._route_attachment_open(self.fav_active_atts[att_sel[0]], viewer=self.fav_pdf_viewer, notebook=self.fav_nb)
+
+    def toggle_starred_from_favs(self) -> None:
+        ids = self._favorite_ids()
+        sel = self.lb_favs.curselection()
+        if not sel or sel[0] >= len(ids):
+            return
+        doc_id = ids[sel[0]]
+        if doc_id in self.state.favorite_sources:
+            del self.state.favorite_sources[doc_id]
+            self.state.save()
+            self.refresh_fav_hub()
+            self.refresh_doc_list()
+
+    def run_fav_ai_briefing(self) -> None:
+        current_text = ""
+        if self.fav_pdf_viewer.doc_obj:
+            full_pdf_text = []
+            for page in self.fav_pdf_viewer.doc_obj:
+                textpage = page.get_textpage()
+                full_pdf_text.append(textpage.get_text_range())
+            current_text = "\n".join(full_pdf_text)
+
+        if not current_text.strip() and self.fav_selected_doc_id:
+            entry = self.state.favorite_sources.get(self.fav_selected_doc_id, {})
+            current_text = f"{entry.get('title', '')}\n{entry.get('description', '')}"
+
+        if not current_text:
+            messagebox.showwarning("No Text Loaded", "Please select a starred source from the list first.")
+            return
+
+        self.lbl_fav_ai_status.config(text="🤖 Analyzing favorite document with local AI...")
+
+        def _worker():
+            summary = ai_engine.generate_document_briefing(current_text)
+            self.root.after(0, lambda: self._display_fav_ai_summary(summary))
+
+        threading.Thread(target=_worker, daemon=True).start()
+
+    def _display_fav_ai_summary(self, summary_text: str) -> None:
+        self.txt_fav_briefing.delete("1.0", tk.END)
+        self.txt_fav_briefing.insert(tk.END, summary_text)
+        self.lbl_fav_ai_status.config(text="✅ AI Analysis Complete!")
+
+    def copy_fav_citation_popup(self) -> None:
+        ids = self._favorite_ids()
+        sel = self.lb_favs.curselection()
+        if not sel or sel[0] >= len(ids):
+            return
+        entry = self.state.favorite_sources[ids[sel[0]]]
+        year = datetime.now().strftime("%Y")
+        apa = f"HM Government. ({year}). {entry['title']}. GOV.UK."
+        oscola = f"HM Government, '{entry['title']}' ({year}) accessed {datetime.now().strftime('%B %Y')}."
+        pop = tk.Toplevel(self.root)
+        pop.title("📋 Reference Generator")
+        pop.geometry("550x250")
+        ttk.Label(pop, text="APA Format:", font=("Segoe UI", 9, "bold")).pack(anchor="w", padx=10, pady=(10, 2))
+        t1 = tk.Text(pop, height=2, wrap="word")
+        t1.pack(fill="x", padx=10)
+        t1.insert(tk.END, apa)
+        ttk.Label(pop, text="OSCOLA Format:", font=("Segoe UI", 9, "bold")).pack(anchor="w", padx=10, pady=(10, 2))
+        t2 = tk.Text(pop, height=2, wrap="word")
+        t2.pack(fill="x", padx=10)
+        t2.insert(tk.END, oscola)
 
     # ======================================================================
     # Keyword Brain tab

@@ -1,0 +1,205 @@
+🇬🇧 BRIEFING: NHS AI
+TOTAL: 50
+==================================================
+
+📌 [1] Download the GOV.UK app
+   🔗 Link: https://www.gov.uk/guidance/download-the-govuk-app
+   ↳ Find out how to download the GOV.UK app - including GOV.UK Chat and what the app does.
+
+
+📌 [2] New Commission to help accelerate NHS use of AI 
+   🔗 Link: https://www.gov.uk/government/news/new-commission-to-help-accelerate-nhs-use-of-ai
+   ↳  New National Commission unites clinical leaders, patient advocates and leading tech firms to make the NHS the most AI-enabled healthcare system in world 
+
+📌 [3] Using AI in NHS diagnosis: apply for funding
+   🔗 Link: https://www.gov.uk/government/news/using-ai-in-nhs-diagnosis-apply-for-funding
+   ↳ Up to £240,000 is available for organisations exploring the use of AI and machine learning in fracture diagnosis.
+
+📌 [4] Qualitest: Supporting NHS England Future-Proof Their QA Practices with AI 
+   🔗 Link: https://www.gov.uk/ai-assurance-techniques/qualitest-supporting-nhs-england-future-proof-their-qa-practices-with-ai
+   ↳ Case study from Qualitest.
+
+📌 [5] AI to speed up cancer diagnosis for millions of NHS patients
+   🔗 Link: https://www.gov.uk/government/news/ai-to-speed-up-cancer-diagnosis-for-millions-of-nhs-patients
+   ↳ Government invests in artificial intelligence (AI) technologies to modernise the NHS and reduce waiting times.
+  
+
+
+📌 [6] i.AI and NHS England sign Collaboration Charter to support the use of AI in the NHS
+   🔗 Link: https://www.gov.uk/government/news/iai-and-nhs-england-sign-collaboration-charter-to-support-the-use-of-ai-in-the-nhs
+   ↳ The Incubator for Artificial Intelligence (i.AI) and NHS England (NHSE) have signed a Collaboration Charter to support the use of AI in the NHS. 
+
+📌 [7] AI to be trialled at unprecedented scale across NHS screening
+   🔗 Link: https://www.gov.uk/government/news/ai-to-be-trialled-at-unprecedented-scale-across-nhs-screening
+   ↳ Pioneering new cloud computer system will allow artificial intelligence (AI) tools to be tested on an unprecedented scale across the NHS to boost early diagnosis.
+
+📌 [8] World-first AI system to warn of NHS patient safety concerns
+   🔗 Link: https://www.gov.uk/government/news/world-first-ai-system-to-warn-of-nhs-patient-safety-concerns
+   ↳ Pioneering AI technology will be developed to scan NHS systems to flag safety issues in real time and trigger crucial inspections earlier.
+
+📌 [9] AI to speed up lung cancer diagnosis deployed in NHS hospitals
+   🔗 Link: https://www.gov.uk/government/news/ai-to-speed-up-lung-cancer-diagnosis-deployed-in-nhs-hospitals
+   ↳ £21 million is being allocated to 64 NHS trusts across England to roll out AI tools to speed up the diagnosis and treatment of lung cancer.
+
+📌 [10] MHRA seeks input on AI regulation at ‘pivotal moment’ for healthcare
+   🔗 Link: https://www.gov.uk/government/news/mhra-seeks-input-on-ai-regulation-at-pivotal-moment-for-healthcare
+   ↳ National Commission is seeking evidence to shape regulation of AI in healthcare and support the UK’s ambition for a world-leading, AI-enabled NHS 
+
+📌 [11] AI Airlock: the regulatory sandbox for AIaMD
+   🔗 Link: https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd
+   ↳ A proactive, collaborative, agile and the first of its kind approach to identifying and addressing the challenges faced by AI as a Medical Device (AIaMD).
+
+📌 [12] UK MHRA leads safe use of AI in healthcare as first country in new global network
+   🔗 Link: https://www.gov.uk/government/news/uk-mhra-leads-safe-use-of-ai-in-healthcare-as-first-country-in-new-global-network
+   ↳ The MHRA will help shape international rules for AI in healthcare – speeding up access to safe, effective technologies into the NHS and worldwide.
+
+📌 [13] Artificial intelligence resources for the public sector
+   🔗 Link: https://www.gov.uk/government/collections/artificial-intelligence-resources-for-the-public-sector
+   ↳ Guidance on using AI safely, effectively and securely for government and public sector organisations
+
+📌 [14] Data ethics and AI guidance landscape
+   🔗 Link: https://www.gov.uk/guidance/data-ethics-and-ai-guidance-landscape
+   ↳ This page collates the various existing ethical principles for data and AI, developed by government and public sector sector bodies. It intends to provide clarity and guidance for public servants working with data and/or AI.
+
+📌 [15] AI Exemplars programme
+   🔗 Link: https://www.gov.uk/guidance/ai-exemplars-programme
+   ↳ AI Exemplars are transforming public services – improving healthcare, education, planning and justice with practical and innovative AI solutions.
+
+📌 [16] Comply with copyright: UKHSA Knowledge and Library Services
+   🔗 Link: https://www.gov.uk/guidance/comply-with-copyright-ukhsa-knowledge-and-library-services
+   ↳ All publicly available materials, either in print or in electronic formats, are subject to copyright legislation.
+
+📌 [17] Independent Review of the Criminal Courts
+   🔗 Link: https://www.gov.uk/guidance/independent-review-of-the-criminal-courts
+   ↳ Former President of the Queen's Bench Division, Sir Brian Leveson, has been appointed to carry out an independent review into the criminal courts.
+
+📌 [18] Dr Ed Middleton
+   🔗 Link: https://www.gov.uk/government/people/dr-ed-middleton
+   ↳ Ed is a healthcare policy and strategy professional with experience across NHS leadership, central government, and frontline clinical care. Before joining the MHRA, Ed completed a Harkness Fellowship at Stanford University, researching AI regulation and post-deployment monitoring. Prior to that, Ed was Director of Policy and Portfolio at Guy’s and St Thomas’ NHS Foundation Trust, where he led the development of a five-year strategy and oversaw major programmes spanning digital transformation, AI deployment and population health. He previously worked at the centre of government, including at DHSC and 10 Downing Street, and began his career as a physician. Ed was named a 2025 National Academy of Medicine Emerging Leader. Alongside his role at the MHRA, he will continue his US-based research into the responsible use of AI in healthcare.
+
+📌 [19] Major NHS AI trial delivers unprecedented time and cost savings
+   🔗 Link: https://www.gov.uk/government/news/major-nhs-ai-trial-delivers-unprecedented-time-and-cost-savings
+   ↳ Microsoft 365 Copilot trial demonstrates monthly time savings of potentially 400,000 hours for NHS staff.
+ 
+
+📌 [20] £36 million boost for AI technologies to revolutionise NHS care
+   🔗 Link: https://www.gov.uk/government/news/36-million-boost-for-ai-technologies-to-revolutionise-nhs-care
+   ↳ Thirty-eight new pioneering artificial intelligence (AI) projects announced to help revolutionise care and accelerate diagnosis.
+
+📌 [21] New code of conduct for artificial intelligence (AI) systems used by the NHS
+   🔗 Link: https://www.gov.uk/government/news/new-code-of-conduct-for-artificial-intelligence-ai-systems-used-by-the-nhs
+   ↳ The code of conduct will ensure that only the best and safest data-driven technologies are used by the NHS and will protect patient data.
+
+📌 [22] Shake up of tech and AI usage across NHS and other public services to deliver plan for change
+   🔗 Link: https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change
+   ↳ The government has announced a new plan to leverage technology and AI tools like "Humphrey" to streamline public services, eliminate delays through improved data sharing, and reduce costs, including consultant spending.
+
+📌 [23] UK NSC privacy notice
+   🔗 Link: https://www.gov.uk/guidance/uk-nsc-consultations-privacy-notice
+   ↳ The personal data the UK National Screening Committee (UK NSC) collects, uses, and sometimes shares to do its job, how this data is protected and your rights.
+
+📌 [24] AI to reduce train delays, speed up NHS prescriptions and train construction workers gets £32 million boost
+   🔗 Link: https://www.gov.uk/government/news/ai-to-reduce-train-delays-speed-up-nhs-prescriptions-and-train-construction-workers-gets-32-million-boost
+   ↳ Government unveils AI projects to improve productivity and public services supported by a share of £32 million.
+
+📌 [25] Haider Husain
+   🔗 Link: https://www.gov.uk/government/people/haider-husain
+   ↳ Haider Husain is an experienced international healthcare IT business leader with a strong technology background and experience of partnership working, combined with his work as a Panel Chair for the British Standards Institute (BSI) and non-executive experience within the NHS. From 1 September 2022, Haider was appointed non-executive director of MHRA for 3 years, until 31 August 2025. Haider is the Chief Operating Officer of an international healthcare technology consultancy called Healthinnova Limited, a Non-Executive Director of Milton Keynes University Hospital NHS Foundation Trust and is the Panel Chair for the Safe and Effective Use of AI in Healthcare at the British Standards Institute. Prior to this, Haider was the General Manager for Caradigm’s European population health management business and has worked for other international companies such as Microsoft, GE Healthcare and Logica.
+
+📌 [26] Faster care for patients, less admin for NHS staff and new AI skills for key industries as Barnsley Tech Town takes next big step
+   🔗 Link: https://www.gov.uk/government/news/faster-care-for-patients-less-admin-for-nhs-staff-and-new-ai-skills-for-key-industries-as-barnsley-tech-town-takes-next-big-step
+   ↳ People and businesses in Barnsley will gain AI skills and benefit from shorter hospital waiting lists through new government pilots in the UK’s first Tech Town. 
+
+📌 [27] New blueprint for AI regulation could speed up planning approvals, slash NHS waiting times, and drive growth and public trust
+   🔗 Link: https://www.gov.uk/government/news/new-blueprint-for-ai-regulation-could-speed-up-planning-approvals-slash-nhs-waiting-times-and-drive-growth-and-public-trust
+   ↳ A new blueprint for AI regulation is being announced by the Technology Secretary today (Tuesday 21 October) to help drive innovation and growth.
+
+📌 [28] Use of AI in breast cancer screening: rapid review and evidence map
+   🔗 Link: https://www.gov.uk/government/consultations/use-of-ai-in-breast-cancer-screening-rapid-review-and-evidence-map
+   ↳ Consultation on the use of artificial intelligence (AI) for image analysis in the NHS Breast Screening Programme.
+
+📌 [29] Faster treatments and support for health workers as AI tackles A&E bottlenecks
+   🔗 Link: https://www.gov.uk/government/news/faster-treatments-and-support-for-health-workers-as-ai-tackles-ae-bottlenecks
+   ↳ AI tool helping 50 NHS organisations predict A&E demand this winter, speeding up patient care as government delivers on building an NHS fit for the future.
+
+📌 [30] Sachin Jogia
+   🔗 Link: https://www.gov.uk/government/people/sachin-jogia
+   ↳ Sachin Jogia is a Non-Executive Director at HM Revenue and Customs (appointed September 2025), and a Non-Executive Board member at the Department for Environment, Food and Rural Affairs (appointed on 18 March 2025). Sachin has a technology and product leadership background across global organisations, most recently as Group Director of Technology Strategy and Transformation at Sky. Previously, he was Chief Technology Officer at Ofcom, overseeing innovation across the areas they regulate including online safety, broadcasting and telecoms. Before that, he spent nine years at Amazon in the UK and USA, most recently as General Manager for Alexa Smart Home International. Sachin was the founding Chairman of the British Heart Foundation’s Technology Advisory Group and has championed initiatives supporting disadvantaged communities, including Amazon Future Engineer. He is Chair of the Finance & Business Performance Committee and non-executive director on the board of Buckinghamshire Healthcare NHS Trust, a Trustee and non-executive director at City Year UK, a founding member of the Corporate Advisory Board at Save The Children UK, Co-Chair of the Imperial AI Alumni Network, and has mentored Imperial College students and senior leaders with BeTheBusiness.
+
+📌 [31] UKRI Challenge Fund: for research and innovation
+   🔗 Link: https://www.gov.uk/government/collections/industrial-strategy-challenge-fund-joint-research-and-innovation
+   ↳ A fund to strengthen UK science and business innovation and take on the biggest challenges that society and industry face today.
+
+📌 [32] Gaon Hart
+   🔗 Link: https://www.gov.uk/government/people/gaon-hart
+   ↳ Gaon Hart was appointed as the Immigration Services Commissioner for the Immigration Advice Authority (IAA) on 12 December 2025. Gaon brings extensive experience across regulatory assurance, enforcement, anti‑human trafficking, anti‑corruption, fraud prevention, and legal ethics. He most recently served as Interim Chair of the NHS Counter Fraud Authority and as Chair of the Police Advisory Board for England and Wales. His technological and AI expertise has been shaped through senior roles in the private sector and previously as a senior crown advocate within the Crown Prosecution Service’s Special Crime and Counter‑Terrorism Division. Throughout his career, Gaon has focused on tackling corruption, economic crime, and unethical behaviour, as well as developing ESG frameworks, advancing human rights initiatives, and strengthening governance standards across the public sector. This breadth of expertise positions him to play a defining role in shaping the future of the immigration advice sector during a period of significant transformation. As Immigration Services Commissioner, Gaon will provide decisive leadership, set a clear and forward looking strategic vision for the effective regulation of immigration advisers, and lead efforts to prevent, disrupt, and deter unregulated or unsafe practice across the sector.
+
+📌 [33] Barnsley becomes UK’s first government-backed Tech Town
+   🔗 Link: https://www.gov.uk/government/news/barnsley-becomes-uks-first-government-backed-tech-town
+   ↳ Barnsley named UK’s first Tech Town – with local schools and college, businesses, NHS and more getting bespoke government support to unleash opportunities of AI.
+
+📌 [34] New hospitals join pioneering study to improve prostate cancer diagnosis using AI
+   🔗 Link: https://www.gov.uk/government/news/new-hospitals-join-pioneering-study-to-improve-prostate-cancer-diagnosis-using-ai
+   ↳ Six new NHS trusts across England will receive funding for groundbreaking trial of artificial intelligence (AI) to diagnose prostate cancer quicker.
+
+📌 [35] COVID-19 Commemoration programme: ways to remember
+   🔗 Link: https://www.gov.uk/guidance/covid-19-commemoration-programme-ways-to-remember
+   ↳ Explore different ways you can commemorate COVID-19.
+
+📌 [36] New guidance to help NHS patients benefit from digital technology
+   🔗 Link: https://www.gov.uk/government/news/new-guidance-to-help-nhs-patients-benefit-from-digital-technology
+   ↳ A new code of conduct for artificial intelligence (AI) and other data-driven technologies will allow NHS patients to benefit from the latest innovations.
+
+📌 [37] Funding boost for artificial intelligence in NHS to speed up diagnosis of deadly diseases
+   🔗 Link: https://www.gov.uk/government/news/funding-boost-for-artificial-intelligence-in-nhs-to-speed-up-diagnosis-of-deadly-diseases
+   ↳ Patients will benefit from major improvements in technology to speed up the diagnosis of deadly diseases like cancer thanks to further investment in the use of artificial intelligence (AI) across the NHS.
+
+📌 [38] National Commission into the Regulation of AI in Healthcare
+   🔗 Link: https://www.gov.uk/government/groups/national-commission-into-the-regulation-of-ai-in-healthcare
+   ↳ The National Commission into the Regulation of AI in Healthcare is an expert, non-statutory advisory body established by the MHRA to review current regulations and provide recommendations for a new regulatory framework for AI in healthcare. 
+
+📌 [39] 5G Testbeds and Trials Programme: complete list of 5G projects
+   🔗 Link: https://www.gov.uk/guidance/5g-testbeds-and-trials-programme-complete-list-of-5g-projects
+   ↳ A complete list of 5G projects involved in the 5G Testbeds and Trials Programme
+
+📌 [40] AI tools that could detect diseases earlier selected for next phase of MHRA’s ‘AI Airlock’ programme
+   🔗 Link: https://www.gov.uk/government/news/ai-tools-that-could-detect-diseases-earlier-selected-for-next-phase-of-mhras-ai-airlock-programme
+   ↳ Seven emerging AI healthcare technologies have been selected for the second phase of the MHRA’s AI Airlock programme.
+
+📌 [41] MHRA trials five innovative AI technologies as part of pilot scheme to change regulatory approach
+   🔗 Link: https://www.gov.uk/government/news/mhra-trials-five-innovative-ai-technologies-as-part-of-pilot-scheme-to-change-regulatory-approach
+   ↳ The pilot scheme, AI Airlock, is designed to help test and improve the rules for AI-powered medical devices to ensure they reach patients quickly, safely and effectively. 
+
+📌 [42] AI Airlock Phase 2 Cohort
+   🔗 Link: https://www.gov.uk/government/publications/ai-airlock-phase-2-cohort
+   ↳ Phase 2 of the Airlock will include seven additional technologies spanning AI-powered clinical note taking, advanced cancer diagnostics, eye disease detection tools, and obesity treatment support systems.
+
+
+📌 [43] Pioneering AI health innovations regulatory sandbox launched
+   🔗 Link: https://www.gov.uk/government/news/pioneering-ai-health-innovations-regulatory-sandbox-launched
+   ↳ The London sandbox is a secure environment designed to safely test AI-enabled devices in a real-world environment so patients can benefit more quickly. 
+
+
+📌 [44] Professor Alastair Denniston: The future regulation of AI in healthcare
+   🔗 Link: https://www.gov.uk/government/news/professor-alastair-denniston-the-future-regulation-of-ai-in-healthcare
+   ↳ Creating a framework that is safe, fast and trusted.
+
+📌 [45] MHRA to launch the AI-Airlock, a new regulatory sandbox for AI developers
+   🔗 Link: https://www.gov.uk/government/news/mhra-to-launch-the-ai-airlock-a-new-regulatory-sandbox-for-ai-developers
+   ↳ The AI-Airlock will assist in the development and deployment of software and AI medical devices, safely providing patients with earlier access to cutting edge innovations that improve care.
+
+📌 [46] MHRA launches AI sandbox to accelerate medicines development and improve safety
+   🔗 Link: https://www.gov.uk/government/news/mhra-launches-ai-sandbox-to-accelerate-medicines-development-and-improve-safety
+   ↳ New AI sandbox will help make medicines safer, speed up development, and reduce reliance on animal testing.
+
+📌 [47] MHRA launches AI Airlock to address challenges for regulating medical devices that use Artificial Intelligence
+   🔗 Link: https://www.gov.uk/government/news/mhra-launches-ai-airlock-to-address-challenges-for-regulating-medical-devices-that-use-artificial-intelligence
+   ↳ The Medicines and Healthcare products Regulatory Agency (MHRA) has today (9 May 2024) launched AI Airlock, its new regulatory sandbox for AI as a Medical Device (AIaMD).
+
+📌 [48] MHRA landmark report reveals public views on AI in healthcare
+   🔗 Link: https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare
+   ↳ The MHRA is publishing the results of an extensive public consultation which will inform the recommendations of the AI Commission and future regulations.
+
+📌 [50] MHRA opens applications from AI developers to join the AI Airlock regulatory sandbox
+   🔗 Link: https://www.gov.uk/government/news/mhra-opens-applications-from-ai-developers-to-join-the-ai-airlock-regulatory-sandbox
+   ↳ The MHRA, is calling for applications for manufacturers and developers of Artificial Intelligence (AI) medical devices, to join the AI Airlock regulatory sandbox.
