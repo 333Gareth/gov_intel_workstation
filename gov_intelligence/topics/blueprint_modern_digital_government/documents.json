@@ -373,21 +373,6 @@
     ]
   },
   {
-    "id": "2673f0f9132e1dda",
-    "title": "Government Commercial Function Annual Report 2024-2025",
-    "description": "The Government Commercial Function has published its Annual Report for 2024-2025",
-    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025",
-    "date": "2025-05-29",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://assets.publishing.service.gov.uk/media/6836c1ebc239ae3e866c0413/3727_GCF_Annual_Report_2024-2025_V3__1_.pdf",
-      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025/government-commercial-function-annual-report-2024-2025-html",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/government-commercial-function",
-      "https://www.gov.uk/government/all"
-    ]
-  },
-  {
     "id": "1c90cfabe61adc5b",
     "title": "Defence Minister Lord Coaker, keynote speech at Enterprise Gateway, Farnborough International Airshow.",
     "description": "The Enterprise Gateway: Opening Address ",
@@ -416,6 +401,21 @@
       "https://www.gov.uk/government/2024-starmer-labour-government",
       "https://www.gov.uk/government/organisations/driver-and-vehicle-standards-agency",
       "https://www.gov.uk/transport/corporate-and-operational-information-transport"
+    ]
+  },
+  {
+    "id": "2673f0f9132e1dda",
+    "title": "Government Commercial Function Annual Report 2024-2025",
+    "description": "The Government Commercial Function has published its Annual Report for 2024-2025",
+    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025",
+    "date": "2025-05-29",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/6836c1ebc239ae3e866c0413/3727_GCF_Annual_Report_2024-2025_V3__1_.pdf",
+      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025/government-commercial-function-annual-report-2024-2025-html",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/government-commercial-function",
+      "https://www.gov.uk/government/all"
     ]
   },
   {

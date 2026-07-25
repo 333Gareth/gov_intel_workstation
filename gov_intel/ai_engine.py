@@ -49,6 +49,27 @@ def get_available_ollama_models() -> list[str]:
     return []
 
 
+def ensure_model_available(model_name: str = DEFAULT_MODEL) -> bool:
+    """Checks if the model is locally available; if not, triggers an auto-pull via Ollama API."""
+    try:
+        res = requests.get("http://localhost:11434/api/tags", timeout=2.0)
+        if res.status_code == 200:
+            models = [m["name"] for m in res.json().get("models", [])]
+            if any(model_name in m for m in models):
+                return True
+            
+            # If server is running but model is missing, trigger pull endpoint automatically
+            pull_res = requests.post(
+                "http://localhost:11434/api/pull",
+                json={"name": model_name, "stream": False},
+                timeout=300  # Allow time for initial model download
+            )
+            return pull_res.status_code == 200
+    except requests.RequestException:
+        pass
+    return False
+
+
 def _fallback_local_nlp_summary(text: str, top_n: int = 5) -> str:
     """Extractive frequency-based local NLP summarizer (100% offline fallback)."""
     clean_text = text.strip()
@@ -121,6 +142,8 @@ def generate_document_briefing(text: str, model_name: str = DEFAULT_MODEL) -> st
     )
 
     if check_ollama_status():
+        # Automatically ensure model is pulled/ready before sending generation request
+        ensure_model_available(model_name)
         try:
             payload = {
                 "model": model_name,
