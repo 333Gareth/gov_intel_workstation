@@ -1,0 +1,890 @@
+[
+  {
+    "id": "5dbbf863e60713fb",
+    "title": "British Biotech plc / Vernalis Group plc",
+    "description": "OFT closed case: Anticipated acquisition by British Biotech plc of Vernalis Group plc.",
+    "url": "https://www.gov.uk/cma-cases/british-biotech-plc-vernalis-group-plc",
+    "date": "2003-09-01",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/cma-cases",
+      "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "https://www.gov.uk/business/competition"
+    ]
+  },
+  {
+    "id": "d64c7c3d03f7d618",
+    "title": "COVID-19 rapid lateral flow test kit instructions: Getein Biotech",
+    "description": "How to do a Getein Biotech rapid nose-only test for COVID-19. Rapid tests show the result on a device that comes with the test.",
+    "url": "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech",
+    "date": "2024-04-09",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/658079c5ed3c34000d3bfae6/COVID-19-self-test-nose-only-instructions-getein-biotech.pdf",
+      "https://assets.publishing.service.gov.uk/media/65a14a1ce96df50014f845d0/Covid-19-self-test-nose-only-instructions-getein_Welsh_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65a14c73e8f5ec000d1f8ccf/Covid-19-self-test-nose-only-instructions-getein_Mandarin_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65a8077794c9970013aeb97f/Getein_Biotech_COVID-19_easy_read_self_testing_guide-1.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bba6684965c50010e8a39d/Covid-19-self-test-nose-only-instructions-getein_Arabic_-_DIGITAL-2.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbae4d4965c50010e8a3ae/Covid-19-self-test-nose-only-instructions-getein_Bengali_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbb06bcc6fd600145dbe81/Covid-19-self-test-nose-only-instructions-getein_Dari_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbbcac21f73f000de0bad1/Covid-19-self-test-nose-only-instructions-getein_Farsi_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbbd954965c50010e8a3cf/Covid-19-self-test-nose-only-instructions-getein_Gujarati_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbbe0f21f73f000de0bad6/Covid-19-self-test-nose-only-instructions-getein_Hindi_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbbe99cc6fd6000d5dbe99/Covid-19-self-test-nose-only-instructions-getein_Pashto_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc1784965c50010e8a3d1/Covid-19-self-test-nose-only-instructions-getein_Punjabi_Gurmukhi_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc23921f73f000de0bada/Covid-19-self-test-nose-only-instructions-getein_Punjabi_Shahmukhi_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc2a84965c5000de8a3bc/Covid-19-self-test-nose-only-instructions-getein_Romanian_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc34b21f73f000de0bade/Covid-19-self-test-nose-only-instructions-getein_Slovak_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc4414965c50010e8a3d6/Covid-19-self-test-nose-only-instructions-getein_Somali_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc62f21f73f000de0bae7/Covid-19-self-test-nose-only-instructions-getein_Turkish_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc6cecc6fd6000d5dbea8/Covid-19-self-test-nose-only-instructions-getein_Ukrainian_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bbc76a4965c50010e8a3e1/Covid-19-self-test-nose-only-instructions-getein_Urdu_-_DIGITAL.pdf",
+      "https://assets.publishing.service.gov.uk/media/65bd0344704282000d75213d/Covid-19-self-test-nose-only-instructions-getein_Polish_-_DIGITAL.pdf",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.ar",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.bn",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.cy",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.dr",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.fa",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.gu",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.hi",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.pa",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.pa-pk",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.pl",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.ps",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.ro",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.sk",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.so",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.tr",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.uk",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.ur",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech.zh-tw",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "https://www.gov.uk/health-and-social-care/testing-for-covid-19",
+      "https://www.gov.uk/government/publications/testing-for-coronavirus-at-home",
+      "https://www.youtube.com/watch?v=YVMJnclCfLo"
+    ]
+  },
+  {
+    "id": "ed1c5dea00365fba",
+    "title": "Trinity Biotech Premier Hb9210™ HbA1c Analyser: Risk of Positive Bias and Updates to Instructions for Use (IFU), including use as a diagnostic aid in diabetes mellitus (DSI/2025/003)",
+    "description": "The MHRA has received reports describing a positive bias in HbA1c results delivered by the Trinity Biotech Premier Hb9210 HbA1c analyser, which has resulted in patients being incorrectly diagnosed as pre-diabetic or diabetic. ",
+    "url": "https://www.gov.uk/drug-device-alerts/trinity-biotech-premier-hb9210-hba1c-analyser-risk-of-positive-bias-and-updates-to-instructions-for-use-ifu-including-use-as-a-diagnostic-aid-in-diabetes-mellitus-dsi-slash-2025-slash-003",
+    "date": "2025-07-22",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/687e487c9914d1f63267c5fa/DSI__Hb9210.pdf",
+      "https://www.gov.uk/drug-device-alerts",
+      "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood-vigilance-safety-alerts-alerts-and-recalls",
+      "https://www.gov.uk/drug-device-alerts/field-safety-notices-30-september-to-4-october-2024",
+      "https://yellowcard.mhra.gov.uk/",
+      "https://www.nss.nhs.scot/health-facilities/incidents-and-alerts/report-an-incident/",
+      "https://www.gov.uk/drug-device-alerts/email-signup",
+      "https://subscriptions.mhra.gov.uk/accounts/UKMHRA/signup/45372"
+    ]
+  },
+  {
+    "id": "7143c0c251c7fbc7",
+    "title": "BioReliance Corporation / Q-One Biotech Group Ltd",
+    "description": "OFT closed case: Anticipated acquisition by BioReliance Corporation of Q-One Biotech Group Limited.",
+    "url": "https://www.gov.uk/cma-cases/bioreliance-corporation-q-one-biotech-group-ltd",
+    "date": "2003-09-15",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.digital.cabinet-office.gov.uk/media/555de46bed915d7ae5000126/bioreliance.pdf",
+      "https://www.gov.uk/cma-cases",
+      "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "https://www.gov.uk/business/competition"
+    ]
+  },
+  {
+    "id": "8943dd6c07271882",
+    "title": "Company Names Tribunal decision: Sanofi International Biotech Company Ltd.",
+    "description": "Decision for applicant Sanofi against registration number SC565335, applicant successful.",
+    "url": "https://www.gov.uk/government/publications/company-names-tribunal-decision-sanofi-international-biotech-company-ltd",
+    "date": "2023-01-30",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/publications/company-names-tribunal-decision-sanofi-international-biotech-company-ltd/decision-on-sanofi-international-biotech-company-ltd",
+      "https://www.gov.uk/government/publications/company-names-tribunal-decision-sanofi-international-biotech-company-ltd/signed-order-sanofi-international-biotech-company-ltd",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/company-names-tribunal",
+      "https://www.gov.uk/business-and-industry/company-names"
+    ]
+  },
+  {
+    "id": "601def08b79ed1b8",
+    "title": "Company Names Tribunal: Novo Nordisk Biotech Limited",
+    "description": "Decision by a company names adjudicator for applicant Novo Nordisk AVS (reg number 08607459) - application successful.",
+    "url": "https://www.gov.uk/government/publications/company-names-tribunal-novo-nordisk-biotech-limited",
+    "date": "2015-01-27",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5a7d8e73ed915d497af70268/Company_names_o02715.pdf",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/government/organisations/company-names-tribunal",
+      "https://www.gov.uk/business-and-industry"
+    ]
+  },
+  {
+    "id": "0084e41301332714",
+    "title": "Ms A Chimedza v IQVIA Biotech Ltd: 3301633/2024",
+    "description": "Employment Tribunal decision.",
+    "url": "https://www.gov.uk/employment-tribunal-decisions/ms-a-chimedza-v-iqvia-biotech-ltd-3301633-slash-2024",
+    "date": "2025-12-29",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/694914ec2f026113935089ac/Ms_A_Chimedza_v_IQVIA_Biotech_Ltd_3301633_2024_Judgment.pdf",
+      "https://www.gov.uk/employment-tribunal-decisions",
+      "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "https://www.gov.uk/courts-tribunals/employment-tribunal",
+      "https://www.gov.uk/crime-justice-and-law/courts-sentencing-tribunals"
+    ]
+  },
+  {
+    "id": "aeb8b95b435eea3c",
+    "title": "Mr S Baldacchino v Applied Biotech Ltd: 3320932/2021",
+    "description": "Employment Tribunal decision.",
+    "url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-baldacchino-v-applied-biotech-ltd-3320932-slash-2021",
+    "date": "2023-12-13",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/6266a2f18fa8f523b4f2e7c5/Mr_S_Baldacchino_-_v_-__Applied_Biotech_Ltd_-_3320932-2021_-_Judgment.pdf",
+      "https://assets.publishing.service.gov.uk/media/65772e29095987001295de0d/Mr_S_Baldacchino_v_Applied_Biotech_Ltd_3320932.2021_Reconsideration_Judgment.pdf",
+      "https://www.gov.uk/employment-tribunal-decisions",
+      "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "https://www.gov.uk/courts-tribunals/employment-tribunal",
+      "https://www.gov.uk/crime-justice-and-law/courts-sentencing-tribunals"
+    ]
+  },
+  {
+    "id": "81d5ae74b8a8261e",
+    "title": "Miss M Y Shek v Applied Biotech Ltd: 3321188/2021",
+    "description": "Employment Tribunal decision.\r\n\r\n",
+    "url": "https://www.gov.uk/employment-tribunal-decisions/miss-m-y-shek-v-applied-biotech-ltd-3321188-slash-2021",
+    "date": "2023-01-10",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/63bd2bb6e90e0730242b7425/Miss_M_Y_Shek_-v-_Applied_Biotech_Ltd_-_3321188-2021_-_SO_Judgment.pdf",
+      "https://assets.publishing.service.gov.uk/media/63bd2bf6d3bf7f262df93d2d/Miss_M_Y_Shek_-v-_Applied_Biotech_Ltd_-_3321188-2021_-_R21_Judgment.pdf",
+      "https://www.gov.uk/employment-tribunal-decisions",
+      "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "https://www.gov.uk/courts-tribunals/employment-tribunal",
+      "https://www.gov.uk/crime-justice-and-law/courts-sentencing-tribunals"
+    ]
+  },
+  {
+    "id": "0085fb4f8f5d1e72",
+    "title": "Pharma Biotech secures Danish export contract with UKEF support",
+    "description": "Huddersfield-based PBSC secures £5 million contract with support from NatWest and UKEF.",
+    "url": "https://www.gov.uk/government/case-studies/pharma-biotech-secures-danish-export-contract-with-ukef-support",
+    "date": "2017-10-27",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/collections/uk-export-finance-success-stories",
+      "https://www.gov.uk/government/organisations/uk-export-finance",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/business-and-industry/export-finance",
+      "https://www.gov.uk/guidance/bond-support-scheme-overview-and-how-to-apply",
+      "https://www.great.gov.uk/trade-finance/"
+    ]
+  },
+  {
+    "id": "a37ccc904c20eee0",
+    "title": "Ms L Tharratt and others v BioTech Solutions Ltd: 1803685/2020 and others",
+    "description": "Employment Tribunal decision.",
+    "url": "https://www.gov.uk/employment-tribunal-decisions/ms-l-tharratt-and-others-v-biotech-solutions-ltd-1803685-2020-and-others",
+    "date": "2020-10-28",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5f9940ff8fa8f5790e742757/Ms_L_Tharrat_and_others_v_BioTech_Solutions_Ltd_-Jurisdiction_1803685.2020.pdf",
+      "https://www.gov.uk/employment-tribunal-decisions",
+      "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "https://www.gov.uk/courts-tribunals/employment-tribunal",
+      "https://www.gov.uk/crime-justice-and-law/courts-sentencing-tribunals"
+    ]
+  },
+  {
+    "id": "89e3f8f97e40331d",
+    "title": "OX11 0RL, Moderna Biotech Manufacturing UK Limited: environmental permit issued - EPR/TP3822SV",
+    "description": "View the permit issued for Moderna Drug Substance Manufacturing Facility, Harwell Science and Innovation Campus, Harwell under the Industrial Emissions Directive.",
+    "url": "https://www.gov.uk/government/publications/ox11-0rl-moderna-biotech-manufacturing-uk-limited-environmental-permit-issued-eprtp3822sv",
+    "date": "2024-07-24",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/66a0ceeea3c2a28abb50d610/TP3822SV_-_Permit.pdf",
+      "https://assets.publishing.service.gov.uk/media/66a0cefcfc8e12ac3edb0384/EPRTP3822SV_-_Decision_document.pdf",
+      "https://www.gov.uk/government/collections/industrial-emissions-directive-ied-environmental-permits-issued-2024-m-to-r",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/environment-agency",
+      "https://www.gov.uk/environment/environmental-permits"
+    ]
+  },
+  {
+    "id": "814aacf9f2ec5082",
+    "title": "Ms K L Gan v Neem Biotech Ltd and Zaluvida Corporate Sdn. Bhd: 2300971/2018",
+    "description": "Employment Tribunal decision. ",
+    "url": "https://www.gov.uk/employment-tribunal-decisions/ms-k-l-gan-v-neem-biotech-ltd-and-zaluvida-corporate-sdn-bhd-2300971-2018",
+    "date": "2020-01-07",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5e130d4bed915d6a9447f06b/Ms_K_L_Gan_v__1_Neem_Biotech_LTD__2_Zaluvida_Corporate_Sdn._Bhd_2300971-2018_Withdrawal.pdf",
+      "https://www.gov.uk/employment-tribunal-decisions",
+      "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "https://www.gov.uk/courts-tribunals/employment-tribunal",
+      "https://www.gov.uk/crime-justice-and-law/courts-sentencing-tribunals"
+    ]
+  },
+  {
+    "id": "d443de9378d66623",
+    "title": "UK companies network at major biotech partnering event in Austria",
+    "description": "UKTI Austria’s networking event prepares UK biotech companies for trade show in Vienna and brings them into contact with Austrian companies.",
+    "url": "https://www.gov.uk/government/news/uk-companies-network-at-major-biotech-partnering-event-in-austria",
+    "date": "2013-11-19",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/business-and-industry",
+      "https://www.gov.uk/world/organisations/department-for-business-and-trade-austria",
+      "http://www.ukti.gov.uk/export/sectors/lifesciences.html",
+      "http://www.ukti.gov.uk/export/howwehelp/businessopportunityalerts.html",
+      "http://www.ukti.gov.uk/emergingeurope"
+    ]
+  },
+  {
+    "id": "5f54c03610a9057b",
+    "title": "How to do a coronavirus (COVID-19) rapid lateral flow test",
+    "description": "Find out how to do a rapid lateral flow test for COVID-19. Rapid lateral flow tests show the result on a device that comes with the test.",
+    "url": "https://www.gov.uk/guidance/covid-19-self-test-help",
+    "date": "2024-04-30",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "https://www.gov.uk/health-and-social-care/public-health",
+      "https://www.gov.uk/health-and-social-care/testing-for-covid-19",
+      "https://www.gov.uk/government/publications/covid-19-rapid-lateral-flow-test-kit-instructions-getein-biotech",
+      "https://www.nhs.uk/conditions/coronavirus-covid-19/testing/how-to-do-a-test-at-home-or-at-a-test-site/how-to-do-a-rapid-lateral-flow-test/",
+      "https://www.youtube.com/watch?v=YVMJnclCfLo",
+      "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.legislation.gov.uk%2Fuksi%2F2010%2F659%2Fregulation%2F4A%3Fview%3Dplain&amp;data=05%7C02%7Cjenny.mccormick%40ukhsa.gov.uk%7C27acdfbdee9d4cfd172808dc4cdfe46a%7Cee4e14994a354b2ead475f3cf9de8666%7C0%7C0%7C638469771684528284%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jo3ZIOvdfP2lRnliYiQJQehnqmVxyQdUo8TROnjCHl8%3D&amp;reserved=0",
+      "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.legislation.gov.uk%2Fuksi%2F2010%2F659%2Fregulation%2F4A%3Fview%3Dplain&amp;data=05%7C02%7Cjenny.mccormick%40ukhsa.gov.uk%7C27acdfbdee9d4cfd172808dc4cdfe46a%7Cee4e14994a354b2ead475f3cf9de8666%7C0%7C0%7C638469771684684518%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=xfD9rmDKWWtDlYQxasyaeIaIaW4UfP4jDbMl8Gm4n5g%3D&amp;reserved=0",
+      "https://www.gov.uk/government/publications/organisation-testing-registration-record-of-users",
+      "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.nhs.uk%2Fconditions%2Fcovid-19%2Ftreatments-for-covid-19%2F&amp;data=05%7C02%7Cjenny.mccormick%40ukhsa.gov.uk%7C27acdfbdee9d4cfd172808dc4cdfe46a%7Cee4e14994a354b2ead475f3cf9de8666%7C0%7C0%7C638469771684684518%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=CgPdrvIbJqsHIcjJmnT6wSPtaxbSg3Wfprm1Y%2ByrGhE%3D&amp;reserved=0",
+      "https://www.gov.uk/guidance/virus-test-kit-feedback"
+    ]
+  },
+  {
+    "id": "866f6a297f15140e",
+    "title": "Bangalore-Cambridge Biotech Innovation contest",
+    "description": "Are you innovative enough and ready to take a dive in Cambridge? Participate to win by 30 October 2013.",
+    "url": "https://www.gov.uk/government/news/bangalore-cambridge-biotech-innovation-contest",
+    "date": "2013-09-16",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5a7ca34fed915d12ab4bc220/Bioinnovation_Contest_Form.docx",
+      "https://assets.publishing.service.gov.uk/media/5a7c109240f0b63f7572b1f6/Competition_FLyer_A4_2.pdf",
+      "https://www.gov.uk/government/organisations/foreign-commonwealth-office",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/business-and-industry/research-and-development",
+      "https://www.gov.uk/government/priority/collaborating-with-india-on-science-and-innovation",
+      "http://www.acceleratorindia.com/",
+      "http://www.ccamp.res.in/",
+      "http://www.ideaspace.cam.ac.uk/",
+      "http://bangalore-cambridge.net/",
+      "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/32489/11-p123-international-comparative-performance-uk-research-base-2011.pdf",
+      "http://www.ipo.gov.uk/types/patent/p-patentbox.htm",
+      "http://www.hefce.ac.uk/whatwedo/rsrch/howfundr/ukrpif201215/",
+      "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/32457/11-1429-strategy-for-uk-life-sciences.pdf",
+      "http://www.cambridgephenomenon.com/what-phenomenon/"
+    ]
+  },
+  {
+    "id": "961c2ce188b83fcc",
+    "title": "Food, Water and Environmental Microbiology Services Laboratory, York",
+    "description": "The laboratory provides diagnostic microbiological testing services for the examination of food, water and environmental samples.",
+    "url": "https://www.gov.uk/guidance/york-food-water-and-environmental-laboratory-services",
+    "date": "2025-01-22",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/collections/food-water-and-environmental-laboratories",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/government/organisations/public-health-england",
+      "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "https://www.gov.uk/health-and-social-care/public-health",
+      "https://www.ukas.com/download-schedule/1645/Testing/"
+    ]
+  },
+  {
+    "id": "665bc7e989ef753b",
+    "title": "Partnerships and collaborations on vaccine development and evaluation",
+    "description": "VDEC works with global leaders from all sectors to develop and deliver the vaccine and therapeutic products we need to protect us from infectious diseases.",
+    "url": "https://www.gov.uk/guidance/partnerships-and-collaborations-on-vaccine-development-and-evaluation",
+    "date": "2024-07-16",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/collections/ukhsa-what-we-do",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "https://www.gov.uk/guidance/ukhsas-vaccine-development-and-evaluation-centre-vdec",
+      "https://www.gov.uk/guidance/services-offered-by-the-vaccine-evaluation-and-development-centre-vdec",
+      "https://www.gov.uk/guidance/antimicrobial-resistance-amr",
+      "https://www.gov.uk/guidance/clinical-evaluation-for-vaccines",
+      "https://www.gov.uk/guidance/how-vdec-develops-and-evaluates-vaccines",
+      "https://www.gov.uk/guidance/pre-clinical-vaccine-evaluation",
+      "https://www.gov.uk/guidance/discovery-and-surveillance",
+      "https://www.gov.uk/guidance/post-licensure-vaccine-services",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood-clinical-trials-investigations",
+      "https://www.gov.uk/health-and-social-care/research-and-innovation-in-health-and-social-care",
+      "https://www.gov.uk/health-and-social-care/technology-in-health-and-social-care",
+      "https://submit.forms.service.gov.uk/form/3741/make-a-vdec-enquiry",
+      "https://aspr.hhs.gov/AboutASPR/ProgramOffices/BARDA/Pages/default.aspx",
+      "https://cepi.net/",
+      "https://www.nisec.ac.uk/",
+      "https://www.gov.uk/government/groups/uk-vaccines-network",
+      "https://paceamr.org.uk/"
+    ]
+  },
+  {
+    "id": "d3524c7a20fb665e",
+    "title": "Engineering Biology Responsible Innovation Advisory Panel",
+    "description": "The Engineering Biology Responsible Innovation Advisory Panel is an expert advisory group of leading academics and industry figures from across the engineering biology, life science and biotech sectors.",
+    "url": "https://www.gov.uk/government/groups/engineering-biology-responsible-innovation-advisory-panel",
+    "date": "2025-02-12",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/groups/uk-biosecurity-leadership-council",
+      "https://www.gov.uk/government/publications/national-vision-for-engineering-biology",
+      "https://www.gov.uk/government/publications/national-vision-for-engineering-biology/national-vision-for-engineering-biology",
+      "https://www.gov.uk/government/publications/uk-biological-security-strategy/uk-biological-security-strategy-html",
+      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-science-research-and-innovation"
+    ]
+  },
+  {
+    "id": "9e886fde62ea9d61",
+    "title": "UK Biosecurity Leadership Council (closed)",
+    "description": "The UK Biosecurity Leadership Council was an expert advisory group of leading academics and industry figures from across the engineering biology, life science and biotech sectors.",
+    "url": "https://www.gov.uk/government/groups/uk-biosecurity-leadership-council",
+    "date": "2025-02-13",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/groups/engineering-biology-responsible-innovation-advisory-panel",
+      "https://www.gov.uk/government/publications/national-vision-for-engineering-biology",
+      "https://www.gov.uk/government/publications/uk-biological-security-strategy/uk-biological-security-strategy-html",
+      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-science-research-and-innovation"
+    ]
+  },
+  {
+    "id": "c1a071c7931560e5",
+    "title": "Notorious Noakes, £10m Guernsey GcMAF crook imprisoned",
+    "description": "Following a three-year investigation, Guernsey-based Immuno Biotech owner David Noakes has been sentenced to a total of 15 months in prison.",
+    "url": "https://www.gov.uk/government/news/notorious-noakes-10m-guernsey-gcmaf-crook-imprisoned",
+    "date": "2018-11-27",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood",
+      "https://www.youtube.com/watch?v=NvnH-j2M_g8",
+      "https://www.gov.uk/guidance/good-manufacturing-practice-and-good-distribution-practice",
+      "https://www.gov.uk/government/news/regulator-warns-against-gcmaf-made-in-unlicensed-facility-in-cambridgeshire"
+    ]
+  },
+  {
+    "id": "6b1bd23978f8bb20",
+    "title": "UK and India focus on stronger biotech collaboration during UKTI chief’s trade trip",
+    "description": "Dominic Jermey, Chief Executive of UK Trade & Investment will visit Bangalore, Mumbai and New Delhi from 9 to 11 February.",
+    "url": "https://www.gov.uk/government/news/uk-and-india-focus-on-stronger-biotech-collaboration-during-ukti-chiefs-trade-trip",
+    "date": "2015-02-08",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/news/uk-and-india-focus-on-stronger-biotech-collaboration-during-ukti-chiefs-trade-trip.hi",
+      "https://www.gov.uk/government/news/uk-and-india-focus-on-stronger-biotech-collaboration-during-ukti-chiefs-trade-trip.ur",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/business-and-industry/trade-and-investment",
+      "https://www.gov.uk/business-and-industry",
+      "https://www.gov.uk/world/organisations/british-high-commission-new-delhi",
+      "https://www.gov.uk/world/organisations/department-for-business-and-trade-india",
+      "https://www.gov.uk/world/organisations/british-deputy-high-commission-mumbai",
+      "https://www.gov.uk/world/organisations/british-deputy-high-commission-bangalore",
+      "https://www.gov.uk/government/people/dominic-jermey",
+      "https://www.gov.uk/government/organisations/uk-trade-investment",
+      "http://twitter.com/ukinindia",
+      "https://www.facebook.com/bhcindia",
+      "http://www.flickr.com/photos/ukinindia/",
+      "http://www.youtube.com/playlist?list=PL8211DFD44B2BAECA",
+      "http://in.linkedin.com/in/ukinindia",
+      "http://storify.com/ukinindia",
+      "http://www.eventbrite.com/org/2824316788",
+      "https://www.gov.uk/government/world-location-news/foreign-office-bloggers-in-india",
+      "https://foursquare.com/ukinindia"
+    ]
+  },
+  {
+    "id": "52e771d147d9d0bd",
+    "title": "Dr Manuela Gazzard",
+    "description": "Dr Manuela Gazzard became a Non-Executive Director of Crown Commercial Service in August 2021. Dr Gazzard is currently Group Director of Regulatory Services at BSI. In her role, she is responsible for leading the Regulatory Services and Notified Body business worldwide. She has over twenty years of leadership experience in the global life sciences sector including pharmaceuticals, medical devices, biotech, and other related fields.",
+    "url": "https://www.gov.uk/government/people/manuela-gazzard",
+    "date": "2021-09-20",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "41047df929bd7bf8",
+    "title": "UK and Singapore launch a regulatory innovation corridor to speed up access to breakthrough health technologies",
+    "description": "Patients in the UK and Singapore could gain faster access to cutting-edge healthcare innovations under a new partnership bringing two globally respected regulators together with one of the world’s leading biotech creators.",
+    "url": "https://www.gov.uk/government/news/uk-and-singapore-launch-a-regulatory-innovation-corridor-to-speed-up-access-to-breakthrough-health-technologies",
+    "date": "2025-12-12",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood",
+      "https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future",
+      "https://www.moh.gov.sg/staying-healthy/healthy-living/",
+      "https://www.gov.uk/government/news/uk-mhra-leads-safe-use-of-ai-in-healthcare-as-first-country-in-new-global-network",
+      "https://www.gov.uk/government/groups/national-commission-into-the-regulation-of-ai-in-healthcare",
+      "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd",
+      "https://www.gov.uk/government/publications/innovative-licensing-and-access-pathway-ilap",
+      "https://www.gov.uk/government/publications/centres-of-excellence-for-regulatory-science-and-innovation-cersis/centres-of-excellence-for-regulatory-science-and-innovation-cersis"
+    ]
+  },
+  {
+    "id": "3c9b230debcfa06d",
+    "title": "Caroline Firstbrook",
+    "description": "Caroline Firstbrook brings a wealth of experience in professional services and entrepreneurship, having served as Chief Operating Officer at the law firm Clifford Chance LLP for over seven years until 2022. She has been a Non-Executive Director at the maritime organisation Lloyd’s Register since 2015. Caroline has also held senior leadership positions at both Monitor Company and Accenture plc and has founded companies in the agribusiness and biotech sectors. SFO representatives will not ask you to send them money or cryptocurrency. If you have been contacted by someone purporting to be working for the SFO, please email  alerts@sfo.gov.uk  for confirmation.",
+    "url": "https://www.gov.uk/government/people/caroline-firstbrook",
+    "date": "2026-02-10",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "0b906a8fae19515e",
+    "title": "Dr Alison Campbell OBE",
+    "description": "Dr Alison Campbell OBE was appointed as Chief Executive of the Government Office for Technology Transfer (GOTT) in April 2022. Alison was previously Director of Knowledge Transfer Ireland (KTI), the organisation responsible for developing Ireland’s national knowledge and technology transfer system. She brings over 20 years of experience in the field, having started her career in the biotech industry and since serving as interim CEO of the Medical Research Council’s technology transfer company (MRCT) and leading technology transfer and research support at King’s College London. Alison’s contributions to the knowledge transfer profession include serving as Chair of the Board at AUTM (the US based international association) and as founder and past Chair of ATTP - the body which sets standards for the profession. She was also a founding director of Praxis (now PraxisAuril). She was awarded an OBE in 2010 in recognition of her contribution to Knowledge Transfer. In 2018 she received the Global University Venturing Lifetime Achievement Award.",
+    "url": "https://www.gov.uk/government/people/alison-campbell",
+    "date": "2022-10-04",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "f0152dadc7c4f535",
+    "title": "TechFirst PhD Support",
+    "description": "Part of TechFirst, the government’s flagship skills programme opening pathways into the UK’s fast-growing tech sector. ",
+    "url": "https://www.gov.uk/guidance/techexpert",
+    "date": "2026-07-21",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport",
+      "https://www.gov.uk/business-and-industry/science-and-innovation",
+      "https://www.gov.uk/education",
+      "https://www.gov.uk/government/collections/the-uks-modern-industrial-strategy-2025",
+      "https://www.gov.uk/government/publications/digital-and-technologies-sector-plan",
+      "https://cdt.sensors.cam.ac.uk/",
+      "https://www.cdt-compound-semiconductor.org/",
+      "https://www.qist-cdt.info/",
+      "https://www.rainz-cdt.ac.uk/",
+      "https://www.fort-cdt.ac.uk/about-us",
+      "https://www.saints-cdt.ai/",
+      "https://informatics.ed.ac.uk/cdt-in-machine-learning-systems",
+      "https://www.ai-decisions-cdt.ac.uk/",
+      "https://aims.robots.ox.ac.uk/study",
+      "https://www.bristol.ac.uk/cdt/cyber-security/",
+      "https://qte.ac.uk/",
+      "https://www.ucl.ac.uk/mathematical-physical-sciences/quantum/study/phd-opportunities/quantum-doctoral-programmes",
+      "https://www.quantuminformatics-cdt.ac.uk/",
+      "https://www.imperial.ac.uk/chemical-biology/cdt/",
+      "https://cisdns-cdt.ac.uk/",
+      "https://cdtphotonics.hw.ac.uk/",
+      "https://www.lancaster.ac.uk/stor-i/",
+      "http://surrey.ac.uk/artificial-intelligence/cdt",
+      "https://www.spads.ac.uk/",
+      "https://www.mfccdt.ac.uk/",
+      "https://www.pes-cdt.org/",
+      "https://statml.io/",
+      "https://www.northumbria.ac.uk/about-us/our-schools/school-of-computer-science/citizen-centred-artificial-intelligence/",
+      "https://engbio-cdt.org/",
+      "https://www.aqt.ac.uk/",
+      "https://intelligent-earth.ox.ac.uk/",
+      "https://www.bristol.ac.uk/cdt/practice-oriented-ai/",
+      "https://www.sustain-cdt.ai/",
+      "https://www.2d-materials-cdt.manchester.ac.uk/",
+      "https://www.responsiblenlp.org/",
+      "https://www.ucl.ac.uk/engineering/security-crime-science/study/postgraduate-research/epsrc-centre-doctoral-training-cyber-physical-risk",
+      "https://www.agq-cdt.org/",
+      "https://www.bmh.manchester.ac.uk/study/research/funding-fees/funded-programmes/code-m/",
+      "https://eb4bm.org/",
+      "https://ebicentre.co.uk/engbio4env-launch/",
+      "https://www.york.ac.uk/biology/study/postgraduate-research/plant-biodesign/",
+      "https://www.royalholloway.ac.uk/about-us/news/royal-holloway-receives-ukri-funding-to-train-next-generation-of-engineering-biologists/"
+    ]
+  },
+  {
+    "id": "99b7f736595959da",
+    "title": "Mary Curnock Cook CBE",
+    "description": "Mary Curnock Cook has been a Non-Executive Director of SLC since April 2018 and holds a number of non-executive roles in the education sector. From 2010 to 2017, Mary was Chief Executive of UCAS, the universities and colleges admissions service. Earlier in her career she held executive and non-executive positions in the education, hospitality, food and biotech sectors. Mary is Chair of the Dyson Institute and of Pearson Education Ltd. She is a non-executive director for the London Interdisciplinary School, The Student Room and Education Cubed and is a Trustee of the Higher Education Policy Institute. She also chairs an HE Edtech group on behalf of Emerge Education. Mary has an MSc from London Business School and she was awarded an OBE in 2000 and CBE in 2020. She is an honorary Fellow of Birkbeck College and Goldsmiths, and has an honorary doctorate from the University of Gloucestershire.",
+    "url": "https://www.gov.uk/government/people/mary-curnock-cook",
+    "date": "2021-10-19",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "f19d707cc430c6db",
+    "title": "Biotech driving medical breakthroughs and cuts to red tape lead major science and tech package to spark UK innovation and growth",
+    "description": "Science and Technology Secretary Michelle Donelan set out the importance of the UK’s mission to be a science and technology superpower.",
+    "url": "https://www.gov.uk/government/news/biotech-driving-medical-breakthroughs-and-cuts-to-red-tape-lead-major-science-and-tech-package-to-spark-uk-innovation-and-growth",
+    "date": "2024-02-09",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/people/michelle-donelan",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
+      "https://www.gov.uk/business-and-industry/science-and-innovation",
+      "https://www.gov.uk/government/publications/review-of-research-bureaucracy",
+      "https://www.gov.uk/government/publications/uk-science-and-technology-framework",
+      "https://www.ukri.org/news/new-100m-fund-will-unlock-the-potential-of-engineering-biology/",
+      "https://www.ukri.org/opportunity/ukri-metascience-research-grants/",
+      "https://www.gov.uk/government/publications/research-ventures-catalyst-successful-applications",
+      "https://www.gov.uk/guidance/find-uk-innovation-clusters",
+      "https://science.gc.ca/site/science/en/safeguarding-your-research/general-information-research-security/international-research-security-resources/g7-common-values-and-principles-research-security-and-research-integrity",
+      "https://www.security-relevant-research.org/g7-best-practices-for-secure-and-open-research/"
+    ]
+  },
+  {
+    "id": "15cf40aff58ebe5a",
+    "title": "Scottish Secretary travels to Iceland to boost Scottish trade links",
+    "description": "David Mundell’s trip will help build Scottish business links with Iceland, including \r\nfish and biotech.\r\n",
+    "url": "https://www.gov.uk/government/news/scottish-secretary-travels-to-iceland-to-boost-scottish-trade-links",
+    "date": "2019-02-08",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/office-of-the-secretary-of-state-for-scotland",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/government/people/david-mundell",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-scotland",
+      "https://www.gov.uk/business-and-industry"
+    ]
+  },
+  {
+    "id": "1a34ca0b0a1bf1eb",
+    "title": "Matthew Speers",
+    "description": "Matthew Speers was appointed Chief Executive Officer (CEO) of the Life Sciences Organisation in August 2016. Previously Matthew was the Chief Executive of the Proprietary Association of Great Britain (PAGB), which is the trade association for the branded over-the-counter medicines and food supplements businesses in the UK. Between 2008 and 2013 Matthew was Managing Director for the UK and Ireland for UCB Pharma Ltd. He joined UCB in 2006 as Regional General Manager responsible for the smaller and mid-sized European Union (EU) countries, based in Brussels. Earlier, Matthew spent 21 years working for large pharma (GlaxoSmithKline) and also has experience in management consultancy (Plexus Ventures Ltd) and the biotechnology sector (CEO of IC-Vec Ltd, a Japanese owned biotech company spun out from Imperial College London). Matthew was a member of the Association of the British Pharmaceutical Industry (ABPI) Board of Management and Chair of the European Medicines Group (EMG). He has served on the Boards of the Association of the European Self-Medication Industry (AESGP) and World Self-Medication Industry (WSMI). In Matthew’s new role as CEO of the Life Sciences Organisation (LSO) he will lead a team of civil servants and sector specialists working together to support the government’s international trade and investment strategy.",
+    "url": "https://www.gov.uk/government/people/matthew-speers",
+    "date": "2016-08-23",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "d8967233f990b911",
+    "title": "UK government backs first project at Grangemouth site",
+    "description": "Grangemouth workers and the community will benefit from jobs and investment as UK government backs a new biotech project on the site.",
+    "url": "https://www.gov.uk/government/news/uk-government-backs-first-project-at-grangemouth-site",
+    "date": "2025-12-11",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/people/michael-shanks",
+      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-energy--2",
+      "https://www.gov.uk/environment"
+    ]
+  },
+  {
+    "id": "94e2ba07a9a697bf",
+    "title": "UK Government Minister for Scotland visits Iceland to build trade links and discuss climate change goals",
+    "description": "Malcolm Offord addresses Arctic Circle Assembly and meets key figures in biotech and gaming sectors.",
+    "url": "https://www.gov.uk/government/news/uk-government-minister-for-scotland-visits-iceland-to-build-trade-links-and-discuss-climate-change-goals",
+    "date": "2022-10-11",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/office-of-the-secretary-of-state-for-scotland",
+      "https://www.gov.uk/government/2022-truss-conservative-government",
+      "https://www.gov.uk/government/people/malcolm-offord",
+      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--153",
+      "https://www.gov.uk/regional-and-local-government/scotland"
+    ]
+  },
+  {
+    "id": "a5cda05890a8e391",
+    "title": "Invasive alien species (non-native animals and plants): permit application",
+    "description": "Forms to apply for permits to move and use non-native animals and plants.",
+    "url": "https://www.gov.uk/government/publications/invasive-alien-species-permit-application",
+    "date": "2025-01-31",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5de7984240f0b608830f4fe4/form-ias-permit-article351ab.pdf",
+      "https://assets.publishing.service.gov.uk/media/5de79899e5274a06e1c59a3c/form-ias-permit-article351ab.odt",
+      "https://assets.publishing.service.gov.uk/media/5de79a61e5274a06d3135306/form-ias-permit-article351c.pdf",
+      "https://assets.publishing.service.gov.uk/media/5de79885ed915d09c727456b/form-ias-permit-article351c.odt",
+      "https://www.gov.uk/government/publications/invasive-alien-species-permit-application/combined-nomenclature-cn-codes-html-version",
+      "https://assets.publishing.service.gov.uk/media/62459b32e90e075f0e1447e2/cn-codes.pdf",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/government/organisations/animal-and-plant-health-agency",
+      "https://www.gov.uk/environment/wildlife-animals-biodiversity-and-ecosystems",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R1143&amp;from=EN",
+      "http://www.legislation.gov.uk/uksi/2019/527/made",
+      "https://www.gov.uk/guidance/importing-non-native-animals",
+      "http://www.nonnativespecies.org/home/index.cfm"
+    ]
+  },
+  {
+    "id": "8f34680cd957c714",
+    "title": "UK bids to become world-leader in dementia research with call for global collaboration",
+    "description": "The Government is bringing together pharmaceutical industry leaders and biotech experts to showcase the UK's world-leading research facilities and discuss how to drive forward global work against dementia.",
+    "url": "https://www.gov.uk/government/news/uk-bids-to-become-world-leader-in-dementia-research-with-call-for-global-collaboration",
+    "date": "2012-10-10",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/government/people/norman-lamb",
+      "https://www.gov.uk/government/ministers/minister-of-state-care-services",
+      "https://www.gov.uk/health-and-social-care/dementia",
+      "https://www.gov.uk/health-and-social-care/research-and-innovation-in-health-and-social-care",
+      "https://www.gov.uk/business-and-industry/science-and-innovation",
+      "http://www.dh.gov.uk/health/2012/03/pm-dementia-challenge/"
+    ]
+  },
+  {
+    "id": "fc355e53647719f0",
+    "title": "UK government’s response to Moderna’s publication of efficacy data for its COVID-19 vaccine",
+    "description": "Biotech company Moderna has published positive efficacy results from its Phase 3 studies of its potential COVID-19 vaccine.",
+    "url": "https://www.gov.uk/government/news/uk-governments-response-to-modernas-publication-of-efficacy-data-for-its-covid-19-vaccine",
+    "date": "2020-11-16",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "https://www.gov.uk/health-and-social-care/vaccinations-for-covid-19",
+      "https://investors.modernatx.com/news-releases/news-release-details/modernas-covid-19-vaccine-candidate-meets-its-primary-efficacy"
+    ]
+  },
+  {
+    "id": "7990d492e51e493a",
+    "title": "Government further boosts UK vaccine manufacturing capacity",
+    "description": "Pharmaceutical and biotech organisation Wockhardt will carry out the crucial 'fill and finish' stage of the vaccine manufacturing process.",
+    "url": "https://www.gov.uk/government/news/government-further-boosts-uk-vaccine-manufacturing-capacity",
+    "date": "2020-08-03",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/people/alok-sharma",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-international-development",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood",
+      "https://www.gov.uk/health-and-social-care/vaccinations-for-covid-19"
+    ]
+  },
+  {
+    "id": "a0a655a543a53f6c",
+    "title": "Market assessment of the UK venture capital market for early-stage clean tech companies",
+    "description": "Market assessment of the UK venture capital market for early-stage clean tech companies.",
+    "url": "https://www.gov.uk/government/publications/market-assessment-of-the-uk-venture-capital-market-for-early-stage-clean-tech-companies",
+    "date": "2023-03-07",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/6400b7fc8fa8f52800ffc725/market_assessment_uk_venture_capital_market_for_early_stage_clean_tech_companies.pdf",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
+      "https://www.gov.uk/environment/low-carbon-technologies"
+    ]
+  },
+  {
+    "id": "b87a86a42a4da45d",
+    "title": "Biotech Science, Biotech Business: Current challenges and future prospects in India.",
+    "description": "",
+    "url": "https://www.gov.uk/research-for-development-outputs/biotech-science-biotech-business-current-challenges-and-future-prospects-in-india",
+    "date": "2002-01-01",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/research-for-development-outputs",
+      "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+      "https://www.gov.uk/international/international-aid-and-development",
+      "http://www.epw.in/review-science-policy/biotech-science-biotech-business.html"
+    ]
+  },
+  {
+    "id": "e97fd7c997c4f2c2",
+    "title": "Harries, Jenny - Chief Executive of the UK Health Security Agency, Department of Health and Social Care - ACOBA advice",
+    "description": "Advice to Professor Dame Jenny Harries, former Chief Executive of the UK Health Security Agency, Department of Health and Social Care, on business appointments after leaving Crown service",
+    "url": "https://www.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice",
+    "date": "2025-09-17",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/68c9682cde855c02ab517b78/Advice_Letter_-_Jenny_Harries__Non_Executive_Director__Biotech_Growth_Trust.pdf",
+      "https://www.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-non-executive-director-biotech-growth-trust",
+      "https://assets.publishing.service.gov.uk/media/68befbf244fd43581bda1cc9/Advice_Letter_-_Jenny_Harries__Chair__CPE.pdf",
+      "https://www.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-non-executive-independent-chair-cpe",
+      "https://assets.publishing.service.gov.uk/media/68b99fcc11b4ded2da19fe3b/Advice_Letter_-_Jenny_Harries__Honorary_Professor_in_the_School_of_Pharmacy__University_of_Nottingham.pdf",
+      "https://www.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-honorary-professor-in-the-school-of-pharmacy-university-of-nottingham",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/advisory-committee-on-business-appointments",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
+      "https://draft-origin.publishing.service.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-non-executive-director-biotech-growth-trust?preview=8850257",
+      "https://draft-origin.publishing.service.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-non-executive-independent-chair-cpe",
+      "https://draft-origin.publishing.service.gov.uk/government/publications/harries-jenny-chief-executive-of-the-uk-health-security-agency-department-of-health-and-social-care-acoba-advice/advice-letter-jenny-harries-honorary-professor-in-the-school-of-pharmacy-university-of-nottingham?preview=8834871"
+    ]
+  },
+  {
+    "id": "f6bee4c76282e974",
+    "title": "Biotech Firms, Biotech Politics: Negotiating GMOs in India.",
+    "description": "",
+    "url": "https://www.gov.uk/research-for-development-outputs/biotech-firms-biotech-politics-negotiating-gmos-in-india",
+    "date": "2003-01-01",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/57a08d1540f0b652dd001750/R7607-Wp201_1_.pdf",
+      "https://www.gov.uk/research-for-development-outputs",
+      "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+      "https://www.gov.uk/international/international-aid-and-development"
+    ]
+  },
+  {
+    "id": "0985058c132441e9",
+    "title": "Lyme disease: sample testing advice",
+    "description": "Information to assist with the laboratory diagnosis of Lyme disease and requirements for sample submission.",
+    "url": "https://www.gov.uk/guidance/lyme-disease-sample-testing-advice",
+    "date": "2022-04-20",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/collections/lyme-disease-guidance-data-and-analysis",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/government/organisations/uk-health-security-agency",
+      "https://www.gov.uk/government/organisations/public-health-england",
+      "https://www.gov.uk/health-and-social-care/health-protection-services-laboratories-and-reference-facilities",
+      "https://www.gov.uk/government/collections/rare-and-imported-pathogens-laboratory-ripl",
+      "https://www.gov.uk/guidance/lyme-disease-differential-diagnosis",
+      "https://www.nice.org.uk/guidance/ng95/resources/visual-summary-pdf-4792272301",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-1331.2009.02862.x",
+      "https://khub.net/documents/135939561/638134094/Neurological+Lyme+disease+laboratory+investigations+and+diagnosis.pdf/73c1c6c7-874a-30ff-8546-46f9b6bed970",
+      "https://www.gov.uk/government/publications/lyme-disease-test-request-form",
+      "https://www.nice.org.uk/guidance/ng95",
+      "https://www.gov.uk/government/publications/rare-and-imported-pathogens-laboratory-ripl-user-manual",
+      "https://www.gov.uk/government/publications/lyme-borreliosis-epidemiology"
+    ]
+  },
+  {
+    "id": "22383f9cb57c4bde",
+    "title": "Willetts, Lord - Minister for Universities and Science, BIS - ACOBA recommendation",
+    "description": "Approval for Rt Hon Lord Willetts, former Minister for Universities and Science, BIS, on business appointments after leaving Crown service.",
+    "url": "https://www.gov.uk/government/publications/acoba-recommendation-rt-hon-david-willetts-mp-minister-for-universities-and-science-bis",
+    "date": "2016-06-20",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/publications/acoba-recommendation-rt-hon-david-willetts-mp-minister-for-universities-and-science-bis/summary-of-business-appointments-applications-david-willetts",
+      "https://assets.publishing.service.gov.uk/media/5a755e3ded915d73149596a6/Letter_to_DW_-_SSTL_and_NCUB.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a817599e5274a2e87dbdbe6/Letter_to_DW_Silvertown_and_TES.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a800c37ed915d74e33f8229/Final_Letter_-_David_Willetts_-_Kings_College.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a8015ceed915d74e33f85b0/Letter_to_DW_-_BIA_BSA_and_Resolution_Foundation.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a7f81cd40f0b62305b87902/Letter_to_applicant_-_Willetts_Final__1_.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a8006a5e5274a2e87db7680/Letter_to_applicant_-_Willetts_-_ISF.pdf",
+      "https://assets.publishing.service.gov.uk/media/5a7f590fe5274a2e87db54ea/Willetts_-_Biotech_Growth_Trust.pdf",
+      "https://www.gov.uk/government/collections/appointments-taken-up-by-former-ministers",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/government/organisations/advisory-committee-on-business-appointments",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability"
+    ]
+  },
+  {
+    "id": "2581ae22c2056dec",
+    "title": "Research and Development Expert Advisory Panel (RDEAP)",
+    "description": "An HMRC-chaired advisory group, the Research and Development (R&D) Expert Advisory Panel provides sectoral insight and guidance to support the administration of R&D tax reliefs. It meets quarterly and contributes to HMRC communications, guidance, and strategic understanding of innovation across sectors.",
+    "url": "https://www.gov.uk/government/groups/research-and-development-expert-advisory-panel-rdeap",
+    "date": "2025-10-15",
+    "topic": "biotech",
+    "attachments": []
+  },
+  {
+    "id": "e2d0bb4af66be38c",
+    "title": "Professor James Levine: When policy becomes medicine",
+    "description": "How regulation can spark life-saving innovation. ",
+    "url": "https://www.gov.uk/government/news/professor-james-levine-when-policy-becomes-medicine",
+    "date": "2025-10-16",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/collections/mhra-strategy-blog-series",
+      "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood",
+      "https://www.gov.uk/government/news/cutting-edge-personalised-treatments-made-while-you-wait-will-deliver-specialised-care-to-patients-more-quickly",
+      "https://www.gov.uk/government/news/new-commission-to-help-accelerate-nhs-use-of-ai",
+      "https://www.ipsen.com/us/",
+      "https://bpspubs.onlinelibrary.wiley.com/doi/10.1002/bcp.70285"
+    ]
+  },
+  {
+    "id": "abcf6482e0fcd852",
+    "title": "David Noakes: Judge orders seizure of £1.4 million",
+    "description": "A convicted fugitive faces the confiscation of £1.4 million in prime assets by the Crown, following a hearing at Southwark Crown Court today.",
+    "url": "https://www.gov.uk/government/news/david-noakes-judge-orders-seizure-of-14-million",
+    "date": "2020-06-05",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/health-and-social-care/medicines-medical-devices-blood-good-practice",
+      "https://www.gov.uk/government/news/regulator-warns-against-gcmaf-made-in-unlicensed-facility-in-cambridgeshire"
+    ]
+  },
+  {
+    "id": "104b0c75a7bf9332",
+    "title": "A biotech developmental state? The Chinese experience.",
+    "description": "",
+    "url": "https://www.gov.uk/research-for-development-outputs/a-biotech-developmental-state-the-chinese-experience",
+    "date": "2003-01-01",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/57a08cf5ed915d622c0016b1/R7607-Briefing11.pdf",
+      "https://www.gov.uk/research-for-development-outputs",
+      "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+      "https://www.gov.uk/international/international-aid-and-development"
+    ]
+  },
+  {
+    "id": "9ff7aa4c2d162024",
+    "title": "Kent biotech business set to make £1m thanks to Japan exports",
+    "description": "A Kent bio-tech company that supplies blood plasma for lab testing is set to hit sales of £1million in 2020 after securing new deals with customers in Japan.",
+    "url": "https://www.gov.uk/government/news/kent-biotech-business-set-to-make-1m-thanks-to-japan-exports",
+    "date": "2019-10-30",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-international-trade",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/business-and-industry/exporting",
+      "https://great.gov.uk"
+    ]
+  },
+  {
+    "id": "4a01a9571d1c6c14",
+    "title": "Patent decision: O/077/88",
+    "description": "Decision outcome on application for Patent no 8424832.",
+    "url": "https://www.gov.uk/government/publications/patent-decision-o07788",
+    "date": "1988-05-17",
+    "topic": "biotech",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/5a814dbced915d74e33fd77d/o07788.pdf",
+      "https://www.gov.uk/government/collections/results-of-past-patent-decisions-issued-before-1998",
+      "https://www.gov.uk/government/1992-to-1997-conservative-government",
+      "https://www.gov.uk/government/organisations/intellectual-property-office",
+      "https://www.gov.uk/business-and-industry"
+    ]
+  },
+  {
+    "id": "f04088e4aeb8713a",
+    "title": "UKTI inks life sciences MoU with ABLE",
+    "description": "UK Trade & Investment (UKTI) and the Association of Biotech Led Enterprise (ABLE) today signed a memorandum of understanding to encourage and develop collaborative opportunities between Indian Life Sciences organisations and the United Kingdom, in Bangalore.",
+    "url": "https://www.gov.uk/government/news/ukti-inks-life-sciences-mou-with-able",
+    "date": "2013-09-04",
+    "topic": "biotech",
+    "attachments": [
+      "https://www.gov.uk/government/news/ukti-inks-life-sciences-mou-with-able.hi",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/business-and-industry/trade-and-investment",
+      "https://www.gov.uk/world/organisations/british-deputy-high-commission-bangalore"
+    ]
+  }
+]
