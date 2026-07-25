@@ -6,11 +6,26 @@ import logging
 import re
 import collections
 import requests
+import nltk
 
 logger = logging.getLogger(__name__)
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 DEFAULT_MODEL = "llama3.2"
+
+
+def _ensure_nltk_data() -> None:
+    """Safely ensures required NLTK tokenizers are available for offline use."""
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except LookupError:
+        logger.info("Downloading NLTK punkt tokenizer...")
+        nltk.download('punkt', quiet=True)
+        # For newer NLTK versions (3.8.2+)
+        try:
+            nltk.download('punkt_tab', quiet=True)
+        except Exception:
+            pass
 
 
 def check_ollama_status() -> bool:
@@ -40,8 +55,11 @@ def _fallback_local_nlp_summary(text: str, top_n: int = 5) -> str:
     if not clean_text:
         return "No text available to summarize."
 
-    # Extract sentences
-    sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', clean_text) if len(s.strip()) > 20]
+    # Ensure NLTK data is ready, then extract sentences robustly
+    _ensure_nltk_data()
+    raw_sentences = nltk.sent_tokenize(clean_text)
+    sentences = [s.strip() for s in raw_sentences if len(s.strip()) > 20]
+    
     if not sentences:
         return clean_text[:500] + "..."
 
