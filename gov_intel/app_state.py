@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any
 import os
+from pathlib import Path
 
 from . import config
 from .models import Document, normalize_keyword_rules
@@ -143,8 +144,17 @@ class AppState:
 
     # -- keyword rules & persistence ------------------------------------
     def save_keywords(self) -> None:
-        """Saves current category rules and colors permanently to disk."""
+        """Saves current category rules and colors permanently to disk and syncs to a user custom profile file."""
         save_json(config.KEYWORDS_FILE, self.keyword_rules)
+        
+        # Also persist custom additions to a dedicated user profile json so dynamic loading preserves it
+        try:
+            config.ensure_data_dirs()
+            custom_profile_path = Path(config.PROFILES_DIR) / "user_custom_lexicon.json"
+            payload = {"profile_name": "⭐ Custom User Lexicon", "rules": self.keyword_rules}
+            save_json(custom_profile_path, payload)
+        except Exception:
+            pass
 
     def add_keyword_category(self, name: str, color: list[float] | None = None) -> bool:
         name = name.strip()
@@ -194,12 +204,31 @@ class AppState:
             return False
         self.research_profiles[name] = dict(self.keyword_rules)
         save_json(PROFILES_FILE, self.research_profiles)
+        
+        # Also save as an individual profile file in profiles dir
+        try:
+            config.ensure_data_dirs()
+            filename = name.lower().replace(" ", "_") + ".json"
+            profile_path = Path(config.PROFILES_DIR) / filename
+            payload = {"profile_name": name, "rules": self.keyword_rules}
+            save_json(profile_path, payload)
+        except Exception:
+            pass
         return True
 
     def delete_profile(self, profile_name: str) -> bool:
         if profile_name in self.research_profiles:
             del self.research_profiles[profile_name]
             save_json(PROFILES_FILE, self.research_profiles)
+            
+            # Try removing corresponding file from profiles dir if it exists
+            try:
+                filename = profile_name.lower().replace(" ", "_") + ".json"
+                profile_path = Path(config.PROFILES_DIR) / filename
+                if profile_path.exists():
+                    os.remove(profile_path)
+            except Exception:
+                pass
             return True
         return False
 

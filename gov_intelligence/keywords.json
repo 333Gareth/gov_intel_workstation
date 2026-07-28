@@ -180,5 +180,18 @@
       "contract*": true,
       "tender": true
     }
+  },
+  "Biotech": {
+    "color": [
+      1.0,
+      0.9,
+      0.2
+    ],
+    "terms": {
+      "crispr": true,
+      "gene": true,
+      "gene-editing": true,
+      "gene therapy": true
+    }
   }
 }

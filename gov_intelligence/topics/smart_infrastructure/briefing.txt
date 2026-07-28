@@ -1,0 +1,205 @@
+🇬🇧 BRIEFING: SMART INFRASTRUCTURE
+TOTAL: 50
+==================================================
+
+📌 [1] Future of cities: smart infrastructure
+   🔗 Link: https://www.gov.uk/government/publications/future-of-cities-smart-infrastructure
+   ↳ Essay looking at how city infrastructure can be made smart.
+
+📌 [2] The Smart Street Infrastructure Security Report
+   🔗 Link: https://www.gov.uk/government/publications/the-smart-street-infrastructure-security-report
+   ↳ Executive summary for the Smart Street Infrastructure Security Report.
+
+📌 [3] United Arab Emirates travel advice
+   🔗 Link: https://www.gov.uk/foreign-travel-advice/united-arab-emirates
+   ↳ FCDO travel advice for United Arab Emirates. Includes safety and security, insurance, entry requirements and legal differences.  
+
+📌 [4] DfT Science Advisory Council: promoting smart infrastructure in transport
+   🔗 Link: https://www.gov.uk/government/publications/dft-science-advisory-council-condition-monitoring-and-intelligent-infrastructure-report
+   ↳ An independent report produced for the Science Advisory Council (SAC) by Cambridge Centre for Smart Infrastructure and Construction.
+
+📌 [5] 5G Innovation Regions programme and Smart Infrastructure Pilots Programme: evaluation reports
+   🔗 Link: https://www.gov.uk/government/publications/5g-innovation-regions-programme-and-smart-infrastructure-pilots-programme-evaluation-reports
+   ↳ Research reports that summarise the interim evaluation into the 5G Innovation Regions (5GIR) and Smart Infrastructure Pilots (SIPP) Programmes.
+
+📌 [6] Smart Infrastructure Pilots Programme: successful projects
+   🔗 Link: https://www.gov.uk/government/publications/smart-infrastructure-pilots-programme-successful-projects
+   ↳ Successful local authority-led pilots to help better understand the benefits of using street furniture and other assets for network deployment.
+
+📌 [7] Smart power: A National Infrastructure Commission Report
+   🔗 Link: https://www.gov.uk/government/publications/smart-power-a-national-infrastructure-commission-report
+   ↳ The National Infrastructure Commission was asked to consider how the UK can better balance supply and demand. 
+
+📌 [8] Mr G West v Siemens Smart Infrastructure: 3302669/2020
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mr-g-west-v-siemens-smart-infrastructure-3302669-slash-2020
+   ↳ Employment Tribunal decision.
+
+📌 [9] Smart Infrastructure Pilots Programme
+   🔗 Link: https://www.gov.uk/government/case-studies/smart-infrastructure-pilots-programme
+   ↳ £1.5m Smart Infrastructure Pilots Programme funded councils to trial PAS 191 smart columns, boosting connectivity and services like CCTV, sensors and Wi-Fi
+
+📌 [10] A Smart Power Revolution could save consumers £8 billion a year - Adonis
+   🔗 Link: https://www.gov.uk/government/news/a-smart-power-revolution-could-save-consumers-8-billion-a-year-adonis
+   ↳ The National Infrastructure Commission has published its first report: Smart power.
+
+📌 [11] The Smart Metering System leaflet
+   🔗 Link: https://www.gov.uk/government/publications/the-smart-metering-system-leaflet
+   ↳ This leaflet explains how the smart metering system will work from late 2016, when a new shared smart metering national infrastructure is in place.
+
+📌 [12] Launch of Digital Built Britain
+   🔗 Link: https://www.gov.uk/government/news/launch-of-digital-built-britain
+   ↳ The next phase of the Building Information Modeling Task Group programme heralds a new generation of Smart Infrastructure and Construction
+
+📌 [13] New charging systems for electric vehicles: apply for contracts
+   🔗 Link: https://www.gov.uk/government/news/new-charging-systems-for-electric-vehicles-apply-for-contracts
+   ↳ Organisations can apply for a share of £80,000 to examine how low-carbon and smart electric vehicle charging infrastructure could be introduced in Edinburgh.
+
+📌 [14] Digital and telecoms: resources for local authorities
+   🔗 Link: https://www.gov.uk/guidance/resources-for-local-authorities
+   ↳ This section offers guidance to assist local authorities in areas of digital leadership, legislation, regulation, planning, public assets and deployment.
+
+📌 [15] Digital Connectivity Infrastructure Accelerator programme
+   🔗 Link: https://www.gov.uk/guidance/digital-connectivity-infrastructure-accelerator-programme
+   ↳ Information about the Digital Connectivity Infrastructure Accelerator (DCIA) programme, with guidance on how to get involved and find out more.
+
+📌 [16] Smart Infrastructure Pilots Programme: (closed to applications)
+   🔗 Link: https://www.gov.uk/government/publications/smart-infrastructure-pilots-programme
+   ↳ Competition for local authority-led pilots to help better understand the benefits of utilising street furniture and other assets for network deployment.
+
+
+📌 [17] Product Security and Telecommunications Infrastructure (PSTI) Bill: Factsheets
+   🔗 Link: https://www.gov.uk/government/collections/the-product-security-and-telecommunications-infrastructure-psti-bill-factsheets
+   ↳ Factsheets accompanying the Product Security and Telecommunications Infrastructure Bill, outlining the problems the Bill will address and how.
+
+📌 [18] Non-domestic smart metering
+   🔗 Link: https://www.gov.uk/government/collections/non-domestic-smart-metering
+   ↳ Guidance and information on non-domestic smart metering.
+
+📌 [19] Smart meters: a guide for households
+   🔗 Link: https://www.gov.uk/guidance/smart-meters-how-they-work
+   ↳ Smart meters put consumers in control of their energy use, allowing them to adopt energy efficiency measures that can help save money on their energy bills and offset price increases.
+
+📌 [20] Secure connected places
+   🔗 Link: https://www.gov.uk/guidance/secure-connected-places
+   ↳ The home page for DSIT’s work supporting the secure and sustainable deployment of connected places technology, also known as smart cities.
+
+📌 [21] Business regulation: guidance and tools
+   🔗 Link: https://www.gov.uk/guidance/business-regulation-guidance-and-tools
+   ↳ Resources for businesses.
+
+📌 [22] Regulations: electric vehicle smart charge points
+   🔗 Link: https://www.gov.uk/guidance/regulations-electric-vehicle-smart-charge-points
+   ↳ Guidance for sellers.
+
+📌 [23] Smart meters: information for industry and other stakeholders
+   🔗 Link: https://www.gov.uk/guidance/smart-meters-information-for-industry-and-other-stakeholders
+   ↳ Industry representatives, consumer organisations and other bodies provide advice and expertise on important issues regarding smart meters.
+
+📌 [24] Smart Energy Savings (SENS) competition
+   🔗 Link: https://www.gov.uk/government/publications/smart-energy-savings-sens-competition
+   ↳ The SENS competition aims to develop and trial innovative feedback products and services that use smart meter data, to help domestic customers reduce their energy consumption. 
+
+📌 [25] 5G Testbeds and Trials Programme: complete list of 5G projects
+   🔗 Link: https://www.gov.uk/guidance/5g-testbeds-and-trials-programme-complete-list-of-5g-projects
+   ↳ A complete list of 5G projects involved in the 5G Testbeds and Trials Programme
+
+📌 [26] Smart Power: government response to the National Infrastructure Commission's report
+   🔗 Link: https://www.gov.uk/government/publications/smart-power-government-response-to-the-national-infrastructure-commissions-report
+   ↳ The government has published a detailed response to the National Infrastructure Commission’s report on energy infrastructure.
+
+📌 [27] Digital regulation: overview of government activity
+   🔗 Link: https://www.gov.uk/guidance/digital-regulation-overview-of-government-activity
+   ↳ This page provides a guide for those interested in key upcoming digital regulatory activity being explored, developed or implemented by government. It covers a range of governance activities, from legislative change to the development of co-regulatory and self-regulatory frameworks.
+
+📌 [28] Vehicle Technology and Aviation Bill
+   🔗 Link: https://www.gov.uk/government/collections/vehicle-technology-and-aviation-bill
+   ↳ Information and transport topics of the Vehicle Technology and Aviation Bill 2017.
+
+📌 [29] 5G Testbeds and Trials Programme
+   🔗 Link: https://www.gov.uk/guidance/5g-testbeds-and-trials-programme
+   ↳ The 5G Testbeds and Trials Programme is the government’s nationally coordinated programme of investment in 5G. 
+
+📌 [30] Jonathan Simcock
+   🔗 Link: https://www.gov.uk/government/people/jonathan-simcock
+   ↳ Jonathan is a chartered mechanical engineer and spent much of his career working for Shell. In 2007, he took over what is now the Infrastructure and Projects Authority in the UK Cabinet Office, to lead the centre of government’s work on major projects and programmes. In 2013, Jonathan became Managing Director of Smart DCC Ltd, the company responsible for providing the national data and communications infrastructure for Great Britain’s smart metering project. Jonathan holds a portfolio of Non-Executive and advisory positions including: Ministry of Defence, Department for International Development and Transport for London. Jonathan is also a longstanding member of the UK Government’s Major Projects Review Group. In October 2019, Jonathan became a Non-Executive Director at Sellafield Ltd.
+
+📌 [31] Secure connected places playbook
+   🔗 Link: https://www.gov.uk/guidance/secure-connected-places-playbook
+   ↳ Resources to help local authorities secure their connected places ("smart cities") against cyber threats. This is the updated beta release.
+
+📌 [32] Road investment strategy: 2015 to 2020
+   🔗 Link: https://www.gov.uk/government/collections/road-investment-strategy
+   ↳ These documents set out a long-term approach to improve England’s motorways and major roads (the 'strategic road network').
+
+📌 [33] Call for project proposals on the theme ‘Smart Cities in Vietnam’ for financial year 2017/18.
+   🔗 Link: https://www.gov.uk/guidance/call-for-project-proposals-on-the-theme-smart-cities-in-vietnam-for-financial-year-201718
+   ↳ The UK Vietnam Fund is a flexible and effective tool enabling the British Embassy to support projects linked to the UK government’s priorities in Vietnam. 
+
+📌 [34] Residential chargepoints: minimum technical specification
+   🔗 Link: https://www.gov.uk/guidance/residential-chargepoints-minimum-technical-specification
+   ↳ Minimum technical specification for manufacturers of chargepoint units for residential properties covered by OZEV chargepoint grant schemes.
+
+📌 [35] Cyber resilience
+   🔗 Link: https://www.gov.uk/government/collections/cyber-resilience
+   ↳ Details of the government's cyber resilience policy for businesses and organisations.
+
+📌 [36] The Product Security and Telecommunications Infrastructure (PSTI) Bill – product security factsheet
+   🔗 Link: https://www.gov.uk/guidance/the-product-security-and-telecommunications-infrastructure-psti-bill-product-security-factsheet
+   ↳ Product security factsheet accompanying the Product Security and Telecommunications Infrastructure Bill, outlining the problems the Bill will address and how.
+
+📌 [37] Independent energy suppliers
+   🔗 Link: https://www.gov.uk/guidance/independent-energy-suppliers
+   ↳ Guidance for independent energy suppliers, key documents and events that impact on independent suppliers. Contact details for relevant policy leads.
+
+📌 [38] Local authority transport: data sharing case studies
+   🔗 Link: https://www.gov.uk/guidance/local-authority-transport-data-sharing-case-studies
+   ↳ Information about how local authorities use open data to stimulate growth and innovation, save costs and develop more sustainable transport.
+
+📌 [39] Digital Connectivity Infrastructure Accelerator (DCIA)
+   🔗 Link: https://www.gov.uk/guidance/digital-connectivity-infrastructure-accelerator-dcia
+   ↳ Information about the DCIA programme, with guidance on how to participate in the Pilot competition
+
+📌 [40] Regulations: consumer connectable product security
+   🔗 Link: https://www.gov.uk/guidance/regulations-consumer-connectable-product-security
+   ↳ Guidance for manufacturers, importers and distributors on the Product Security and Telecommunications Infrastructure Act 2022 and Regulations 2023.
+
+📌 [41] Minister of State for Trade and Investment
+   🔗 Link: https://www.gov.uk/government/ministers/minister-of-state-for-trade-and-investment
+   ↳ The Minister of State for Trade and Investment leads on trade and investment promotion in the following sectors: technology and smart cities infrastructure energy healthcare life sciences Additionally, he leads on areas including: UK Export Finance (UKEF) business planning and forecasting outward direct investment economic diplomacy and the Prosperity Fund the GREAT Britain campaign policy direction on topics such as mergers and acquisitions
+
+📌 [42] Commercial chargepoints: minimum technical specification
+   🔗 Link: https://www.gov.uk/guidance/commercial-chargepoints-minimum-technical-specification
+   ↳ Minimum technical specification for manufacturers of chargepoint units for commercial properties covered by OZEV chargepoint grant schemes.
+
+📌 [43] Electric vehicle chargepoint and infrastructure specifications
+   🔗 Link: https://www.gov.uk/guidance/electric-vehicle-chargepoint-and-infrastructure-specifications
+   ↳ Chargepoint and infrastructure specifications and claim guidance for electric vehicle chargepoint and infrastructure grants.
+
+
+📌 [44] Decarbonisation (including energy efficiency and alternative fuels) – UK Maritime Innovation Hub
+   🔗 Link: https://www.gov.uk/guidance/decarbonisation-including-energy-efficiency-and-alternative-fuels-uk-maritime-innovation-hub
+   ↳ Driving the transition to net zero maritime through evidence-led innovation, while improving performance and reducing operating costs.
+
+📌 [45] Enterprise Zones
+   🔗 Link: https://www.gov.uk/guidance/enterprise-zones
+   ↳ Information on Enterprise Zones within England.
+
+📌 [46] UKRI Challenge Fund: for research and innovation
+   🔗 Link: https://www.gov.uk/government/collections/industrial-strategy-challenge-fund-joint-research-and-innovation
+   ↳ A fund to strengthen UK science and business innovation and take on the biggest challenges that society and industry face today.
+
+📌 [47] Work and Opportunities for Women (WOW) programme
+   🔗 Link: https://www.gov.uk/guidance/work-and-opportunities-for-women
+   ↳ Work and Opportunities for Women (WOW) was the FCDO-funded women’s economic empowerment programme from 2017 to 2025.
+
+📌 [48] National regulation: enforcement services
+   🔗 Link: https://www.gov.uk/guidance/national-regulation-enforcement-services
+   ↳ How the Office for Product Safety and Standards contributes to the national regulatory landscape. 
+
+📌 [49] UK Prosperity Fund: Turkey
+   🔗 Link: https://www.gov.uk/guidance/uk-prosperity-fund-turkey
+   ↳ Supporting economic growth in Turkey and facilitating bilateral trade between Turkey and the UK  
+
+📌 [50] Tunisia travel advice
+   🔗 Link: https://www.gov.uk/foreign-travel-advice/tunisia
+   ↳ FCDO travel advice for Tunisia. Includes safety and security, insurance, entry requirements and legal differences. 

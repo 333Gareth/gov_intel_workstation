@@ -550,6 +550,7 @@ class GovApp:
         self.lb_favs = tk.Listbox(left, bg="#ffffff", selectbackground="#00247D", exportselection=False)
         self.lb_favs.pack(fill="both", expand=True)
         self.lb_favs.bind("<<ListboxSelect>>", self.on_fav_select)
+        # Bind double-click directly to browser opening, matching Intelligence Reader
         self.lb_favs.bind("<Double-1>", self.on_fav_double_click)
 
         # Right panel: Vertical split for metadata/attachments at top and reader/briefing at bottom
@@ -668,10 +669,14 @@ class GovApp:
             self._open_pdf_attachment(pdf_url, self.fav_pdf_viewer, self.fav_nb)
 
     def on_fav_double_click(self, _event) -> None:
+        """Opens the selected favorite source's GOV.UK URL in the browser on double-click, matching the Reader tab."""
         ids = self._favorite_ids()
         sel = self.lb_favs.curselection()
         if sel and sel[0] < len(ids):
-            webbrowser.open_new_tab(self.state.favorite_sources[ids[sel[0]]]["url"])
+            entry = self.state.favorite_sources[ids[sel[0]]]
+            url = entry.get("url")
+            if url:
+                webbrowser.open_new_tab(url)
 
     def on_fav_att_open(self, _event) -> None:
         sel = self.lb_favs.curselection()
@@ -750,7 +755,7 @@ class GovApp:
         f.pack(fill="both", expand=True)
 
         overview_frame = ttk.LabelFrame(
-            f, text=" 🌐 Master Overview — All Active Categories (click a card to jump to it) ", padding=10
+            f, text=" 🌐 Master Overview — All Active Policy Categories (Click card to inspect) ", padding=10
         )
         overview_frame.pack(fill="x", side="top", pady=(0, 10))
 
@@ -761,72 +766,82 @@ class GovApp:
         )
         self.lbl_overview_summary.pack(side="left")
         ttk.Button(
-            overview_hdr, text="🌐 Load Full Master Overview Profile", command=self.load_master_overview_profile
+            overview_hdr, text="🌐 Refresh Master Overview", command=lambda: self.load_master_overview_profile(silent=True)
         ).pack(side="right")
 
         self.master_overview_container = ttk.Frame(overview_frame)
         self.master_overview_container.pack(fill="x")
 
-        preset_bar = ttk.LabelFrame(f, text=" 📦 Research Profiles & Presets ", padding=8)
+        preset_bar = ttk.LabelFrame(f, text=" 📦 Research Profiles & Persistent Storage ", padding=8)
         preset_bar.pack(fill="x", side="top", pady=(0, 10))
 
-        ttk.Label(preset_bar, text="Profile:").pack(side="left", padx=(4, 4))
+        ttk.Label(preset_bar, text="Active Profile:").pack(side="left", padx=(4, 4))
         self.cb_kw_presets = ttk.Combobox(
             preset_bar,
             values=list(self.state.research_profiles.keys()),
             state="readonly",
-            width=36,
+            width=32,
         )
         self.cb_kw_presets.pack(side="left", padx=4)
 
         ttk.Button(preset_bar, text="📥 Load Profile", command=self.load_kw_preset).pack(side="left", padx=4)
         ttk.Button(preset_bar, text="💾 Save Profile As...", command=self.save_custom_profile).pack(side="left", padx=4)
         ttk.Button(preset_bar, text="🗑️ Delete Profile", command=self.delete_custom_profile).pack(side="left", padx=4)
-        ttk.Button(preset_bar, text="📤 Export to File...", command=self.export_profile_to_file).pack(side="left", padx=(16, 4))
-        ttk.Button(preset_bar, text="📂 Import from File...", command=self.import_profile_from_file).pack(side="left", padx=4)
+        ttk.Button(preset_bar, text="📤 Export JSON...", command=self.export_profile_to_file).pack(side="left", padx=(16, 4))
+        ttk.Button(preset_bar, text="📂 Import JSON...", command=self.import_profile_from_file).pack(side="left", padx=4)
 
         self._refresh_profile_combobox()
 
         body = ttk.Frame(f)
         body.pack(fill="both", expand=True)
 
-        left = ttk.LabelFrame(body, text=" Categories & Highlight Palette ", padding=10)
-        left.pack(side="left", fill="both", expand=False, padx=(0, 8))
+        # Scrollable Left Panel Container
+        left_outer = ttk.LabelFrame(body, text=" Categories & Color Coding ", padding=5)
+        left_outer.pack(side="left", fill="both", expand=False, padx=(0, 8))
+
+        left_canvas = tk.Canvas(left_outer, bg="#f8fafc", highlightthickness=0, width=310)
+        left_scrollbar = ttk.Scrollbar(left_outer, orient="vertical", command=left_canvas.yview)
+        left_canvas.configure(yscrollcommand=left_scrollbar.set)
+
+        left_scrollbar.pack(side="right", fill="y")
+        left_canvas.pack(side="left", fill="both", expand=True)
+
+        left = ttk.Frame(left_canvas, padding=5)
+        left_canvas_window = left_canvas.create_window((0, 0), window=left, anchor="nw")
+
+        left.bind("<Configure>", lambda e: left_canvas.configure(scrollregion=left_canvas.bbox("all")))
+        left_canvas.bind("<Configure>", lambda e: left_canvas.itemconfig(left_canvas_window, minwidth=e.width))
 
         self.tree_kw_cats = ttk.Treeview(
-            left, columns=("swatch", "name", "count"), show="headings", height=12, selectmode="browse"
+            left, columns=("swatch", "name", "count"), show="headings", height=8, selectmode="browse"
         )
         self.tree_kw_cats.heading("swatch", text="Color", anchor="center")
         self.tree_kw_cats.heading("name", text="Category Name", anchor="w")
         self.tree_kw_cats.heading("count", text="Terms", anchor="center")
 
-        self.tree_kw_cats.column("swatch", width=55, anchor="center")
-        self.tree_kw_cats.column("name", width=190, anchor="w")
-        self.tree_kw_cats.column("count", width=65, anchor="center")
+        self.tree_kw_cats.column("swatch", width=45, anchor="center")
+        self.tree_kw_cats.column("name", width=170, anchor="w")
+        self.tree_kw_cats.column("count", width=55, anchor="center")
 
-        sb_cats = ttk.Scrollbar(left, orient="vertical", command=self.tree_kw_cats.yview)
-        self.tree_kw_cats.configure(yscrollcommand=sb_cats.set)
-
-        sb_cats.pack(side="right", fill="y")
-        self.tree_kw_cats.pack(side="top", fill="both", expand=True)
+        self.tree_kw_cats.pack(side="top", fill="both", expand=True, pady=(0, 6))
         self.tree_kw_cats.bind("<<TreeviewSelect>>", self.on_kw_cat_select)
 
-        self.color_preview_frame = ttk.Frame(left, padding=6)
-        self.color_preview_frame.pack(fill="x", side="top", pady=(8, 4))
+        self.color_preview_frame = ttk.Frame(left, padding=4)
+        self.color_preview_frame.pack(fill="x", side="top", pady=(2, 4))
 
         self.lbl_selected_cat_name = ttk.Label(
-            self.color_preview_frame, text="Active: (Select a category)", font=("Segoe UI", 9, "bold")
+            self.color_preview_frame, text="Active: (Select)", font=("Segoe UI", 9, "bold")
         )
-        self.lbl_selected_cat_name.pack(side="left", padx=(2, 6))
+        self.lbl_selected_cat_name.pack(side="left", padx=(2, 4))
 
-        self.canvas_color_swatch = tk.Canvas(self.color_preview_frame, width=28, height=18, bg="#ffef33", highlightthickness=1)
+        self.canvas_color_swatch = tk.Canvas(self.color_preview_frame, width=24, height=16, bg="#ffef33", highlightthickness=1)
         self.canvas_color_swatch.pack(side="left", padx=2)
 
         color_box = ttk.LabelFrame(left, text=" 🎨 Assign Highlight Color ", padding=6)
-        color_box.pack(fill="x", side="top", pady=(4, 6))
+        color_box.pack(fill="x", side="top", pady=(2, 4))
 
         palette_frame = ttk.Frame(color_box)
-        palette_frame.pack(fill="x")
+        palette_frame.pack(fill="x", pady=(0, 2))
 
         for idx, (label, rgb, hex_val) in enumerate(PALETTE_PRESETS):
             r_idx, c_idx = divmod(idx, 4)
@@ -839,28 +854,32 @@ class GovApp:
                 relief="groove",
                 command=lambda color_val=rgb: self.set_selected_category_color(color_val)
             )
-            btn.grid(row=r_idx, column=c_idx, padx=2, pady=2, sticky="ew")
+            btn.grid(row=r_idx, column=c_idx, padx=1, pady=1, sticky="ew")
 
         palette_frame.columnconfigure((0, 1, 2, 3), weight=1)
 
-        ttk.Button(color_box, text="🎨 Custom Color...", command=self.pick_custom_category_color).pack(fill="x", pady=(4, 0))
+        ttk.Button(
+            color_box, 
+            text="🎨 Custom Color Wheel...", 
+            command=self.pick_custom_category_color
+        ).pack(fill="x", pady=(2, 0))
 
-        cat_ctrl = ttk.Frame(left)
-        cat_ctrl.pack(fill="x", side="top", pady=(6, 0))
-
+        cat_ctrl = ttk.Frame(left, padding=2)
+        cat_ctrl.pack(fill="x", side="top", pady=(4, 0))
         self.e_new_cat = ttk.Entry(cat_ctrl)
         self.e_new_cat.pack(fill="x", pady=(0, 4))
 
         btn_row = ttk.Frame(cat_ctrl)
         btn_row.pack(fill="x")
-        ttk.Button(btn_row, text="➕ Add Category", command=self.add_kw_category).pack(side="left", expand=True, fill="x", padx=(0, 2))
+        ttk.Button(btn_row, text="➕ Add Category", command=self.add_keyword_category_safely).pack(side="left", expand=True, fill="x", padx=(0, 2))
         ttk.Button(btn_row, text="🗑️ Remove Category", command=self.remove_kw_category).pack(side="left", expand=True, fill="x", padx=(2, 0))
 
-        right = ttk.LabelFrame(body, text=" Associated Research Keywords ", padding=10)
+        # Right Term Inspector Panel
+        right = ttk.LabelFrame(body, text=" Associated Research Keywords & Toggle Matrix ", padding=10)
         right.pack(side="left", fill="both", expand=True)
 
         self.lbl_terms_header = ttk.Label(
-            right, text="Double-click any keyword to toggle active (☑) or inactive (☐)", font=("Segoe UI", 9, "italic")
+            right, text="Double-click any keyword term to toggle active (☑) or inactive (☐) for analysis.", font=("Segoe UI", 9, "italic")
         )
         self.lbl_terms_header.pack(anchor="w", pady=(0, 6))
 
@@ -895,12 +914,13 @@ class GovApp:
             messagebox.showinfo("Profile Loaded", f"Loaded research profile '{preset_key}'!")
 
     def save_custom_profile(self) -> None:
-        name = simpledialog.askstring("Save Research Profile", "Enter a name for this custom profile:")
-        if name:
+        name = simpledialog.askstring("Save Research Profile", "Enter a name for this custom research profile:")
+        if name and name.strip():
+            name = name.strip()
             if self.state.save_current_as_profile(name):
                 self._refresh_profile_combobox()
                 self.cb_kw_presets.set(name)
-                messagebox.showinfo("Profile Saved", f"Saved profile '{name}'!")
+                messagebox.showinfo("Profile Saved", f"Successfully saved profile '{name}' to disk!")
 
     def delete_custom_profile(self) -> None:
         selected = self.cb_kw_presets.get()
@@ -912,11 +932,6 @@ class GovApp:
                 messagebox.showinfo("Profile Deleted", f"Deleted profile '{selected}'.")
 
     def export_profile_to_file(self) -> None:
-        """Writes the currently-active keyword rules to a shareable JSON file.
-
-        Free/local by design: no account, no cloud sync -- just a plain JSON
-        file that another user of this app can drop straight back in.
-        """
         selected = self.cb_kw_presets.get() or "Custom Profile"
         out_p = filedialog.asksaveasfilename(
             defaultextension=".json",
@@ -935,7 +950,6 @@ class GovApp:
         messagebox.showinfo("Profile Exported", f"Saved to: {out_p}")
 
     def import_profile_from_file(self) -> None:
-        """Loads a keyword-rule profile JSON file exported by this app (or hand-written)."""
         in_p = filedialog.askopenfilename(filetypes=[("Keyword Brain Profile", "*.json"), ("All files", "*.*")])
         if not in_p:
             return
@@ -950,7 +964,6 @@ class GovApp:
             profile_name = str(data.get("profile_name") or Path(in_p).stem)
             rules = data["rules"]
         else:
-            # Allow importing a bare {"category": {...}} rules dict too.
             profile_name = Path(in_p).stem
             rules = data
 
@@ -988,33 +1001,29 @@ class GovApp:
         self.refresh_master_overview()
 
     def load_master_overview_profile(self, silent: bool = False) -> None:
-        """One-click shortcut: activate the auto-aggregated profile containing every
-        category from every saved research profile, so the card grid shows everything."""
+        """Aggregate every category from saved profiles while safely preserving custom categories."""
         master_key = "🌐 Master Intelligence Overview"
-        if master_key not in self.state.research_profiles:
-            if not silent:
-                messagebox.showinfo(
-                    "No Profiles Yet",
-                    "No saved research profiles were found to aggregate. Add categories below, "
-                    "or save/import a profile first.",
-                )
-            return
-        self.state.apply_preset_template(master_key)
+        current_rules = dict(self.state.keyword_rules)
+        
+        if master_key in self.state.research_profiles:
+            self.state.apply_preset_template(master_key)
+        
+        for cat, data in current_rules.items():
+            if cat not in self.state.keyword_rules:
+                self.state.keyword_rules[cat] = data
+                
         self.cb_kw_presets.set(master_key)
         self.refresh_kw_categories_list()
         self.generate_analytics_matrix()
+        if not silent:
+            messagebox.showinfo("Master Overview", "Loaded master overview while preserving your custom categories!")
 
     def refresh_master_overview(self) -> None:
-        """Renders a scannable card grid summarizing every category currently active,
-        so the user gets the big picture before drilling into individual term lists."""
         for w in self.master_overview_container.winfo_children():
             w.destroy()
 
         categories = list(self.state.keyword_rules.items())
-        if not categories:
-            self.lbl_overview_summary.config(text="No categories yet — add one below to get started.")
-            return
-
+        
         total_terms = sum(len(data.get("terms", {})) for _cat, data in categories)
         self.lbl_overview_summary.config(
             text=f"{len(categories)} categories  •  {total_terms} keyword terms total"
@@ -1062,9 +1071,7 @@ class GovApp:
             for widget in (card, accent, body, name_lbl, stats_lbl):
                 widget.bind("<Button-1>", lambda _e, c=cat: self.select_kw_category_from_overview(c))
 
-        # Trailing "+ Add Category" card so a custom category can be created
-        # in one click straight from the overview, without hunting for the
-        # smaller form under the tree list below.
+        # Trailing "+ Add New Category" quick-action card in the grid
         add_idx = len(categories)
         row, col = divmod(add_idx, cols)
         add_card = tk.Frame(
@@ -1084,8 +1091,7 @@ class GovApp:
             self.master_overview_container.columnconfigure(c, weight=1)
 
     def add_category_from_overview(self) -> None:
-        """Quick-add flow: name the category, get an auto-assigned distinct color,
-        and jump straight into its (empty) term list to start adding keywords."""
+        """Quick-add flow from the Master Overview card grid with immediate disk persistence."""
         name = simpledialog.askstring("Add New Category", "Enter a name for the new keyword category:")
         if not name or not name.strip():
             return
@@ -1094,8 +1100,14 @@ class GovApp:
         if not self.state.add_keyword_category(name, default_color):
             messagebox.showwarning("Category Exists", f"A category named '{name}' already exists.")
             return
+        
+        # PERSIST TO DISK USING THE CORRECT METHOD
+        self.state.save_keywords()
+        
+        # FORCE IMMEDIATE UI REFRESH SO THE CARD APPEARS INSTANTLY
         self.refresh_kw_categories_list()
         self.generate_analytics_matrix()
+        
         if name in self.tree_kw_cats.get_children():
             self.tree_kw_cats.selection_set(name)
             self.tree_kw_cats.see(name)
@@ -1115,6 +1127,7 @@ class GovApp:
 
         cat = sel[0]
         self.state.set_category_color(cat, rgb)
+        self.state.save_keywords()
         self.refresh_kw_categories_list()
         self.tree_kw_cats.selection_set(cat)
 
@@ -1132,10 +1145,12 @@ class GovApp:
         if color_rgb:
             norm_color = [round(c / 255.0, 2) for c in color_rgb]
             self.state.set_category_color(cat, norm_color)
+            self.state.save_keywords()
             self.refresh_kw_categories_list()
             self.tree_kw_cats.selection_set(cat)
 
-    def add_kw_category(self) -> None:
+    def add_keyword_category_safely(self) -> None:
+        """Adds a category, persists changes to disk, and instantly selects it in the tree view."""
         cat_name = self.e_new_cat.get().strip()
         if not cat_name:
             return
@@ -1143,6 +1158,12 @@ class GovApp:
             self.e_new_cat.delete(0, tk.END)
             self.refresh_kw_categories_list()
             self.generate_analytics_matrix()
+            self.state.save_keywords()
+            
+            if cat_name in self.tree_kw_cats.get_children():
+                self.tree_kw_cats.selection_set(cat_name)
+                self.tree_kw_cats.see(cat_name)
+                self.on_kw_cat_select(None)
 
     def remove_kw_category(self) -> None:
         sel = self.tree_kw_cats.selection()
@@ -1153,6 +1174,7 @@ class GovApp:
             self.refresh_kw_categories_list()
             self.lb_kw_terms.delete(0, tk.END)
             self.generate_analytics_matrix()
+            self.state.save_keywords()
 
     def on_kw_cat_select(self, _event) -> None:
         sel = self.tree_kw_cats.selection()
@@ -1181,6 +1203,7 @@ class GovApp:
             self.refresh_kw_categories_list()
             self.tree_kw_cats.selection_set(cat)
             self.generate_analytics_matrix()
+            self.state.save_keywords()
 
     def toggle_kw_term_state(self, event=None) -> None:
         cat_sel = self.tree_kw_cats.selection()
@@ -1203,6 +1226,7 @@ class GovApp:
         self.on_kw_cat_select(None)
         self.lb_kw_terms.select_set(index)
         self.generate_analytics_matrix()
+        self.state.save_keywords()
 
     def remove_kw_term(self) -> None:
         cat_sel, term_sel = self.tree_kw_cats.selection(), self.lb_kw_terms.curselection()
@@ -1215,6 +1239,7 @@ class GovApp:
             self.refresh_kw_categories_list()
             self.tree_kw_cats.selection_set(cat)
             self.generate_analytics_matrix()
+            self.state.save_keywords()
 
     # ======================================================================
     # Analytics tab (Unified Scrollable Grid Matrix)
@@ -1308,12 +1333,6 @@ class GovApp:
         return count
 
     def generate_analytics_matrix(self) -> None:
-        """Renders headers and rows inside a unified grid frame for 100% stable alignment.
-
-        Rows can be sorted by total relevance (keyword-hit density) and filtered by a
-        minimum hit threshold and/or a single focus category, so the user can quickly
-        triage which documents are worth opening for deeper analysis.
-        """
         for w in self.matrix_grid_frame.winfo_children():
             w.destroy()
 
@@ -1336,7 +1355,6 @@ class GovApp:
         except (ValueError, tk.TclError):
             min_hits = 0
 
-        # Pre-score every document so we can sort/filter before rendering rows.
         scored: list[tuple[Document, dict[str, int], int]] = []
         for doc in self.active_docs:
             haystack = f"{doc.title} {doc.description}".lower()
@@ -1356,12 +1374,10 @@ class GovApp:
             )
             return
 
-        # Configure Grid Weights (using minsize to prevent crashes)
         self.matrix_grid_frame.columnconfigure(0, weight=4, minsize=350)
         for col_idx in range(1, len(columns)):
             self.matrix_grid_frame.columnconfigure(col_idx, weight=1, minsize=110)
 
-        # Render Header Row
         for col_idx, heading_text in enumerate(columns):
             is_title = (col_idx == 0)
             lbl = tk.Label(
@@ -1383,20 +1399,16 @@ class GovApp:
         cat_totals = {cat: 0 for cat in categories}
         total_occurrences = 0
 
-        # Global max across every visible cell, used to scale the heat gradient
-        # so color intensity is comparable across the whole matrix at a glance.
         global_max = max((max(per_cat.values()) for _doc, per_cat, _rel in scored if per_cat), default=0)
         self.lbl_heat_legend_max.config(
             text=f"  Low (1)  →  High ({global_max}) — darkest red = most keyword-dense cell"
         )
 
-        # Render Data Rows (from the pre-scored/sorted/filtered list)
         for row_idx, (doc, per_cat, _relevance) in enumerate(scored, start=1):
             doc_matches = 0
             row_bg = "#f8fafc" if row_idx % 2 == 0 else "#ffffff"
             real_idx = self.active_docs.index(doc)
 
-            # Title Cell
             lbl_title = tk.Label(
                 self.matrix_grid_frame,
                 text=doc.title,
@@ -1414,7 +1426,6 @@ class GovApp:
             lbl_title.grid(row=row_idx, column=0, sticky="nsew")
             lbl_title.bind("<Double-1>", lambda e, idx=real_idx: self.jump_to_reader_doc(idx, auto_open_pdf=True))
 
-            # Category Count Cells
             for col_idx, cat in enumerate(categories, start=1):
                 count = per_cat[cat]
                 cat_totals[cat] += count
@@ -1441,8 +1452,6 @@ class GovApp:
 
             total_occurrences += doc_matches
 
-        # Totals footer row - quick sense of which categories dominate this
-        # whole result set, independent of any single document.
         footer_row = len(scored) + 1
         lbl_footer_title = tk.Label(
             self.matrix_grid_frame, text="📊 Column Totals", font=("Segoe UI", 9, "bold"),
@@ -1457,7 +1466,6 @@ class GovApp:
             )
             lbl_footer_val.grid(row=footer_row, column=col_idx, sticky="nsew")
 
-        # Stash for CSV export so the export matches exactly what's on screen.
         self._last_analytics_export = {"categories": categories, "scored": scored, "cat_totals": cat_totals}
 
         num_docs = len(scored)
@@ -1470,8 +1478,6 @@ class GovApp:
         )
 
     def export_analytics_matrix_csv(self) -> None:
-        """Exports the currently-displayed (sorted/filtered) matrix, including the
-        column-totals row, so the analysis can continue in a spreadsheet."""
         export_data = getattr(self, "_last_analytics_export", None)
         if not export_data or not export_data.get("scored"):
             messagebox.showinfo("Nothing to Export", "Load sources and generate the matrix first.")
