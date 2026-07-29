@@ -1,5 +1,71 @@
 [
   {
+    "query": "oracle",
+    "timestamp": "2026-07-29 20:14",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "social",
+    "timestamp": "2026-07-29 20:14",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "social cohesion",
+    "timestamp": "2026-07-29 20:07",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "social cohesion strategy",
+    "timestamp": "2026-07-29 20:04",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "social cohesion strategy",
+    "timestamp": "2026-07-29 20:02",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "social",
+    "timestamp": "2026-07-29 20:02",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "tunnel",
+    "timestamp": "2026-07-29 19:58",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-28 23:12",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-28 23:12",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-28 23:10",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-28 22:52",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
     "query": "blueprint modern digital government",
     "timestamp": "2026-07-28 22:45",
     "dept": "All Departments",
@@ -230,72 +296,6 @@
   {
     "query": "blueprint modern digital government",
     "timestamp": "2026-07-25 14:47",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-25 14:47",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-25 13:50",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-25 11:21",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-25 11:20",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "technology",
-    "timestamp": "2026-07-24 20:22",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "technology",
-    "timestamp": "2026-07-24 20:22",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "palantir",
-    "timestamp": "2026-07-24 19:58",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "technology",
-    "timestamp": "2026-07-24 19:57",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-24 13:52",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-24 13:52",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "technology",
-    "timestamp": "2026-07-24 13:48",
     "dept": "All Departments",
     "type": "All Types"
   }

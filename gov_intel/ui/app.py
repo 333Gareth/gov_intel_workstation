@@ -180,10 +180,24 @@ class GovApp:
         self.cb_doc_type.grid(row=6, column=1, sticky="w", pady=4, padx=5)
         self.cb_doc_type.set("All Types")
 
+        # Scrollable Permanent Topic Favorites Container
         fav_frame = ttk.LabelFrame(f, text=" ⭐ Permanent Topic Favorites (Click to Load) ", padding=8)
         fav_frame.grid(row=7, column=0, columnspan=3, sticky="ew", pady=8)
-        self.fav_buttons_inner = ttk.Frame(fav_frame)
-        self.fav_buttons_inner.pack(fill="x")
+
+        fav_canvas_container = ttk.Frame(fav_frame)
+        fav_canvas_container.pack(fill="x", expand=True)
+
+        self.fav_canvas = tk.Canvas(fav_canvas_container, height=50, bg="#f8fafc", highlightthickness=0)
+        fav_scrollbar = ttk.Scrollbar(fav_canvas_container, orient="horizontal", command=self.fav_canvas.xview)
+        self.fav_canvas.configure(xscrollcommand=fav_scrollbar.set)
+
+        fav_scrollbar.pack(side="bottom", fill="x")
+        self.fav_canvas.pack(side="top", fill="x", expand=True)
+
+        self.fav_buttons_inner = ttk.Frame(self.fav_canvas)
+        self.fav_canvas_window = self.fav_canvas.create_window((0, 0), window=self.fav_buttons_inner, anchor="nw")
+
+        self.fav_buttons_inner.bind("<Configure>", lambda e: self.fav_canvas.configure(scrollregion=self.fav_canvas.bbox("all")))
         self.render_favorite_topics()
 
         btn_frame = ttk.Frame(f)
@@ -202,11 +216,11 @@ class GovApp:
             widget.destroy()
         if not self.state.favorite_topics:
             ttk.Label(self.fav_buttons_inner, text="No favorite search terms saved yet.",
-                      font=("Segoe UI", 9, "italic")).pack()
+                      font=("Segoe UI", 9, "italic")).pack(padx=5, pady=5)
             return
         for fav in self.state.favorite_topics:
             btn_f = ttk.Frame(self.fav_buttons_inner)
-            btn_f.pack(side="left", padx=4, pady=2)
+            btn_f.pack(side="left", padx=4, pady=4)
             ttk.Button(btn_f, text=f"⭐ {fav}", command=lambda t=fav: self.load_fav_topic_search(t)).pack(side="left")
             ttk.Button(btn_f, text="❌", width=2, command=lambda t=fav: self.remove_favorite_topic(t)).pack(side="left", padx=2)
 

@@ -1,5 +1,5 @@
 🇬🇧 BRIEFING: BLUEPRINT MODERN DIGITAL GOVERNMENT
-TOTAL: 50
+TOTAL: 100
 ==================================================
 
 📌 [1] A blueprint for modern digital government
@@ -204,3 +204,205 @@ TOTAL: 50
 📌 [50] Unlocking Space - Security Awareness Resources
    🔗 Link: https://www.gov.uk/government/publications/unlocking-space-security-awareness-resources
    ↳ Find learning resources for space stakeholders on government security policy, risk assessment, security clearance and classification.
+
+📌 [51] Five new regional economic blueprints launched in boost to jobs and growth
+   🔗 Link: https://www.gov.uk/government/news/five-new-regional-economic-blueprints-launched-in-boost-to-jobs-and-growth
+   ↳ Five new Local Industrial Strategies offer economic blueprints for trailblazing areas
+
+📌 [52] Performance Analysis
+   🔗 Link: https://www.gov.uk/government/publications/performance-analysis
+   ↳ This Performance Analysis is part of the Performance Report included in the Government Legal Department Annual Report and Accounts
+
+📌 [53] Enhancing the UK’s Geospatial Ecosystem
+   🔗 Link: https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem
+   ↳ Outlines the actions needed to nurture the UK’s growing geospatial economy, underpinned by an independent study into the current UK location data market. 
+
+
+📌 [54] Government cuts cyber-attack fix times by 84% and launches new profession to protect public services
+   🔗 Link: https://www.gov.uk/government/news/government-cuts-cyber-attack-fix-times-by-84-and-launches-new-profession-to-protect-public-services
+   ↳ The government has launched a new vulnerability monitoring service (VMS) to reduce cyber risks and speed up fixes, and a new Cyber Profession to build long-term resilience across public services.
+
+📌 [55] UK Export Finance Business Plan 2024-29
+   🔗 Link: https://www.gov.uk/government/publications/uk-export-finance-business-plan-2024-29
+   ↳ UKEF’s 2024-2029 business plan is the department’s headline strategic document, setting out its mission, strategy and objectives, and providing a roadmap for delivery over the next five years in line with wider government priorities.
+
+📌 [56] Public Sector Fraud Authority 2025/2026 Delivery Plan
+   🔗 Link: https://www.gov.uk/government/publications/public-sector-fraud-authority-20252026-delivery-plan
+   ↳ This Public Sector Fraud Authority Delivery Plan contains the key activities and outcomes the PSFA expects to deliver in 2025/2026.
+
+📌 [57] Social Mobility Commission unveils Annual Review 2020
+   🔗 Link: https://www.gov.uk/government/publications/social-mobility-commission-unveils-annual-review-2020
+   ↳ The Social Mobility Commission launches its 2020 review and unveils plans for this year, including assessing the impact of COVID-19 on social mobility.
+
+📌 [58] The 9th ASEAN-OECD Good Regulatory Practice Network promotes better regulatory frameworks
+   🔗 Link: https://www.gov.uk/government/news/the-9th-asean-oecd-good-regulatory-practice-network-promotes-better-regulatory-frameworks
+   ↳ This year’s GRPN meeting focuses on building better regulation to address modern-day challenges. 
+
+📌 [59] Crown Commercial Service annual report and accounts 2021 to 2022
+   🔗 Link: https://www.gov.uk/government/publications/crown-commercial-service-annual-report-and-accounts-2021-to-2022
+   ↳ This document provides the Crown Commercial Service annual report and accounts of activity and services for 2021 to 2022.
+
+📌 [60] Government customer services to be modernised with help of industry experts
+   🔗 Link: https://www.gov.uk/government/news/government-customer-services-to-be-modernised-with-help-of-industry-experts
+   ↳ The government is launching CustomerFirst, a new unit within the Department for Science, Innovation and Technology, to modernise public services and improve the experience for millions of people who rely on them.
+
+📌 [61] Property Continuous Improvement Assessment Framework
+   🔗 Link: https://www.gov.uk/government/publications/continuous-improvement-assessment-framework
+   ↳ The guidance and scoring tool is intended to support all government organisations that hold property assets
+
+📌 [62] The Digital, Data and Technology Playbook
+   🔗 Link: https://www.gov.uk/government/publications/the-digital-data-and-technology-playbook
+   ↳ This document sets out key policies and guidance for how digital projects and programmes are assessed, procured and delivered.
+
+📌 [63] Project work of the British Embassy in Ukraine
+   🔗 Link: https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine
+   ↳ The British Embassy in Ukraine works proactively with international and local partners to implement a range of projects funded from the Bilateral Programme Budget of the Foreign and Commonwealth Office. 
+
+📌 [64] Digital tools that support volunteering
+   🔗 Link: https://www.gov.uk/government/publications/digital-tools-that-support-volunteering
+   ↳ Research exploring how digital tools support volunteering in England and how their role in sustaining and promoting volunteering in the future could be improved
+
+📌 [65] New Google partnership will help rid taxpayer of ‘ball and chain’ legacy tech and aim to upskill 100,000 civil servants in tech and AI
+   🔗 Link: https://www.gov.uk/government/news/new-google-partnership-will-help-rid-taxpayer-of-ball-and-chain-legacy-tech-and-aim-to-upskill-100000-civil-servants-in-tech-and-ai
+   ↳ New partnership with Google Cloud will help modernise outdated government IT, upskill 100,000 civil servants in digital and AI by 2030, and secure better tech deals for the taxpayer.
+
+📌 [66] Civil Service People Plan 2024-2027
+   🔗 Link: https://www.gov.uk/government/publications/civil-service-people-plan-2024-2027
+   ↳ The Civil Service People Plan 2024-2027 is about the Civil Service understanding our big people challenges and working to improve them.
+
+📌 [67] Shake up of tech and AI usage across NHS and other public services to deliver plan for change
+   🔗 Link: https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change
+   ↳ The government has announced a new plan to leverage technology and AI tools like "Humphrey" to streamline public services, eliminate delays through improved data sharing, and reduce costs, including consultant spending.
+
+📌 [68] Projects selected for the Regulators’ Pioneer Fund
+   🔗 Link: https://www.gov.uk/government/publications/projects-selected-for-the-regulators-pioneer-fund
+   ↳ Projects selected for the Regulators' Pioneer Fund to help create a UK regulatory environment that encourages business innovation and investment.
+
+📌 [69] Circular economy: guidance for mayoral strategic authorities
+   🔗 Link: https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities
+   ↳ How mayoral strategic authorities can incorporate circularity into local growth plans or spatial development strategies. 
+
+📌 [70] SLC Annual Report and Accounts 2024 to 2025
+   🔗 Link: https://www.gov.uk/government/publications/slc-annual-report-and-accounts-2024-to-2025
+   ↳ SLC's annual report and accounts for the year ended 31 March 2025
+
+📌 [71] Regulatory Innovation Office report: One Year On
+   🔗 Link: https://www.gov.uk/government/publications/regulatory-innovation-office-report-one-year-on
+   ↳ A report highlighting the major achievements of the Regulatory Innovation Office (RIO) in its first year.
+
+📌 [72] Doing business with the health sector: a guide for buyers and small and medium-sized enterprises (SMEs)
+   🔗 Link: https://www.gov.uk/government/publications/doing-business-with-the-health-sector-a-guide-for-buyers-and-small-and-medium-sized-enterprises-smes
+   ↳ A clear, practical guide to help buyers and SMEs build a fair, inclusive environment that can deliver better health outcomes and support SME growth.
+
+📌 [73] New Permanent Secretary at Department for Science, Innovation and Technology
+   🔗 Link: https://www.gov.uk/government/news/new-permanent-secretary-at-department-for-science-innovation-and-technology
+   ↳ Emran Mian has been appointed as the new Permanent Secretary at the Department for Science, Innovation and Technology, replacing Sarah Munby
+
+📌 [74] Government to take a ‘test and learn’ approach with spending on AI and digital to push innovation
+   🔗 Link: https://www.gov.uk/government/news/government-to-take-a-test-and-learn-approach-with-spending-on-ai-and-digital-to-push-innovation
+   ↳ Government overhauls funding for AI and Digital Projects to save taxpayer money and boost public services
+
+📌 [75] People across UK to benefit from easier access to local services as councils get digital boost
+   🔗 Link: https://www.gov.uk/government/news/people-across-uk-to-benefit-from-easier-access-to-local-services-as-councils-get-digital-boost
+   ↳ A new government unit, GDS Local, has launched to help councils across the UK make everyday services – from managing council tax to accessing local support – easier, faster, and more accessible for residents.
+
+📌 [76] HMRC Sustainability Report
+   🔗 Link: https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report
+   ↳ This report records progress made by HM Revenue and Customs (HMRC) and its agency, the Valuation Office Agency (VOA), against the environment targets contained in the Greening Government Commitments (GGCs) and social sustainability initiatives.
+
+📌 [77] SLC Board meeting minutes 2024
+   🔗 Link: https://www.gov.uk/government/publications/slc-board-meeting-minutes-2024
+   ↳ SLC Board meeting minutes from 2024.
+
+📌 [78] Tech innovators backed to set up and scale up in Britain through Industrial Strategy
+   🔗 Link: https://www.gov.uk/government/news/tech-innovators-backed-to-set-up-and-scale-up-in-britain-through-industrial-strategy
+   ↳ Ambitious Digital and Technologies Sector Plan to help deliver government’s modern Industrial Strategy to drive national renewal and our Plan for Change.
+
+📌 [79] Creativity at heart of West of England Local Industrial Strategy
+   🔗 Link: https://www.gov.uk/government/news/creativity-at-heart-of-west-of-england-local-industrial-strategy
+   ↳ The West of England Local Industrial Strategy encourages sectors to collaborate to help boost productivity and opportunities for all
+
+📌 [80] Review of international and private sector evidence on the effectiveness of digitising services
+   🔗 Link: https://www.gov.uk/government/publications/review-of-international-and-private-sector-evidence-on-the-effectiveness-of-digitising-services
+   ↳ A review of the effectiveness of digitising services
+
+📌 [81] Insolvency Service launches 5-year Investigation and Enforcement Strategy
+   🔗 Link: https://www.gov.uk/government/publications/insolvency-service-launches-5-year-investigation-and-enforcement-strategy
+   ↳ The Insolvency Service has launched an ambitious and transformational strategy to play a more prominent role in the fight against economic crime
+
+📌 [82] Disclosure in the Digital Age
+   🔗 Link: https://www.gov.uk/government/publications/disclosure-in-the-digital-age
+   ↳ Disclosure in the Digital Age: the Independent Review of Disclosure and Fraud Offences by Jonathan Fisher KC.
+
+📌 [83] DHSC major projects: appointment letters for senior responsible owners (August 2015 to January 2024)
+   🔗 Link: https://www.gov.uk/government/publications/dh-major-projects-appointment-letters-for-senior-responsible-owners
+   ↳ Department of Health and Social Care appointment letters for government major projects portfolio (GMPP) senior responsible owners (SROs).
+
+📌 [84] The Government Efficiency Framework
+   🔗 Link: https://www.gov.uk/government/publications/the-government-efficiency-framework
+   ↳ The GEF will  improve how Departments report efficiencies and ensure the government has appropriate oversight to track delivery and drive improvement. 
+
+📌 [85] Digital Identity Sectoral Analysis Report 2026
+   🔗 Link: https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026
+   ↳ Findings from OfDIA's 2026 research on the UK's digital identity sector. 
+
+📌 [86] Industrial Strategy to provide over £150m to reinforce UK as services superpower
+   🔗 Link: https://www.gov.uk/government/news/industrial-strategy-to-provide-over-150m-to-reinforce-uk-as-services-superpower
+   ↳ The  Industrial  Strategy will invest over £150 million in five transformative AI and technology programmes to help UK Professional and Business Services.
+
+📌 [87] HMRC Charter annual report: 2023 to 2024
+   🔗 Link: https://www.gov.uk/government/publications/hmrc-charter-annual-report-2023-to-2024
+   ↳ HMRC's annual report covering our delivery and progress against the HMRC Charter.
+
+📌 [88] Register your vehicle as off the road (SORN)
+   🔗 Link: https://www.gov.uk/make-a-sorn
+   ↳ Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again
+
+📌 [89] £30 million funding boost to help the next generation of games developers take their ideas to the next level
+   🔗 Link: https://www.gov.uk/government/news/30-million-funding-boost-to-help-the-next-generation-of-games-developers-take-their-ideas-to-the-next-level
+   ↳ £28.5 million UK Games Fund to support video games studios with great ideas create the next Grand Theft Auto or Tomb Raider
+
+📌 [90] DWP Data Strategy 2023 to 2030
+   🔗 Link: https://www.gov.uk/government/publications/dwp-data-strategy-2023-to-2030
+   ↳ The Department for Work and Pensions (DWP) Data Strategy explains how DWP will collect, manage, analyse and use data to reach its business objectives.
+
+📌 [91] New economic plan to super-charge space and creative sectors in Buckinghamshire
+   🔗 Link: https://www.gov.uk/government/news/new-economic-plan-to-super-charge-space-and-creative-sectors-in-buckinghamshire
+   ↳ Plan sets out how the area will maximise the economic opportunities of the Oxford-Cambridge Arc
+
+📌 [92] Procurement at NRS Dounreay
+   🔗 Link: https://www.gov.uk/government/publications/procurement-at-dounreay
+   ↳ Information about how to work with Dounreay as a supplier.
+
+📌 [93] Homes England Public Bodies Review 2023
+   🔗 Link: https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023
+   ↳ Report outlining the findings of the 2023 Public Bodies Review into Homes England.
+
+📌 [94] Productivity plan launched
+   🔗 Link: https://www.gov.uk/government/news/productivity-plan-launched
+   ↳ Government launches plan to fix the foundations of the British economy. 
+
+📌 [95] Guidance for organisations using the Algorithmic Transparency Recording Standard
+   🔗 Link: https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard
+   ↳ This guidance has been designed to support public sector teams completing ATRS records.
+
+📌 [96] Thousands to get free digital training so everyone has the chance to shop around for cheaper deals online
+   🔗 Link: https://www.gov.uk/government/news/thousands-to-get-free-digital-training-so-everyone-has-the-chance-to-shop-around-for-cheaper-deals-online
+   ↳ Free support to get people online is rolling out in communities in every region of the country.
+
+📌 [97] Thousands of small businesses to benefit from new government buying rules, boosting local jobs, growth and innovation
+   🔗 Link: https://www.gov.uk/government/news/thousands-of-small-businesses-to-benefit-from-new-government-buying-rules-boosting-local-jobs-growth-and-innovation
+   ↳ Thousands of small businesses across the country will have more opportunities to win valuable contracts with public sector organisations, kickstarting local economic growth and innovation
+
+
+📌 [98] Search
+   🔗 Link: https://www.gov.uk/search/all
+   ↳ Find content from government
+
+📌 [99] Innovation and commercialisation at heart of new economic plan for South East Midlands
+   🔗 Link: https://www.gov.uk/government/news/innovation-and-commercialisation-at-heart-of-new-economic-plan-for-south-east-midlands
+   ↳ Locally developed plan sets out how the area will take full advantage of its global assets and maximise the economic opportunities of the Oxford-Cambridge Arc
+
+📌 [100] Satellite communications to improve connectivity in remote areas
+   🔗 Link: https://www.gov.uk/government/news/satellite-communications-to-improve-connectivity-in-remote-areas
+   ↳ New projects are set to test innovative hybrid connectivity solutions in some of the very hardest to reach places in the UK, with up to £3.5 million in government funding.
