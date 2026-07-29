@@ -23,6 +23,26 @@
     ]
   },
   {
+    "id": "368418eb56651ca3",
+    "title": "Non-domestic smart metering",
+    "description": "Guidance and information on non-domestic smart metering.",
+    "url": "https://www.gov.uk/government/collections/non-domestic-smart-metering",
+    "date": "2024-03-26",
+    "topic": "SMART",
+    "attachments": [
+      "https://www.gov.uk/government/publications/non-domestic-smart-meters-energy-supplier-obligations",
+      "https://www.gov.uk/government/consultations/smart-meter-targets-framework-minimum-installation-requirements-for-year-3-2024-and-year-4-2025",
+      "https://www.gov.uk/government/publications/non-domestic-smart-meter-consumer-segmentation",
+      "https://www.gov.uk/government/consultations/maximising-non-domestic-smart-meter-consumer-benefits-improving-the-data-offer-and-enabling-innovation",
+      "https://www.gov.uk/government/publications/non-domestic-smart-energy-management-innovation-competition-ndsemic-evaluation-findings",
+      "https://www.gov.uk/government/publications/non-domestic-smart-meter-contingent-contracts-industry-best-practice-sharing-principles",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
+      "https://www.gov.uk/environment/low-carbon-technologies",
+      "https://www.gov.uk/business-and-industry/energy-demand-reduction-in-industry-business-and-the-public-sector"
+    ]
+  },
+  {
     "id": "e9cc5da95d0fb4ee",
     "title": "Smart Meters Bill",
     "description": "Documents related to the Smart Meters Bill, which will ensure consumers continue to get the most out of their smart meters.",
@@ -42,26 +62,6 @@
       "https://www.ofgem.gov.uk/system/files/docs/2017/07/electricity_settlement_reform_significant_code_review_launch_statement.pdf",
       "https://services.parliament.uk/bills/2017-19/smartmeters/documents.html",
       "https://publications.parliament.uk/pa/cm201516/cmselect/cmenergy/776/77602.htm"
-    ]
-  },
-  {
-    "id": "368418eb56651ca3",
-    "title": "Non-domestic smart metering",
-    "description": "Guidance and information on non-domestic smart metering.",
-    "url": "https://www.gov.uk/government/collections/non-domestic-smart-metering",
-    "date": "2024-03-26",
-    "topic": "SMART",
-    "attachments": [
-      "https://www.gov.uk/government/publications/non-domestic-smart-meters-energy-supplier-obligations",
-      "https://www.gov.uk/government/consultations/smart-meter-targets-framework-minimum-installation-requirements-for-year-3-2024-and-year-4-2025",
-      "https://www.gov.uk/government/publications/non-domestic-smart-meter-consumer-segmentation",
-      "https://www.gov.uk/government/consultations/maximising-non-domestic-smart-meter-consumer-benefits-improving-the-data-offer-and-enabling-innovation",
-      "https://www.gov.uk/government/publications/non-domestic-smart-energy-management-innovation-competition-ndsemic-evaluation-findings",
-      "https://www.gov.uk/government/publications/non-domestic-smart-meter-contingent-contracts-industry-best-practice-sharing-principles",
-      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
-      "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
-      "https://www.gov.uk/environment/low-carbon-technologies",
-      "https://www.gov.uk/business-and-industry/energy-demand-reduction-in-industry-business-and-the-public-sector"
     ]
   },
   {
@@ -443,16 +443,18 @@
     "title": "Preparing for the 2G switch-off: mobile phones and smart devices",
     "description": "How to identify if your mobile device is 2G-only and check if your phone or smart device will connect with 4G or 5G, before the 2G switch-off.\r\n",
     "url": "https://www.gov.uk/guidance/preparing-for-the-2g-switch-off-mobile-phones-and-smart-devices",
-    "date": "2026-03-24",
+    "date": "2026-07-29",
     "topic": "SMART",
     "attachments": [
       "https://www.gov.uk/government/collections/telecommunications-modernisation",
       "https://www.gov.uk/government/2024-starmer-labour-government",
       "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/organisations/department-for-digital-culture-media-and-sport",
       "https://www.gov.uk/business/communications-and-telecomms",
       "https://business.ee.co.uk/help/network-and-coverage/2g-switch-off/",
       "https://www.vodafonethree.com/news/2g-switch-off",
-      "https://www.mobileuk.org/2g-3g-switch-off"
+      "https://www.mobileuk.org/2g-3g-switch-off",
+      "https://www.o2.co.uk/help/international-and-network/network-and-coverage/2g-switch-off"
     ]
   },
   {

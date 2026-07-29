@@ -230,8 +230,7 @@
       "https://www.gov.uk/prove-right-to-rent",
       "https://update-your-details.homeoffice.gov.uk/account-recovery/help",
       "https://www.gov.uk/dual-citizenship",
-      "https://www.gov.uk/euss-travel-permit",
-      "https://visas-immigration.service.gov.uk/country-selection",
+      "https://visas-immigration.service.gov.uk/product/umd-lost-hotd-fav-ooc",
       "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
       "https://update-your-details.homeoffice.gov.uk/what-change",
       "https://visas-immigration.service.gov.uk/product/biometric-residence-permit-replacement-service",
@@ -373,21 +372,6 @@
     ]
   },
   {
-    "id": "2673f0f9132e1dda",
-    "title": "Government Commercial Function Annual Report 2024-2025",
-    "description": "The Government Commercial Function has published its Annual Report for 2024-2025",
-    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025",
-    "date": "2025-05-29",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://assets.publishing.service.gov.uk/media/6836c1ebc239ae3e866c0413/3727_GCF_Annual_Report_2024-2025_V3__1_.pdf",
-      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025/government-commercial-function-annual-report-2024-2025-html",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/government-commercial-function",
-      "https://www.gov.uk/government/all"
-    ]
-  },
-  {
     "id": "1c90cfabe61adc5b",
     "title": "Defence Minister Lord Coaker, keynote speech at Enterprise Gateway, Farnborough International Airshow.",
     "description": "The Enterprise Gateway: Opening Address ",
@@ -400,6 +384,21 @@
       "https://www.gov.uk/government/people/lord-coaker",
       "https://www.gov.uk/government/ministers/minister-of-state--190",
       "https://www.gov.uk/defence/working-armed-forces"
+    ]
+  },
+  {
+    "id": "2673f0f9132e1dda",
+    "title": "Government Commercial Function Annual Report 2024-2025",
+    "description": "The Government Commercial Function has published its Annual Report for 2024-2025",
+    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025",
+    "date": "2025-05-29",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/6836c1ebc239ae3e866c0413/3727_GCF_Annual_Report_2024-2025_V3__1_.pdf",
+      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025/government-commercial-function-annual-report-2024-2025-html",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/government-commercial-function",
+      "https://www.gov.uk/government/all"
     ]
   },
   {
@@ -464,6 +463,20 @@
     ]
   },
   {
+    "id": "279384478cc31eca",
+    "title": "G7 Digital and Technology Ministerial Declaration: 29 May 2026",
+    "description": "This ministerial declaration on digital and technology was agreed at the G7 on 29 May 2026 in Paris, France.",
+    "url": "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026",
+    "date": "2026-06-01",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026/g7-digital-and-technology-ministerial-declaration-29-may-2026",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/business-and-industry/artificial-intelligence"
+    ]
+  },
+  {
     "id": "2e8626b8e9e3ead6",
     "title": "Digital Inclusion Innovation Fund: grant recipients",
     "description": "Projects awarded grants from the Digital Inclusion Innovation Fund. ",
@@ -476,20 +489,6 @@
       "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
       "https://www.gov.uk/government/digital-inclusion",
       "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund"
-    ]
-  },
-  {
-    "id": "279384478cc31eca",
-    "title": "G7 Digital and Technology Ministerial Declaration: 29 May 2026",
-    "description": "This ministerial declaration on digital and technology was agreed at the G7 on 29 May 2026 in Paris, France.",
-    "url": "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026",
-    "date": "2026-06-01",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026/g7-digital-and-technology-ministerial-declaration-29-may-2026",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/business-and-industry/artificial-intelligence"
     ]
   },
   {
@@ -603,26 +602,6 @@
     ]
   },
   {
-    "id": "b60ce1b6dd99c8b4",
-    "title": "Office for Nuclear Regulation strategy 2020 to 2025",
-    "description": "This strategy sets out the vision and direction for the Office for Nuclear Regulation (ONR) and nuclear regulation for the next 5 years,",
-    "url": "https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025",
-    "date": "2020-07-21",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025/office-for-nuclear-regulation-strategy-2020-25",
-      "https://assets.publishing.service.gov.uk/media/5ec50ceed3bf7f5d3a907f12/ONR-Strategy-2020-2025-Web.pdf",
-      "https://assets.publishing.service.gov.uk/media/5ec51266e90e071e33ce88e6/ONR-Strategy-2020-2025-Print.pdf",
-      "https://www.gov.uk/government/collections/office-for-nuclear-regulation-strategies",
-      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
-      "https://www.gov.uk/government/organisations/office-for-nuclear-regulation",
-      "https://www.gov.uk/corporate-information",
-      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
-      "https://www.gov.uk/business-and-industry/energy-industry-and-infrastructure-licensing-and-regulation",
-      "https://www.gov.uk/guidance/how-to-buy-printed-copies-of-official-documents"
-    ]
-  },
-  {
     "id": "d6215bffebc30cfc",
     "title": "Apply online for a UK passport",
     "description": "You can apply for, update, renew or replace a passport online.",
@@ -644,6 +623,26 @@
       "https://www.gov.uk/get-a-passport-urgently",
       "https://www.gov.uk/how-the-post-office-check-and-send-service-works",
       "http://www.postoffice.co.uk/branch-finder"
+    ]
+  },
+  {
+    "id": "b60ce1b6dd99c8b4",
+    "title": "Office for Nuclear Regulation strategy 2020 to 2025",
+    "description": "This strategy sets out the vision and direction for the Office for Nuclear Regulation (ONR) and nuclear regulation for the next 5 years,",
+    "url": "https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025",
+    "date": "2020-07-21",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025/office-for-nuclear-regulation-strategy-2020-25",
+      "https://assets.publishing.service.gov.uk/media/5ec50ceed3bf7f5d3a907f12/ONR-Strategy-2020-2025-Web.pdf",
+      "https://assets.publishing.service.gov.uk/media/5ec51266e90e071e33ce88e6/ONR-Strategy-2020-2025-Print.pdf",
+      "https://www.gov.uk/government/collections/office-for-nuclear-regulation-strategies",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/office-for-nuclear-regulation",
+      "https://www.gov.uk/corporate-information",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
+      "https://www.gov.uk/business-and-industry/energy-industry-and-infrastructure-licensing-and-regulation",
+      "https://www.gov.uk/guidance/how-to-buy-printed-copies-of-official-documents"
     ]
   },
   {
@@ -673,25 +672,6 @@
     ]
   },
   {
-    "id": "51a6585ac0e67365",
-    "title": "Independent Anti-Slavery Commissioner’s annual report 2021 to 2022",
-    "description": "The Commissioner’s annual report sets out the work she has undertaken during 2021 and 2022.",
-    "url": "https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022",
-    "date": "2022-07-22",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022/independent-anti-slavery-commissioners-annual-report-2021-to-2022-accessible",
-      "https://assets.publishing.service.gov.uk/media/62617c2fd3bf7f55ca4ccf0e/E02718100_Un-num_Act_Independent_Anti-Slavery_Commission_Web_Accessible.pdf",
-      "https://assets.publishing.service.gov.uk/media/62617dd3e90e07168b3c091e/E02718100_Un-num_Act_Independent_Anti-Slavery_Commission_Elay.pdf",
-      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
-      "https://www.gov.uk/government/organisations/independent-anti-slavery-commissioner",
-      "https://www.gov.uk/crime-justice-and-law",
-      "https://www.gov.uk/government/publications/independent-anti-slavery-commissioner-strategic-plan-2019-to-2021",
-      "https://www.gov.uk/government/organisations/home-office/about/accessible-documents-policy",
-      "https://www.gov.uk/guidance/how-to-buy-printed-copies-of-official-documents"
-    ]
-  },
-  {
     "id": "b149c475d4a4c4c9",
     "title": "Sign in to your childcare account",
     "description": "If you get Tax-Free Childcare or Free Childcare for Working Parents, sign in to confirm your details are up to date, pay money in or apply for an additional child.\r\n",
@@ -716,18 +696,22 @@
     ]
   },
   {
-    "id": "f11806a1eafdab32",
-    "title": "Government Commercial Function Annual Report 2023-2024",
-    "description": "The Government Commercial Function has published its Annual Report for 2023-2024",
-    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024",
-    "date": "2024-11-04",
+    "id": "51a6585ac0e67365",
+    "title": "Independent Anti-Slavery Commissioner’s annual report 2021 to 2022",
+    "description": "The Commissioner’s annual report sets out the work she has undertaken during 2021 and 2022.",
+    "url": "https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022",
+    "date": "2022-07-22",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://assets.publishing.service.gov.uk/media/672a3640fbd69e1861921b9a/GCF_Annual_Report.pdf",
-      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024/government-commercial-function-annual-report-2023-2024-html",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/government-commercial-function",
-      "https://www.gov.uk/government/all"
+      "https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022/independent-anti-slavery-commissioners-annual-report-2021-to-2022-accessible",
+      "https://assets.publishing.service.gov.uk/media/62617c2fd3bf7f55ca4ccf0e/E02718100_Un-num_Act_Independent_Anti-Slavery_Commission_Web_Accessible.pdf",
+      "https://assets.publishing.service.gov.uk/media/62617dd3e90e07168b3c091e/E02718100_Un-num_Act_Independent_Anti-Slavery_Commission_Elay.pdf",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/independent-anti-slavery-commissioner",
+      "https://www.gov.uk/crime-justice-and-law",
+      "https://www.gov.uk/government/publications/independent-anti-slavery-commissioner-strategic-plan-2019-to-2021",
+      "https://www.gov.uk/government/organisations/home-office/about/accessible-documents-policy",
+      "https://www.gov.uk/guidance/how-to-buy-printed-copies-of-official-documents"
     ]
   },
   {
@@ -765,6 +749,21 @@
       "https://www.gov.uk/business-and-industry/science-and-innovation",
       "https://www.gov.uk/government/publications/5g-innovation-regions",
       "https://uktin.net/contact"
+    ]
+  },
+  {
+    "id": "f11806a1eafdab32",
+    "title": "Government Commercial Function Annual Report 2023-2024",
+    "description": "The Government Commercial Function has published its Annual Report for 2023-2024",
+    "url": "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024",
+    "date": "2024-11-04",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/672a3640fbd69e1861921b9a/GCF_Annual_Report.pdf",
+      "https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024/government-commercial-function-annual-report-2023-2024-html",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/government-commercial-function",
+      "https://www.gov.uk/government/all"
     ]
   },
   {
@@ -826,22 +825,6 @@
     ]
   },
   {
-    "id": "3b98584aaeff6d3f",
-    "title": "National Information Board (NIB): interim report 2015",
-    "description": "The NIB Prospectus provides a review of progress made over the past 18 months.",
-    "url": "https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015",
-    "date": "2015-09-29",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015/national-information-board-prospectus-september-2015",
-      "https://assets.publishing.service.gov.uk/media/5a805b5f40f0b62305b8aac8/NIB_Prospectus.pdf",
-      "https://www.gov.uk/government/2015-conservative-government",
-      "https://www.gov.uk/government/organisations/national-information-board",
-      "https://www.gov.uk/health-and-social-care/national-health-service",
-      "https://www.gov.uk/health-and-social-care/social-care"
-    ]
-  },
-  {
     "id": "907718d0011e2192",
     "title": "Apply for or renew a Blue Badge",
     "description": "Check if you're eligible for a Blue Badge and apply or renew",
@@ -870,68 +853,19 @@
     ]
   },
   {
-    "id": "91d555814f57434b",
-    "title": "Digital version of Veteran Card launched for quicker and easier access to support",
-    "description": "Veterans can now apply for and download a secure digital version of the HM Armed Forces Veteran Card via the GOV.UK One Login app.",
-    "url": "https://www.gov.uk/government/news/digital-version-of-veteran-card-launched-for-quicker-and-easier-access-to-support",
-    "date": "2025-10-16",
+    "id": "3b98584aaeff6d3f",
+    "title": "National Information Board (NIB): interim report 2015",
+    "description": "The NIB Prospectus provides a review of progress made over the past 18 months.",
+    "url": "https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015",
+    "date": "2015-09-29",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/organisations/government-digital-service",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/ministry-of-defence",
-      "https://www.gov.uk/government/organisations/office-for-veterans-affairs",
-      "https://www.gov.uk/government/people/louise-sandher-jones",
-      "https://www.gov.uk/government/people/liz-kendall",
-      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--287",
-      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/digital-accessibility",
-      "https://www.gov.uk/veteran-card/get-digital",
-      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government",
-      "https://www.gov.uk/government/news/public-services-put-in-your-pocket-with-trial-govuk-app-launched-today",
-      "https://www.gov.uk/using-your-gov-uk-one-login",
-      "https://www.gov.uk/wallet"
-    ]
-  },
-  {
-    "id": "4a67f23ebf9f5d11",
-    "title": "Department of Health and Social Care accounting officer assessments",
-    "description": "Accounting officer assessment summaries for the Department of Health and Social Care’s programmes and projects in the Government Major Projects Portfolio.",
-    "url": "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments",
-    "date": "2026-03-26",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/new-hospital-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/federated-data-platform-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/digitising-social-care-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/nhs-electronic-staff-record-transformation-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/integrated-single-financial-environment-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/frontline-digitisation-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/digital-transformation-of-screening-programme-accounting-officer-assessment",
-      "https://www.gov.uk/government/collections/accounting-officer-assessments-collection",
-      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
-      "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
-      "https://www.gov.uk/government/organisations/nhs-business-services-authority",
-      "https://www.gov.uk/government/organisations/nhs-england",
-      "https://www.gov.uk/government/major-project-management",
-      "https://www.gov.uk/health-and-social-care/national-health-service"
-    ]
-  },
-  {
-    "id": "ff2faf04073d8d2d",
-    "title": "DVLA business plan 2022 to 2023",
-    "description": "Our business plan 2022 to 2023 details what we will deliver in the year.",
-    "url": "https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023",
-    "date": "2022-05-16",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023/dvla-business-plan-2022-to-2023",
-      "https://assets.publishing.service.gov.uk/media/6284c3ffe90e071f62029bf3/dvla-business-plan-2022-to-2023.pdf",
-      "https://www.gov.uk/government/collections/dvla-business-plans",
-      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
-      "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
-      "https://www.gov.uk/transport/corporate-and-operational-information-transport"
+      "https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015/national-information-board-prospectus-september-2015",
+      "https://assets.publishing.service.gov.uk/media/5a805b5f40f0b62305b8aac8/NIB_Prospectus.pdf",
+      "https://www.gov.uk/government/2015-conservative-government",
+      "https://www.gov.uk/government/organisations/national-information-board",
+      "https://www.gov.uk/health-and-social-care/national-health-service",
+      "https://www.gov.uk/health-and-social-care/social-care"
     ]
   },
   {
@@ -1021,6 +955,55 @@
     ]
   },
   {
+    "id": "91d555814f57434b",
+    "title": "Digital version of Veteran Card launched for quicker and easier access to support",
+    "description": "Veterans can now apply for and download a secure digital version of the HM Armed Forces Veteran Card via the GOV.UK One Login app.",
+    "url": "https://www.gov.uk/government/news/digital-version-of-veteran-card-launched-for-quicker-and-easier-access-to-support",
+    "date": "2025-10-16",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/organisations/government-digital-service",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/ministry-of-defence",
+      "https://www.gov.uk/government/organisations/office-for-veterans-affairs",
+      "https://www.gov.uk/government/people/louise-sandher-jones",
+      "https://www.gov.uk/government/people/liz-kendall",
+      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--287",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/digital-accessibility",
+      "https://www.gov.uk/veteran-card/get-digital",
+      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government",
+      "https://www.gov.uk/government/news/public-services-put-in-your-pocket-with-trial-govuk-app-launched-today",
+      "https://www.gov.uk/using-your-gov-uk-one-login",
+      "https://www.gov.uk/wallet"
+    ]
+  },
+  {
+    "id": "4a67f23ebf9f5d11",
+    "title": "Department of Health and Social Care accounting officer assessments",
+    "description": "Accounting officer assessment summaries for the Department of Health and Social Care’s programmes and projects in the Government Major Projects Portfolio.",
+    "url": "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments",
+    "date": "2026-03-26",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/new-hospital-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/federated-data-platform-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/digitising-social-care-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/nhs-electronic-staff-record-transformation-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/integrated-single-financial-environment-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/frontline-digitisation-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments/digital-transformation-of-screening-programme-accounting-officer-assessment",
+      "https://www.gov.uk/government/collections/accounting-officer-assessments-collection",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "https://www.gov.uk/government/organisations/nhs-business-services-authority",
+      "https://www.gov.uk/government/organisations/nhs-england",
+      "https://www.gov.uk/government/major-project-management",
+      "https://www.gov.uk/health-and-social-care/national-health-service"
+    ]
+  },
+  {
     "id": "ef213de09fa66dc9",
     "title": "Functional Standards Common Glossary",
     "description": "Functional Standards Common Glossary ",
@@ -1039,6 +1022,22 @@
       "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
       "https://www.gov.uk/government/publications/government-functional-standard-govs-001-government-functions",
       "https://www.gov.uk/government/publications/guide-to-functional-standards"
+    ]
+  },
+  {
+    "id": "ff2faf04073d8d2d",
+    "title": "DVLA business plan 2022 to 2023",
+    "description": "Our business plan 2022 to 2023 details what we will deliver in the year.",
+    "url": "https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023",
+    "date": "2022-05-16",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023/dvla-business-plan-2022-to-2023",
+      "https://assets.publishing.service.gov.uk/media/6284c3ffe90e071f62029bf3/dvla-business-plan-2022-to-2023.pdf",
+      "https://www.gov.uk/government/collections/dvla-business-plans",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
+      "https://www.gov.uk/transport/corporate-and-operational-information-transport"
     ]
   },
   {
@@ -1113,24 +1112,6 @@
     ]
   },
   {
-    "id": "1e5461d6f2470565",
-    "title": "Enhancing the UK’s Geospatial Ecosystem",
-    "description": "Outlines the actions needed to nurture the UK’s growing geospatial economy, underpinned by an independent study into the current UK location data market. \r\n",
-    "url": "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem",
-    "date": "2020-11-24",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://assets.publishing.service.gov.uk/media/618bac53d3bf7f05539de31a/Enhancing_the_UK_s_Geospatial_Ecosystem.pdf",
-      "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem/enhancing-the-uks-geospatial-ecosystem",
-      "https://assets.publishing.service.gov.uk/media/5fb7aa488fa8f559e2153975/Frontier_Economics_-_Geospatial_Data_Market_Study.pdf",
-      "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem/frontier-economics-geospatial-data-market-study-report-executive-summary",
-      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
-      "https://www.gov.uk/government/organisations/geospatial-commission",
-      "https://www.gov.uk/government/organisations/cabinet-office",
-      "https://www.gov.uk/government/publications/unlocking-the-power-of-locationthe-uks-geospatial-strategy"
-    ]
-  },
-  {
     "id": "6f314d7328bdacf1",
     "title": "Government cuts cyber-attack fix times by 84% and launches new profession to protect public services",
     "description": "The government has launched a new vulnerability monitoring service (VMS) to reduce cyber risks and speed up fixes, and a new Cyber Profession to build long-term resilience across public services.",
@@ -1146,6 +1127,24 @@
       "https://www.gov.uk/government/cyber-security",
       "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government",
       "https://www.nao.org.uk/reports/government-cyber-resilience/"
+    ]
+  },
+  {
+    "id": "1e5461d6f2470565",
+    "title": "Enhancing the UK’s Geospatial Ecosystem",
+    "description": "Outlines the actions needed to nurture the UK’s growing geospatial economy, underpinned by an independent study into the current UK location data market. \r\n",
+    "url": "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem",
+    "date": "2020-11-24",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/618bac53d3bf7f05539de31a/Enhancing_the_UK_s_Geospatial_Ecosystem.pdf",
+      "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem/enhancing-the-uks-geospatial-ecosystem",
+      "https://assets.publishing.service.gov.uk/media/5fb7aa488fa8f559e2153975/Frontier_Economics_-_Geospatial_Data_Market_Study.pdf",
+      "https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem/frontier-economics-geospatial-data-market-study-report-executive-summary",
+      "https://www.gov.uk/government/2019-to-2022-johnson-conservative-government",
+      "https://www.gov.uk/government/organisations/geospatial-commission",
+      "https://www.gov.uk/government/organisations/cabinet-office",
+      "https://www.gov.uk/government/publications/unlocking-the-power-of-locationthe-uks-geospatial-strategy"
     ]
   },
   {
@@ -1194,21 +1193,6 @@
     ]
   },
   {
-    "id": "d2acd8d7e95d66e7",
-    "title": "The 9th ASEAN-OECD Good Regulatory Practice Network promotes better regulatory frameworks",
-    "description": "This year’s GRPN meeting focuses on building better regulation to address modern-day challenges. ",
-    "url": "https://www.gov.uk/government/news/the-9th-asean-oecd-good-regulatory-practice-network-promotes-better-regulatory-frameworks",
-    "date": "2024-11-28",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/international/economic-growth-in-developing-countries",
-      "https://www.gov.uk/government/sustainable-development",
-      "https://www.gov.uk/world/uk-mission-to-asean",
-      "https://www.gov.uk/world/organisations/uk-mission-to-asean"
-    ]
-  },
-  {
     "id": "b5c2aecf2524a1a3",
     "title": "Crown Commercial Service annual report and accounts 2021 to 2022",
     "description": "This document provides the Crown Commercial Service annual report and accounts of activity and services for 2021 to 2022.",
@@ -1224,6 +1208,21 @@
       "https://www.gov.uk/government/organisations/crown-commercial-service",
       "https://www.gov.uk/government/organisations/government-commercial-agency",
       "https://www.gov.uk/business-and-industry/uk-economy"
+    ]
+  },
+  {
+    "id": "d2acd8d7e95d66e7",
+    "title": "The 9th ASEAN-OECD Good Regulatory Practice Network promotes better regulatory frameworks",
+    "description": "This year’s GRPN meeting focuses on building better regulation to address modern-day challenges. ",
+    "url": "https://www.gov.uk/government/news/the-9th-asean-oecd-good-regulatory-practice-network-promotes-better-regulatory-frameworks",
+    "date": "2024-11-28",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/international/economic-growth-in-developing-countries",
+      "https://www.gov.uk/government/sustainable-development",
+      "https://www.gov.uk/world/uk-mission-to-asean",
+      "https://www.gov.uk/world/organisations/uk-mission-to-asean"
     ]
   },
   {
@@ -1292,20 +1291,6 @@
     ]
   },
   {
-    "id": "645c3139f7be8e00",
-    "title": "Project work of the British Embassy in Ukraine",
-    "description": "The British Embassy in Ukraine works proactively with international and local partners to implement a range of projects funded from the Bilateral Programme Budget of the Foreign and Commonwealth Office. ",
-    "url": "https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine",
-    "date": "2013-07-16",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine.uk",
-      "https://www.gov.uk/government/organisations/foreign-commonwealth-office",
-      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
-      "https://www.gov.uk/world/organisations/british-embassy-kyiv"
-    ]
-  },
-  {
     "id": "401c2aab3f50fe0e",
     "title": "Digital tools that support volunteering",
     "description": "Research exploring how digital tools support volunteering in England and how their role in sustaining and promoting volunteering in the future could be improved",
@@ -1321,21 +1306,17 @@
     ]
   },
   {
-    "id": "de5f281e3dd1cc40",
-    "title": "New Google partnership will help rid taxpayer of ‘ball and chain’ legacy tech and aim to upskill 100,000 civil servants in tech and AI",
-    "description": "New partnership with Google Cloud will help modernise outdated government IT, upskill 100,000 civil servants in digital and AI by 2030, and secure better tech deals for the taxpayer.",
-    "url": "https://www.gov.uk/government/news/new-google-partnership-will-help-rid-taxpayer-of-ball-and-chain-legacy-tech-and-aim-to-upskill-100000-civil-servants-in-tech-and-ai",
-    "date": "2025-07-08",
+    "id": "645c3139f7be8e00",
+    "title": "Project work of the British Embassy in Ukraine",
+    "description": "The British Embassy in Ukraine works proactively with international and local partners to implement a range of projects funded from the Bilateral Programme Budget of the Foreign and Commonwealth Office. ",
+    "url": "https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine",
+    "date": "2013-07-16",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/people/peter-kyle",
-      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/economic-growth",
-      "https://www.gov.uk/business-and-industry/artificial-intelligence",
-      "https://www.gov.uk/missions",
-      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government/a-blueprint-for-modern-digital-government-html"
+      "https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine.uk",
+      "https://www.gov.uk/government/organisations/foreign-commonwealth-office",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/world/organisations/british-embassy-kyiv"
     ]
   },
   {
@@ -1382,6 +1363,38 @@
     ]
   },
   {
+    "id": "de5f281e3dd1cc40",
+    "title": "New Google partnership will help rid taxpayer of ‘ball and chain’ legacy tech and aim to upskill 100,000 civil servants in tech and AI",
+    "description": "New partnership with Google Cloud will help modernise outdated government IT, upskill 100,000 civil servants in digital and AI by 2030, and secure better tech deals for the taxpayer.",
+    "url": "https://www.gov.uk/government/news/new-google-partnership-will-help-rid-taxpayer-of-ball-and-chain-legacy-tech-and-aim-to-upskill-100000-civil-servants-in-tech-and-ai",
+    "date": "2025-07-08",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/people/peter-kyle",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/economic-growth",
+      "https://www.gov.uk/business-and-industry/artificial-intelligence",
+      "https://www.gov.uk/missions",
+      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government/a-blueprint-for-modern-digital-government-html"
+    ]
+  },
+  {
+    "id": "73f22d7ce62a2716",
+    "title": "Circular economy: guidance for mayoral strategic authorities",
+    "description": "How mayoral strategic authorities can incorporate circularity into local growth plans or spatial development strategies. ",
+    "url": "https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities",
+    "date": "2026-04-14",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities/circularity-guidance-for-mayoral-strategic-authorities",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+      "https://www.gov.uk/environment/waste-and-recycling"
+    ]
+  },
+  {
     "id": "84cce4abcc9f0e5c",
     "title": "Projects selected for the Regulators’ Pioneer Fund",
     "description": "Projects selected for the Regulators' Pioneer Fund to help create a UK regulatory environment that encourages business innovation and investment.",
@@ -1399,20 +1412,6 @@
       "https://www.gov.uk/business-and-industry/science-and-innovation",
       "https://www.gov.uk/government/publications/regulators-pioneer-fund-round-4",
       "https://www.gov.uk/government/publications/apply-for-the-regulators-pioneer-fund-round-3"
-    ]
-  },
-  {
-    "id": "73f22d7ce62a2716",
-    "title": "Circular economy: guidance for mayoral strategic authorities",
-    "description": "How mayoral strategic authorities can incorporate circularity into local growth plans or spatial development strategies. ",
-    "url": "https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities",
-    "date": "2026-04-14",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities/circularity-guidance-for-mayoral-strategic-authorities",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
-      "https://www.gov.uk/environment/waste-and-recycling"
     ]
   },
   {
@@ -1448,6 +1447,22 @@
     ]
   },
   {
+    "id": "58b2e934ac8de3f6",
+    "title": "New Permanent Secretary at Department for Science, Innovation and Technology",
+    "description": "Emran Mian has been appointed as the new Permanent Secretary at the Department for Science, Innovation and Technology, replacing Sarah Munby",
+    "url": "https://www.gov.uk/government/news/new-permanent-secretary-at-department-for-science-innovation-and-technology",
+    "date": "2025-06-29",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/cabinet-office",
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/people/peter-kyle",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/all"
+    ]
+  },
+  {
     "id": "330031762bccecee",
     "title": "Doing business with the health sector: a guide for buyers and small and medium-sized enterprises (SMEs)",
     "description": "A clear, practical guide to help buyers and SMEs build a fair, inclusive environment that can deliver better health outcomes and support SME growth.",
@@ -1468,22 +1483,6 @@
     ]
   },
   {
-    "id": "58b2e934ac8de3f6",
-    "title": "New Permanent Secretary at Department for Science, Innovation and Technology",
-    "description": "Emran Mian has been appointed as the new Permanent Secretary at the Department for Science, Innovation and Technology, replacing Sarah Munby",
-    "url": "https://www.gov.uk/government/news/new-permanent-secretary-at-department-for-science-innovation-and-technology",
-    "date": "2025-06-29",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/organisations/cabinet-office",
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/people/peter-kyle",
-      "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/all"
-    ]
-  },
-  {
     "id": "99894fc63dec2d66",
     "title": "Government to take a ‘test and learn’ approach with spending on AI and digital to push innovation",
     "description": "Government overhauls funding for AI and Digital Projects to save taxpayer money and boost public services",
@@ -1499,52 +1498,6 @@
       "https://www.gov.uk/government/ministers/secretary-of-state-for-science-innovation-and-technology",
       "https://www.gov.uk/government/government-technology-and-digital-services",
       "https://eur02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fgov.uk%2F&amp;data=05%7C02%7CRamyaa.Mohan%40dsit.gov.uk%7Cfa0a9494e8634e353be308dd5e30f888%7Ccbac700502c143ebb497e6492d1b2dd8%7C0%7C0%7C638770286607914845%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=4SICrMJWgwI3JwUVZaV94gD9hvm%2BQF7NPMF2YW51y%2Bc%3D&amp;reserved=0"
-    ]
-  },
-  {
-    "id": "0c5728029550c805",
-    "title": "People across UK to benefit from easier access to local services as councils get digital boost",
-    "description": "A new government unit, GDS Local, has launched to help councils across the UK make everyday services – from managing council tax to accessing local support – easier, faster, and more accessible for residents.",
-    "url": "https://www.gov.uk/government/news/people-across-uk-to-benefit-from-easier-access-to-local-services-as-councils-get-digital-boost",
-    "date": "2025-11-22",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/organisations/government-digital-service",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/people/ian-murray",
-      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-digital-government-and-data",
-      "https://www.gov.uk/government/government-technology-and-digital-services",
-      "https://www.gov.uk/",
-      "https://governmentdigitalanddatahub.campaign.gov.uk/",
-      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government",
-      "https://www.gov.uk/government/publications/state-of-digital-government-review",
-      "https://www.gov.uk/guidance/gds-local"
-    ]
-  },
-  {
-    "id": "58874fe4051e2c7c",
-    "title": "HMRC Sustainability Report",
-    "description": "This report records progress made by HM Revenue and Customs (HMRC) and its agency, the Valuation Office Agency (VOA), against the environment targets contained in the Greening Government Commitments (GGCs) and social sustainability initiatives.",
-    "url": "https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-    "date": "2022-02-22",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report/hmrc-sustainability-report-2020-to-2021",
-      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
-      "https://www.gov.uk/government/organisations/hm-revenue-customs",
-      "https://www.gov.uk/government/organisations/valuation-office-agency",
-      "https://www.gov.uk/corporate-information",
-      "https://www.gov.uk/environment",
-      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
-      "https://www.gov.uk/government/sustainable-development",
-      "https://webarchive.nationalarchives.gov.uk/ukgwa/20220125174155/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "https://webarchive.nationalarchives.gov.uk/20200512020549/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "https://webarchive.nationalarchives.gov.uk/20190802195329/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "https://webarchive.nationalarchives.gov.uk/20181002171301/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "http://webarchive.nationalarchives.gov.uk/20170607011346/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "http://webarchive.nationalarchives.gov.uk/20160727123331/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
-      "http://webarchive.nationalarchives.gov.uk/20150727123331/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report"
     ]
   },
   {
@@ -1571,6 +1524,27 @@
     ]
   },
   {
+    "id": "0c5728029550c805",
+    "title": "People across UK to benefit from easier access to local services as councils get digital boost",
+    "description": "A new government unit, GDS Local, has launched to help councils across the UK make everyday services – from managing council tax to accessing local support – easier, faster, and more accessible for residents.",
+    "url": "https://www.gov.uk/government/news/people-across-uk-to-benefit-from-easier-access-to-local-services-as-councils-get-digital-boost",
+    "date": "2025-11-22",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/organisations/government-digital-service",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/people/ian-murray",
+      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-digital-government-and-data",
+      "https://www.gov.uk/government/government-technology-and-digital-services",
+      "https://www.gov.uk/",
+      "https://governmentdigitalanddatahub.campaign.gov.uk/",
+      "https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government",
+      "https://www.gov.uk/government/publications/state-of-digital-government-review",
+      "https://www.gov.uk/guidance/gds-local"
+    ]
+  },
+  {
     "id": "4cee88ac8859282c",
     "title": "Tech innovators backed to set up and scale up in Britain through Industrial Strategy",
     "description": "Ambitious Digital and Technologies Sector Plan to help deliver government’s modern Industrial Strategy to drive national renewal and our Plan for Change.",
@@ -1589,6 +1563,31 @@
       "https://www.gov.uk/government/publications/industrial-strategy",
       "https://www.gov.uk/government/publications/spending-review-2025-document",
       "https://www.gov.uk/government/publications/ai-opportunities-action-plan/ai-opportunities-action-plan"
+    ]
+  },
+  {
+    "id": "58874fe4051e2c7c",
+    "title": "HMRC Sustainability Report",
+    "description": "This report records progress made by HM Revenue and Customs (HMRC) and its agency, the Valuation Office Agency (VOA), against the environment targets contained in the Greening Government Commitments (GGCs) and social sustainability initiatives.",
+    "url": "https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+    "date": "2022-02-22",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report/hmrc-sustainability-report-2020-to-2021",
+      "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+      "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "https://www.gov.uk/government/organisations/valuation-office-agency",
+      "https://www.gov.uk/corporate-information",
+      "https://www.gov.uk/environment",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
+      "https://www.gov.uk/government/sustainable-development",
+      "https://webarchive.nationalarchives.gov.uk/ukgwa/20220125174155/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "https://webarchive.nationalarchives.gov.uk/20200512020549/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "https://webarchive.nationalarchives.gov.uk/20190802195329/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "https://webarchive.nationalarchives.gov.uk/20181002171301/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "http://webarchive.nationalarchives.gov.uk/20170607011346/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "http://webarchive.nationalarchives.gov.uk/20160727123331/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report",
+      "http://webarchive.nationalarchives.gov.uk/20150727123331/https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report"
     ]
   },
   {
@@ -1648,26 +1647,6 @@
     ]
   },
   {
-    "id": "4c9006b6007eb0a4",
-    "title": "Disclosure in the Digital Age",
-    "description": "Disclosure in the Digital Age: the Independent Review of Disclosure and Fraud Offences by Jonathan Fisher KC.",
-    "url": "https://www.gov.uk/government/publications/disclosure-in-the-digital-age",
-    "date": "2026-07-14",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/disclosure-in-the-digital-age/disclosure-in-the-digital-age-independent-review-of-disclosure-and-fraud-offences-accessible",
-      "https://assets.publishing.service.gov.uk/media/67e279b64fed20c7f559f558/Disclosure_in_the_Digital_Age_-_Independent_Review_Report_CP1285_WEB_0.1.pdf",
-      "https://assets.publishing.service.gov.uk/media/67e279cb4fed20c7f559f559/2025.03.13.Independent.Review.Part.One.Report.Disclosure.Print.20pt.LF_0.1.pdf",
-      "https://assets.publishing.service.gov.uk/media/6842d57dd25e6f6afd4c0107/Disclosure+in+the+Digital+Age+-+Independent+Review+of+Disclosure+and+Fraud+Offences+_Welsh_.pdf",
-      "https://assets.publishing.service.gov.uk/media/6842c80a0392ed9b784c00fc/Disclosure+in+the+Digital+Age+-+Independent+Review+of+Disclosure+and+Fraud+Offences+_Welsh+Translation_.pdf",
-      "https://www.gov.uk/government/collections/independent-review-of-disclosure-and-fraud-offences",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/home-office",
-      "https://www.gov.uk/crime-justice-and-law/criminal-justice-reform",
-      "https://questions-statements.parliament.uk/written-statements/detail/2025-03-20/hcws538"
-    ]
-  },
-  {
     "id": "46bd157a9bb469ce",
     "title": "DHSC major projects: appointment letters for senior responsible owners (August 2015 to January 2024)",
     "description": "Department of Health and Social Care appointment letters for government major projects portfolio (GMPP) senior responsible owners (SROs).",
@@ -1697,36 +1676,53 @@
     ]
   },
   {
-    "id": "69fdc9f802ecae33",
-    "title": "The Government Efficiency Framework",
-    "description": "The GEF will  improve how Departments report efficiencies and ensure the government has appropriate oversight to track delivery and drive improvement. ",
-    "url": "https://www.gov.uk/government/publications/the-government-efficiency-framework",
-    "date": "2025-11-24",
+    "id": "4c9006b6007eb0a4",
+    "title": "Disclosure in the Digital Age",
+    "description": "Disclosure in the Digital Age: the Independent Review of Disclosure and Fraud Offences by Jonathan Fisher KC.",
+    "url": "https://www.gov.uk/government/publications/disclosure-in-the-digital-age",
+    "date": "2026-07-14",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/publications/the-government-efficiency-framework/government-efficiency-framework-gef-summary-key-definitions-and-criteria-guide",
-      "https://www.gov.uk/government/publications/the-government-efficiency-framework/the-government-efficiency-framework--2",
-      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
-      "https://www.gov.uk/government/organisations/government-finance-function",
-      "https://www.gov.uk/government/organisations/hm-treasury",
-      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability"
+      "https://www.gov.uk/government/publications/disclosure-in-the-digital-age/disclosure-in-the-digital-age-independent-review-of-disclosure-and-fraud-offences-accessible",
+      "https://assets.publishing.service.gov.uk/media/67e279b64fed20c7f559f558/Disclosure_in_the_Digital_Age_-_Independent_Review_Report_CP1285_WEB_0.1.pdf",
+      "https://assets.publishing.service.gov.uk/media/67e279cb4fed20c7f559f559/2025.03.13.Independent.Review.Part.One.Report.Disclosure.Print.20pt.LF_0.1.pdf",
+      "https://assets.publishing.service.gov.uk/media/6842d57dd25e6f6afd4c0107/Disclosure+in+the+Digital+Age+-+Independent+Review+of+Disclosure+and+Fraud+Offences+_Welsh_.pdf",
+      "https://assets.publishing.service.gov.uk/media/6842c80a0392ed9b784c00fc/Disclosure+in+the+Digital+Age+-+Independent+Review+of+Disclosure+and+Fraud+Offences+_Welsh+Translation_.pdf",
+      "https://www.gov.uk/government/collections/independent-review-of-disclosure-and-fraud-offences",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/home-office",
+      "https://www.gov.uk/crime-justice-and-law/criminal-justice-reform",
+      "https://questions-statements.parliament.uk/written-statements/detail/2025-03-20/hcws538"
     ]
   },
   {
-    "id": "ee3673f60f4a492b",
-    "title": "Digital Identity Sectoral Analysis Report 2026",
-    "description": "Findings from OfDIA's 2026 research on the UK's digital identity sector. ",
-    "url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026",
-    "date": "2026-07-08",
+    "id": "c6bb55cd7c217d3b",
+    "title": "Register your vehicle as off the road (SORN)",
+    "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
+    "url": "https://www.gov.uk/make-a-sorn",
+    "date": "2014-12-04",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
-      "https://assets.publishing.service.gov.uk/media/6a4f54196dc61525ffaacf87/DI_Report__June_2026___External_.pdf",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/organisations/office-for-digital-identities-and-attributes",
-      "https://www.gov.uk/government/digital-identity",
-      "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2025"
+      "https://www.gov.uk/browse/driving/buy-sell-scrap-vehicle",
+      "https://www.gov.uk/browse/driving/manufacture-adapt-vehicle",
+      "https://www.gov.uk/browse/driving/number-plate",
+      "https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance",
+      "https://www.gov.uk/sorn-statutory-off-road-notification",
+      "https://www.gov.uk/check-vehicle-tax",
+      "https://www.gov.uk/government/news/vehicle-tax-changes",
+      "https://www.gov.uk/debt-advice",
+      "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
+      "https://www.gov.uk/government/organisations/government-digital-service",
+      "https://www.gov.uk/transport/buying-selling-registering-and-scrapping-a-vehicle",
+      "https://www.gov.uk/gwneud-hos",
+      "https://www.gov.uk/vehicle-tax-refund",
+      "https://www.gov.uk/vehicle-tax",
+      "https://www.gov.uk/sold-bought-vehicle",
+      "https://www.gov.uk/change-address-v5c",
+      "https://www.gov.uk/government/publications/v890-statutory-off-road-notification-sorn",
+      "https://www.gov.uk/government/publications/application-for-a-vehicle-registration-certificate",
+      "https://www.gov.uk/vehicle-log-book",
+      "https://www.gov.uk/call-charges"
     ]
   },
   {
@@ -1765,33 +1761,36 @@
     ]
   },
   {
-    "id": "c6bb55cd7c217d3b",
-    "title": "Register your vehicle as off the road (SORN)",
-    "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
-    "url": "https://www.gov.uk/make-a-sorn",
-    "date": "2014-12-04",
+    "id": "69fdc9f802ecae33",
+    "title": "The Government Efficiency Framework",
+    "description": "The GEF will  improve how Departments report efficiencies and ensure the government has appropriate oversight to track delivery and drive improvement. ",
+    "url": "https://www.gov.uk/government/publications/the-government-efficiency-framework",
+    "date": "2025-11-24",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/browse/driving/buy-sell-scrap-vehicle",
-      "https://www.gov.uk/browse/driving/manufacture-adapt-vehicle",
-      "https://www.gov.uk/browse/driving/number-plate",
-      "https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance",
-      "https://www.gov.uk/sorn-statutory-off-road-notification",
-      "https://www.gov.uk/check-vehicle-tax",
-      "https://www.gov.uk/government/news/vehicle-tax-changes",
-      "https://www.gov.uk/debt-advice",
-      "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
-      "https://www.gov.uk/government/organisations/government-digital-service",
-      "https://www.gov.uk/transport/buying-selling-registering-and-scrapping-a-vehicle",
-      "https://www.gov.uk/gwneud-hos",
-      "https://www.gov.uk/vehicle-tax-refund",
-      "https://www.gov.uk/vehicle-tax",
-      "https://www.gov.uk/sold-bought-vehicle",
-      "https://www.gov.uk/change-address-v5c",
-      "https://www.gov.uk/government/publications/v890-statutory-off-road-notification-sorn",
-      "https://www.gov.uk/government/publications/application-for-a-vehicle-registration-certificate",
-      "https://www.gov.uk/vehicle-log-book",
-      "https://www.gov.uk/call-charges"
+      "https://www.gov.uk/government/publications/the-government-efficiency-framework/government-efficiency-framework-gef-summary-key-definitions-and-criteria-guide",
+      "https://www.gov.uk/government/publications/the-government-efficiency-framework/the-government-efficiency-framework--2",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/government-finance-function",
+      "https://www.gov.uk/government/organisations/hm-treasury",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability"
+    ]
+  },
+  {
+    "id": "ee3673f60f4a492b",
+    "title": "Digital Identity Sectoral Analysis Report 2026",
+    "description": "Findings from OfDIA's 2026 research on the UK's digital identity sector. ",
+    "url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026",
+    "date": "2026-07-08",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
+      "https://assets.publishing.service.gov.uk/media/6a4f54196dc61525ffaacf87/DI_Report__June_2026___External_.pdf",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/organisations/office-for-digital-identities-and-attributes",
+      "https://www.gov.uk/government/digital-identity",
+      "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2025"
     ]
   },
   {
@@ -1847,56 +1846,6 @@
     ]
   },
   {
-    "id": "bac0d842eb93bf91",
-    "title": "Procurement at NRS Dounreay",
-    "description": "Information about how to work with Dounreay as a supplier.",
-    "url": "https://www.gov.uk/government/publications/procurement-at-dounreay",
-    "date": "2026-03-05",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://assets.publishing.service.gov.uk/media/69a94b7a2fd1694513b9b176/NRS_Dounreay_procurement_pipeline_February_2026.ods",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-framework-suppliers",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-procurement-policy",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/expectations-of-the-supply-chain",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/supporting-small-and-medium-sized-enterprises",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/cc4-conditions-of-contracts-for-goods-and-services",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/ordering-and-invoicing",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/delivering-to-the-dounreay-site",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-linc-category-1-and-2-suppliers",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/linc-with-dounreay-support-companies",
-      "https://www.gov.uk/government/publications/procurement-at-dounreay/nrs-dounreay-procurement-legislation-update-for-the-nda-supply-chain",
-      "https://www.gov.uk/government/collections/dounreay-division",
-      "https://www.gov.uk/government/2015-conservative-government",
-      "https://www.gov.uk/government/organisations/nuclear-restoration-services",
-      "https://www.gov.uk/business-and-industry/business-and-the-environment",
-      "https://www.gov.uk/business-and-industry/trade-and-investment",
-      "https://www.gov.uk/find-tender",
-      "https://www.gov.uk/contracts-finder",
-      "https://one-nda.force.com/s/Welcome",
-      "https://www.gov.uk/government/organisations/nuclear-decommissioning-authority/about/procurement",
-      "https://www.gov.uk/government/publications/the-dounreay-supply-chain-newsletters",
-      "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fprocurement-act-2023-guidance-documents-define-phase%2Fguidance-thresholds-html&amp;data=05%7C02%7C%7C065767ee96d3469deac308de2b390401%7C567f648e37f44490a4882a8c419baaba%7C0%7C0%7C638995721055664581%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=zp8u5zzYQkROdUVy3Ura%2FVkKoFccBmn5voIW00O6zd4%3D&amp;reserved=0"
-    ]
-  },
-  {
-    "id": "b8098d082b9048bf",
-    "title": "Homes England Public Bodies Review 2023",
-    "description": "Report outlining the findings of the 2023 Public Bodies Review into Homes England.",
-    "url": "https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023",
-    "date": "2024-04-08",
-    "topic": "blueprint modern digital government",
-    "attachments": [
-      "https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023/homes-england-public-bodies-review-2023",
-      "https://assets.publishing.service.gov.uk/media/6613feaceb8a1b8fae05e32f/Homes_England_Public_Bodies_Review_2023.pdf",
-      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
-      "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government",
-      "https://www.gov.uk/government/organisations/homes-england",
-      "https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities",
-      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
-      "https://www.gov.uk/government/publications/homes-england-public-body-review-terms-of-reference/homes-england-public-body-review-terms-of-reference"
-    ]
-  },
-  {
     "id": "d49d253781dfa0d5",
     "title": "Productivity plan launched",
     "description": "Government launches plan to fix the foundations of the British economy. ",
@@ -1935,28 +1884,53 @@
     ]
   },
   {
-    "id": "058203e4ec197f2f",
-    "title": "Thousands to get free digital training so everyone has the chance to shop around for cheaper deals online",
-    "description": "Free support to get people online is rolling out in communities in every region of the country.",
-    "url": "https://www.gov.uk/government/news/thousands-to-get-free-digital-training-so-everyone-has-the-chance-to-shop-around-for-cheaper-deals-online",
-    "date": "2025-12-10",
+    "id": "b8098d082b9048bf",
+    "title": "Homes England Public Bodies Review 2023",
+    "description": "Report outlining the findings of the 2023 Public Bodies Review into Homes England.",
+    "url": "https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023",
+    "date": "2024-04-08",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
-      "https://www.gov.uk/government/2024-starmer-labour-government",
-      "https://www.gov.uk/government/people/liz-lloyd",
-      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--302",
-      "https://www.gov.uk/government/digital-inclusion",
-      "https://www.gov.uk/business-and-industry/artificial-intelligence",
-      "https://www.gov.uk/education",
-      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients",
-      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund",
-      "https://www.gov.uk/government/publications/digital-inclusion-action-plan-first-steps/digital-inclusion-action-plan-first-steps",
-      "https://www.gov.uk/guidance/techfirst",
-      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients/digital-inclusion-innovation-fund-grant-recipients",
-      "https://www.lloydsbankinggroup.com/assets/pdfs/who-we-are/what-we-do/financial-wellbeing/lloyd-essential-digital-skills-2025.pdf",
-      "https://www.lloydsbank.com/assets/media/pdfs/banking_with_us/whats-happening/lb-consumer-digital-index-2024-report.pdf",
-      "https://www.centreforsocialjustice.org.uk/library/left-out"
+      "https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023/homes-england-public-bodies-review-2023",
+      "https://assets.publishing.service.gov.uk/media/6613feaceb8a1b8fae05e32f/Homes_England_Public_Bodies_Review_2023.pdf",
+      "https://www.gov.uk/government/2022-to-2024-sunak-conservative-government",
+      "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government",
+      "https://www.gov.uk/government/organisations/homes-england",
+      "https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities",
+      "https://www.gov.uk/government/government-efficiency-transparency-and-accountability",
+      "https://www.gov.uk/government/publications/homes-england-public-body-review-terms-of-reference/homes-england-public-body-review-terms-of-reference"
+    ]
+  },
+  {
+    "id": "bac0d842eb93bf91",
+    "title": "Procurement at NRS Dounreay",
+    "description": "Information about how to work with Dounreay as a supplier.",
+    "url": "https://www.gov.uk/government/publications/procurement-at-dounreay",
+    "date": "2026-03-05",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://assets.publishing.service.gov.uk/media/69a94b7a2fd1694513b9b176/NRS_Dounreay_procurement_pipeline_February_2026.ods",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-framework-suppliers",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-procurement-policy",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/expectations-of-the-supply-chain",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/supporting-small-and-medium-sized-enterprises",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/cc4-conditions-of-contracts-for-goods-and-services",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/ordering-and-invoicing",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/delivering-to-the-dounreay-site",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/dounreay-linc-category-1-and-2-suppliers",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/linc-with-dounreay-support-companies",
+      "https://www.gov.uk/government/publications/procurement-at-dounreay/nrs-dounreay-procurement-legislation-update-for-the-nda-supply-chain",
+      "https://www.gov.uk/government/collections/dounreay-division",
+      "https://www.gov.uk/government/2015-conservative-government",
+      "https://www.gov.uk/government/organisations/nuclear-restoration-services",
+      "https://www.gov.uk/business-and-industry/business-and-the-environment",
+      "https://www.gov.uk/business-and-industry/trade-and-investment",
+      "https://www.gov.uk/find-tender",
+      "https://www.gov.uk/contracts-finder",
+      "https://one-nda.force.com/s/Welcome",
+      "https://www.gov.uk/government/organisations/nuclear-decommissioning-authority/about/procurement",
+      "https://www.gov.uk/government/publications/the-dounreay-supply-chain-newsletters",
+      "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fprocurement-act-2023-guidance-documents-define-phase%2Fguidance-thresholds-html&amp;data=05%7C02%7C%7C065767ee96d3469deac308de2b390401%7C567f648e37f44490a4882a8c419baaba%7C0%7C0%7C638995721055664581%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=zp8u5zzYQkROdUVy3Ura%2FVkKoFccBmn5voIW00O6zd4%3D&amp;reserved=0"
     ]
   },
   {
@@ -1991,20 +1965,28 @@
     "attachments": []
   },
   {
-    "id": "5ec81b13e11f537a",
-    "title": "Innovation and commercialisation at heart of new economic plan for South East Midlands",
-    "description": "Locally developed plan sets out how the area will take full advantage of its global assets and maximise the economic opportunities of the Oxford-Cambridge Arc",
-    "url": "https://www.gov.uk/government/news/innovation-and-commercialisation-at-heart-of-new-economic-plan-for-south-east-midlands",
-    "date": "2019-07-19",
+    "id": "058203e4ec197f2f",
+    "title": "Thousands to get free digital training so everyone has the chance to shop around for cheaper deals online",
+    "description": "Free support to get people online is rolling out in communities in every region of the country.",
+    "url": "https://www.gov.uk/government/news/thousands-to-get-free-digital-training-so-everyone-has-the-chance-to-shop-around-for-cheaper-deals-online",
+    "date": "2025-12-10",
     "topic": "blueprint modern digital government",
     "attachments": [
-      "https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy",
-      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
-      "https://www.gov.uk/government/people/greg-clark",
-      "https://www.gov.uk/government/people/kit-malthouse",
-      "https://www.gov.uk/government/ministers/secretary-of-state-for-business-energy-and-industrial-strategy",
-      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-housing",
-      "https://www.gov.uk/business-and-industry"
+      "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+      "https://www.gov.uk/government/2024-starmer-labour-government",
+      "https://www.gov.uk/government/people/liz-lloyd",
+      "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--302",
+      "https://www.gov.uk/government/digital-inclusion",
+      "https://www.gov.uk/business-and-industry/artificial-intelligence",
+      "https://www.gov.uk/education",
+      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients",
+      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund",
+      "https://www.gov.uk/government/publications/digital-inclusion-action-plan-first-steps/digital-inclusion-action-plan-first-steps",
+      "https://www.gov.uk/guidance/techfirst",
+      "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients/digital-inclusion-innovation-fund-grant-recipients",
+      "https://www.lloydsbankinggroup.com/assets/pdfs/who-we-are/what-we-do/financial-wellbeing/lloyd-essential-digital-skills-2025.pdf",
+      "https://www.lloydsbank.com/assets/media/pdfs/banking_with_us/whats-happening/lb-consumer-digital-index-2024-report.pdf",
+      "https://www.centreforsocialjustice.org.uk/library/left-out"
     ]
   },
   {
@@ -2022,6 +2004,23 @@
       "https://www.gov.uk/government/2024-starmer-labour-government",
       "https://www.gov.uk/business-and-industry/space",
       "https://www.gov.uk/government/publications/artes-call-for-innovative-hybrid-network-solutions"
+    ]
+  },
+  {
+    "id": "5ec81b13e11f537a",
+    "title": "Innovation and commercialisation at heart of new economic plan for South East Midlands",
+    "description": "Locally developed plan sets out how the area will take full advantage of its global assets and maximise the economic opportunities of the Oxford-Cambridge Arc",
+    "url": "https://www.gov.uk/government/news/innovation-and-commercialisation-at-heart-of-new-economic-plan-for-south-east-midlands",
+    "date": "2019-07-19",
+    "topic": "blueprint modern digital government",
+    "attachments": [
+      "https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy",
+      "https://www.gov.uk/government/2016-to-2019-may-conservative-government",
+      "https://www.gov.uk/government/people/greg-clark",
+      "https://www.gov.uk/government/people/kit-malthouse",
+      "https://www.gov.uk/government/ministers/secretary-of-state-for-business-energy-and-industrial-strategy",
+      "https://www.gov.uk/government/ministers/minister-of-state-minister-for-housing",
+      "https://www.gov.uk/business-and-industry"
     ]
   }
 ]

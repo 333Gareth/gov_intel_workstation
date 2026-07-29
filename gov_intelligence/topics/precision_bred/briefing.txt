@@ -1,5 +1,5 @@
 🇬🇧 BRIEFING: PRECISION BRED
-TOTAL: 20
+TOTAL: 100
 ==================================================
 
 📌 [1] Precision bred organisms: application guidance
@@ -46,25 +46,25 @@ TOTAL: 20
    🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26002
    ↳ Details of a notification to release a precision bred pea plant in England.
 
-📌 [12] Precision bred organism release notice (reference: PBR/26/004)
-   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26004
-   ↳ Details of a notification to release a precision bred soy bean plant in England.
-
-📌 [13] Precision bred organism release notice (reference: PBR/26/003)
-   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26003
-   ↳ Details of a notification to release a precision bred oilseed rape plant in England.
-
-📌 [14] Change in circumstances affecting a market authorisation
+📌 [12] Change in circumstances affecting a market authorisation
    🔗 Link: https://www.gov.uk/guidance/change-in-circumstances-affecting-a-market-authorisation
    ↳ Guidance for applicants requiring a food and/or feed marketing authorisation for a Precision Bred Organism (PBO).
 
-📌 [15] Precision bred organisms (PBO) January 2023 statement
-   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organisms-pbo-january-2023-statement
-   ↳ Statement from the Advisory Committee on Novel Foods and Processes (ACNFP) on the safety assessment and regulation of precision bred organisms (PBOs).
+📌 [13] Precision bred organism release notice (reference: PBR/26/004)
+   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26004
+   ↳ Details of a notification to release a precision bred soy bean plant in England.
 
-📌 [16] Precision bred organisms (PBOs) September 2022 statement
+📌 [14] Precision bred organism release notice (reference: PBR/26/003)
+   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26003
+   ↳ Details of a notification to release a precision bred oilseed rape plant in England.
+
+📌 [15] Precision bred organisms (PBOs) September 2022 statement
    🔗 Link: https://www.gov.uk/government/publications/precision-bred-organisms-pbos-september-2022-statement
    ↳ Statement from the Advisory Committee on Novel Foods and Processes (ACNFP) on scientific considerations for regulating precision bred organisms (PBOs).
+
+📌 [16] Precision bred organisms (PBO) January 2023 statement
+   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organisms-pbo-january-2023-statement
+   ↳ Statement from the Advisory Committee on Novel Foods and Processes (ACNFP) on the safety assessment and regulation of precision bred organisms (PBOs).
 
 📌 [17] Precision bred organisms (PBO) July 2023 statement
    🔗 Link: https://www.gov.uk/government/publications/precision-bred-organisms-pbo-july-2023-statement
@@ -82,3 +82,301 @@ TOTAL: 20
    🔗 Link: https://www.gov.uk/government/consultations/summary-of-stakeholder-responses-consultation-on-proposals-for-a-new-framework-in-england-for-the-regulation-of-precision-bred-organisms-used-for-food
    ↳ England specific
 This consultation sought stakeholder views on a new regulatory framework in England for the regulation of precision bred food and animal feed.
+
+📌 [21] Defra privacy notice: regulation of precision bred organisms
+   🔗 Link: https://www.gov.uk/government/publications/defra-privacy-notice-regulation-of-precision-bred-organisms
+   ↳ How Defra will handle personal data when processing precision breeding release and marketing notices.
+
+📌 [22] Precision bred organism release notice (reference: PBR/26/007)
+   🔗 Link: https://www.gov.uk/government/publications/precision-bred-organism-release-notice-reference-pbr26007
+   ↳ Details of a notification to release a precision rapeseed plant in England.
+
+📌 [23] Plant varieties and seeds framework for precision bred plant varieties in England
+   🔗 Link: https://www.gov.uk/government/consultations/plant-varieties-and-seeds-framework-for-precision-bred-plant-varieties-in-england
+   ↳ Consultation on a proposed plant varieties and seeds framework for precision bred plant varieties in England. 
+
+📌 [24] Committee advice documents A to Z
+   🔗 Link: https://www.gov.uk/government/collections/committee-advice-documents-a-to-z
+   ↳ Committee advice documents organised alphabetically, outlining advice on novel foods, GM foods and feed, Precision Bred Organisms and novel food processes.
+
+📌 [25] Precision Breeding Working Group
+   🔗 Link: https://www.gov.uk/government/groups/precision-breeding-working-group
+   ↳ The Precision Breeding Working Group aims to facilitate routes to market for precision bred plant products.
+
+📌 [26] The Food Standards Agency and the Genetic Technology (Precision Breeding) Bill
+   🔗 Link: https://www.gov.uk/government/publications/the-food-standards-agency-and-the-genetic-technology-precision-breeding-bill
+   ↳ Shaping a future regulatory framework for precision bred food and feed products.
+
+📌 [27] Genetic Modification Inspectorate: seed audit programme
+   🔗 Link: https://www.gov.uk/guidance/genetic-modification-inspectorate-seed-audit-programme
+   ↳ Guidance on the Genetic Modification Inspectorate (GMI) seed audit programme for companies in England that import, produce or market seed.
+
+📌 [28] From precision-bred hemp to Sunshine Tomatoes: £21.5m to drive farm innovation in England
+   🔗 Link: https://www.gov.uk/government/news/from-precision-bred-hemp-to-sunshine-tomatoes-215m-to-drive-farm-innovation-in-england
+   ↳ £21.5m is backing 15 England-wide projects to turn new crops and low-emission farm tech into ready-to-use tools that boost productivity.
+
+📌 [29] Genetic Technology Bill to take on most pressing environmental problems of our time
+   🔗 Link: https://www.gov.uk/government/news/genetic-technology-bill-to-take-on-most-pressing-environmental-problems-of-our-time
+   ↳ Covers precision-bred plants and animals developed through techniques such as gene editing
+
+📌 [30] About us
+   🔗 Link: https://www.gov.uk/government/organisations/advisory-committee-on-releases-to-the-environment/about
+   ↳ We give statutory advice to ministers on the risks to human health and the environment from the release of genetically modified organisms (GMOs). 
+
+📌 [31] FAQ for precision breeding application guidance
+   🔗 Link: https://www.gov.uk/government/publications/faq-for-precision-breeding-application-guidance
+   ↳ Frequently asked questions for those making precision breeding applications.
+
+
+📌 [32] Qualifying higher plant notification (reference: 24/Q07)
+   🔗 Link: https://www.gov.uk/government/publications/qualifying-higher-plant-notification-reference-24q07
+   ↳ Details of a notification to release a qualifying higher plant.
+
+📌 [33] Qualifying higher plant notification (reference: 24/Q06)
+   🔗 Link: https://www.gov.uk/government/publications/qualifying-higher-plant-notification-reference-24q06
+   ↳ Details of a notification to release a qualifying higher plant.
+
+📌 [34] Advisory Committee on Releases to the Environment (ACRE) annual report 2024
+   🔗 Link: https://www.gov.uk/government/publications/advisory-committee-on-releases-to-the-environment-acre-annual-report-2024
+   ↳ Advisory Committee on Releases to the Environment's annual report, including details of the committee's work and membership during 2024.
+
+📌 [36] Regulated products application guidance
+   🔗 Link: https://www.gov.uk/guidance/regulated-products-application-guidance
+   ↳ What you need to submit as part of your regulated product application.
+
+📌 [37] Placing innovative foods on the market in Great Britain
+   🔗 Link: https://www.gov.uk/government/publications/placing-innovative-foods-on-the-market-in-great-britain
+   ↳ An overview of innovative food regulations, guidance and key compliance considerations for Great Britain.
+
+📌 [38] Opinion on breeding and breeding technologies in commercial livestock agriculture
+   🔗 Link: https://www.gov.uk/government/publications/animal-welfare-committee-awc-opinion-on-breeding-and-breeding-technologies-in-commercial-livestock-agriculture
+   ↳ Animal Welfare Committee (AWC) opinion on the welfare implications of breeding and breeding technologies in commercial livestock agriculture.   
+
+📌 [39] Terms of reference
+   🔗 Link: https://www.gov.uk/government/organisations/advisory-committee-on-novel-foods-and-processes/about/terms-of-reference
+   ↳ ACNFP and its subgroups provide independent scientific advice on novel foods and processes, supporting risk assessment and government decision making.
+
+📌 [40] UK businesses continue to adapt to changes in UK internal market
+   🔗 Link: https://www.gov.uk/government/news/uk-businesses-continue-to-adapt-to-changes-in-uk-internal-market
+   ↳ OIM report suggests trade between UK nations is not a challenge for most, while policy design can minimise disruption. 
+
+📌 [43] ACNFP subgroup terms of references
+   🔗 Link: https://www.gov.uk/government/publications/acnfp-subgroup-terms-of-references
+   ↳ Terms of reference for Advisory Committee on Novel Foods and Processes (ACNFP) subgroups providing scientific advice within the Committees remit.
+
+📌 [45] Advisory Committee on Releases to the Environment (ACRE) annual report 2023
+   🔗 Link: https://www.gov.uk/government/publications/advisory-committee-on-releases-to-the-environment-acre-annual-report-2023
+   ↳ Advisory Committee on Releases to the Environment's annual report, including details of the committee's work and membership during 2023.
+
+📌 [46] OIM Periodic Report
+   🔗 Link: https://www.gov.uk/government/publications/oim-periodic-report
+   ↳ The Office for the Internal Market (OIM) has published its periodic report on the UK internal market regime
+
+📌 [48] Engineering Biology Regulators Network
+   🔗 Link: https://www.gov.uk/government/groups/engineering-biology-regulators-network
+   ↳ Network of regulators involved in regulating engineering biology products. The network shares knowledge and best practice for the benefit of the sector.
+
+📌 [49] Scientific procedures on living animals, Great Britain: 2025
+   🔗 Link: https://www.gov.uk/government/statistics/scientific-procedures-on-living-animals-great-britain-2025
+   ↳ Annual statistics relating to scientific procedures performed on living animals in accordance with the Animals (Scientific Procedures) Act 1986.
+
+📌 [50] Thematic report on emerging food innovations in the UK
+   🔗 Link: https://www.gov.uk/government/publications/thematic-report-on-emerging-food-innovations-in-the-uk
+   ↳ A report on emerging food innovations the FSA and FSS foresee reaching UK markets in the next 5–10 years.
+
+
+
+📌 [51] Thematic report on emerging food innovations in the UK
+   🔗 Link: https://www.gov.uk/government/publications/thematic-report-on-emerging-food-innovations-in-the-uk
+   ↳ A report on emerging food innovations the FSA and FSS foresee reaching UK markets in the next 5–10 years.
+
+
+
+📌 [52] PM article on Ukraine: 6 March 2022
+   🔗 Link: https://www.gov.uk/government/news/pm-article-on-ukraine-6-march-2022
+   ↳ Prime Minister Boris Johnson's article on Ukraine. 
+
+📌 [53] Top emerging UK food innovations: 2025-2035
+   🔗 Link: https://www.gov.uk/government/publications/top-emerging-uk-food-innovations-2025-2035
+   ↳ Innovations the Food Standard Agency and Food Standards Scotland expect will shape the future of the UK food system.
+
+
+📌 [54] Scientific procedures on living animals, Great Britain: 2024
+   🔗 Link: https://www.gov.uk/government/statistics/scientific-procedures-on-living-animals-great-britain-2024
+   ↳ Annual statistics relating to scientific procedures performed on living animals in accordance with the Animals (Scientific Procedures) Act 1986.
+
+📌 [56] The operation of the Animals (Scientific Procedures) Act 1986
+   🔗 Link: https://www.gov.uk/government/publications/the-operation-of-the-animals-scientific-procedures-act-1986
+   ↳ Explains how the act is administered and enforced and provides detailed guidance to licence holders and applicants.
+
+📌 [57] Statistics of scientific procedures on living animals, Great Britain: 2022
+   🔗 Link: https://www.gov.uk/government/statistics/statistics-of-scientific-procedures-on-living-animals-great-britain-2022
+   ↳ Annual statistics relating to scientific procedures performed on living animals in accordance with the Animals (Scientific Procedures) Act 1986.
+
+📌 [58] Statistics of scientific procedures on living animals, Great Britain: 2023
+   🔗 Link: https://www.gov.uk/government/statistics/statistics-of-scientific-procedures-on-living-animals-great-britain-2023
+   ↳ Annual statistics relating to scientific procedures performed on living animals in accordance with the Animals (Scientific Procedures) Act 1986.
+
+📌 [59] Annual report on the operation of the UK internal market 2023 to 2024
+   🔗 Link: https://www.gov.uk/government/publications/annual-report-on-the-operation-of-the-uk-internal-market-2023-to-2024
+   ↳ The Office for the Internal Market (OIM) has published its annual report on the operation of the internal market for 2023 to 2024.
+
+📌 [60] Administrative agreements with trade bodies (VAT Notice 700/57)
+   🔗 Link: https://www.gov.uk/guidance/vat-administrative-agreements-with-trade-bodies-notice-70057
+   ↳ Read details of administrative agreements relating to VAT on certain specific transactions between members of trade bodies and HMRC.
+
+📌 [61] Welsh Food Advisory Committee Directors Report - April 2025
+   🔗 Link: https://www.gov.uk/government/publications/welsh-food-advisory-committee-directors-report-april-2025
+   ↳ This report provides: 
+
+a summary of subjects introduced by the Chief Executive at the last Board meeting, held on 26 March 2025, a summary of senior engagement across the UK and International Affairs (UKIA) Directorate; and  an overview of developments and matters of interest to WFAC relating to Wales.   
+
+Members of the committee are invited to:  
+
+* note the update 
+* invite the Directors to expand on any issues for further discussion 
+
+📌 [62] ACNFP member biographies
+   🔗 Link: https://www.gov.uk/government/publications/acnfp-member-biographies
+   ↳ Biographical profiles outlining the experience and expertise of Advisory Committee on Novel Foods and Processes (ACNFP) members and subgroups.
+
+📌 [63] 5 February 2025 ACNFP open session on CCPs
+   🔗 Link: https://www.gov.uk/government/publications/5-february-2025-acnfp-open-session-on-ccps
+   ↳ Record from an Advisory Committee on Novel Foods and Processes (ACNFP) open session on potential hazards associated with Cell Cultivated Products (CCP).
+
+📌 [64] OIM Annual Report
+   🔗 Link: https://www.gov.uk/government/publications/oim-annual-report
+   ↳ The Office for the Internal Market (OIM) has published its annual report on the operation of the internal market 2022-23
+
+📌 [65] ACNFP consultation response on new genetic technologies 2021
+   🔗 Link: https://www.gov.uk/government/publications/acnfp-consultation-response-on-new-genetic-technologies-2021
+   ↳ Response from the Advisory Committee on Novel Foods and Processes (ACNFP) to a DEFRA consultation on the regulation of new genetic technologies.
+
+📌 [66] Government Chemist Review 2023
+   🔗 Link: https://www.gov.uk/government/publications/government-chemist-2023-annual-review
+   ↳ Referee casework, research projects, advice and impact of work carried out by the Government Chemist team during 2023
+
+📌 [67] New legislation to support precision breeding and boost Britain’s food security
+   🔗 Link: https://www.gov.uk/government/news/new-legislation-to-support-precision-breeding-and-boost-britains-food-security
+   ↳ The Government has announced new laws to support precision breeding technology which will increase food production, reduce costs to farmers and allow drought and disease resistant crops to be grown.
+
+📌 [68] Government invests more than £45 million in groundbreaking technologies to boost Britain's food security
+   🔗 Link: https://www.gov.uk/government/news/government-invests-in-new-technologies-to-boost-food-security
+   ↳ More funding for farmers to increase profits, boost food production and protect nature 
+
+📌 [69] Genetic Technology Bill: enabling innovation to boost food security
+   🔗 Link: https://www.gov.uk/government/news/genetic-technology-bill-enabling-innovation-to-boost-food-security
+   ↳ New legislation will make the UK the best place in the world to invest in agri-food research and innovation. 
+
+📌 [70] Pioneering projects in food and agriculture win £17.8 million
+   🔗 Link: https://www.gov.uk/government/news/pioneering-projects-in-food-and-agriculture-win-178-million
+   ↳ Lobster farming, scallop cultivation & whisky distillation among projects winning £17.8 million Agri-Tech Catalyst funding.                 
+
+📌 [72] Hunting trophies: controlling imports to and exports from the UK
+   🔗 Link: https://www.gov.uk/government/consultations/hunting-trophies-controlling-imports-to-and-exports-from-the-uk
+   ↳ Seeking views on whether to introduce further restrictions on hunting trophies entering or leaving the UK.
+
+📌 [74] FSA 22-09-13 Performance and Resources report Quarter 1 2022 to 2023
+   🔗 Link: https://www.gov.uk/government/publications/fsa-22-09-13-performance-and-resources-report-quarter-1-2022-to-2023
+   ↳ Executive Summary of our quarter 1 2022 to 2023 performance
+
+📌 [75] H Hiram v Obaseki Solicitors: 8000081/2023
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/h-hiram-v-obaseki-solicitors-8000081-slash-2023
+   ↳ Employment Tribunal decision.
+
+📌 [76] Care and accommodation of animals in science: advisory standards
+   🔗 Link: https://www.gov.uk/government/publications/care-and-accommodation-of-animals-in-science-advisory-standards
+   ↳ Advice on how to meet and exceed the legal minimum standards in the code of practice.
+
+📌 [77] Welfare of primates as pets in England: call for evidence
+   🔗 Link: https://www.gov.uk/government/calls-for-evidence/welfare-of-primates-as-pets-in-england-call-for-evidence
+   ↳ Seeking evidence on the welfare of pet primates in England.
+
+📌 [78] Genetic technologies regulation
+   🔗 Link: https://www.gov.uk/government/consultations/genetic-technologies-regulation
+   ↳ Seeking views on the regulation of organisms produced using genetic technologies such as gene editing.
+
+📌 [79] OIM Annual Report 2024 to 2025
+   🔗 Link: https://www.gov.uk/government/publications/oim-annual-report-2024-to-2025
+   ↳ The Office for the Internal Market (OIM) has published its annual report on the operation of the internal market for 2024 to 2025.
+
+📌 [80] Neonicotinoid product as seed treatment for sugar beet: emergency authorisation application 2025
+   🔗 Link: https://www.gov.uk/government/publications/neonicotinoid-product-as-seed-treatment-for-sugar-beet-emergency-authorisation-application
+   ↳ The Minister for Water and Flooding denies application for emergency authorisation to use a product containing a neonicotinoid to treat seeds for the 2025 sugar beet crop in England.
+
+📌 [81] Animals in Science: ministerial commission 2024
+   🔗 Link: https://www.gov.uk/government/publications/animals-in-science-ministerial-commission-2024
+   ↳ Letter from Minister, Lord Sharpe of Epsom, to Professor David Main, Chair of the Animals in Science Committee, on commissioned areas of work.
+
+📌 [82] Animals in Science Regulation Unit annual report 2023
+   🔗 Link: https://www.gov.uk/government/publications/animals-in-science-regulation-unit-annual-report-2023
+   ↳ The Animals in Science Regulation Unit annual report describes the role and performance of the unit in 2023.
+
+📌 [83] A blueprint to grow the UK fruit and vegetable sector
+   🔗 Link: https://www.gov.uk/government/publications/a-blueprint-to-grow-the-uk-fruit-and-vegetable-sector
+   ↳ Government’s ambitions and plan to grow the fresh produce sector and increase the amount of fruit and vegetables produced in the UK.
+
+📌 [84] Peter Kyle’s speech at the techUK Conference 2025
+   🔗 Link: https://www.gov.uk/government/speeches/peter-kyles-speech-at-the-techuk-conference-2025
+   ↳ A speech delivered by Secretary of State for Science, Innovation, and Technology, Peter Kyle, at the techUK Conference on Monday 10 March.
+
+📌 [85] Farm animal genetic resources (FAnGR): technology review
+   🔗 Link: https://www.gov.uk/government/publications/farm-animal-genetic-resources-fangr-technology-review
+   ↳ The farm animal genetic resources (FAnGR) committee's review of current and new technologies, including genomics.
+
+📌 [86] Government Chemist Review 2024
+   🔗 Link: https://www.gov.uk/government/publications/government-chemist-review-2024
+   ↳ Referee casework, research projects, advice and impact of work carried out by the Government Chemist team during 2024.
+
+📌 [87] Engineering Biology Aspirations: report
+   🔗 Link: https://www.gov.uk/government/publications/engineering-biology-aspirations-report
+   ↳ This Foresight report explores Engineering Biology's transformative potential across sectors and its diverse applications, showcasing its societal impact. 
+
+📌 [89] FSA 26/06/01 - Minutes of 25 March 2026
+   🔗 Link: https://www.gov.uk/government/publications/fsa-260601-minutes-of-25-march-2026
+   ↳ Minutes of the Food Standards Agency Board Meeting – Wednesday 25 March 2026
+
+📌 [90] Mr G Roomes v Peabody Trust and its subsidiaries: 2304875/2020
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mr-g-roomes-v-peabody-trust-and-its-subsidiaries-2304875-slash-2020
+   ↳ Employment Tribunal decision.
+
+
+📌 [91] JDI International Leasing Ltd v The Commissioners for HM Revenue and Customs:[2018] UKUT 0214 (TCC)
+   🔗 Link: https://www.gov.uk/tax-and-chancery-tribunal-decisions/jdi-international-leasing-ltd-v-the-commissioners-for-hm-revenue-and-customs-2018-ukut-0214-tcc
+   ↳ Upper Tribunal Tax and Chancery decision of Mr Justice Roth and Judge Falk on 10 July 2018.
+
+📌 [92] Mr R Ramus v Fleur C Douetil: 3303731/2018
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mr-r-ramus-v-fleur-c-douetil-3303731-2018
+   ↳ Employment Tribunal decision.
+
+📌 [93] Mrs M O’Meara v Grid Smarter Cities Ltd: 2501290/2023
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mrs-m-omeara-v-grid-smarter-cities-ltd-2501290-slash-2023
+   ↳ Employment Tribunal decision.
+
+📌 [94] National vision for engineering biology
+   🔗 Link: https://www.gov.uk/government/publications/national-vision-for-engineering-biology
+   ↳ Government’s vision is for the UK to have a broad, rich engineering biology ecosystem that can safely develop and commercialise the many opportunities to come from the technology.
+
+📌 [95] SPS agreement: preparing your business
+   🔗 Link: https://www.gov.uk/government/publications/sps-agreement-preparing-your-business
+   ↳ Prepare your business for the sanitary and phytosanitary (SPS) agreement if you trade or move plants, plant products, animals, animal products, feed and food.
+
+📌 [96] Mrs E Garwell v Hull City Council and Hull Culture and Leisure Ltd: 1801693/2016
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mrs-e-garwell-v-hull-city-council-and-hull-culture-and-leisure-ltd-1801693-2016
+   ↳ Employment Tribunal Decision.
+
+📌 [97] Farming for the next generation
+   🔗 Link: https://www.gov.uk/government/speeches/farming-for-the-next-generation
+   ↳ Secretary of State Michael Gove sets out his vision on the future of our farming industry at the Oxford Farming Conference 2018
+
+📌 [98] Common Frameworks Evaluation
+   🔗 Link: https://www.gov.uk/government/publications/common-frameworks-evaluation
+   ↳ A process evaluation of Common Frameworks to understand how these are working in practice.
+
+📌 [99] Mr C Borg-Neal v Lloyds Banking Group plc: 2202667/2022
+   🔗 Link: https://www.gov.uk/employment-tribunal-decisions/mr-c-borg-neal-v-lloyds-banking-group-plc-2202667-slash-2022
+   ↳ Employment Tribunal decision.
+
+📌 [100] UK-Australia FTA: advice from Trade and Agriculture Commission
+   🔗 Link: https://www.gov.uk/government/publications/uk-australia-fta-advice-from-trade-and-agriculture-commission
+   ↳ Advice from Trade and Agriculture Commission (TAC) to the Secretary of State for International Trade on measures in the UK-Australia Free Trade Agreement (FTA).

@@ -13,7 +13,9 @@
         "algorithm*": true,
         "large language model*": true,
         "automation": true,
-        "data governance": true
+        "data governance": true,
+        "data collection": true,
+        "ai": true
       }
     },
     "Cybersecurity & Cloud": {
@@ -27,7 +29,8 @@
         "cloud computing": true,
         "encryption": true,
         "vulnerability": true,
-        "zero trust": true
+        "zero trust": true,
+        "data collection": true
       }
     },
     "Funding & Budget": {
@@ -45,7 +48,8 @@
         "efficiency": true,
         "audit": true,
         "cost*": true,
-        "savings": true
+        "savings": true,
+        "economic": true
       }
     },
     "Governance & Security": {
@@ -69,7 +73,8 @@
         "penalty": true,
         "offence": true,
         "breach*": true,
-        "liability": true
+        "liability": true,
+        "data collection": true
       }
     },
     "Implementation & Testing": {
@@ -85,7 +90,11 @@
         "digital infrastructure": true,
         "structural": true,
         "analytics": true,
-        "intelligence": true
+        "intelligence": true,
+        "framework": true,
+        "testing": true,
+        "test": true,
+        "procedures": true
       }
     },
     "Carbon & Emissions": {
@@ -129,7 +138,14 @@
         "patient care": true,
         "clinical trial*": true,
         "hospital admission*": true,
-        "general practice": true
+        "general practice": true,
+        "treatments": true,
+        "pharmaceuticals": true,
+        "health": true,
+        "healthcare": true,
+        "medical": true,
+        "medical care": true,
+        "care": true
       }
     },
     "Funding & Workforce": {
@@ -160,7 +176,9 @@
         "standard": true,
         "strategy": true,
         "framework": true,
-        "roadmap": true
+        "roadmap": true,
+        "trend": true,
+        "economic": true
       }
     },
     "Technology & Cyber": {
@@ -180,7 +198,8 @@
         "supplier": true,
         "vendor": true,
         "contract*": true,
-        "tender": true
+        "tender": true,
+        "data collection": true
       }
     },
     "Biotech": {
@@ -193,7 +212,56 @@
         "crispr": true,
         "gene": true,
         "gene-editing": true,
-        "gene therapy": true
+        "gene therapy": true,
+        "dna": true,
+        "biotechnology": true,
+        "synthetic biology": true,
+        "gene editing": true,
+        "genomics": true,
+        "proteomics": true,
+        "transcriptomics": true,
+        "recombinant dna": true,
+        "bioengineering": true,
+        "cellular agriculture": true,
+        "clinical trial*": true,
+        "drug discovery": true,
+        "monoclonal antibodies": true,
+        "mrna technology": true,
+        "mrna": true,
+        "vaccine development": true,
+        "vaccine": true,
+        "precision medicine": true,
+        "precision": true,
+        "personalized medicine": true,
+        "orphan drug*": true,
+        "pharmacovigilance": true,
+        "biologics": true,
+        "medicines and healthcare products regulatory agency": true,
+        "mhra": true,
+        "health research authority": true,
+        "hra": true,
+        "genetics human authority": true,
+        "genetics": true,
+        "bioethics": true,
+        "dual-use research": true,
+        "biosecurity": true,
+        "bioeconomy strategy": true,
+        "intellectual property": true,
+        "patent protection": true,
+        "regulatory approval": true,
+        "clinical evaluation": true,
+        "treatments": true,
+        "precision bred": true,
+        "genome": true,
+        "crispr-cas9": true,
+        "cas": true,
+        "multiplex editing": true,
+        "base editing": true,
+        "sdn": true,
+        "precision bred organisms": true,
+        "modified": true,
+        "genetically altered": true,
+        "ga": true
       }
     },
     "Social": {
@@ -206,7 +274,130 @@
         "cohesion": true,
         "social": true,
         "social cohesion": true,
-        "integration": true
+        "integration": true,
+        "tracking": true,
+        "intellectual property": true,
+        "social strategy": true,
+        "identity": true,
+        "data collection": true
+      }
+    },
+    "Surveillance & Biometrics": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "surveillance": true,
+        "biometric*": true,
+        "facial recognition": true,
+        "cctv": true,
+        "surveillance commissioner": true,
+        "privacy impact": true,
+        "mass capture": true,
+        "automated number plate recognition": true,
+        "anpr": true,
+        "data": true,
+        "id*": true
+      }
+    },
+    "Strategic Focus": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "ai": true,
+        "technology": true,
+        "id": true,
+        "crispr": true,
+        "gene-editing": true,
+        "healthcare data": true,
+        "research": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "digital transformation": true,
+        "govtech": true,
+        "cloud computing": true,
+        "open source": true,
+        "data": true,
+        "data architecture": true,
+        "data sharing": true,
+        "digital identity": true,
+        "defrra": true,
+        "2020": true,
+        "2030": true,
+        "scientific": true,
+        "fertilizer shortage": true,
+        "economic": true
+      }
+    },
+    "Deadlines & Timelines": {
+      "color": [
+        1.0,
+        0.5,
+        0.75
+      ],
+      "terms": {
+        "deadline": true,
+        "expires": true,
+        "timeline": true,
+        "target date": true,
+        "milestone": true,
+        "effective date": true,
+        "prioritisation": true,
+        "priority": true,
+        "modern": true
+      }
+    },
+    "Climate & Environment": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "defra": true,
+        "water": true,
+        "environment": true,
+        "weather": true,
+        "climate": true,
+        "climate change": true,
+        "soil": true,
+        "weather modification": true,
+        "geoengineering": true,
+        "air": true,
+        "environmental": true,
+        "environmental research": true
+      }
+    },
+    "Farming": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "soil": true,
+        "agriculture": true,
+        "farm": true,
+        "farming": true,
+        "crops": true,
+        "crop": true,
+        "harvest": true,
+        "wheat": true,
+        "fertilizer": true,
+        "fertilizer shortage": true,
+        "food": true
       }
     }
   }

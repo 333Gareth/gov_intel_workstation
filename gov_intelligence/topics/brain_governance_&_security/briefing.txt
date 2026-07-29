@@ -1,0 +1,248 @@
+🇬🇧 BRIEFING: BRAIN_GOVERNANCE_&_SECURITY
+TOTAL: 60
+==================================================
+
+📌 [1] Investment Zones in Scotland: Technical document
+   🔗 Link: https://www.gov.uk/guidance/investment-zones-in-scotland-technical-document
+   ↳ Sets out how we will jointly develop and deliver proposals, including the co-development process and overall delivery governance.
+
+📌 [2] Find information on applying for grants from the UK Space Agency
+   🔗 Link: https://www.gov.uk/guidance/find-information-on-applying-for-grants-from-the-uk-space-agency
+   ↳ Information for current and future grant applicants about how the UK Space Agency runs funding calls
+
+📌 [3] Academy trust handbook
+   🔗 Link: https://www.gov.uk/government/publications/academy-trust-handbook
+   ↳ For academy members, trustees, accounting officers, chief financial officers and auditors.
+
+📌 [4] Universal Credit
+   🔗 Link: https://www.gov.uk/universal-credit
+   ↳ Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.
+
+📌 [5] TCFD-aligned disclosure guidance for public sector annual reports
+   🔗 Link: https://www.gov.uk/government/publications/tcfd-aligned-disclosure-application-guidance
+   ↳ Applying the Task Force on Climate-related Financial Disclosure (TCFD) recommendations in central government and, where appropriate, the wider public sector
+
+📌 [6] UK-Australia FTA Chapter 21: Labour
+   🔗 Link: https://www.gov.uk/government/publications/uk-australia-fta-chapter-21-labour
+   ↳ Text of chapter 21 of the Free Trade Agreement (FTA) between the United Kingdom of Great Britain and Northern Ireland and Australia.
+
+📌 [7] The Hugh Kay Lecture: Are we in a post-Nolan age?
+   🔗 Link: https://www.gov.uk/government/speeches/the-hugh-kay-lecture-are-we-in-a-post-nolan-age
+   ↳ Lord Evans, Chair of the Committee on Standards in Public Life, gave the Hugh Kay Lecture at the Institute of Business Ethics.
+
+📌 [8] National AI Strategy
+   🔗 Link: https://www.gov.uk/government/publications/national-ai-strategy
+   ↳ The National AI Strategy builds on the UK’s strengths but also represents the start of a step-change for AI in the UK, recognising the power of AI to increase resilience, productivity, growth and innovation across the private and public sectors.
+
+📌 [9] Homes England strategic plan 2025 to 2030
+   🔗 Link: https://www.gov.uk/government/publications/homes-england-strategic-plan-2025-to-2030
+   ↳ Our plan for how we'll drive regeneration and housing delivery to create high-quality homes and thriving places. 
+
+📌 [10] Economic Opportunities of Climate Adaptation for the UK
+   🔗 Link: https://www.gov.uk/government/publications/economic-opportunities-of-climate-adaptation-for-the-uk
+   ↳ This report explores how adapting to climate change can create economic opportunities for the UK while strengthening resilience.
+
+📌 [11] AI Opportunities Action Plan
+   🔗 Link: https://www.gov.uk/government/publications/ai-opportunities-action-plan
+   ↳ Recommendations for the government to  capture the opportunities of AI to enhance growth and productivity and create tangible benefits for UK citizens.
+
+📌 [12] Accelerating Investment Opportunity
+   🔗 Link: https://www.gov.uk/government/publications/accelerating-investment-opportunity
+   ↳ The UK Space Agency invites funding proposals from suitably qualified organisations to undertake high impact investment focused activities and interventions.
+
+📌 [13] Accelerating green finance: Green Finance Taskforce report
+   🔗 Link: https://www.gov.uk/government/publications/accelerating-green-finance-green-finance-taskforce-report
+   ↳ Independent report from the Green Finance Taskforce.
+
+📌 [14] Balance Sheet Framework
+   🔗 Link: https://www.gov.uk/government/publications/balance-sheet-framework
+   ↳ The government’s approach to managing all the assets and liabilities on the public sector balance sheet.
+
+📌 [15] Code of conduct and practice for Board and Committee members
+   🔗 Link: https://www.gov.uk/government/publications/code-of-conduct-for-board-and-committee-members
+   ↳ This code applies to all members of the Board of the Regulator of Social Housing, and all members of its committees or sub-committees. 
+
+📌 [16] AI Playbook for the UK Government
+   🔗 Link: https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government
+   ↳ The playbook offers guidance on using AI safely, effectively and securely for civil servants and people working in government organisations
+
+📌 [17] Nuclear Regulatory Review 2025
+   🔗 Link: https://www.gov.uk/government/publications/nuclear-regulatory-taskforce
+   ↳ The Nuclear Regulatory Taskforce has examined all aspects of the regulation of civil and defence nuclear and produced this review.
+
+📌 [18] Closing the gap: getting from principles to practice for innovation friendly regulation
+   🔗 Link: https://www.gov.uk/government/publications/closing-the-gap-getting-from-principles-to-practice-for-innovation-friendly-regulation
+   ↳ A report from the Regulatory Horizons Council on closing the gap between principles and practices for innovation friendly regulation.
+
+📌 [19] Homes England and National Housing Bank investment prospectus 2026
+   🔗 Link: https://www.gov.uk/government/publications/homes-england-and-national-housing-bank-investment-prospectus-2026
+   ↳ A guide to investment principles and themes, as well as products and interventions available to partner organisations.
+
+📌 [20] Department for Science, Innovation and Technology Areas of Research Interest
+   🔗 Link: https://www.gov.uk/government/publications/department-for-science-innovation-and-technology-areas-of-research-interest
+   ↳ The areas of research interest (ARI) document gives details about the main research questions facing the department.
+
+📌 [21] Smart Machines Strategy 2035
+   🔗 Link: https://www.gov.uk/government/publications/smart-machines-strategy-2035
+   ↳ An independent paper from the UK’s Robotics Growth Partnership outlining a roadmap to position the UK as a global leader in robotics.
+
+📌 [22] Overseas business risk for China
+   🔗 Link: https://www.gov.uk/government/publications/overseas-business-risk-china
+   ↳ Information on key security and political risks which UK businesses may face when operating in China.
+
+📌 [23] Building Control Independent Panel report
+   🔗 Link: https://www.gov.uk/government/publications/building-control-independent-panel-report
+   ↳ Report from the Building Control Independent Panel on the Grenfell Tower Inquiry recommendations relating to building control.
+
+📌 [24] PFI Foundations for Contract Managers
+   🔗 Link: https://www.gov.uk/government/publications/pfi-foundations-for-contract-managers
+   ↳ An introduction to the fundamentals of PFI projects
+
+📌 [25] CDEI publishes review into bias in algorithmic decision-making
+   🔗 Link: https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making
+   ↳ The CDEI has published the final report of its review into bias in algorithmic decision-making. 
+
+📌 [26] The Rose Book: Knowledge asset management in government
+   🔗 Link: https://www.gov.uk/government/publications/knowledge-asset-management-in-government
+   ↳ Guidance on the management of knowledge assets such as intellectual property, research and development, and data, in government (The Rose Book).
+
+📌 [27] Regulatory Innovation Office report: One Year On
+   🔗 Link: https://www.gov.uk/government/publications/regulatory-innovation-office-report-one-year-on
+   ↳ A report highlighting the major achievements of the Regulatory Innovation Office (RIO) in its first year.
+
+📌 [28] Digital identity
+   🔗 Link: https://www.gov.uk/government/consultations/digital-identity
+   ↳ This call for evidence seeks views on how government can support the development and secure use of digital identities fit for the UK’s growing digital economy. 
+
+📌 [29] Unlocking Space for Investment: Growth Hub
+   🔗 Link: https://www.gov.uk/government/publications/unlocking-space-for-investment-growth-hub
+   ↳ Find support from the UK Space Agency for UK space businesses to scale and succeed.
+
+📌 [30] UK-Australia FTA Chapter 9: Financial Services
+   🔗 Link: https://www.gov.uk/government/publications/uk-australia-fta-chapter-9-financial-services
+   ↳ Text of chapter 9 and associated annexes of the Free Trade Agreement (FTA) between the United Kingdom of Great Britain and Northern Ireland and Australia.
+
+📌 [31] Parmenter, Damian - Director General, AUKUS, Ministry of Defence - ACOBA advice
+   🔗 Link: https://www.gov.uk/government/publications/parmenter-damian-director-general-aukus-ministry-of-defence-acoba-advice
+   ↳ Advice to Damian Parmenter CBE, former Director General, AUKUS, Ministry of Defence. Paid appointment with Palantir Technologies UK, Ltd.
+
+📌 [32] Orange Book
+   🔗 Link: https://www.gov.uk/government/publications/orange-book
+   ↳ This guidance establishes the concept of risk management. 
+
+📌 [33] Knowledge Asset Spinouts Guide
+   🔗 Link: https://www.gov.uk/government/publications/knowledge-asset-spinouts-guide
+   ↳ Guidance supporting public sector bodies to create spinout companies.
+
+📌 [34] MOJ nature strategy 2026 to 2030
+   🔗 Link: https://www.gov.uk/government/publications/moj-nature-strategy-2026-to-2030
+   ↳ How the Ministry of Justice will protect and improve nature across its estate to support resilient, efficient and sustainable justice services.
+
+📌 [35] Security Industry Authority: Public Body Review 2025
+   🔗 Link: https://www.gov.uk/government/publications/security-industry-authority-public-body-review-2025
+   ↳ The outcome of an independent review of the Security Industry Authority (SIA) under the Public Bodies Review Programme.
+
+📌 [36] Performance Overview
+   🔗 Link: https://www.gov.uk/government/publications/performance-overview
+   ↳ This Performance Overview is part of the Performance Report included in the Government Legal Department Annual Report and Accounts 2021-22
+
+📌 [37] Comply with the Energy Savings Opportunity Scheme (ESOS)
+   🔗 Link: https://www.gov.uk/government/publications/comply-with-the-energy-savings-opportunity-scheme-esos
+   ↳ Qualification, compliance and notification requirements for ESOS.
+
+📌 [38] Connectivity in Low Earth Orbit (C-LEO) Programme - Call 3
+   🔗 Link: https://www.gov.uk/government/publications/connectivity-in-low-earth-orbit-c-leo-programme-call-3
+   ↳ Apply for the UK Space Agency Connectivity in Low Earth Orbit (C-LEO) Programme Funding Call 3: National Only Route.
+
+
+📌 [39] AI Skills for Life and Work: Drivers analysis
+   🔗 Link: https://www.gov.uk/government/publications/ai-skills-for-life-and-work-drivers-analysis
+   ↳ One of 11 reports produced for the AI Skills for Life and Work R&D project, focusing on current trends in AI skills and different drivers of change
+
+📌 [40] Defence Electronics and Components Agency: framework document
+   🔗 Link: https://www.gov.uk/government/publications/defence-electronics-and-components-agency-framework-document
+   ↳ The framework sets out DECA's purpose, role, governance, policy and financial parameters that guide its day-to-day operations. 
+
+📌 [41] The Digital, Data and Technology Playbook
+   🔗 Link: https://www.gov.uk/government/publications/the-digital-data-and-technology-playbook
+   ↳ This document sets out key policies and guidance for how digital projects and programmes are assessed, procured and delivered.
+
+📌 [42] UK battery strategy
+   🔗 Link: https://www.gov.uk/government/publications/uk-battery-strategy
+   ↳ The UK battery strategy sets out the government’s vision for the UK to achieve a globally competitive battery supply chain by 2030.
+
+
+
+📌 [43] Investment Zones in Wales: technical document
+   🔗 Link: https://www.gov.uk/government/publications/investment-zones-in-wales-technical-document
+   ↳ This guidance sets out how we will jointly develop and deliver proposals, including the co-development process and overall delivery governance.
+
+
+
+📌 [44] 100 Days Mission: UK specific report for 2022
+   🔗 Link: https://www.gov.uk/government/publications/100-days-mission-uk-specific-report-for-2022
+   ↳ A progress report providing insight into how the UK is making progress on the ambitions of the 100 Days Mission (100DM).
+
+📌 [45] Environment Agency response to the Independent Water Commission's call for evidence
+   🔗 Link: https://www.gov.uk/government/publications/environment-agency-response-to-the-independent-water-commissions-call-for-evidence
+   ↳ The Environment Agency's response to the Independent Water Commission's call for evidence, in relation to the water sector in England and Wales.
+
+📌 [46] AI Champions’ AI Adoption Plans
+   🔗 Link: https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans
+   ↳ Independent AI adoption plans setting out recommendations from the AI Champions, to accelerate AI adoption across key UK sectors, with a pro-worker approach.
+
+📌 [47] Mapping the Species Data Pathway: Connecting species data flows in  England
+   🔗 Link: https://www.gov.uk/government/publications/mapping-the-species-data-pathway-connecting-species-data-flows-in-england
+   ↳ New report launched on improving species data in England.
+
+📌 [48] Announcement of Opportunity: Space Cluster Infrastructure Funding Call
+   🔗 Link: https://www.gov.uk/government/publications/announcement-of-opportunity-space-cluster-infrastructure-funding-call
+   ↳ The UK Space Agency's SCIF will award more than £50 million in matched funding to companies and academic institutions to boost the UK’s space R&D infrastructure.
+
+📌 [49] Pride in Place Programme prospectus
+   🔗 Link: https://www.gov.uk/government/publications/pride-in-place-programme-prospectus
+   ↳ The Pride in Place Programme is our flagship communities programme which empowers local people to shape the future of their neighbourhood. Supported by up to £5 billion in funding over 10 years, this programme represents a long-term strategy to fix the foundations in hundreds of communities across the country.
+
+📌 [50] Independent review of the National Employment Savings Trust (Nest)
+   🔗 Link: https://www.gov.uk/government/publications/independent-review-of-the-national-employment-savings-trust-nest
+   ↳ An independent report on Nest’s delivery of its objectives. 
+
+📌 [51] Office for Nuclear Regulation (ONR): post-implementation review
+   🔗 Link: https://www.gov.uk/government/publications/office-for-nuclear-regulation-onr-post-implementation-review
+   ↳ Review of Part 3 of the Energy Act 2013, which established the Office for Nuclear Regulation (ONR), the UK’s independent nuclear regulator.
+
+📌 [52] Trade with Australia
+   🔗 Link: https://www.gov.uk/government/consultations/trade-with-australia
+   ↳ A consultation to inform our future trade relationship and negotiations with Australia.
+
+📌 [53] Crisis and Resilience Fund (1 April 2026 to 31 March 2029)
+   🔗 Link: https://www.gov.uk/government/publications/crisis-and-resilience-fund-guidance-for-local-authorities-in-england-1-april-2026-to-31-march-2029
+   ↳ Guidance for local authorities on delivering the Crisis and Resilience Fund in England.
+
+📌 [54] Government Property Profession career framework
+   🔗 Link: https://www.gov.uk/government/publications/the-government-property-profession-career-framework--2
+   ↳ A career framework to support the development of property professionals across government.
+
+📌 [55] Care workforce pathway for adult social care
+   🔗 Link: https://www.gov.uk/government/publications/care-workforce-pathway-for-adult-social-care
+   ↳ The care workforce pathway outlines the knowledge, skills, values and behaviours people need to work in adult social care.
+
+📌 [56] Regulator of Social Housing Corporate Plan 2025-2028
+   🔗 Link: https://www.gov.uk/government/publications/regulator-of-social-housing-corporate-plan-2025-2028
+   ↳ This report outlines how we will deliver our purpose over the next three years.
+
+📌 [57] Ethics, Transparency and Accountability Framework for Automated Decision-Making
+   🔗 Link: https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making
+   ↳ Guidance for public sector organisations on how to use automated or algorithmic decision-making systems in a safe, sustainable and ethical way.
+
+📌 [58] UK-Australia FTA Chapter 22: Environment
+   🔗 Link: https://www.gov.uk/government/publications/uk-australia-fta-chapter-22-environment
+   ↳ Text of chapter 22 of the Free Trade Agreement (FTA) between the United Kingdom of Great Britain and Northern Ireland and Australia.
+
+📌 [59] Regulator of Social Housing - Annual Report and Accounts 2024-25
+   🔗 Link: https://www.gov.uk/government/publications/regulator-of-social-housing-annual-report-and-accounts-2024-25
+   ↳ For the period 1 April 2024 to 31 March 2025
+
+📌 [60] Aligning your pension scheme with the Taskforce on Climate-Related Financial Disclosures recommendations
+   🔗 Link: https://www.gov.uk/government/publications/aligning-your-pension-scheme-with-the-taskforce-on-climate-related-financial-disclosures-recommendations
+   ↳ This guide aims to help trustees evaluate the way in which climate-related risks and opportunities may affect their strategies.

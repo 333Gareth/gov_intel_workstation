@@ -1,0 +1,84 @@
+🇬🇧 BRIEFING: BRAIN_STRATEGIC_FOCUS
+TOTAL: 20
+==================================================
+
+📌 [1] HMRC online services: sign in or set up an account
+   🔗 Link: https://www.gov.uk/log-in-register-hmrc-online-services
+   ↳ Sign in or set up a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and other services.
+
+📌 [2] Check the MOT history of a vehicle
+   🔗 Link: https://www.gov.uk/check-mot-history
+   ↳ Check the MOT history of a vehicle from 2005 onwards, including if it passed or failed, its mileage and why it failed, download MOT test certificate
+
+📌 [3] eVisas: access and use your online immigration status
+   🔗 Link: https://www.gov.uk/evisa
+   ↳ How to access and use an eVisa: set up a UKVI account, update your details and get a share code to prove your immigration status when you work, rent or travel.
+
+📌 [4] Get information about a company
+   🔗 Link: https://www.gov.uk/get-information-about-a-company
+   ↳ Get company information including registered address, previous company names, directors' details, accounts, annual returns and company reports, if it's been dissolved 
+
+📌 [5] Check if a vehicle is taxed
+   🔗 Link: https://www.gov.uk/check-vehicle-tax
+   ↳ Check and report if a vehicle has up-to-date vehicle tax or is 'off road' (SORN)
+
+📌 [6] Universal Credit
+   🔗 Link: https://www.gov.uk/universal-credit
+   ↳ Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.
+
+📌 [7] Check if you need a UK visa
+   🔗 Link: https://www.gov.uk/check-uk-visa
+   ↳ You may need a visa to come to the UK to visit, study or work.
+
+📌 [8] Sign in to your childcare account
+   🔗 Link: https://www.gov.uk/sign-in-childcare-account
+   ↳ If you get Tax-Free Childcare or Free Childcare for Working Parents, sign in to confirm your details are up to date, pay money in or apply for an additional child.
+
+
+📌 [9] Get an electronic travel authorisation (ETA) to visit the UK
+   🔗 Link: https://www.gov.uk/eta
+   ↳ Apply for an ETA to come to the UK if you’re a tourist, visiting family or for certain other reasons for up to 6 months. It costs £20. Find out if you need an ETA or a visa instead.
+
+📌 [10] Using Open Document Formats (ODF) in your organisation
+   🔗 Link: https://www.gov.uk/guidance/using-open-document-formats-odf-in-your-organisation
+   ↳ This guidance is an introduction to the Open Document Format (ODF) standard and how you can select ODF-compliant solutions.
+
+📌 [11] Proving your identity with the GOV.UK One Login app
+   🔗 Link: https://www.gov.uk/guidance/proving-your-identity-with-the-govuk-one-login-app
+   ↳ How to use the GOV.UK One Login app to prove your identity, including how to download the app and how to scan your face and photo ID.
+
+📌 [12] Apply online for a UK passport
+   🔗 Link: https://www.gov.uk/apply-renew-passport
+   ↳ You can apply for, update, renew or replace a passport online.
+
+📌 [13] Driver and vehicles account: sign in or set up
+   🔗 Link: https://www.gov.uk/driver-vehicles-account
+   ↳ You can use this account to view your driving record, check details of vehicles and set up vehicle tax reminders with DVLA.
+
+📌 [14] Get proof of your benefits and State Pension 
+   🔗 Link: https://www.gov.uk/proof-benefits-state-pension
+   ↳ Request a letter to prove your State Pension and benefits, including Attendance Allowance, DLA, ESA, Income Support, JSA, Pension Credit and PIP. 
+
+📌 [15] Government technology standards and guidance
+   🔗 Link: https://www.gov.uk/guidance/government-technology-standards-and-guidance
+   ↳ This is collated guidance from government websites and independent bodies to help you follow the technology code of practice.
+
+📌 [16] Renew your driving licence
+   🔗 Link: https://www.gov.uk/renew-driving-licence
+   ↳ Apply online to renew your 10-year driving licence, full or provisional - cost, payment methods, documents and information you need
+
+📌 [17] Apply for or renew a Blue Badge
+   🔗 Link: https://www.gov.uk/apply-blue-badge
+   ↳ Check if you're eligible for a Blue Badge and apply or renew
+
+📌 [18] Prove your right to work to an employer
+   🔗 Link: https://www.gov.uk/prove-right-to-work
+   ↳ Find out how to prove your right to work in the UK to an employer. Get an online share code to prove your right to work if you’re eligible or check what documents you can use instead.
+
+📌 [19] Digital Outcomes: team capabilities
+   🔗 Link: https://www.gov.uk/guidance/digital-outcomes-team-capabilities
+   ↳ The team capabilities available on the Digital Outcomes framework.
+
+📌 [20] Visit the UK as a Standard Visitor
+   🔗 Link: https://www.gov.uk/standard-visitor
+   ↳ Visit the UK as a Standard Visitor for tourism, business, study (courses up to 6 months), medical treatment and other activities. Find out whether you need a Standard Visitor visa, or can visit without a visa.  

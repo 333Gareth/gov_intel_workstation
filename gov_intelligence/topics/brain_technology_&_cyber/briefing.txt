@@ -1,0 +1,206 @@
+🇬🇧 BRIEFING: BRAIN_TECHNOLOGY_&_CYBER
+TOTAL: 50
+==================================================
+
+📌 [1] Assessing if artificial intelligence is the right solution
+   🔗 Link: https://www.gov.uk/guidance/assessing-if-artificial-intelligence-is-the-right-solution
+   ↳ Guidance to help you assess if artificial intelligence (AI) is the right technology for your challenge.
+
+📌 [2] AI and data science: defence science and technology capability
+   🔗 Link: https://www.gov.uk/guidance/ai-and-data-science-defence-science-and-technology-capability
+   ↳ AI is one of the fastest-moving areas of technological advancement in government defence, bringing the capability to counter threats and create opportunities.
+
+📌 [3] Access Dstl's published research
+   🔗 Link: https://www.gov.uk/guidance/access-dstls-published-research
+   ↳ View highlights of some of our most recently published research on this page. You can also download a complete list of our published research.
+
+📌 [4] Planning and preparing for artificial intelligence implementation
+   🔗 Link: https://www.gov.uk/guidance/planning-and-preparing-for-artificial-intelligence-implementation
+   ↳ Guidance to help you plan and prepare for implementing artificial intelligence (AI).
+
+📌 [5] The AQuA Book
+   🔗 Link: https://www.gov.uk/guidance/the-aqua-book
+   ↳ The AQuA Book is Government guidance about how to produce robust, fit for purpose analysis. It's for all analysts, analytical managers and commissioners.
+
+
+📌 [6] US and UK research labs collaborate on autonomy and AI
+   🔗 Link: https://www.gov.uk/government/news/us-and-uk-research-labs-collaborate-on-autonomy-and-ai
+   ↳ Integrated artificial intelligence technologies to support the armed forces are being developed as part of an international partnership agreement.
+
+📌 [7] Preventative Analytics for Youth Justice Advisory Panel: Terms of Reference
+   🔗 Link: https://www.gov.uk/government/publications/preventative-analytics-for-youth-justice-advisory-panel-terms-of-reference
+   ↳ The panel will suggest and review proposals for utilising machine learning, artificial intelligence, and advanced analytics, providing an additional layer of accountability and scrutiny.
+
+📌 [8] Turing Artificial Intelligence Fellowships
+   🔗 Link: https://www.gov.uk/government/publications/turing-artificial-intelligence-fellowships
+   ↳ The Turing AI Fellowships are a £46 million initiative created by the UK government, aimed at attracting and maintaining the best talent in artificial intelligence.
+
+📌 [9] AI Skills for Life and Work: Job Vacancy Analysis
+   🔗 Link: https://www.gov.uk/government/publications/ai-skills-for-life-and-work-job-vacancy-analysis
+   ↳ One of 11 reports produced for the AI Skills for Life and Work R&D project, focusing on the analysis of job vacancy data.
+
+📌 [10] How DFID used satellite images to estimate populations
+   🔗 Link: https://www.gov.uk/government/case-studies/how-dfid-used-satellite-images-to-estimate-populations
+   ↳ Learn how the Department for International Development (DFID) used computer vision to estimate populations.
+
+📌 [11] Machine learning with limited data
+   🔗 Link: https://www.gov.uk/government/publications/machine-learning-with-limited-data
+   ↳ A guide to machine learning techniques for limited data problems, including approaches for small amounts of data and for large amounts of unlabelled data. 
+
+📌 [12] Artificial intelligence
+   🔗 Link: https://www.gov.uk/guidance/ai-data-science-and-machine-learning-a-dstl-biscuit-book/artificial-intelligence
+   ↳ Narrow intelligence and general intelligence - the 2 main categories of artificial intelligence (AI).
+
+📌 [13] Introduction to AI with a focus on counter fraud
+   🔗 Link: https://www.gov.uk/government/publications/introduction-to-ai-with-a-focus-on-counter-fraud
+   ↳ Raising awareness to counter fraud professionals of AI and potential uses in the detection and prevention of fraud
+
+📌 [14] Next Generation Applied Artificial Intelligence
+   🔗 Link: https://www.gov.uk/government/news/next-generation-applied-artificial-intelligence
+   ↳ Montvieux receives DASA funding to enhance the protection of forces and improving the efficiency and effectiveness of information collection
+
+📌 [15] Facial age estimation
+   🔗 Link: https://www.gov.uk/government/publications/facial-age-estimation
+   ↳ Information on the use of facial age estimation technology for the purpose of immigration age assessments.
+
+📌 [16] New synthetic datasets to assist COVID-19 and cardiovascular research
+   🔗 Link: https://www.gov.uk/government/news/new-synthetic-datasets-to-assist-covid-19-and-cardiovascular-research
+   ↳ Ground-breaking innovation to support medical technologies 
+
+📌 [17] Ethics, Transparency and Accountability Framework for Automated Decision-Making
+   🔗 Link: https://www.gov.uk/government/publications/ethics-transparency-and-accountability-framework-for-automated-decision-making
+   ↳ Guidance for public sector organisations on how to use automated or algorithmic decision-making systems in a safe, sustainable and ethical way.
+
+📌 [18] Improving operations through machine learning: apply for funding
+   🔗 Link: https://www.gov.uk/government/news/improving-operations-through-machine-learning-apply-for-funding
+   ↳ Organisations can apply for a share of up to £250,000 to use machine learning to help Innovate UK make better use of its operations data.
+
+📌 [19] Increasing automated detection capabilities at the UK border 
+   🔗 Link: https://www.gov.uk/government/case-studies/increasing-automated-detection-capabilities-at-the-uk-border
+   ↳ Border Force wants to expand its use of artificial intelligence in the searching and screening of freight at UK seaports by automating anomaly detection.
+
+📌 [20] Dstl hosts pioneering trial to aid AI target recognition
+   🔗 Link: https://www.gov.uk/government/news/dstl-enables-ai-dataset-expansion
+   ↳ The trial captured valuable data about a variety of land platforms and will enable the defence community to develop and test machine learning and AI techniques.
+
+📌 [21] Thematic review and gap analysis on AI security
+   🔗 Link: https://www.gov.uk/government/publications/thematic-review-and-gap-analysis-on-ai-security
+   ↳ A thematic review and gap analysis of research on the security of AI
+
+📌 [22] Accelerator Innovation Network Event
+   🔗 Link: https://www.gov.uk/government/news/accelerator-innovation-network-event
+   ↳ The Defence and Security Accelerator is holding an event in London on 23 February 2017 to provide information on the first Innovation Fund challenge
+
+📌 [23] The US Army seeks AI-enabled analytics in constrained environments
+   🔗 Link: https://www.gov.uk/government/news/the-us-army-seeks-ai-enabled-analytics-in-constrained-environments
+   ↳ In a world of rapid data proliferation, the US Army xTechGlobal Artificial Intelligence (AI) Challenge seeks to find an AI-based solution to data analytics
+
+📌 [24] Using AI in NHS diagnosis: apply for funding
+   🔗 Link: https://www.gov.uk/government/news/using-ai-in-nhs-diagnosis-apply-for-funding
+   ↳ Up to £240,000 is available for organisations exploring the use of AI and machine learning in fracture diagnosis.
+
+📌 [25] Predetermined change control plans for machine learning-enabled medical devices
+   🔗 Link: https://www.gov.uk/government/publications/predetermined-change-control-plans-for-machine-learning-enabled-medical-devices-guiding-principles
+   ↳ Guiding principles for the use of predetermined change control plans (PCCPs) for managing rapid product changes in medical devices.
+
+📌 [26] Medical devices: software and artificial intelligence (AI)
+   🔗 Link: https://www.gov.uk/government/publications/software-and-artificial-intelligence-ai-as-a-medical-device
+   ↳ Information for manufacturers, healthcare professionals, researchers and patients on software as a medical device and AI as a medical device.
+
+📌 [27] Artificial Intelligence and Public Standards: Committee publishes report
+   🔗 Link: https://www.gov.uk/government/news/artificial-intelligence-and-public-standards-committee-publishes-report
+   ↳ The Committee on Standards in Public Life today published its report on artificial intelligence and its impact on public standards.
+
+📌 [28] Good machine learning practice for medical device development
+   🔗 Link: https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles
+   ↳ 10 guiding principles that can inform the development of good machine learning practice (GMLP). 
+
+📌 [29] Assurance of AI and Autonomous Systems: a Dstl biscuit book
+   🔗 Link: https://www.gov.uk/government/publications/assurance-of-ai-and-autonomous-systems-a-dstl-biscuit-book
+   ↳ A simple guide to understanding and describing the trustworthiness of autonomous systems and associated artificial intelligence (AI) algorithms.
+
+📌 [30] Findings from the DRCF Algorithmic Processing workstream - Spring 2022
+   🔗 Link: https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022
+   ↳ Two discussion papers from the Digital Regulation Cooperation Forum (DRCF) Algorithmic Processing workstream, on the benefits and harms of algorithms, and on the landscape of algorithmic auditing and the role of regulators, respectively. 
+
+📌 [31] Manchester Prize: winner and finalists
+   🔗 Link: https://www.gov.uk/government/publications/manchester-prize-successful-finalists
+   ↳ Winning project of the Manchester Prize and successful finalists of Round 1 and 2.
+
+📌 [32] Guidelines for AI procurement
+   🔗 Link: https://www.gov.uk/government/publications/guidelines-for-ai-procurement
+   ↳ A summary of best practice addressing specific challenges of acquiring Artificial Intelligence technologies in government.
+
+📌 [33] Innovative uses of data for defence staff: apply for funding
+   🔗 Link: https://www.gov.uk/government/news/innovative-uses-of-data-for-defence-staff-apply-for-funding
+   ↳ Organisations can apply for a share of £6 million to investigate new ways of using data to improve decision-making in defence.
+
+📌 [34] Dstl forecasts future quantum landscape for UK defence and security
+   🔗 Link: https://www.gov.uk/government/news/dstl-forecasts-future-quantum-landscape-for-uk-defence-and-security
+   ↳ Embracing quantum technology now could lead to the enhanced pace, precision and pre-emption of decision making by military commanders
+
+📌 [35] Machine learning
+   🔗 Link: https://www.gov.uk/guidance/ai-data-science-and-machine-learning-a-dstl-biscuit-book/machine-learning
+   ↳ A summary of what machine learning is and the different approaches used in this field.
+
+📌 [36] Introduction
+   🔗 Link: https://www.gov.uk/guidance/ai-data-science-and-machine-learning-a-dstl-biscuit-book/introduction
+   ↳ A summary of what artificial intelligence, data science and machine learning is and some real life examples.
+
+📌 [37] Logically AI: Testing and monitoring AI models used to counter online misinformation
+   🔗 Link: https://www.gov.uk/ai-assurance-techniques/logically-ai-testing-and-monitoring-ai-models-used-to-counter-online-misinformation
+   ↳ Case study from Logically AI.
+
+📌 [38] Algorithms: How they can reduce competition and harm consumers
+   🔗 Link: https://www.gov.uk/government/publications/algorithms-how-they-can-reduce-competition-and-harm-consumers
+   ↳ Paper from the CMA's Data, Technology and Analytics (DaTA) Unit, identifying potential harms to competition and consumers from the use of algorithms.
+
+📌 [39] UK’s digital watchdogs take a closer look at algorithms as plans set out for year ahead
+   🔗 Link: https://www.gov.uk/government/news/uk-s-digital-watchdogs-take-a-closer-look-at-algorithms-as-plans-set-out-for-year-ahead
+   ↳ Every day, we access services that process data using a wide variety of automated systems.
+
+📌 [40] Dstl trials autonomous maritime asset protection system (AMAPS)
+   🔗 Link: https://www.gov.uk/government/news/dstl-trials-autonomous-maritime-asset-protection-system-amaps
+   ↳ The system could be used to defend high value assets whilst alongside in harbour, and to protect critical infrastructure.
+
+
+📌 [41] Machine learning helps flag issues with police forces sooner 
+   🔗 Link: https://www.gov.uk/government/case-studies/machine-learning-helps-flag-issues-with-police-forces-sooner
+   ↳ New proof-of-concept tool uses crime data to provide an early warning of potential problems, enabling quicker action from inspectors. 
+
+📌 [42] Intellectual property and investment in Artificial Intelligence
+   🔗 Link: https://www.gov.uk/government/publications/intellectual-property-and-investment-in-artificial-intelligence
+   ↳ This report looks at the role of IP on investment in AI alongside other factors.
+
+📌 [43] Algorithms, competition and consumer harm: call for information
+   🔗 Link: https://www.gov.uk/government/consultations/algorithms-competition-and-consumer-harm-call-for-information
+   ↳ The CMA is inviting views and evidence on the harms outlined in its paper on algorithms and information on specific issues with firms that the CMA could examine and consider for future action. 
+
+📌 [44] Designing Defence’s next generation multi-satellite system
+   🔗 Link: https://www.gov.uk/government/case-studies/designing-defences-next-generation-multi-satellite-system
+   ↳ Dstl scientific expertise and advice is at the heart of the Ministry of Defence’s ambitions in space.
+
+
+📌 [45] Building Blocks for AI and Autonomy: a Dstl biscuit book
+   🔗 Link: https://www.gov.uk/government/publications/building-blocks-for-ai-and-autonomy-a-biscuit-book
+   ↳ A simple guide and framework for thinking about artificial intelligence (AI) and autonomy from a systems perspective. 
+
+📌 [46] Technology innovation in government survey
+   🔗 Link: https://www.gov.uk/government/publications/technology-innovation-in-government-survey
+   ↳ A survey of current activity in emerging technologies across government, with recommendations for future central government support and coordination.
+
+📌 [47] AI Skills for Life and Work: Rapid Evidence Review
+   🔗 Link: https://www.gov.uk/government/publications/ai-skills-for-life-and-work-rapid-evidence-review
+   ↳ One of 11 reports produced for the AI Skills for Life and Work R&D project, focusing on key findings from the rapid evidence review
+
+📌 [48] CDEI publishes review into bias in algorithmic decision-making
+   🔗 Link: https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making
+   ↳ The CDEI has published the final report of its review into bias in algorithmic decision-making. 
+
+📌 [49] Emerging technology pairings and their effects on cyber security
+   🔗 Link: https://www.gov.uk/government/publications/emerging-technology-pairings-and-their-effects-on-cyber-security
+   ↳ Research on the convergence of emerging technologies and the implications for cyber security.
+
+📌 [50] Armilla Verified: Third-party AI Product verification
+   🔗 Link: https://www.gov.uk/ai-assurance-techniques/armilla-verified-third-party-ai-product-verification
+   ↳ Armilla Verified is Armilla’s third-party verification of AI-powered products. It empowers AI vendors and enterprises alike to assure the quality and reliability of their AI solutions. 

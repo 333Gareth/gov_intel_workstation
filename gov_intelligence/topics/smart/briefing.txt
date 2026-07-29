@@ -6,13 +6,13 @@ TOTAL: 20
    🔗 Link: https://www.gov.uk/guidance/electric-vehicle-smart-charging-smart-meter-demonstration-project
    ↳ Using smart meters to automate charging of electric vehicles.
 
-📌 [2] Smart Meters Bill
-   🔗 Link: https://www.gov.uk/government/collections/smart-meters-bill
-   ↳ Documents related to the Smart Meters Bill, which will ensure consumers continue to get the most out of their smart meters.
-
-📌 [3] Non-domestic smart metering
+📌 [2] Non-domestic smart metering
    🔗 Link: https://www.gov.uk/government/collections/non-domestic-smart-metering
    ↳ Guidance and information on non-domestic smart metering.
+
+📌 [3] Smart Meters Bill
+   🔗 Link: https://www.gov.uk/government/collections/smart-meters-bill
+   ↳ Documents related to the Smart Meters Bill, which will ensure consumers continue to get the most out of their smart meters.
 
 📌 [4] Smart meter statistics
    🔗 Link: https://www.gov.uk/government/collections/smart-meters-statistics

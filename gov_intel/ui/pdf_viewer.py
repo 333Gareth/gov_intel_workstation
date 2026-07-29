@@ -326,7 +326,8 @@ class PDFViewerWidget(ttk.Frame):
             if self.use_regex.get():
                 pattern = term
             else:
-                pattern = re.escape(term)
+                # Enforce word boundaries for manual search terms so short strings don't match sub-words
+                pattern = r'\b' + re.escape(term) + r'\b'
 
             try:
                 for m in re.finditer(pattern, text, flags=flags):
@@ -493,7 +494,7 @@ class PDFViewerWidget(ttk.Frame):
         self.highlight_color = _COLOR_BY_LABEL.get(self.color_cb.get(), _DEFAULT_COLOR)
 
     def auto_highlight(self, show_dialog: bool = True) -> None:
-        """Enhanced auto-highlight engine supporting multi-word phrases, line splits, and wildcards."""
+        """Enhanced auto-highlight engine supporting whole-word boundaries, multi-word phrases, line splits, and wildcards."""
         if not self.doc_obj:
             return
         rules = self.get_kw_rules_cb()
@@ -529,33 +530,40 @@ class PDFViewerWidget(ttk.Frame):
                     if not term_clean:
                         continue
 
-                    # Handle wildcards if present, otherwise exact match
-                    if ("*" in term_clean or "?" in term_clean) and (" " not in term_clean):
-                        pattern = fnmatch.translate(term_clean)
+                    # Enforce whole-word boundaries (\b) so short terms like 'AI' or 'act' don't match inside other words
+                    if "*" in term_clean or "?" in term_clean:
+                        # Translate wildcard pattern and wrap with word boundaries
+                        base_pattern = fnmatch.translate(term_clean)
+                        # fnmatch.translate adds \Z at the end; replace it to allow word boundaries
+                        base_pattern = base_pattern.rstrip('\\Z')
+                        pattern = r'\b' + base_pattern + r'\b'
                     else:
-                        pattern = re.escape(term_clean)
+                        pattern = r'\b' + re.escape(term_clean) + r'\b'
 
-                    for m in re.finditer(pattern, text_lower):
-                        n_rects = textpage.count_rects(index=m.start(), count=m.end() - m.start())
-                        rects = [textpage.get_rect(i) for i in range(n_rects)]
-                        if not rects:
-                            continue
+                    try:
+                        for m in re.finditer(pattern, text_lower):
+                            n_rects = textpage.count_rects(index=m.start(), count=m.end() - m.start())
+                            rects = [textpage.get_rect(i) for i in range(n_rects)]
+                            if not rects:
+                                continue
+                                
+                            # Use the first bounding box for the UI representation
+                            rect = rects[0]
+                            snippet = raw_p_text[max(0, m.start() - 10):m.end() + 20].replace('\n', ' ').strip()
                             
-                        # Use the first bounding box for the UI representation
-                        rect = rects[0]
-                        snippet = raw_p_text[max(0, m.start() - 10):m.end() + 20].replace('\n', ' ').strip()
-                        
-                        self.custom_highlights.append({
-                            "page_num": p_num,
-                            "rect": rect,
-                            "color": cat_color,
-                            "text": snippet,
-                            "cat": cat
-                        })
-                        
-                        snippet_label = f"{badge} P.{p_num + 1} [{cat[:10]}] {snippet[:32]}..."
-                        self.lb_highlights.insert(tk.END, snippet_label)
-                        count += 1
+                            self.custom_highlights.append({
+                                "page_num": p_num,
+                                "rect": rect,
+                                "color": cat_color,
+                                "text": snippet,
+                                "cat": cat
+                            })
+                            
+                            snippet_label = f"{badge} P.{p_num + 1} [{cat[:10]}] {snippet[:32]}..."
+                            self.lb_highlights.insert(tk.END, snippet_label)
+                            count += 1
+                    except re.error:
+                        continue
 
         if count > 0:
             self.render()

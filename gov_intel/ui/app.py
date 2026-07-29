@@ -60,22 +60,65 @@ def _rgb_to_hex(rgb: list[float]) -> str:
     return f"#{r:02x}{g:02x}{b:02x}"
 
 
-# Continuous heatmap gradient stops (fraction-of-max -> RGB 0-255), used to
-# color-code keyword-density cells in the Policy Analytics matrix so relative
-# intensity is visible at a glance instead of just three flat buckets.
+def _add_universal_right_click_menu(widget: tk.Widget) -> None:
+    """Binds a standard right-click context menu with Cut, Copy, Paste, and Select All 
+    to any Tkinter Entry, Text, or ScrolledText widget."""
+    menu = tk.Menu(widget, tearoff=0)
+    
+    def _cut():
+        try:
+            widget.event_generate("<<Cut>>")
+        except Exception:
+            pass
+
+    def _copy():
+        try:
+            widget.event_generate("<<Copy>>")
+        except Exception:
+            pass
+
+    def _paste():
+        try:
+            widget.event_generate("<<Paste>>")
+        except Exception:
+            pass
+
+    def _select_all(event=None):
+        try:
+            if isinstance(widget, (tk.Text, scrolledtext.ScrolledText)):
+                widget.tag_add("sel", "1.0", "end")
+            elif isinstance(widget, (tk.Entry, ttk.Entry)):
+                widget.select_range(0, tk.END)
+        except Exception:
+            pass
+        return "break"
+
+    menu.add_command(label="Cut", command=_cut)
+    menu.add_command(label="Copy", command=_copy)
+    menu.add_command(label="Paste", command=_paste)
+    menu.add_separator()
+    menu.add_command(label="Select All", command=_select_all)
+
+    def _show_menu(event):
+        try:
+            menu.tk_popup(event.x_root, event.y_root)
+        finally:
+            menu.grab_release()
+
+    right_click_event = "<Button-2>" if widget.tk.call("tk", "windowingsystem") == "aqua" else "<Button-3>"
+    widget.bind(right_click_event, _show_menu)
+
+
 _HEATMAP_STOPS: list[tuple[float, tuple[int, int, int]]] = [
-    (0.0, (255, 251, 235)),   # faint amber - just above zero
-    (0.20, (254, 240, 138)),  # pale yellow
-    (0.45, (250, 204, 21)),   # yellow
-    (0.70, (249, 115, 22)),   # orange
-    (1.0, (185, 28, 28)),     # deep red - hottest
+    (0.0, (255, 251, 235)),
+    (0.20, (254, 240, 138)),
+    (0.45, (250, 204, 21)),
+    (0.70, (249, 115, 22)),
+    (1.0, (185, 28, 28)),
 ]
 
 
 def _heat_color(t: float) -> tuple[str, str]:
-    """Maps a 0.0-1.0 intensity fraction to a (background_hex, text_hex) pair
-    along a white->yellow->orange->red gradient, choosing readable text color
-    based on the background's perceived luminance."""
     t = max(0.0, min(1.0, t))
     for (t0, c0), (t1, c1) in zip(_HEATMAP_STOPS, _HEATMAP_STOPS[1:]):
         if t0 <= t <= t1:
@@ -110,6 +153,13 @@ class GovApp:
         self.style = ttk.Style()
         self.style.theme_use("clam")
 
+        self.style.configure(
+            "Accent.TButton",
+            font=("Segoe UI", 9, "bold"),
+            background="#00247D",
+            foreground="#ffffff",
+        )
+
         self.nb = ttk.Notebook(root)
         self.nb.pack(fill="both", expand=True, padx=8, pady=8)
         self.tab_control = ttk.Frame(self.nb)
@@ -121,7 +171,7 @@ class GovApp:
         self.nb.add(self.tab_control, text="🛰️ Control Panel")
         self.nb.add(self.tab_reader, text="📋 Intelligence Reader")
         self.nb.add(self.tab_favs, text="⭐ Favorites Hub")
-        self.nb.add(self.tab_kw, text="🧠 Keyword Brain")
+        self.nb.add(self.tab_kw, text="🧠 Keyword Brain & Categories")
         self.nb.add(self.tab_analytics, text="📈 Policy Analytics")
 
         self._build_control_tab()
@@ -131,9 +181,6 @@ class GovApp:
         self._build_analytics_tab()
         self.refresh_fav_hub()
 
-        # The Keyword Brain should be "straight in there" with the full picture:
-        # activate the aggregated Master Overview profile as the active working
-        # set every time the app starts, rather than requiring a manual click.
         self.load_master_overview_profile(silent=True)
 
     # ======================================================================
@@ -146,43 +193,54 @@ class GovApp:
         f.rowconfigure(10, weight=1)
 
         ttk.Label(f, text="GOV.UK Advanced Intelligence Platform", font=("Segoe UI", 16, "bold"),
-                  foreground="#00247D").grid(row=0, column=0, columnspan=3, pady=10)
+                  foreground="#00247D").grid(row=0, column=0, columnspan=3, pady=(0, 6))
 
-        ttk.Label(f, text="Topic Query:").grid(row=1, column=0, sticky="w", pady=4)
+        guidance_frame = ttk.LabelFrame(f, text=" 💡 Quick User Guide & Tips ", padding=10)
+        guidance_frame.grid(row=1, column=0, columnspan=3, sticky="ew", pady=(0, 10))
+        
+        guide_text = (
+            "• **Deep Search & Target Count:** Enter a free-text topic or pick a Permanent Topic Favorite below, then use the **Target Count** spinner to control how many documents your live GOV.UK sweep downloads.\n"
+            "• **Keyword Brain & Category Search:** Manage your custom policy taxonomies under the *Keyword Brain* tab, or click **🧠 Search GOV.UK via Brain** to instantly harvest official papers using all active terms in a selected category.\n"
+            "• **Policy Analytics & Heatmap:** View an automated density matrix in the *Policy Analytics* tab to score relative keyword frequencies and pinpoint dominant policy domains at a glance.\n"
+            "• **Favorites Hub:** Star important sources from the *Intelligence Reader* to persistently organize key research and attachments.\n"
+            "• **Pro-Tip:** Double-click any document title across the app to instantly open its PDF with strict word-boundary auto-highlighting applied!"
+        )
+        ttk.Label(guidance_frame, text=guide_text, font=("Segoe UI", 9), foreground="#334155", justify="left").pack(anchor="w", fill="x")
+
+        ttk.Label(f, text="Topic Query:").grid(row=2, column=0, sticky="w", pady=4)
         self.e_topic = ttk.Entry(f, width=40)
-        self.e_topic.grid(row=1, column=1, sticky="ew", pady=4, padx=5)
+        self.e_topic.grid(row=2, column=1, sticky="ew", pady=4, padx=5)
         self.e_topic.insert(0, "blueprint modern digital government")
-        ttk.Button(f, text="⭐ Save Fav Topic", command=self.add_favorite_topic).grid(row=1, column=2, padx=5)
+        ttk.Button(f, text="⭐ Save Fav Topic", command=self.add_favorite_topic).grid(row=2, column=2, padx=5)
 
         self.exact_match_var = tk.BooleanVar(value=False)
         ttk.Checkbutton(f, text="Exact Phrase Match Only", variable=self.exact_match_var).grid(
-            row=2, column=1, sticky="w", padx=5)
+            row=3, column=1, sticky="w", padx=5)
 
-        ttk.Label(f, text="Target Count:").grid(row=3, column=0, sticky="w", pady=4)
+        ttk.Label(f, text="Target Count:").grid(row=4, column=0, sticky="w", pady=4)
         self.sp_count = ttk.Spinbox(f, from_=10, to=200, increment=10, width=10)
-        self.sp_count.grid(row=3, column=1, sticky="w", pady=4, padx=5)
+        self.sp_count.grid(row=4, column=1, sticky="w", pady=4, padx=5)
         self.sp_count.set(20)
 
-        ttk.Label(f, text="Sort By:").grid(row=4, column=0, sticky="w", pady=4)
+        ttk.Label(f, text="Sort By:").grid(row=5, column=0, sticky="w", pady=4)
         self.cb_sort = ttk.Combobox(f, values=["Best Match", "Most Recent"], state="readonly", width=15)
-        self.cb_sort.grid(row=4, column=1, sticky="w", pady=4, padx=5)
+        self.cb_sort.grid(row=5, column=1, sticky="w", pady=4, padx=5)
         self.cb_sort.set("Best Match")
 
-        ttk.Label(f, text="Department:").grid(row=5, column=0, sticky="w", pady=4)
+        ttk.Label(f, text="Department:").grid(row=6, column=0, sticky="w", pady=4)
         self.cb_dept = ttk.Combobox(f, values=["All Departments", *config.DEPARTMENT_SLUGS.keys()],
                                     state="readonly", width=25)
-        self.cb_dept.grid(row=5, column=1, sticky="w", pady=4, padx=5)
+        self.cb_dept.grid(row=6, column=1, sticky="w", pady=4, padx=5)
         self.cb_dept.set("All Departments")
 
-        ttk.Label(f, text="Document Type:").grid(row=6, column=0, sticky="w", pady=4)
+        ttk.Label(f, text="Document Type:").grid(row=7, column=0, sticky="w", pady=4)
         self.cb_doc_type = ttk.Combobox(f, values=["All Types", *config.DOC_TYPE_SLUGS.keys()],
                                         state="readonly", width=25)
-        self.cb_doc_type.grid(row=6, column=1, sticky="w", pady=4, padx=5)
+        self.cb_doc_type.grid(row=7, column=1, sticky="w", pady=4, padx=5)
         self.cb_doc_type.set("All Types")
 
-        # Scrollable Permanent Topic Favorites Container
         fav_frame = ttk.LabelFrame(f, text=" ⭐ Permanent Topic Favorites (Click to Load) ", padding=8)
-        fav_frame.grid(row=7, column=0, columnspan=3, sticky="ew", pady=8)
+        fav_frame.grid(row=8, column=0, columnspan=3, sticky="ew", pady=8)
 
         fav_canvas_container = ttk.Frame(fav_frame)
         fav_canvas_container.pack(fill="x", expand=True)
@@ -201,8 +259,9 @@ class GovApp:
         self.render_favorite_topics()
 
         btn_frame = ttk.Frame(f)
-        btn_frame.grid(row=8, column=0, columnspan=3, pady=10)
+        btn_frame.grid(row=9, column=0, columnspan=3, pady=10)
         ttk.Button(btn_frame, text="🚀 Run Deep Search", command=self.start_harvest).pack(side="left", padx=4)
+        ttk.Button(btn_frame, text="🧠 Search GOV.UK via Brain", style="Accent.TButton", command=self.search_gov_uk_via_keyword_brain).pack(side="left", padx=4)
         ttk.Button(btn_frame, text="⚔️ Split-Screen Compare", command=self.open_split_comparator).pack(side="left", padx=4)
         ttk.Button(btn_frame, text="🔍 Cross-PDF Search", command=self.cross_pdf_search_dialog).pack(side="left", padx=4)
         ttk.Button(btn_frame, text="📜 Search History", command=self.open_history_dialog).pack(side="left", padx=4)
@@ -210,6 +269,10 @@ class GovApp:
 
         self.log_box = tk.Text(f, height=6, bg="#1e293b", fg="#f8fafc", font=("Consolas", 10))
         self.log_box.grid(row=10, column=0, columnspan=3, sticky="nsew", pady=10)
+
+        # Bind right-click menus
+        _add_universal_right_click_menu(self.e_topic)
+        _add_universal_right_click_menu(self.log_box)
 
     def render_favorite_topics(self) -> None:
         for widget in self.fav_buttons_inner.winfo_children():
@@ -280,6 +343,16 @@ class GovApp:
     # Reader tab
     # ======================================================================
     def _build_reader_tab(self) -> None:
+        reader_guide = ttk.LabelFrame(self.tab_reader, text=" 💡 Reader Guide & Tips ", padding=8)
+        reader_guide.pack(fill="x", side="top", padx=5, pady=(5, 0))
+        
+        reader_guide_text = (
+            "• **Source Navigation & Attachments:** Select any discovered document on the left to review metadata, citations, and download links/PDFs on the right.\n"
+            "• **PDF Viewer & Auto-Highlighting:** Open a PDF to render it instantly. Use the ✨ **Auto Highlight** button or double-click any matrix title to automatically highlight active keyword categories with strict word boundaries.\n"
+            "• **AI Briefing:** Switch to the *Briefing* tab in the viewer pane and click **✨ Generate AI Briefing** to extract executive summaries via local AI (Ollama)."
+        )
+        ttk.Label(reader_guide, text=reader_guide_text, font=("Segoe UI", 9), foreground="#334155", justify="left").pack(anchor="w", fill="x")
+
         main_paned = ttk.Panedwindow(self.tab_reader, orient="horizontal")
         main_paned.pack(fill="both", expand=True, padx=5, pady=5)
 
@@ -362,14 +435,17 @@ class GovApp:
         self.lbl_ai_status = ttk.Label(briefing_tb, text="", font=("Segoe UI", 9, "italic"))
         self.lbl_ai_status.pack(side="left", padx=8)
         
-        # Check local Ollama readiness in background
         threading.Thread(target=self.check_ai_readiness, daemon=True).start()
 
         self.txt_briefing = scrolledtext.ScrolledText(briefing_frame, wrap="word")
         self.txt_briefing.pack(fill="both", expand=True)
 
+        # Bind right-click menus
+        _add_universal_right_click_menu(self.e_filter)
+        _add_universal_right_click_menu(self.txt_details)
+        _add_universal_right_click_menu(self.txt_briefing)
+
     def check_ai_readiness(self) -> None:
-        """Checks if Ollama is live and updates the UI status badge."""
         if ai_engine.check_ollama_status():
             self.root.after(0, lambda: self.lbl_ai_status.config(text="🟢 Local AI (Ollama) Ready", foreground="#16a34a"))
         else:
@@ -551,23 +627,30 @@ class GovApp:
         threading.Thread(target=_download, daemon=True).start()
 
     # ======================================================================
-    # Favorites Hub tab (Upgraded for full Intelligence Reader parity)
+    # Favorites Hub tab
     # ======================================================================
     def _build_favs_tab(self) -> None:
+        fav_guide = ttk.LabelFrame(self.tab_favs, text=" 💡 Favorites Hub Guide & Tips ", padding=8)
+        fav_guide.pack(fill="x", side="top", padx=5, pady=(5, 0))
+        
+        fav_guide_text = (
+            "• **Persistent Research Hub:** Access all your starred sources and key policy documents saved across different search sessions.\n"
+            "• **Interactive Preview & AI Briefings:** Select a starred source to view its attachments, load its PDF directly into the integrated viewer, or generate an instant AI Briefing.\n"
+            "• **Pro-Tip:** Double-click any starred item in the left list to instantly open its original source URL directly in your web browser."
+        )
+        ttk.Label(fav_guide, text=fav_guide_text, font=("Segoe UI", 9), foreground="#334155", justify="left").pack(anchor="w", fill="x")
+
         main_paned = ttk.Panedwindow(self.tab_favs, orient="horizontal")
         main_paned.pack(fill="both", expand=True, padx=5, pady=5)
 
-        # Left panel: Starred Sources List
         left = ttk.LabelFrame(main_paned, text=" ⭐ Starred Sources ", padding=8)
         main_paned.add(left, weight=1)
         
         self.lb_favs = tk.Listbox(left, bg="#ffffff", selectbackground="#00247D", exportselection=False)
         self.lb_favs.pack(fill="both", expand=True)
         self.lb_favs.bind("<<ListboxSelect>>", self.on_fav_select)
-        # Bind double-click directly to browser opening, matching Intelligence Reader
         self.lb_favs.bind("<Double-1>", self.on_fav_double_click)
 
-        # Right panel: Vertical split for metadata/attachments at top and reader/briefing at bottom
         right_v_paned = ttk.Panedwindow(main_paned, orient="vertical")
         main_paned.add(right_v_paned, weight=4)
 
@@ -606,7 +689,6 @@ class GovApp:
 
         self.fav_details_att_paned.bind("<Configure>", _set_fav_sash)
 
-        # Right bottom frame: Notebook with PDF Viewer and Briefing capability matching Reader tab
         right_bottom_frame = ttk.Frame(right_v_paned)
         right_v_paned.add(right_bottom_frame, weight=5)
 
@@ -638,11 +720,14 @@ class GovApp:
         self.txt_fav_briefing = scrolledtext.ScrolledText(fav_briefing_frame, wrap="word")
         self.txt_fav_briefing.pack(fill="both", expand=True)
 
+        # Bind right-click menus
+        _add_universal_right_click_menu(self.txt_fav_details)
+        _add_universal_right_click_menu(self.txt_fav_briefing)
+
     def _favorite_ids(self) -> list[str]:
         return list(self.state.favorite_sources.keys())
 
     def refresh_fav_hub(self) -> None:
-        """Refreshes the sidebar list of starred sources from your persistent state file."""
         self.lb_favs.delete(0, tk.END)
         self.all_fav_attachments = {"pdf": [], "link": [], "data": []}
 
@@ -657,9 +742,7 @@ class GovApp:
     def on_fav_select(self, _event) -> None:
         ids = self._favorite_ids()
         sel = self.lb_favs.curselection()
-        if not sel:
-            return
-        if sel[0] >= len(ids):
+        if not sel or sel[0] >= len(ids):
             return
         doc_id = ids[sel[0]]
         entry = self.state.favorite_sources[doc_id]
@@ -677,13 +760,11 @@ class GovApp:
         for url in self.fav_active_atts:
             self.lb_fav_atts.insert(tk.END, _attachment_label(url))
 
-        # Automatically load the first PDF attachment into the interactive previewer if available
         pdf_url = next((url for url in self.fav_active_atts if "📕 PDF" in classify_attachment_url(url)), None)
         if pdf_url:
             self._open_pdf_attachment(pdf_url, self.fav_pdf_viewer, self.fav_nb)
 
     def on_fav_double_click(self, _event) -> None:
-        """Opens the selected favorite source's GOV.UK URL in the browser on double-click, matching the Reader tab."""
         ids = self._favorite_ids()
         sel = self.lb_favs.curselection()
         if sel and sel[0] < len(ids):
@@ -794,14 +875,14 @@ class GovApp:
             preset_bar,
             values=list(self.state.research_profiles.keys()),
             state="readonly",
-            width=32,
+            width=26,
         )
         self.cb_kw_presets.pack(side="left", padx=4)
 
         ttk.Button(preset_bar, text="📥 Load Profile", command=self.load_kw_preset).pack(side="left", padx=4)
         ttk.Button(preset_bar, text="💾 Save Profile As...", command=self.save_custom_profile).pack(side="left", padx=4)
         ttk.Button(preset_bar, text="🗑️ Delete Profile", command=self.delete_custom_profile).pack(side="left", padx=4)
-        ttk.Button(preset_bar, text="📤 Export JSON...", command=self.export_profile_to_file).pack(side="left", padx=(16, 4))
+        ttk.Button(preset_bar, text="📤 Export JSON...", command=self.export_profile_to_file).pack(side="left", padx=(12, 4))
         ttk.Button(preset_bar, text="📂 Import JSON...", command=self.import_profile_from_file).pack(side="left", padx=4)
 
         self._refresh_profile_combobox()
@@ -809,7 +890,6 @@ class GovApp:
         body = ttk.Frame(f)
         body.pack(fill="both", expand=True)
 
-        # Scrollable Left Panel Container
         left_outer = ttk.LabelFrame(body, text=" Categories & Color Coding ", padding=5)
         left_outer.pack(side="left", fill="both", expand=False, padx=(0, 8))
 
@@ -888,7 +968,6 @@ class GovApp:
         ttk.Button(btn_row, text="➕ Add Category", command=self.add_keyword_category_safely).pack(side="left", expand=True, fill="x", padx=(0, 2))
         ttk.Button(btn_row, text="🗑️ Remove Category", command=self.remove_kw_category).pack(side="left", expand=True, fill="x", padx=(2, 0))
 
-        # Right Term Inspector Panel
         right = ttk.LabelFrame(body, text=" Associated Research Keywords & Toggle Matrix ", padding=10)
         right.pack(side="left", fill="both", expand=True)
 
@@ -912,7 +991,102 @@ class GovApp:
         ttk.Button(term_ctrl, text="➕ Add Keyword", command=self.add_kw_term).pack(side="left", padx=2)
         ttk.Button(term_ctrl, text="🗑️ Remove Keyword", command=self.remove_kw_term).pack(side="left", padx=2)
 
+        # Bind right-click menus
+        _add_universal_right_click_menu(self.e_new_cat)
+        _add_universal_right_click_menu(self.e_new_kw)
+
         self.refresh_kw_categories_list()
+
+    def search_gov_uk_via_keyword_brain(self) -> None:
+        categories = [cat for cat, data in self.state.keyword_rules.items() if data.get("terms")]
+        if not categories:
+            messagebox.showwarning("No Categories Found", "Your Keyword Brain has no categories with terms configured.")
+            return
+
+        pop = tk.Toplevel(self.root)
+        pop.title("🧠 Search GOV.UK by Brain Category")
+        pop.geometry("420x320")
+        pop.transient(self.root)
+        pop.grab_set()
+
+        ttk.Label(pop, text="Select a Keyword Brain Category to Search:", font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=12, pady=(12, 6))
+
+        lb_frame = ttk.Frame(pop)
+        lb_frame.pack(fill="both", expand=True, padx=12, pady=5)
+
+        sb = ttk.Scrollbar(lb_frame, orient="vertical")
+        cat_lb = tk.Listbox(lb_frame, bg="#ffffff", font=("Segoe UI", 10), exportselection=False, yscrollcommand=sb.set)
+        sb.config(command=cat_lb.yview)
+        sb.pack(side="right", fill="y")
+        cat_lb.pack(side="left", fill="both", expand=True)
+
+        for cat in categories:
+            terms_count = sum(1 for enabled in self.state.keyword_rules[cat].get("terms", {}).values() if enabled)
+            cat_lb.insert(tk.END, f"📁 {cat} ({terms_count} active terms)")
+
+        if categories:
+            cat_lb.selection_set(0)
+
+        def _execute_category_search():
+            sel = cat_lb.curselection()
+            if not sel:
+                return
+            chosen_cat = categories[sel[0]]
+            pop.destroy()
+
+            category_data = self.state.keyword_rules.get(chosen_cat, {})
+            active_terms = [
+                term.replace("*", "").strip() 
+                for term, enabled in category_data.get("terms", {}).items() 
+                if enabled
+            ]
+
+            if not active_terms:
+                messagebox.showwarning("No Active Terms", f"Category '{chosen_cat}' has no active terms enabled.")
+                return
+
+            active_terms.sort(key=len, reverse=True)
+            optimized_terms = active_terms[:6]
+            search_query = " OR ".join(optimized_terms)
+
+            self.e_topic.delete(0, tk.END)
+            self.e_topic.insert(0, f"[{chosen_cat}] ({len(optimized_terms)} key indicators)")
+
+            self.log(f"🧠 Keyword Brain: Searching GOV.UK for '{chosen_cat}' using core indicators...")
+            self.log(f"🎯 Applied terms: {', '.join(optimized_terms)}")
+
+            def _run_brain_harvest():
+                try:
+                    target_total = int(self.sp_count.get()) if hasattr(self, 'sp_count') else 30
+                except (tk.TclError, ValueError):
+                    target_total = 30
+
+                sort_val = self.cb_sort.get() if hasattr(self, 'cb_sort') else "Best Match"
+                dept_val = self.cb_dept.get() if hasattr(self, 'cb_dept') else "All Departments"
+                type_val = self.cb_doc_type.get() if hasattr(self, 'cb_doc_type') else "All Types"
+
+                raw_results = deep_harvest_gov_uk(
+                    search_query,
+                    target_total,
+                    sort_val,
+                    dept_val,
+                    type_val,
+                    False,
+                    log_cb=self.log,
+                )
+                topic_dir, docs, _suggestions = archive.build_and_save_archive(f"Brain_{chosen_cat.replace(' ', '_')}", raw_results, log_cb=self.log)
+                if docs:
+                    self.log(f"✅ Successfully harvested {len(docs)} documents for category '{chosen_cat}'.")
+                    self.root.after(0, lambda: self._sync_reader(topic_dir, docs))
+                else:
+                    self.root.after(0, lambda: messagebox.showinfo("No Results", f"Search completed for '{chosen_cat}', but no matching documents were found on GOV.UK."))
+
+            threading.Thread(target=_run_brain_harvest, daemon=True).start()
+
+        btn_row = ttk.Frame(pop, padding=10)
+        btn_row.pack(fill="x", side="bottom")
+        ttk.Button(btn_row, text="🚀 Run Category Search", command=_execute_category_search).pack(side="right", padx=4)
+        ttk.Button(btn_row, text="Cancel", command=pop.destroy).pack(side="right", padx=4)
 
     def _refresh_profile_combobox(self) -> None:
         profiles = list(self.state.research_profiles.keys())
@@ -1015,7 +1189,6 @@ class GovApp:
         self.refresh_master_overview()
 
     def load_master_overview_profile(self, silent: bool = False) -> None:
-        """Aggregate every category from saved profiles while safely preserving custom categories."""
         master_key = "🌐 Master Intelligence Overview"
         current_rules = dict(self.state.keyword_rules)
         
@@ -1085,7 +1258,6 @@ class GovApp:
             for widget in (card, accent, body, name_lbl, stats_lbl):
                 widget.bind("<Button-1>", lambda _e, c=cat: self.select_kw_category_from_overview(c))
 
-        # Trailing "+ Add New Category" quick-action card in the grid
         add_idx = len(categories)
         row, col = divmod(add_idx, cols)
         add_card = tk.Frame(
@@ -1105,7 +1277,6 @@ class GovApp:
             self.master_overview_container.columnconfigure(c, weight=1)
 
     def add_category_from_overview(self) -> None:
-        """Quick-add flow from the Master Overview card grid with immediate disk persistence."""
         name = simpledialog.askstring("Add New Category", "Enter a name for the new keyword category:")
         if not name or not name.strip():
             return
@@ -1115,10 +1286,7 @@ class GovApp:
             messagebox.showwarning("Category Exists", f"A category named '{name}' already exists.")
             return
         
-        # PERSIST TO DISK USING THE CORRECT METHOD
         self.state.save_keywords()
-        
-        # FORCE IMMEDIATE UI REFRESH SO THE CARD APPEARS INSTANTLY
         self.refresh_kw_categories_list()
         self.generate_analytics_matrix()
         
@@ -1164,7 +1332,6 @@ class GovApp:
             self.tree_kw_cats.selection_set(cat)
 
     def add_keyword_category_safely(self) -> None:
-        """Adds a category, persists changes to disk, and instantly selects it in the tree view."""
         cat_name = self.e_new_cat.get().strip()
         if not cat_name:
             return
@@ -1256,7 +1423,7 @@ class GovApp:
             self.state.save_keywords()
 
     # ======================================================================
-    # Analytics tab (Unified Scrollable Grid Matrix)
+    # Analytics tab
     # ======================================================================
     def _build_analytics_tab(self) -> None:
         f = ttk.Frame(self.tab_analytics, padding=10)
@@ -1343,7 +1510,7 @@ class GovApp:
                 prefix = t_clean.replace("*", "")
                 count += len(re.findall(r'\b' + re.escape(prefix) + r'\w*', haystack))
             else:
-                count += haystack.count(t_clean)
+                count += len(re.findall(r'\b' + re.escape(t_clean) + r'\b', haystack))
         return count
 
     def generate_analytics_matrix(self) -> None:

@@ -68,13 +68,13 @@ TOTAL: 100
 
 
 
-📌 [17] Government Commercial Function Annual Report 2024-2025
-   🔗 Link: https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025
-   ↳ The Government Commercial Function has published its Annual Report for 2024-2025
-
-📌 [18] Defence Minister Lord Coaker, keynote speech at Enterprise Gateway, Farnborough International Airshow.
+📌 [17] Defence Minister Lord Coaker, keynote speech at Enterprise Gateway, Farnborough International Airshow.
    🔗 Link: https://www.gov.uk/government/speeches/defence-minister-lord-coaker-keynote-speech-at-enterprise-gateway-farnborough-international-airshow
    ↳ The Enterprise Gateway: Opening Address 
+
+📌 [18] Government Commercial Function Annual Report 2024-2025
+   🔗 Link: https://www.gov.uk/government/publications/government-commercial-function-annual-report-2024-2025
+   ↳ The Government Commercial Function has published its Annual Report for 2024-2025
 
 📌 [19] DVSA business plan, 2025 to 2026
    🔗 Link: https://www.gov.uk/government/publications/dvsa-business-plan-2025-to-2026
@@ -92,13 +92,13 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/gld-business-plan-2024-25
    ↳ This business plan outlines the range of high-profile and complex legal work that will form GLD's delivery priorities for the coming year.
 
-📌 [23] Digital Inclusion Innovation Fund: grant recipients
-   🔗 Link: https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients
-   ↳ Projects awarded grants from the Digital Inclusion Innovation Fund. 
-
-📌 [24] G7 Digital and Technology Ministerial Declaration: 29 May 2026
+📌 [23] G7 Digital and Technology Ministerial Declaration: 29 May 2026
    🔗 Link: https://www.gov.uk/government/publications/g7-digital-and-technology-ministerial-declaration-29-may-2026
    ↳ This ministerial declaration on digital and technology was agreed at the G7 on 29 May 2026 in Paris, France.
+
+📌 [24] Digital Inclusion Innovation Fund: grant recipients
+   🔗 Link: https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-grant-recipients
+   ↳ Projects awarded grants from the Digital Inclusion Innovation Fund. 
 
 📌 [25] GBR: improvements train operators in public ownership are making for customers
    🔗 Link: https://www.gov.uk/government/case-studies/gbr-improvements-train-operators-in-public-ownership-are-making-for-customers
@@ -128,38 +128,38 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/state-of-digital-government-review
    ↳ A review of technology and data in the public sector: successes, challenges and root causes.
 
-📌 [32] Office for Nuclear Regulation strategy 2020 to 2025
-   🔗 Link: https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025
-   ↳ This strategy sets out the vision and direction for the Office for Nuclear Regulation (ONR) and nuclear regulation for the next 5 years,
-
-📌 [33] Apply online for a UK passport
+📌 [32] Apply online for a UK passport
    🔗 Link: https://www.gov.uk/apply-renew-passport
    ↳ You can apply for, update, renew or replace a passport online.
+
+📌 [33] Office for Nuclear Regulation strategy 2020 to 2025
+   🔗 Link: https://www.gov.uk/government/publications/office-for-nuclear-regulation-strategy-2020-to-2025
+   ↳ This strategy sets out the vision and direction for the Office for Nuclear Regulation (ONR) and nuclear regulation for the next 5 years,
 
 📌 [34] Digital driving licence coming this year
    🔗 Link: https://www.gov.uk/government/news/digital-driving-licence-coming-this-year
    ↳ The UK government is launching a GOV.UK Wallet and App to simplify access to services and documents like digital driver’s licences, alongside reforms to public sector technology to save £45 billion and drive efficiency and growth.
 
-📌 [35] Independent Anti-Slavery Commissioner’s annual report 2021 to 2022
-   🔗 Link: https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022
-   ↳ The Commissioner’s annual report sets out the work she has undertaken during 2021 and 2022.
-
-📌 [36] Sign in to your childcare account
+📌 [35] Sign in to your childcare account
    🔗 Link: https://www.gov.uk/sign-in-childcare-account
    ↳ If you get Tax-Free Childcare or Free Childcare for Working Parents, sign in to confirm your details are up to date, pay money in or apply for an additional child.
 
 
-📌 [37] Government Commercial Function Annual Report 2023-2024
-   🔗 Link: https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024
-   ↳ The Government Commercial Function has published its Annual Report for 2023-2024
+📌 [36] Independent Anti-Slavery Commissioner’s annual report 2021 to 2022
+   🔗 Link: https://www.gov.uk/government/publications/independent-anti-slavery-commissioners-annual-report-2021-to-2022
+   ↳ The Commissioner’s annual report sets out the work she has undertaken during 2021 and 2022.
 
-📌 [38] PPN 009: Tackling modern slavery in government supply chains
+📌 [37] PPN 009: Tackling modern slavery in government supply chains
    🔗 Link: https://www.gov.uk/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains
    ↳ This PPN sets out how UK Government departments and in-scope organisations must take action to ensure modern slavery risks are identified and managed in government supply chains.
 
-📌 [39] 5G Innovation Regions: successful regions
+📌 [38] 5G Innovation Regions: successful regions
    🔗 Link: https://www.gov.uk/government/publications/5g-innovation-regions-successful-regions
    ↳ Successful local and regional authorities across the UK to establish themselves as ‘5G Innovation Regions’ (5GIRs).
+
+📌 [39] Government Commercial Function Annual Report 2023-2024
+   🔗 Link: https://www.gov.uk/government/publications/government-commercial-function-annual-report-2023-2024
+   ↳ The Government Commercial Function has published its Annual Report for 2023-2024
 
 📌 [40] Cloud Challenge Book 2026
    🔗 Link: https://www.gov.uk/government/publications/cloud-challenge-book-2026
@@ -169,33 +169,33 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/government-functional-standard-govs-015-grants
    ↳ The Grants Functional Standard promotes efficiency and effectiveness in grant making across all government departments and arm’s length bodies.
 
-📌 [42] National Information Board (NIB): interim report 2015
-   🔗 Link: https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015
-   ↳ The NIB Prospectus provides a review of progress made over the past 18 months.
-
-📌 [43] Apply for or renew a Blue Badge
+📌 [42] Apply for or renew a Blue Badge
    🔗 Link: https://www.gov.uk/apply-blue-badge
    ↳ Check if you're eligible for a Blue Badge and apply or renew
 
-📌 [44] Digital version of Veteran Card launched for quicker and easier access to support
-   🔗 Link: https://www.gov.uk/government/news/digital-version-of-veteran-card-launched-for-quicker-and-easier-access-to-support
-   ↳ Veterans can now apply for and download a secure digital version of the HM Armed Forces Veteran Card via the GOV.UK One Login app.
+📌 [43] National Information Board (NIB): interim report 2015
+   🔗 Link: https://www.gov.uk/government/publications/national-information-board-nib-interim-report-2015
+   ↳ The NIB Prospectus provides a review of progress made over the past 18 months.
 
-📌 [45] Department of Health and Social Care accounting officer assessments
-   🔗 Link: https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments
-   ↳ Accounting officer assessment summaries for the Department of Health and Social Care’s programmes and projects in the Government Major Projects Portfolio.
-
-📌 [46] DVLA business plan 2022 to 2023
-   🔗 Link: https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023
-   ↳ Our business plan 2022 to 2023 details what we will deliver in the year.
-
-📌 [47] Department for Science, Innovation and Technology
+📌 [44] Department for Science, Innovation and Technology
    🔗 Link: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
    ↳ Accelerate innovation, investment and productivity through world-class science, ensure that new and existing technologies are safely developed and deployed across the UK and drive forward a modern digital government for the benefit of its citizens. DSIT is a ministerial department, supported by 12 agencies and public bodies .
 
-📌 [48] Functional Standards Common Glossary
+📌 [45] Digital version of Veteran Card launched for quicker and easier access to support
+   🔗 Link: https://www.gov.uk/government/news/digital-version-of-veteran-card-launched-for-quicker-and-easier-access-to-support
+   ↳ Veterans can now apply for and download a secure digital version of the HM Armed Forces Veteran Card via the GOV.UK One Login app.
+
+📌 [46] Department of Health and Social Care accounting officer assessments
+   🔗 Link: https://www.gov.uk/government/publications/department-of-health-and-social-care-accounting-officer-assessments
+   ↳ Accounting officer assessment summaries for the Department of Health and Social Care’s programmes and projects in the Government Major Projects Portfolio.
+
+📌 [47] Functional Standards Common Glossary
    🔗 Link: https://www.gov.uk/government/publications/functional-standards-common-glossary
    ↳ Functional Standards Common Glossary 
+
+📌 [48] DVLA business plan 2022 to 2023
+   🔗 Link: https://www.gov.uk/government/publications/dvla-business-plan-2022-to-2023
+   ↳ Our business plan 2022 to 2023 details what we will deliver in the year.
 
 📌 [49] Home Office Digital, Data and Technology Strategy 2024
    🔗 Link: https://www.gov.uk/government/publications/home-office-digital-data-and-technology-strategy-2024
@@ -213,14 +213,14 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/performance-analysis
    ↳ This Performance Analysis is part of the Performance Report included in the Government Legal Department Annual Report and Accounts
 
-📌 [53] Enhancing the UK’s Geospatial Ecosystem
+📌 [53] Government cuts cyber-attack fix times by 84% and launches new profession to protect public services
+   🔗 Link: https://www.gov.uk/government/news/government-cuts-cyber-attack-fix-times-by-84-and-launches-new-profession-to-protect-public-services
+   ↳ The government has launched a new vulnerability monitoring service (VMS) to reduce cyber risks and speed up fixes, and a new Cyber Profession to build long-term resilience across public services.
+
+📌 [54] Enhancing the UK’s Geospatial Ecosystem
    🔗 Link: https://www.gov.uk/government/publications/enhancing-the-uks-geospatial-ecosystem
    ↳ Outlines the actions needed to nurture the UK’s growing geospatial economy, underpinned by an independent study into the current UK location data market. 
 
-
-📌 [54] Government cuts cyber-attack fix times by 84% and launches new profession to protect public services
-   🔗 Link: https://www.gov.uk/government/news/government-cuts-cyber-attack-fix-times-by-84-and-launches-new-profession-to-protect-public-services
-   ↳ The government has launched a new vulnerability monitoring service (VMS) to reduce cyber risks and speed up fixes, and a new Cyber Profession to build long-term resilience across public services.
 
 📌 [55] UK Export Finance Business Plan 2024-29
    🔗 Link: https://www.gov.uk/government/publications/uk-export-finance-business-plan-2024-29
@@ -234,13 +234,13 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/social-mobility-commission-unveils-annual-review-2020
    ↳ The Social Mobility Commission launches its 2020 review and unveils plans for this year, including assessing the impact of COVID-19 on social mobility.
 
-📌 [58] The 9th ASEAN-OECD Good Regulatory Practice Network promotes better regulatory frameworks
-   🔗 Link: https://www.gov.uk/government/news/the-9th-asean-oecd-good-regulatory-practice-network-promotes-better-regulatory-frameworks
-   ↳ This year’s GRPN meeting focuses on building better regulation to address modern-day challenges. 
-
-📌 [59] Crown Commercial Service annual report and accounts 2021 to 2022
+📌 [58] Crown Commercial Service annual report and accounts 2021 to 2022
    🔗 Link: https://www.gov.uk/government/publications/crown-commercial-service-annual-report-and-accounts-2021-to-2022
    ↳ This document provides the Crown Commercial Service annual report and accounts of activity and services for 2021 to 2022.
+
+📌 [59] The 9th ASEAN-OECD Good Regulatory Practice Network promotes better regulatory frameworks
+   🔗 Link: https://www.gov.uk/government/news/the-9th-asean-oecd-good-regulatory-practice-network-promotes-better-regulatory-frameworks
+   ↳ This year’s GRPN meeting focuses on building better regulation to address modern-day challenges. 
 
 📌 [60] Government customer services to be modernised with help of industry experts
    🔗 Link: https://www.gov.uk/government/news/government-customer-services-to-be-modernised-with-help-of-industry-experts
@@ -254,33 +254,33 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/the-digital-data-and-technology-playbook
    ↳ This document sets out key policies and guidance for how digital projects and programmes are assessed, procured and delivered.
 
-📌 [63] Project work of the British Embassy in Ukraine
-   🔗 Link: https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine
-   ↳ The British Embassy in Ukraine works proactively with international and local partners to implement a range of projects funded from the Bilateral Programme Budget of the Foreign and Commonwealth Office. 
-
-📌 [64] Digital tools that support volunteering
+📌 [63] Digital tools that support volunteering
    🔗 Link: https://www.gov.uk/government/publications/digital-tools-that-support-volunteering
    ↳ Research exploring how digital tools support volunteering in England and how their role in sustaining and promoting volunteering in the future could be improved
 
-📌 [65] New Google partnership will help rid taxpayer of ‘ball and chain’ legacy tech and aim to upskill 100,000 civil servants in tech and AI
-   🔗 Link: https://www.gov.uk/government/news/new-google-partnership-will-help-rid-taxpayer-of-ball-and-chain-legacy-tech-and-aim-to-upskill-100000-civil-servants-in-tech-and-ai
-   ↳ New partnership with Google Cloud will help modernise outdated government IT, upskill 100,000 civil servants in digital and AI by 2030, and secure better tech deals for the taxpayer.
+📌 [64] Project work of the British Embassy in Ukraine
+   🔗 Link: https://www.gov.uk/government/case-studies/project-work-of-the-british-embassy-in-ukraine
+   ↳ The British Embassy in Ukraine works proactively with international and local partners to implement a range of projects funded from the Bilateral Programme Budget of the Foreign and Commonwealth Office. 
 
-📌 [66] Civil Service People Plan 2024-2027
+📌 [65] Civil Service People Plan 2024-2027
    🔗 Link: https://www.gov.uk/government/publications/civil-service-people-plan-2024-2027
    ↳ The Civil Service People Plan 2024-2027 is about the Civil Service understanding our big people challenges and working to improve them.
 
-📌 [67] Shake up of tech and AI usage across NHS and other public services to deliver plan for change
+📌 [66] Shake up of tech and AI usage across NHS and other public services to deliver plan for change
    🔗 Link: https://www.gov.uk/government/news/shake-up-of-tech-and-ai-usage-across-nhs-and-other-public-services-to-deliver-plan-for-change
    ↳ The government has announced a new plan to leverage technology and AI tools like "Humphrey" to streamline public services, eliminate delays through improved data sharing, and reduce costs, including consultant spending.
 
-📌 [68] Projects selected for the Regulators’ Pioneer Fund
-   🔗 Link: https://www.gov.uk/government/publications/projects-selected-for-the-regulators-pioneer-fund
-   ↳ Projects selected for the Regulators' Pioneer Fund to help create a UK regulatory environment that encourages business innovation and investment.
+📌 [67] New Google partnership will help rid taxpayer of ‘ball and chain’ legacy tech and aim to upskill 100,000 civil servants in tech and AI
+   🔗 Link: https://www.gov.uk/government/news/new-google-partnership-will-help-rid-taxpayer-of-ball-and-chain-legacy-tech-and-aim-to-upskill-100000-civil-servants-in-tech-and-ai
+   ↳ New partnership with Google Cloud will help modernise outdated government IT, upskill 100,000 civil servants in digital and AI by 2030, and secure better tech deals for the taxpayer.
 
-📌 [69] Circular economy: guidance for mayoral strategic authorities
+📌 [68] Circular economy: guidance for mayoral strategic authorities
    🔗 Link: https://www.gov.uk/government/publications/circular-economy-guidance-for-mayoral-strategic-authorities
    ↳ How mayoral strategic authorities can incorporate circularity into local growth plans or spatial development strategies. 
+
+📌 [69] Projects selected for the Regulators’ Pioneer Fund
+   🔗 Link: https://www.gov.uk/government/publications/projects-selected-for-the-regulators-pioneer-fund
+   ↳ Projects selected for the Regulators' Pioneer Fund to help create a UK regulatory environment that encourages business innovation and investment.
 
 📌 [70] SLC Annual Report and Accounts 2024 to 2025
    🔗 Link: https://www.gov.uk/government/publications/slc-annual-report-and-accounts-2024-to-2025
@@ -290,33 +290,33 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/regulatory-innovation-office-report-one-year-on
    ↳ A report highlighting the major achievements of the Regulatory Innovation Office (RIO) in its first year.
 
-📌 [72] Doing business with the health sector: a guide for buyers and small and medium-sized enterprises (SMEs)
-   🔗 Link: https://www.gov.uk/government/publications/doing-business-with-the-health-sector-a-guide-for-buyers-and-small-and-medium-sized-enterprises-smes
-   ↳ A clear, practical guide to help buyers and SMEs build a fair, inclusive environment that can deliver better health outcomes and support SME growth.
-
-📌 [73] New Permanent Secretary at Department for Science, Innovation and Technology
+📌 [72] New Permanent Secretary at Department for Science, Innovation and Technology
    🔗 Link: https://www.gov.uk/government/news/new-permanent-secretary-at-department-for-science-innovation-and-technology
    ↳ Emran Mian has been appointed as the new Permanent Secretary at the Department for Science, Innovation and Technology, replacing Sarah Munby
+
+📌 [73] Doing business with the health sector: a guide for buyers and small and medium-sized enterprises (SMEs)
+   🔗 Link: https://www.gov.uk/government/publications/doing-business-with-the-health-sector-a-guide-for-buyers-and-small-and-medium-sized-enterprises-smes
+   ↳ A clear, practical guide to help buyers and SMEs build a fair, inclusive environment that can deliver better health outcomes and support SME growth.
 
 📌 [74] Government to take a ‘test and learn’ approach with spending on AI and digital to push innovation
    🔗 Link: https://www.gov.uk/government/news/government-to-take-a-test-and-learn-approach-with-spending-on-ai-and-digital-to-push-innovation
    ↳ Government overhauls funding for AI and Digital Projects to save taxpayer money and boost public services
 
-📌 [75] People across UK to benefit from easier access to local services as councils get digital boost
-   🔗 Link: https://www.gov.uk/government/news/people-across-uk-to-benefit-from-easier-access-to-local-services-as-councils-get-digital-boost
-   ↳ A new government unit, GDS Local, has launched to help councils across the UK make everyday services – from managing council tax to accessing local support – easier, faster, and more accessible for residents.
-
-📌 [76] HMRC Sustainability Report
-   🔗 Link: https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report
-   ↳ This report records progress made by HM Revenue and Customs (HMRC) and its agency, the Valuation Office Agency (VOA), against the environment targets contained in the Greening Government Commitments (GGCs) and social sustainability initiatives.
-
-📌 [77] SLC Board meeting minutes 2024
+📌 [75] SLC Board meeting minutes 2024
    🔗 Link: https://www.gov.uk/government/publications/slc-board-meeting-minutes-2024
    ↳ SLC Board meeting minutes from 2024.
 
-📌 [78] Tech innovators backed to set up and scale up in Britain through Industrial Strategy
+📌 [76] People across UK to benefit from easier access to local services as councils get digital boost
+   🔗 Link: https://www.gov.uk/government/news/people-across-uk-to-benefit-from-easier-access-to-local-services-as-councils-get-digital-boost
+   ↳ A new government unit, GDS Local, has launched to help councils across the UK make everyday services – from managing council tax to accessing local support – easier, faster, and more accessible for residents.
+
+📌 [77] Tech innovators backed to set up and scale up in Britain through Industrial Strategy
    🔗 Link: https://www.gov.uk/government/news/tech-innovators-backed-to-set-up-and-scale-up-in-britain-through-industrial-strategy
    ↳ Ambitious Digital and Technologies Sector Plan to help deliver government’s modern Industrial Strategy to drive national renewal and our Plan for Change.
+
+📌 [78] HMRC Sustainability Report
+   🔗 Link: https://www.gov.uk/government/publications/hmrc-and-valuation-office-agency-sustainability-report
+   ↳ This report records progress made by HM Revenue and Customs (HMRC) and its agency, the Valuation Office Agency (VOA), against the environment targets contained in the Greening Government Commitments (GGCs) and social sustainability initiatives.
 
 📌 [79] Creativity at heart of West of England Local Industrial Strategy
    🔗 Link: https://www.gov.uk/government/news/creativity-at-heart-of-west-of-england-local-industrial-strategy
@@ -330,33 +330,33 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/publications/insolvency-service-launches-5-year-investigation-and-enforcement-strategy
    ↳ The Insolvency Service has launched an ambitious and transformational strategy to play a more prominent role in the fight against economic crime
 
-📌 [82] Disclosure in the Digital Age
-   🔗 Link: https://www.gov.uk/government/publications/disclosure-in-the-digital-age
-   ↳ Disclosure in the Digital Age: the Independent Review of Disclosure and Fraud Offences by Jonathan Fisher KC.
-
-📌 [83] DHSC major projects: appointment letters for senior responsible owners (August 2015 to January 2024)
+📌 [82] DHSC major projects: appointment letters for senior responsible owners (August 2015 to January 2024)
    🔗 Link: https://www.gov.uk/government/publications/dh-major-projects-appointment-letters-for-senior-responsible-owners
    ↳ Department of Health and Social Care appointment letters for government major projects portfolio (GMPP) senior responsible owners (SROs).
 
-📌 [84] The Government Efficiency Framework
-   🔗 Link: https://www.gov.uk/government/publications/the-government-efficiency-framework
-   ↳ The GEF will  improve how Departments report efficiencies and ensure the government has appropriate oversight to track delivery and drive improvement. 
+📌 [83] Disclosure in the Digital Age
+   🔗 Link: https://www.gov.uk/government/publications/disclosure-in-the-digital-age
+   ↳ Disclosure in the Digital Age: the Independent Review of Disclosure and Fraud Offences by Jonathan Fisher KC.
 
-📌 [85] Digital Identity Sectoral Analysis Report 2026
-   🔗 Link: https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026
-   ↳ Findings from OfDIA's 2026 research on the UK's digital identity sector. 
+📌 [84] Register your vehicle as off the road (SORN)
+   🔗 Link: https://www.gov.uk/make-a-sorn
+   ↳ Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again
 
-📌 [86] Industrial Strategy to provide over £150m to reinforce UK as services superpower
+📌 [85] Industrial Strategy to provide over £150m to reinforce UK as services superpower
    🔗 Link: https://www.gov.uk/government/news/industrial-strategy-to-provide-over-150m-to-reinforce-uk-as-services-superpower
    ↳ The  Industrial  Strategy will invest over £150 million in five transformative AI and technology programmes to help UK Professional and Business Services.
 
-📌 [87] HMRC Charter annual report: 2023 to 2024
+📌 [86] HMRC Charter annual report: 2023 to 2024
    🔗 Link: https://www.gov.uk/government/publications/hmrc-charter-annual-report-2023-to-2024
    ↳ HMRC's annual report covering our delivery and progress against the HMRC Charter.
 
-📌 [88] Register your vehicle as off the road (SORN)
-   🔗 Link: https://www.gov.uk/make-a-sorn
-   ↳ Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again
+📌 [87] The Government Efficiency Framework
+   🔗 Link: https://www.gov.uk/government/publications/the-government-efficiency-framework
+   ↳ The GEF will  improve how Departments report efficiencies and ensure the government has appropriate oversight to track delivery and drive improvement. 
+
+📌 [88] Digital Identity Sectoral Analysis Report 2026
+   🔗 Link: https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026
+   ↳ Findings from OfDIA's 2026 research on the UK's digital identity sector. 
 
 📌 [89] £30 million funding boost to help the next generation of games developers take their ideas to the next level
    🔗 Link: https://www.gov.uk/government/news/30-million-funding-boost-to-help-the-next-generation-of-games-developers-take-their-ideas-to-the-next-level
@@ -370,39 +370,39 @@ TOTAL: 100
    🔗 Link: https://www.gov.uk/government/news/new-economic-plan-to-super-charge-space-and-creative-sectors-in-buckinghamshire
    ↳ Plan sets out how the area will maximise the economic opportunities of the Oxford-Cambridge Arc
 
-📌 [92] Procurement at NRS Dounreay
-   🔗 Link: https://www.gov.uk/government/publications/procurement-at-dounreay
-   ↳ Information about how to work with Dounreay as a supplier.
-
-📌 [93] Homes England Public Bodies Review 2023
-   🔗 Link: https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023
-   ↳ Report outlining the findings of the 2023 Public Bodies Review into Homes England.
-
-📌 [94] Productivity plan launched
+📌 [92] Productivity plan launched
    🔗 Link: https://www.gov.uk/government/news/productivity-plan-launched
    ↳ Government launches plan to fix the foundations of the British economy. 
 
-📌 [95] Guidance for organisations using the Algorithmic Transparency Recording Standard
+📌 [93] Guidance for organisations using the Algorithmic Transparency Recording Standard
    🔗 Link: https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard
    ↳ This guidance has been designed to support public sector teams completing ATRS records.
 
-📌 [96] Thousands to get free digital training so everyone has the chance to shop around for cheaper deals online
-   🔗 Link: https://www.gov.uk/government/news/thousands-to-get-free-digital-training-so-everyone-has-the-chance-to-shop-around-for-cheaper-deals-online
-   ↳ Free support to get people online is rolling out in communities in every region of the country.
+📌 [94] Homes England Public Bodies Review 2023
+   🔗 Link: https://www.gov.uk/government/publications/homes-england-public-bodies-review-2023
+   ↳ Report outlining the findings of the 2023 Public Bodies Review into Homes England.
 
-📌 [97] Thousands of small businesses to benefit from new government buying rules, boosting local jobs, growth and innovation
+📌 [95] Procurement at NRS Dounreay
+   🔗 Link: https://www.gov.uk/government/publications/procurement-at-dounreay
+   ↳ Information about how to work with Dounreay as a supplier.
+
+📌 [96] Thousands of small businesses to benefit from new government buying rules, boosting local jobs, growth and innovation
    🔗 Link: https://www.gov.uk/government/news/thousands-of-small-businesses-to-benefit-from-new-government-buying-rules-boosting-local-jobs-growth-and-innovation
    ↳ Thousands of small businesses across the country will have more opportunities to win valuable contracts with public sector organisations, kickstarting local economic growth and innovation
 
 
-📌 [98] Search
+📌 [97] Search
    🔗 Link: https://www.gov.uk/search/all
    ↳ Find content from government
 
-📌 [99] Innovation and commercialisation at heart of new economic plan for South East Midlands
-   🔗 Link: https://www.gov.uk/government/news/innovation-and-commercialisation-at-heart-of-new-economic-plan-for-south-east-midlands
-   ↳ Locally developed plan sets out how the area will take full advantage of its global assets and maximise the economic opportunities of the Oxford-Cambridge Arc
+📌 [98] Thousands to get free digital training so everyone has the chance to shop around for cheaper deals online
+   🔗 Link: https://www.gov.uk/government/news/thousands-to-get-free-digital-training-so-everyone-has-the-chance-to-shop-around-for-cheaper-deals-online
+   ↳ Free support to get people online is rolling out in communities in every region of the country.
 
-📌 [100] Satellite communications to improve connectivity in remote areas
+📌 [99] Satellite communications to improve connectivity in remote areas
    🔗 Link: https://www.gov.uk/government/news/satellite-communications-to-improve-connectivity-in-remote-areas
    ↳ New projects are set to test innovative hybrid connectivity solutions in some of the very hardest to reach places in the UK, with up to £3.5 million in government funding.
+
+📌 [100] Innovation and commercialisation at heart of new economic plan for South East Midlands
+   🔗 Link: https://www.gov.uk/government/news/innovation-and-commercialisation-at-heart-of-new-economic-plan-for-south-east-midlands
+   ↳ Locally developed plan sets out how the area will take full advantage of its global assets and maximise the economic opportunities of the Oxford-Cambridge Arc

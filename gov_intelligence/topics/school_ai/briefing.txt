@@ -1,5 +1,5 @@
 🇬🇧 BRIEFING: SCHOOL AI
-TOTAL: 50
+TOTAL: 60
 ==================================================
 
 📌 [1] Using AI in education settings: support materials
@@ -121,17 +121,17 @@ TOTAL: 50
    🔗 Link: https://www.gov.uk/government/people/edwina-dunn--2
    ↳ Edwina has been a member of the Centre for Data Ethics and Innovation’s Board since November 2018 and was appointed as Deputy Chair in November 2020. Edwina also sits on the Board of the Geospatial Commission: an expert committee that sets the UK’s geospatial strategy and promotes the best use of location data. Edwina is a recognised entrepreneur and pioneer in the data and technology industry, with a career of delivering transformational business change. She was CEO and co-founder of dunnhumby, which revolutionised the world of retail and consumer packaged goods, and pioneered Tesco Clubcard and other global loyalty programmes. Edwina is the former Chair of Starcount: a new data science consultancy where she helped to create a new era of consumer insight and AI. She is the founder of The Female Lead: an educational charity dedicated to celebrating the achievements and diversity of women. The foundation has donated 18,000 copies of ‘The Female Lead: Women Who Shape Our World’ to schools and universities across the UK and USA.
 
-📌 [30] 450,000 disadvantaged pupils could benefit from AI tutoring tools
+📌 [30] How to register a charity (CC21b)
+   🔗 Link: https://www.gov.uk/guidance/how-to-register-your-charity-cc21b
+   ↳ How to register your charity once it has been set up, what you need before you start your application and what happens after you apply.
+
+📌 [31] 450,000 disadvantaged pupils could benefit from AI tutoring tools
    🔗 Link: https://www.gov.uk/government/news/450000-disadvantaged-pupils-could-benefit-from-ai-tutoring-tools
    ↳ Safe AI tutoring tools co-created with teachers to be available to schools by the end of 2027, helping to close the attainment gap.
 
-📌 [31] Education Secretary addresses BETT 2023
+📌 [32] Education Secretary addresses BETT 2023
    🔗 Link: https://www.gov.uk/government/speeches/education-secretary-addresses-bett-2023
    ↳ Gillian Keegan launches set of technology standards for schools and colleges and speaks about AI in education
-
-📌 [32] How to register a charity (CC21b)
-   🔗 Link: https://www.gov.uk/guidance/how-to-register-your-charity-cc21b
-   ↳ How to register your charity once it has been set up, what you need before you start your application and what happens after you apply.
 
 📌 [33] Barnsley becomes UK’s first government-backed Tech Town
    🔗 Link: https://www.gov.uk/government/news/barnsley-becomes-uks-first-government-backed-tech-town
@@ -141,66 +141,106 @@ TOTAL: 50
    🔗 Link: https://www.gov.uk/government/people/patricia-hodgson
    ↳ Dame Patricia Hodgson joined the Board of the Competition and Markets Authority as non-executive director in February 2024. She was a member of DCMS’s Centre for Data Ethics and Innovation from 2018 to 2021 and of the UK’s AI Council from 2020 to 2023. Patricia was appointed Chairman of Ofcom for a 3-year term from April 2014, a member of the Ofcom board in July 2011 and became Deputy Chairman in January 2012. She is Chairman of Ofcom’s Nominations Committee and a member of Ofcom’s Remuneration Committee and Risk and Audit Committee. Patricia began her career as a producer and journalist. She was Director of Policy and Planning at the BBC from 1993 to 2000, where she was responsible for charter and licence renegotiations. She also project managed the BBC’s switch to digital. From 2000 to the end of 2003 she was Chief Executive of the Independent Television Commission. Patricia was appointed Chair of the School Teachers’ Review Body starting on 1 February 2012. She was the Principal of Newnham College, Cambridge (2006 to 2012), a non-executive director of The Competition Commission (2004 to 2011) and a member of the Higher Education Funding Council for England (2005 to 2011). She also chaired the Higher Education Regulation Review Group (2004 to 2006). Patricia was a member of the Wellcome Trust from 2004 to 2008 and of the Committee for Standards in Public Life for the same period. She has also served as a non-executive director of GCap plc and as a member of the Statistics Commission. She was a member of the BBC Trust from its start until June 2011. Disclosure of interests
 
-📌 [35] Debt Relief Orders: Guidance for debt advisers
-   🔗 Link: https://www.gov.uk/guidance/debt-relief-orders-guidance-for-debt-advisers
-   ↳ Guidance on debt relief orders for debt advisers. To search, press ‘control’ and ‘f’ on your keyboard at the same time. A search box will appear.
+📌 [35] COVID-19 Commemoration programme: ways to remember
+   🔗 Link: https://www.gov.uk/guidance/covid-19-commemoration-programme-ways-to-remember
+   ↳ Explore different ways you can commemorate COVID-19.
 
 📌 [36] Sensing: defence science and technology capability
    🔗 Link: https://www.gov.uk/guidance/sensing-defence-science-and-technology-capability
    ↳ Dstl ensures the UK can develop and exploit new sensor technologies for our defence and security, to find and assess potential threats and give information to decision-makers.
 
-📌 [37] COVID-19 Commemoration programme: ways to remember
-   🔗 Link: https://www.gov.uk/guidance/covid-19-commemoration-programme-ways-to-remember
-   ↳ Explore different ways you can commemorate COVID-19.
+📌 [37] Debt Relief Orders: Guidance for debt advisers
+   🔗 Link: https://www.gov.uk/guidance/debt-relief-orders-guidance-for-debt-advisers
+   ↳ Guidance on debt relief orders for debt advisers. To search, press ‘control’ and ‘f’ on your keyboard at the same time. A search box will appear.
 
-📌 [38] The Local Youth Transformation Pilot
-   🔗 Link: https://www.gov.uk/guidance/the-local-youth-transformation-pilot
-   ↳ Information about the Local Youth Transformation Pilot (LYTP) including its aims, delivery model and participating local authorities.
-
-📌 [39] Generative artificial intelligence (AI) in education
+📌 [38] Generative artificial intelligence (AI) in education
    🔗 Link: https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education
    ↳ The Department for Education’s (DfE) position on the use of generative AI in the education sector. 
 
-📌 [40] School inspection: toolkit, operating guides and information
-   🔗 Link: https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information
-   ↳ Guidance for inspectors and schools on inspecting maintained schools and academies in England under the renewed education inspection framework.
+📌 [39] The Local Youth Transformation Pilot
+   🔗 Link: https://www.gov.uk/guidance/the-local-youth-transformation-pilot
+   ↳ Information about the Local Youth Transformation Pilot (LYTP) including its aims, delivery model and participating local authorities.
 
-📌 [41] Procuring educational technology (EdTech)
-   🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/procuring-educational-technology-edtech
-   ↳ Procuring EdTech and what schools need to know about data protection.
-
-📌 [42] Ofsted research on artificial intelligence in education: terms of reference
+📌 [40] Ofsted research on artificial intelligence in education: terms of reference
    🔗 Link: https://www.gov.uk/government/publications/ofsted-research-on-artificial-intelligence-in-education-terms-of-reference
    ↳ Ofsted are carrying out research on artificial intelligence (AI) in education.
 
-📌 [43] Research on parent and pupil attitudes towards the use of AI in education
+📌 [41] Research on parent and pupil attitudes towards the use of AI in education
    🔗 Link: https://www.gov.uk/government/publications/research-on-parent-and-pupil-attitudes-towards-the-use-of-ai-in-education
    ↳ This report details findings from a collaboration between DSIT and DfE to deliver a programme of deliberative research exploring parent and pupil attitudes to the use of AI in education.
 
-📌 [44] 5G Testbeds and Trials Programme: complete list of 5G projects
+📌 [42] 5G Testbeds and Trials Programme: complete list of 5G projects
    🔗 Link: https://www.gov.uk/guidance/5g-testbeds-and-trials-programme-complete-list-of-5g-projects
    ↳ A complete list of 5G projects involved in the 5G Testbeds and Trials Programme
 
-📌 [45] Generative AI: product safety standards
+📌 [43] Procuring educational technology (EdTech)
+   🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/procuring-educational-technology-edtech
+   ↳ Procuring EdTech and what schools need to know about data protection.
+
+📌 [44] Generative AI: product safety standards
    🔗 Link: https://www.gov.uk/government/publications/generative-ai-product-safety-standards
    ↳ Guidance on the safety standards for generative AI products and systems developed for use in educational settings.
 
-📌 [46] Resources to support data protection in schools
+📌 [45] Resources to support data protection in schools
    🔗 Link: https://www.gov.uk/guidance/data-protection-in-schools/resources-to-support-data-protection-in-schools
    ↳ Download resources to help with data protection in schools, including posters, templates, and learning materials.
+
+📌 [46] School inspection: toolkit, operating guides and information
+   🔗 Link: https://www.gov.uk/government/publications/school-inspection-toolkit-operating-guide-and-information
+   ↳ Guidance for inspectors and schools on inspecting maintained schools and academies in England under the renewed education inspection framework.
 
 📌 [47] Filtering and monitoring: core standard
    🔗 Link: https://www.gov.uk/guidance/meeting-digital-and-technology-standards-in-schools-and-colleges/filtering-and-monitoring-core-standard
    ↳ Provide a safe online environment for your school or college with appropriate filtering and monitoring systems.
 
-📌 [48] Sir Ian Bauckham's speech at the Wellington Festival of Education
-   🔗 Link: https://www.gov.uk/government/speeches/sir-ian-bauckhams-speech-at-the-wellington-festival-of-education
-   ↳ A speech given by Ofqual's Chief Regulator, Sir Ian Bauckham, at the Wellington Festival of Education.
-
-📌 [49] DfE Update 29 April 2026
+📌 [48] DfE Update 29 April 2026
    🔗 Link: https://www.gov.uk/government/publications/dfe-update-29-april-2026
    ↳ Latest information and actions from the Department for Education about funding, assurance and resource management, for academies, local authorities and further education providers.
 
-📌 [50] Ofsted annual report 2024/25: education, children’s services and skills
+📌 [49] Ofsted annual report 2024/25: education, children’s services and skills
    🔗 Link: https://www.gov.uk/government/publications/ofsted-annual-report-202425-education-childrens-services-and-skills
    ↳ Ofsted's annual report presents our findings for the areas we inspect in early years childcare, schools, further education and skills and children's social care.
+
+📌 [50] Ofsted's approach to AI
+   🔗 Link: https://www.gov.uk/government/publications/ofsteds-approach-to-ai
+   ↳ These guidance documents outline how Ofsted uses artificial intelligence (AI) for its own work and set out how we look at AI during inspection and regulation.
+
+📌 [51] Sir Ian Bauckham's speech at the Wellington Festival of Education
+   🔗 Link: https://www.gov.uk/government/speeches/sir-ian-bauckhams-speech-at-the-wellington-festival-of-education
+   ↳ A speech given by Ofqual's Chief Regulator, Sir Ian Bauckham, at the Wellington Festival of Education.
+
+📌 [52] AI Skills for Life and Work: Stakeholder engagement
+   🔗 Link: https://www.gov.uk/government/publications/ai-skills-for-life-and-work-stakeholder-engagement
+   ↳ One of 11 reports produced for the AI Skills for Life and Work R&D project, focusing on findings from the stakeholder engagement
+
+📌 [53] Ofsted: areas of research interest
+   🔗 Link: https://www.gov.uk/government/publications/ofsted-areas-of-research-interest
+   ↳ This document outlines the research questions and themes that matter most to improving outcomes for children, young people and learners. 
+
+📌 [54] Effective governance resources
+   🔗 Link: https://www.gov.uk/government/publications/effective-governance-resources
+   ↳ Support for maintained school governing bodies, academy trust boards, leaders and governance professionals (clerks) in developing sustainable and effective governance. 
+
+📌 [55] Improving the way Ofsted inspects education: methods statement
+   🔗 Link: https://www.gov.uk/government/publications/improving-the-way-ofsted-inspects-education-methods-statement
+   ↳ Information about the evidence Ofsted used to inform its consultation response on its proposals to improve education inspections.
+
+📌 [56] Understanding the impact of smartphones and social media on children and young people
+   🔗 Link: https://www.gov.uk/government/publications/understand-the-impact-of-smartphones-and-social-media-on-children-and-young-people
+   ↳ Feasibility study of methods and data to understand the impact of smartphones and social media on children and young people.
+
+📌 [57] CMA independent digital experts biographies
+   🔗 Link: https://www.gov.uk/government/publications/cma-independent-digital-experts-biographies
+   ↳ Biographies of the independent digital experts advising the Digital Markets Unit at the CMA.
+
+📌 [58] ​​Ofqual’s approach to regulating the use of artificial intelligence in the qualifications sector​
+   🔗 Link: https://www.gov.uk/government/publications/ofquals-approach-to-regulating-the-use-of-artificial-intelligence-in-the-qualifications-sector
+   ↳ Published in response to a request from the Secretary of State for Education, the Secretary of State for Science, Innovation and Technology, and the Secretary of State for Business and Trade.
+
+📌 [59] National Data Library Expert Advisory Group
+   🔗 Link: https://www.gov.uk/government/groups/national-data-library-expert-advisory-group
+   ↳ Information about the National Data Library (NDL) Expert Advisory Group including its role and members.
+
+📌 [60] Barnet Council: Ami Chatbot
+   🔗 Link: https://www.gov.uk/algorithmic-transparency-records/barnet-council-ami-chatbot
+   ↳ Implementing an automated webchat functionality ('chatbot') to the Barnet Council website to provide a better customer experience. 

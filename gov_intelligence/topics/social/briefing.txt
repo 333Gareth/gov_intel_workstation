@@ -1,5 +1,5 @@
 🇬🇧 BRIEFING: SOCIAL
-TOTAL: 20
+TOTAL: 60
 ==================================================
 
 📌 [1] Department of Health and Social Care
@@ -52,17 +52,17 @@ TOTAL: 20
    🔗 Link: https://www.gov.uk/guidance/social-impact-multiplied
    ↳ How to find out information on our social impact activities and programmes.
 
-📌 [13] Social housing lettings
-   🔗 Link: https://www.gov.uk/government/collections/rents-lettings-and-tenancies
-   ↳ This collection brings together all documents relating to social housing lettings collected through the Continuous Recording (CORE) system.
+📌 [13] Social care: regulation
+   🔗 Link: https://www.gov.uk/government/collections/social-care-regulation
+   ↳ Guidance on how Ofsted regulates social care providers.
 
 📌 [14] Social and Affordable Homes Programme (SAHP) 2026 to 2036
    🔗 Link: https://www.gov.uk/guidance/social-and-affordable-homes-programme-sahp-2026-to-2036
    ↳ The Social and Affordable Homes Programme (SAHP) 2026 to 2036 provides grant funding to support the delivery of new social and affordable homes.
 
-📌 [15] Social care: regulation
-   🔗 Link: https://www.gov.uk/government/collections/social-care-regulation
-   ↳ Guidance on how Ofsted regulates social care providers.
+📌 [15] Social housing lettings
+   🔗 Link: https://www.gov.uk/government/collections/rents-lettings-and-tenancies
+   ↳ This collection brings together all documents relating to social housing lettings collected through the Continuous Recording (CORE) system.
 
 📌 [16] Social Work England
    🔗 Link: https://www.gov.uk/government/organisations/social-work-england
@@ -83,3 +83,164 @@ TOTAL: 20
 📌 [20] Social Fund accounts and reports
    🔗 Link: https://www.gov.uk/government/collections/social-fund-accounts-and-reports
    ↳ These documents provide statements of accounts and reports for the Social Fund.
+
+📌 [21] Childcare and children's social care health declaration forms
+   🔗 Link: https://www.gov.uk/guidance/childcare-and-childrens-social-care-health-declaration-form
+   ↳ Health declaration forms for childminders and people who work in childcare or children's social care.
+
+📌 [22] Economic and Social Research Council
+   🔗 Link: https://www.gov.uk/government/organisations/economic-and-social-research-council
+   ↳ The Economic and Social Research Council is the UK’s largest funder of economic, social, behavioural and human data science. ESRC is part of the UK Research and Innovation .
+
+📌 [23] Social Impact Bonds
+   🔗 Link: https://www.gov.uk/government/collections/social-impact-bonds
+   ↳ This series brings together all documents relating to Social Impact Bonds. 
+
+📌 [24] Social Enterprise Boost Fund
+   🔗 Link: https://www.gov.uk/guidance/social-enterprise-boost-fund-local-areas-of-delivery
+   ↳ Information about the Social Enterprise Boost Fund and local areas of delivery.
+
+📌 [25] Statistics: children’s social work workforce
+   🔗 Link: https://www.gov.uk/government/collections/statistics-childrens-social-care-workforce
+   ↳ Annual statistics on child and family social workers, including child and family agency social workers, in England.
+
+📌 [26] Social Housing Resident Panel
+   🔗 Link: https://www.gov.uk/guidance/social-housing-quality-resident-panel
+   ↳ Find out more about government’s Social Housing Resident Panel.
+
+📌 [27] Social media playbook
+   🔗 Link: https://www.gov.uk/guidance/social-media-playbook
+   ↳ This playbook explains how we use social media at GDS. In it, we share our best practice, what we've learned and what we're planning to do.
+
+📌 [28] The Government Social Research Technical Framework
+   🔗 Link: https://www.gov.uk/guidance/the-government-social-research-competency-framework
+   ↳ The Competency Framework defines the professional competency for members of the Social Research profession within government.
+
+📌 [29] Social Entitlement Chamber tribunal procedure rules
+   🔗 Link: https://www.gov.uk/government/publications/social-entitlement-chamber-tribunal-procedure-rules
+   ↳ Rules for how tribunal cases - such as social security and child support appeals - are handled in the Social Entitlement Chamber.
+
+📌 [30] Social care commentaries
+   🔗 Link: https://www.gov.uk/government/collections/ofsted-national-director-of-social-care-monthly-commentaries
+   ↳ Ofsted's National Director of Social Care writes about major issues in children's services in a series of articles.
+
+📌 [31] Academy for Social Justice events information
+   🔗 Link: https://www.gov.uk/government/collections/academy-for-social-justice-events
+   ↳ Details on Academy for Social Justice events.
+
+📌 [32] Apprenticeships and social mobility
+   🔗 Link: https://www.gov.uk/government/collections/apprenticeships-and-social-mobility
+   ↳ Information about research into apprenticeships and social mobility, and guidance for employers on getting the most out of apprenticeships.
+
+📌 [33] Homes England: Measuring Social Value
+   🔗 Link: https://www.gov.uk/government/collections/homes-england-measuring-social-value
+   ↳ Research reports and guidance to inform the measurement of social value
+
+📌 [34] Social mobility outreach opportunities
+   🔗 Link: https://www.gov.uk/guidance/social-mobility-outreach-opportunities
+   ↳ Find out what the Ministry of Justice Social Mobility Team can offer you as a student or as a teacher.
+
+📌 [35] Social housing quality
+   🔗 Link: https://www.gov.uk/government/collections/social-housing-quality
+   ↳ Government outlines its approach to improving the quality of social housing, as set out in our Levelling Up and Regeneration Bill, with a clear ambition to halve the number of non-decent rented homes by 2030.  
+
+📌 [36] Social Mobility Business Compact
+   🔗 Link: https://www.gov.uk/government/collections/social-mobility-business-compact
+   ↳ Documents related to the Social Mobility Business Compact, including guidance and application forms.
+
+📌 [37] Advisory Committee for Social Science
+   🔗 Link: https://www.gov.uk/government/organisations/advisory-committee-for-social-science
+   ↳ The Advisory Committee for Social Science (ACSS) is an independent expert committee that provides strategic advice to the Food Standards Agency (FSA) on the use of social science. It supports evidence‑based decision‑making and delivery of the FSA objectives. ACSS works with the Food Standards Agency .
+
+📌 [38] Social, behavioural and evaluation research
+   🔗 Link: https://www.gov.uk/government/collections/social-research-and-evaluation
+   ↳ Social, behavioural and and evaluation research reports, guidance and toolkits that help shape policy and operational delivery across Department for Transport.
+
+📌 [39] The Accounting Direction for social housing in England
+   🔗 Link: https://www.gov.uk/government/collections/the-accounting-direction-for-social-housing-in-england
+   ↳ The general requirements for the accounts of private registered providers of social housing.
+
+📌 [40] Social Action, Responsibility and Heroism Bill
+   🔗 Link: https://www.gov.uk/government/collections/social-action-responsibility-and-heroism-bill
+   ↳ Social Action, Responsibility and Heroism Bill supporting documents.
+
+📌 [41] Adult Social Care: Quality Matters
+   🔗 Link: https://www.gov.uk/government/collections/adult-social-care-quality-matters
+   ↳ Guidance on the Quality Matters initiative, which aims to improve the quality of adult social care.
+
+📌 [42] Social Outcomes Fund: how to apply
+   🔗 Link: https://www.gov.uk/government/publications/social-outcomes-fund-how-to-apply
+   ↳ Guidance and form for submitting an expression of interest to the Social Outcomes Fund
+
+📌 [43] Children's social care statistics
+   🔗 Link: https://www.gov.uk/government/collections/childrens-social-care-statistics
+   ↳ Statistics from Ofsted including data for children’s homes and other social care providers, fostering, inspections of local authority children’s services, and serious incident notifications from local authority children’s services.
+
+📌 [44] Children's social care registration: when and how to register with Ofsted
+   🔗 Link: https://www.gov.uk/government/collections/childrens-social-care-registration
+   ↳ Find guidance to register a children's social care service with Ofsted in England.
+
+📌 [45] Behavioural and social sciences: public health
+   🔗 Link: https://www.gov.uk/government/collections/behavioural-insights-public-health
+   ↳ An overview of how the behavioural and social sciences are used to improve public health in England.
+
+📌 [46] Local Government and Social Care Ombudsman
+   🔗 Link: https://www.gov.uk/government/organisations/local-government-ombudsman
+   ↳ The Local Government and Social Care Ombudsman (LGSCO) looks at complaints about councils and some other authorities and organisations, including education admissions appeal panels and adult social care providers (such as care homes and home care providers). The service is free, independent and impartial. LGSCO works with the Ministry of Housing, Communities and Local Government .
+
+📌 [47] Social investment tax relief: accreditation for SIB contractors
+   🔗 Link: https://www.gov.uk/government/publications/social-investment-tax-relief-accreditation-for-sib-contractors
+   ↳ Guidance and an application form for the accreditation scheme for social impact bond contractors eligible for social investment tax relief. 
+
+📌 [48] Social and Behavioural Science for Emergencies publications
+   🔗 Link: https://www.gov.uk/government/collections/social-and-behavioural-science-for-emergencies-publications
+   ↳ Evidence reviews and reports produced for the Social and Behavioural Science for Emergencies (SBSE) Steering Group.
+
+📌 [49] Social Fund Cold Weather Payments
+   🔗 Link: https://www.gov.uk/government/collections/social-fund-cold-weather-payments
+   ↳ Estimated number of eligible recipients of Social Fund Cold Weather Payments in Great Britain.
+
+📌 [50] Place Based Social Action Programme
+   🔗 Link: https://www.gov.uk/government/collections/place-based-social-action-programme
+   ↳ This series brings together all documents and information relating to the Place Based Social Action programme.
+
+📌 [51] National Youth Social Action Fund: expressions of interest
+   🔗 Link: https://www.gov.uk/government/publications/national-youth-social-action-fund-expressions-of-interest
+   ↳ Charities, community interest companies and social enterprises can apply for funding from the National Youth Social Action Fund.
+
+📌 [52] Reporting serious incidents in a children’s social care service to Ofsted
+   🔗 Link: https://www.gov.uk/guidance/tell-ofsted-about-an-incident-childrens-social-care-notification
+   ↳ What social care providers need to know when notifying Ofsted of a serious incident.
+
+📌 [53] Social Housing Decarbonisation Fund statistics
+   🔗 Link: https://www.gov.uk/government/collections/social-housing-decarbonisation-fund-statistics
+   ↳ Data to monitor the installation of energy efficiency measures in domestic properties via the Social Housing Decarbonisation Fund (SHDF) scheme in England.
+
+
+📌 [54] Social Security Advisory Committee: minutes of meetings
+   🔗 Link: https://www.gov.uk/government/collections/social-security-advisory-committee-minutes-of-meetings
+   ↳ Read the minutes of the Social Security Advisory Committee meetings.
+
+📌 [55] GCSE subject criteria for health and social care
+   🔗 Link: https://www.gov.uk/government/publications/gcse-subject-criteria-for-health-and-social-care
+   ↳ Rules and regulations for GCSEs (A* to G) in health and social care.
+
+📌 [56] Registered provider social housing stock and rents in England
+   🔗 Link: https://www.gov.uk/government/collections/registered-provider-social-housing-stock-and-rents-in-england
+   ↳ This collection presents details of the stock owned by registered providers of social housing in England. 
+
+📌 [57] Pay your childcare or social care invoice
+   🔗 Link: https://www.gov.uk/guidance/pay-your-childcare-or-social-care-invoice
+   ↳ Find out how to pay an Ofsted invoice in relation to your childcare business or children's social care service.
+
+📌 [58] GSS health and social care statistics
+   🔗 Link: https://www.gov.uk/guidance/gss-health-and-social-care-statistics
+   ↳ These webpages allow you to find and explore health and social care statistics from across the Government Statistical Service (GSS).
+
+📌 [59] Anti-social Behaviour, Crime and Policing Act
+   🔗 Link: https://www.gov.uk/government/collections/anti-social-behaviour-crime-and-police-bill
+   ↳ The Anti-social Behaviour, Crime and Policing Act 2014 received Royal Assent on 13 March 2014.
+
+📌 [60] Adult social care provider statistics, England: quarterly update
+   🔗 Link: https://www.gov.uk/government/collections/adult-social-care-provider-statistics-england-quarterly-update
+   ↳ Official statistics on topics including occupancy and flu vaccination in adult social care settings and number of people receiving adult social care services.
