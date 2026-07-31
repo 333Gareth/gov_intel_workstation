@@ -1,5 +1,29 @@
 [
   {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-30 21:32",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "National ai Strategy",
+    "timestamp": "2026-07-30 00:24",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "National Cyber Strategy",
+    "timestamp": "2026-07-30 00:23",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
+    "query": "blueprint modern digital government",
+    "timestamp": "2026-07-30 00:19",
+    "dept": "All Departments",
+    "type": "All Types"
+  },
+  {
     "query": "Precision bred",
     "timestamp": "2026-07-29 23:25",
     "dept": "All Departments",
@@ -272,30 +296,6 @@
   {
     "query": "nhs ai",
     "timestamp": "2026-07-25 19:00",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "nhs ai",
-    "timestamp": "2026-07-25 18:52",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "nhs ai",
-    "timestamp": "2026-07-25 18:51",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "nhs ai",
-    "timestamp": "2026-07-25 18:49",
-    "dept": "All Departments",
-    "type": "All Types"
-  },
-  {
-    "query": "blueprint modern digital government",
-    "timestamp": "2026-07-25 18:48",
     "dept": "All Departments",
     "type": "All Types"
   }

@@ -1,0 +1,83 @@
+🇬🇧 BRIEFING: NATIONAL AI STRATEGY
+TOTAL: 20
+==================================================
+
+📌 [1] National AI Strategy
+   🔗 Link: https://www.gov.uk/government/publications/national-ai-strategy
+   ↳ The National AI Strategy builds on the UK’s strengths but also represents the start of a step-change for AI in the UK, recognising the power of AI to increase resilience, productivity, growth and innovation across the private and public sectors.
+
+📌 [2] National AI Strategy - AI Action Plan
+   🔗 Link: https://www.gov.uk/government/publications/national-ai-strategy-ai-action-plan
+   ↳ The AI Action Plan sets out how the UK Government is delivering on the National AI Strategy.
+
+📌 [3] National AI Strategy promotional material
+   🔗 Link: https://www.gov.uk/government/publications/national-ai-strategy-promotional-material
+   ↳ Use these resources to promote the National AI Strategy and the wider UK AI ecosystem at your events.
+
+📌 [4] UK government publishes pioneering standard for algorithmic transparency
+   🔗 Link: https://www.gov.uk/government/news/uk-government-publishes-pioneering-standard-for-algorithmic-transparency
+   ↳ The CDDO has launched an algorithmic transparency standard for government departments and public sector bodies, delivering on commitments made in the National Data Strategy and National AI Strategy.
+
+📌 [5] Machinery of Government changes: Fact Sheet
+   🔗 Link: https://www.gov.uk/government/news/machinery-of-government-changes-fact-sheet
+   ↳ Details on changes to the machinery of government
+
+📌 [6] Digital regulation: overview of government activity
+   🔗 Link: https://www.gov.uk/guidance/digital-regulation-overview-of-government-activity
+   ↳ This page provides a guide for those interested in key upcoming digital regulatory activity being explored, developed or implemented by government. It covers a range of governance activities, from legislative change to the development of co-regulatory and self-regulatory frameworks.
+
+📌 [7] Minister Chris Philp's speech at the AI Summit launching the National AI Strategy
+   🔗 Link: https://www.gov.uk/government/speeches/minister-chris-philps-speech-at-the-ai-summit-launching-the-national-ai-strategy
+   ↳ DCMS Minister celebrates tech success, particularly in AI, throughout the UK and champions the sector during London Tech Week
+
+📌 [8] A guide to using artificial intelligence in the public sector
+   🔗 Link: https://www.gov.uk/government/collections/a-guide-to-using-artificial-intelligence-in-the-public-sector
+   ↳ Guidance on building and using artificial intelligence in the public sector.
+
+📌 [9] A to Z of the best free courses for civil servants
+   🔗 Link: https://www.gov.uk/guidance/a-to-z-of-the-best-free-courses-for-civil-servants
+   ↳ Explore this quality-assured free learning civil servants can do or book now to get the skills they need to deliver brilliant services.
+
+📌 [10] TechFirst PhD Support
+   🔗 Link: https://www.gov.uk/guidance/techexpert
+   ↳ Part of TechFirst, the government’s flagship skills programme opening pathways into the UK’s fast-growing tech sector. 
+
+📌 [11] Ministry of Defence - Commercial X
+   🔗 Link: https://www.gov.uk/guidance/ministry-of-defence-commercial-commercial-x
+   ↳ Information about the Ministry of Defence’s programme for accelerating procurement of digital and innovative technologies.   
+
+📌 [12] Portfolio of AI assurance techniques
+   🔗 Link: https://www.gov.uk/guidance/portfolio-of-ai-assurance-techniques
+   ↳ This page provides details about DSIT's portfolio of AI assurance techniques and how to use it.
+
+📌 [13] Opportunities for patients and the public to be involved in the work of the MHRA
+   🔗 Link: https://www.gov.uk/guidance/opportunities-for-patients-and-the-public-to-be-involved-in-the-work-of-the-mhra
+   ↳ How we engage and involve patients and the public in our regulatory decision-making.
+
+📌 [14] AI and data science: defence science and technology capability
+   🔗 Link: https://www.gov.uk/guidance/ai-and-data-science-defence-science-and-technology-capability
+   ↳ AI is one of the fastest-moving areas of technological advancement in government defence, bringing the capability to counter threats and create opportunities.
+
+📌 [15] Parliamentary Under Secretary of State (Minister for Tech and the Digital Economy)
+   🔗 Link: https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--144
+   ↳ The minister is responsible for: online safety policy, including the National Security Online Information Team digital regulation, including the Digital Markets, Competition and Consumers Bill and Digital Markets Unit digital skills policy digital inclusion policy tech policy and market facing tech international tech strategy, including the internet governance and standards economic security policy (relevant to tech), including semiconductor strategy digital identity policy supporting the delivery of HMG ’s AI programme in the House of Commons, including the AI Safety Institute Ministerial Disability Champion
+
+📌 [16] Dr Ed Middleton
+   🔗 Link: https://www.gov.uk/government/people/dr-ed-middleton
+   ↳ Ed is a healthcare policy and strategy professional with experience across NHS leadership, central government, and frontline clinical care. Before joining the MHRA, Ed completed a Harkness Fellowship at Stanford University, researching AI regulation and post-deployment monitoring. Prior to that, Ed was Director of Policy and Portfolio at Guy’s and St Thomas’ NHS Foundation Trust, where he led the development of a five-year strategy and oversaw major programmes spanning digital transformation, AI deployment and population health. He previously worked at the centre of government, including at DHSC and 10 Downing Street, and began his career as a physician. Ed was named a 2025 National Academy of Medicine Emerging Leader. Alongside his role at the MHRA, he will continue his US-based research into the responsible use of AI in healthcare.
+
+📌 [17] Assessing if artificial intelligence is the right solution
+   🔗 Link: https://www.gov.uk/guidance/assessing-if-artificial-intelligence-is-the-right-solution
+   ↳ Guidance to help you assess if artificial intelligence (AI) is the right technology for your challenge.
+
+📌 [18] Jessica Lennard
+   🔗 Link: https://www.gov.uk/government/people/jessica-lennard
+   ↳ Jessica Lennard took up the role of Chief Strategy & External Affairs Officer at the CMA in August 2023. Jessica is a member of the Senior Executive Team, an advisor to the Board, and has overall responsibility for strategy, advocacy, communications and external engagement at the CMA. Previous roles include: Senior Director for Global Data and AI Initiatives at VISA (January 2023) Advisory Board Member for the UK Government Centra for Data Ethics and Innovation (until July 2023) Board Member of Tech UK (until January 2023) Ambassador Microsoft National AI Council (November 2021) Jessica has also held corporate roles at TalkTalk, Ovo Energy and Edelman. Disclosure of interests
+
+📌 [19] Land Use Programme
+   🔗 Link: https://www.gov.uk/guidance/land-use-programme
+   ↳ Information about the Land Use Dialogues engagement programme which explores the UK's most pressing land use challenges.
+
+📌 [20] Join Us: Reforming the State Together
+   🔗 Link: https://www.gov.uk/government/collections/join-us-reforming-the-state-together
+   ↳ Making government work better requires us to adopt new ways of working and leverage the wealth of talent we possess across industry and civil society

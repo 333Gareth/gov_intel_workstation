@@ -142,6 +142,9 @@ class GovApp:
         config.ensure_data_dirs()
         self.state = AppState.load()
 
+        if not hasattr(self.state, "save"):
+            self.state.save = self.state.save_keywords
+
         self.active_docs: list[Document] = []
         self.selected_doc: Document | None = None
         self.active_atts: list[str] = []
@@ -270,7 +273,6 @@ class GovApp:
         self.log_box = tk.Text(f, height=6, bg="#1e293b", fg="#f8fafc", font=("Consolas", 10))
         self.log_box.grid(row=10, column=0, columnspan=3, sticky="nsew", pady=10)
 
-        # Bind right-click menus
         _add_universal_right_click_menu(self.e_topic)
         _add_universal_right_click_menu(self.log_box)
 
@@ -440,7 +442,6 @@ class GovApp:
         self.txt_briefing = scrolledtext.ScrolledText(briefing_frame, wrap="word")
         self.txt_briefing.pack(fill="both", expand=True)
 
-        # Bind right-click menus
         _add_universal_right_click_menu(self.e_filter)
         _add_universal_right_click_menu(self.txt_details)
         _add_universal_right_click_menu(self.txt_briefing)
@@ -720,7 +721,6 @@ class GovApp:
         self.txt_fav_briefing = scrolledtext.ScrolledText(fav_briefing_frame, wrap="word")
         self.txt_fav_briefing.pack(fill="both", expand=True)
 
-        # Bind right-click menus
         _add_universal_right_click_menu(self.txt_fav_details)
         _add_universal_right_click_menu(self.txt_fav_briefing)
 
@@ -864,8 +864,27 @@ class GovApp:
             overview_hdr, text="🌐 Refresh Master Overview", command=lambda: self.load_master_overview_profile(silent=True)
         ).pack(side="right")
 
-        self.master_overview_container = ttk.Frame(overview_frame)
-        self.master_overview_container.pack(fill="x")
+        overview_canvas_container = ttk.Frame(overview_frame)
+        overview_canvas_container.pack(fill="x", expand=True)
+
+        self._overview_canvas = tk.Canvas(overview_canvas_container, height=185, highlightthickness=0)
+        overview_sb = ttk.Scrollbar(overview_canvas_container, orient="vertical", command=self._overview_canvas.yview)
+        self._overview_canvas.configure(yscrollcommand=overview_sb.set)
+
+        overview_sb.pack(side="right", fill="y")
+        self._overview_canvas.pack(side="left", fill="both", expand=True)
+
+        self.master_overview_grid = ttk.Frame(self._overview_canvas, padding=5)
+        self._overview_canvas_window = self._overview_canvas.create_window((0, 0), window=self.master_overview_grid, anchor="nw")
+
+        def _on_overview_configure(event):
+            self._overview_canvas.configure(scrollregion=self._overview_canvas.bbox("all"))
+            self._overview_canvas.itemconfig(self._overview_canvas_window, width=event.width)
+
+        self.master_overview_grid.bind("<Configure>", _on_overview_configure)
+        self._overview_canvas.bind("<Configure>", lambda e: self._overview_canvas.itemconfig(self._overview_canvas_window, width=e.width))
+
+        self.master_overview_container = self.master_overview_grid
 
         preset_bar = ttk.LabelFrame(f, text=" 📦 Research Profiles & Persistent Storage ", padding=8)
         preset_bar.pack(fill="x", side="top", pady=(0, 10))
@@ -893,7 +912,7 @@ class GovApp:
         left_outer = ttk.LabelFrame(body, text=" Categories & Color Coding ", padding=5)
         left_outer.pack(side="left", fill="both", expand=False, padx=(0, 8))
 
-        left_canvas = tk.Canvas(left_outer, bg="#f8fafc", highlightthickness=0, width=310)
+        left_canvas = tk.Canvas(left_outer, highlightthickness=0, width=310)
         left_scrollbar = ttk.Scrollbar(left_outer, orient="vertical", command=left_canvas.yview)
         left_canvas.configure(yscrollcommand=left_scrollbar.set)
 
@@ -904,20 +923,28 @@ class GovApp:
         left_canvas_window = left_canvas.create_window((0, 0), window=left, anchor="nw")
 
         left.bind("<Configure>", lambda e: left_canvas.configure(scrollregion=left_canvas.bbox("all")))
-        left_canvas.bind("<Configure>", lambda e: left_canvas.itemconfig(left_canvas_window, minwidth=e.width))
+        left_canvas.bind("<Configure>", lambda e: left_canvas.itemconfig(left_canvas_window, width=e.width))
 
+        tree_container = ttk.Frame(left)
+        tree_container.pack(side="top", fill="both", expand=True, pady=(0, 6))
+
+        tree_sb = ttk.Scrollbar(tree_container, orient="vertical")
         self.tree_kw_cats = ttk.Treeview(
-            left, columns=("swatch", "name", "count"), show="headings", height=8, selectmode="browse"
+            tree_container, columns=("swatch", "name", "count"), show="headings", height=8, selectmode="browse", yscrollcommand=tree_sb.set
         )
+        tree_sb.config(command=self.tree_kw_cats.yview)
+
+        tree_sb.pack(side="right", fill="y")
+        self.tree_kw_cats.pack(side="left", fill="both", expand=True)
+
         self.tree_kw_cats.heading("swatch", text="Color", anchor="center")
         self.tree_kw_cats.heading("name", text="Category Name", anchor="w")
         self.tree_kw_cats.heading("count", text="Terms", anchor="center")
 
-        self.tree_kw_cats.column("swatch", width=45, anchor="center")
-        self.tree_kw_cats.column("name", width=170, anchor="w")
+        self.tree_kw_cats.column("swatch", width=40, anchor="center")
+        self.tree_kw_cats.column("name", width=155, anchor="w")
         self.tree_kw_cats.column("count", width=55, anchor="center")
 
-        self.tree_kw_cats.pack(side="top", fill="both", expand=True, pady=(0, 6))
         self.tree_kw_cats.bind("<<TreeviewSelect>>", self.on_kw_cat_select)
 
         self.color_preview_frame = ttk.Frame(left, padding=4)
@@ -991,7 +1018,6 @@ class GovApp:
         ttk.Button(term_ctrl, text="➕ Add Keyword", command=self.add_kw_term).pack(side="left", padx=2)
         ttk.Button(term_ctrl, text="🗑️ Remove Keyword", command=self.remove_kw_term).pack(side="left", padx=2)
 
-        # Bind right-click menus
         _add_universal_right_click_menu(self.e_new_cat)
         _add_universal_right_click_menu(self.e_new_kw)
 
@@ -1236,26 +1262,36 @@ class GovApp:
                 self.master_overview_container, bg="#ffffff",
                 highlightbackground="#cbd5e1", highlightthickness=1, cursor="hand2",
             )
-            card.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
+            card.grid(row=row, column=col, padx=4, pady=4, sticky="nsew")
 
             accent = tk.Frame(card, bg=hex_val, width=6)
             accent.pack(side="left", fill="y")
 
-            body = tk.Frame(card, bg="#ffffff", padx=10, pady=8)
+            body = tk.Frame(card, bg="#ffffff", padx=8, pady=6)
             body.pack(side="left", fill="both", expand=True)
 
+            top_row = tk.Frame(body, bg="#ffffff")
+            top_row.pack(anchor="w", fill="x")
+
             name_lbl = tk.Label(
-                body, text=cat, font=("Segoe UI", 10, "bold"), bg="#ffffff", fg="#0f172a",
-                anchor="w", wraplength=200, justify="left",
+                top_row, text=cat, font=("Segoe UI", 9, "bold"), bg="#ffffff", fg="#0f172a",
+                anchor="w", wraplength=160, justify="left", cursor="hand2",
             )
-            name_lbl.pack(anchor="w", fill="x")
+            name_lbl.pack(side="left", fill="x", expand=True)
+
+            del_btn = tk.Button(
+                top_row, text="✕", font=("Segoe UI", 8, "bold"), bg="#f1f5f9", fg="#ef4444",
+                relief="flat", bd=0, padx=4, pady=1, cursor="hand2",
+                command=lambda c=cat: self.delete_category_from_overview(c)
+            )
+            del_btn.pack(side="right", padx=(2, 0))
 
             stats_lbl = tk.Label(
-                body, text=stats_text, font=("Segoe UI", 8), bg="#ffffff", fg="#64748b", anchor="w"
+                body, text=stats_text, font=("Segoe UI", 8), bg="#ffffff", fg="#64748b", anchor="w", cursor="hand2"
             )
-            stats_lbl.pack(anchor="w", fill="x")
+            stats_lbl.pack(anchor="w", fill="x", pady=(2, 0))
 
-            for widget in (card, accent, body, name_lbl, stats_lbl):
+            for widget in (card, accent, body, top_row, name_lbl, stats_lbl):
                 widget.bind("<Button-1>", lambda _e, c=cat: self.select_kw_category_from_overview(c))
 
         add_idx = len(categories)
@@ -1264,17 +1300,34 @@ class GovApp:
             self.master_overview_container, bg="#f8fafc",
             highlightbackground="#94a3b8", highlightthickness=1, cursor="hand2",
         )
-        add_card.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
+        add_card.grid(row=row, column=col, padx=4, pady=4, sticky="nsew")
         add_lbl = tk.Label(
-            add_card, text="➕ Add New Category", font=("Segoe UI", 10, "bold"),
-            bg="#f8fafc", fg="#334155", justify="center",
+            add_card, text="➕ Add New Category", font=("Segoe UI", 9, "bold"),
+            bg="#f8fafc", fg="#334155", justify="center", cursor="hand2",
         )
-        add_lbl.pack(fill="both", expand=True, padx=10, pady=18)
+        add_lbl.pack(fill="both", expand=True, padx=10, pady=16)
         for widget in (add_card, add_lbl):
             widget.bind("<Button-1>", lambda _e: self.add_category_from_overview())
 
         for c in range(cols):
             self.master_overview_container.columnconfigure(c, weight=1)
+
+    def delete_category_from_overview(self, cat: str) -> None:
+        if messagebox.askyesno("Delete Category", f"Are you sure you want to delete category '{cat}' and all its terms permanently?"):
+            deleted = self.state.remove_keyword_category(cat)
+            
+            for profile_name, rules in self.state.research_profiles.items():
+                if cat in rules:
+                    del rules[cat]
+            
+            self.state.save_keywords()
+            self.state.save()
+            save_json(PROFILES_FILE, self.state.research_profiles)
+            
+            if deleted:
+                self.refresh_kw_categories_list()
+                self.generate_analytics_matrix()
+                self.log(f"🗑️ Permanently deleted category '{cat}'.")
 
     def add_category_from_overview(self) -> None:
         name = simpledialog.askstring("Add New Category", "Enter a name for the new keyword category:")
@@ -1286,7 +1339,15 @@ class GovApp:
             messagebox.showwarning("Category Exists", f"A category named '{name}' already exists.")
             return
         
+        self.state.keyword_rules[name] = {"color": default_color, "terms": {}}
+        for profile_name, rules in self.state.research_profiles.items():
+            if name not in rules:
+                rules[name] = {"color": default_color, "terms": {}}
+        
         self.state.save_keywords()
+        self.state.save()
+        save_json(PROFILES_FILE, self.state.research_profiles)
+        
         self.refresh_kw_categories_list()
         self.generate_analytics_matrix()
         
@@ -1310,6 +1371,7 @@ class GovApp:
         cat = sel[0]
         self.state.set_category_color(cat, rgb)
         self.state.save_keywords()
+        self.state.save()
         self.refresh_kw_categories_list()
         self.tree_kw_cats.selection_set(cat)
 
@@ -1328,6 +1390,7 @@ class GovApp:
             norm_color = [round(c / 255.0, 2) for c in color_rgb]
             self.state.set_category_color(cat, norm_color)
             self.state.save_keywords()
+            self.state.save()
             self.refresh_kw_categories_list()
             self.tree_kw_cats.selection_set(cat)
 
@@ -1337,9 +1400,10 @@ class GovApp:
             return
         if self.state.add_keyword_category(cat_name):
             self.e_new_cat.delete(0, tk.END)
+            self.state.save_keywords()
+            self.state.save()
             self.refresh_kw_categories_list()
             self.generate_analytics_matrix()
-            self.state.save_keywords()
             
             if cat_name in self.tree_kw_cats.get_children():
                 self.tree_kw_cats.selection_set(cat_name)
@@ -1351,11 +1415,21 @@ class GovApp:
         if not sel:
             return
         cat = sel[0]
-        if self.state.remove_keyword_category(cat):
-            self.refresh_kw_categories_list()
-            self.lb_kw_terms.delete(0, tk.END)
-            self.generate_analytics_matrix()
-            self.state.save_keywords()
+        if messagebox.askyesno("Delete Category", f"Are you sure you want to delete category '{cat}'?"):
+            deleted = self.state.remove_keyword_category(cat)
+            
+            for profile_name, rules in self.state.research_profiles.items():
+                if cat in rules:
+                    del rules[cat]
+                    
+            if deleted:
+                self.refresh_kw_categories_list()
+                self.lb_kw_terms.delete(0, tk.END)
+                self.generate_analytics_matrix()
+                self.state.save_keywords()
+                self.state.save()
+                save_json(PROFILES_FILE, self.state.research_profiles)
+                self.log(f"🗑️ Permanently deleted category '{cat}'.")
 
     def on_kw_cat_select(self, _event) -> None:
         sel = self.tree_kw_cats.selection()
@@ -1378,13 +1452,20 @@ class GovApp:
         if not sel:
             return
         cat = sel[0]
-        if self.state.add_keyword_term(cat, self.e_new_kw.get()):
+        term_text = self.e_new_kw.get().strip()
+        if self.state.add_keyword_term(cat, term_text):
             self.on_kw_cat_select(None)
             self.e_new_kw.delete(0, tk.END)
             self.refresh_kw_categories_list()
             self.tree_kw_cats.selection_set(cat)
             self.generate_analytics_matrix()
+            
             self.state.save_keywords()
+            self.state.save()
+            for profile_name, rules in self.state.research_profiles.items():
+                if cat in rules:
+                    rules[cat]["terms"][term_text] = True
+            save_json(PROFILES_FILE, self.state.research_profiles)
 
     def toggle_kw_term_state(self, event=None) -> None:
         cat_sel = self.tree_kw_cats.selection()
@@ -1408,6 +1489,7 @@ class GovApp:
         self.lb_kw_terms.select_set(index)
         self.generate_analytics_matrix()
         self.state.save_keywords()
+        self.state.save()
 
     def remove_kw_term(self) -> None:
         cat_sel, term_sel = self.tree_kw_cats.selection(), self.lb_kw_terms.curselection()
@@ -1421,6 +1503,7 @@ class GovApp:
             self.tree_kw_cats.selection_set(cat)
             self.generate_analytics_matrix()
             self.state.save_keywords()
+            self.state.save()
 
     # ======================================================================
     # Analytics tab
@@ -1763,7 +1846,7 @@ class GovApp:
         doc.add_heading(f"GOV.UK Briefing: {self.e_topic.get().strip().upper()}", 0)
         doc.add_heading("Executive Summary", level=1)
         doc.add_paragraph(briefing_text)
-        out_p = filedialog.asksaveasfilename(defaultextension=".docx", filetypes=[("Word Document", "*.docx")])
+        out_p = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("Word Document", "*.docx")])
         if out_p:
             doc.save(out_p)
             messagebox.showinfo("Export Complete", f"Saved to: {out_p}")

@@ -1,0 +1,83 @@
+🇬🇧 BRIEFING: NATIONAL CYBER STRATEGY
+TOTAL: 20
+==================================================
+
+📌 [1] National Cyber Security Strategy 2016 to 2021
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-security-strategy-2016-to-2021
+   ↳ The National Cyber Security Strategy 2016 to 2021 sets out the government's plan to make Britain secure and resilient in cyberspace.
+
+📌 [2] National Cyber Strategy: Foreign Secretary's statement
+   🔗 Link: https://www.gov.uk/government/news/national-cyber-strategy-foreign-secretary-statement
+   ↳ The Foreign Secretary Liz Truss has released a statement on the launch of the UK's National Cyber Strategy.
+
+📌 [3] First anniversary of the National Cyber Security Strategy
+   🔗 Link: https://www.gov.uk/government/speeches/first-anniversary-of-the-national-cyber-security-strategy
+   ↳ First Secretary of State Damian Green spoke at the NCC group in Manchester to mark one year since the National Cyber Security Strategy was launched.
+
+📌 [4] National Cyber Strategy 2022 Annual Progress Report 2022-2023
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-strategy-2022-annual-progress-report-2022-2023
+   ↳ This report reflects on key achievements and milestones since the inception of the National Cyber Strategy 2022.
+
+📌 [5] National Cyber Security Strategy 2014: progress and forward plans
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-security-strategy-2014-progress-and-forward-plans
+   ↳ Three years after the National Cyber Security Strategy, the government has published progress against its objectives and forward plans.
+
+📌 [6] National Cyber Security Strategy 2013: forward plans and achievements
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-security-strategy-2-years-on
+   ↳ 2 years on from the National Cyber Security Strategy, the government has published progress against its objectives and our forward plans.
+
+📌 [7] National Cyber Security Strategy 2016 to 2021: progress so far
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-security-strategy-2016-to-2021-progress-so-far
+   ↳ The National Cyber Security Strategy 2016 to 2021 and progress so far against its strategic outcomes.
+
+📌 [8] National Cyber Strategy 2022
+   🔗 Link: https://www.gov.uk/government/publications/national-cyber-strategy-2022
+   ↳ This strategy sets out the government’s approach to protecting and promoting the UK’s interests in cyberspace. It is our plan to ensure that the UK continues to be a leading responsible and democratic cyber power.
+
+📌 [9] UK National Cyber Strategy 2022
+   🔗 Link: https://www.gov.uk/government/publications/uk-national-cyber-strategy-2022
+   ↳ This strategy sets out the government’s approach to protecting and promoting the UK’s interests in cyberspace. It is our plan to ensure that the UK continues to be a leading responsible and democratic cyber power.
+
+📌 [10] Cyber security capacity-building in the Commonwealth 2018 to 2021
+   🔗 Link: https://www.gov.uk/government/collections/cyber-security-capacity-building-in-the-commonwealth-2018-to-2021
+   ↳ This page brings together guidance to help countries implement the Commonwealth Cyber Declaration, signed when the UK was Chair-in-Office of the Commonwealth.
+
+📌 [11] Cyber resilience
+   🔗 Link: https://www.gov.uk/government/collections/cyber-resilience
+   ↳ Details of the government's cyber resilience policy for businesses and organisations.
+
+📌 [12] Digital regulation: overview of government activity
+   🔗 Link: https://www.gov.uk/guidance/digital-regulation-overview-of-government-activity
+   ↳ This page provides a guide for those interested in key upcoming digital regulatory activity being explored, developed or implemented by government. It covers a range of governance activities, from legislative change to the development of co-regulatory and self-regulatory frameworks.
+
+📌 [13] Cyber Security Model
+   🔗 Link: https://www.gov.uk/guidance/cyber-security-model
+   ↳ Information on the Ministry of Defence Cyber Security Model (CSM), including the standards and guidance for suppliers to meet CSM version 4.
+
+📌 [14] Chancellor speech: launching the National Cyber Security Strategy
+   🔗 Link: https://www.gov.uk/government/speeches/chancellor-speech-launching-the-national-cyber-security-strategy
+   ↳ "The new strategy is built on three core pillars: defend, deter and develop, underpinned by £1.9 billion of transformational investment...", says the Chancellor, Philip Hammond.
+
+📌 [15] Cyber Security Strategy: progress so far
+   🔗 Link: https://www.gov.uk/government/collections/cyber-security-strategy-progress-so-far--2
+   ↳ The Cyber Security Strategy and progress so far against its key objectives.
+
+📌 [16] Government technology standards and guidance
+   🔗 Link: https://www.gov.uk/guidance/government-technology-standards-and-guidance
+   ↳ This is collated guidance from government websites and independent bodies to help you follow the technology code of practice.
+
+📌 [17] Cyber Explorers
+   🔗 Link: https://www.gov.uk/guidance/cyber-explorers
+   ↳ Cyber Explorers is a new online learning platform to teach cyber skills to thousands of school pupils across the UK.
+
+📌 [18] App security and privacy
+   🔗 Link: https://www.gov.uk/government/collections/app-security-and-privacy
+   ↳ A collection of documents relating to the government's policy on app security and privacy.
+
+📌 [19] Secure connected places
+   🔗 Link: https://www.gov.uk/guidance/secure-connected-places
+   ↳ The home page for DSIT’s work supporting the secure and sustainable deployment of connected places technology, also known as smart cities.
+
+📌 [20] Andrew Whittaker
+   🔗 Link: https://www.gov.uk/government/people/andrew-whittaker
+   ↳ Andrew Whittaker is the Cyber Director at the Foreign, Commonwealth & Development Office. He is responsible for leading the UK’s international policy, programmes and people to deliver the UK National Cyber Strategy. Before taking up the role in September 2024, Andrew was Head of the FCDO’s global consular network, supporting British people around the world. Andrew was previously the British Consul General in San Francisco and has also done postings in Madrid, Jerusalem and Basra. In another British government role, he set up the UK’s first national CERT, which became part of the UK’s National Cyber Security Centre.   Andrew holds a MA (Hons) degree in Social and Political Sciences from the University of Cambridge (Magdalene College). Follow Andrew on X: @UKAWhittaker .

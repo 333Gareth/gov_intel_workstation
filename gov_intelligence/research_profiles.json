@@ -1,0 +1,2055 @@
+{
+  "🏛️ UK Legislation & Compliance": {
+    "Legal & Statutory": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "statutory": true,
+        "act": true,
+        "clause": true,
+        "compliance": true,
+        "regulation*": true
+      }
+    },
+    "Enforcement & Risks": {
+      "color": [
+        1.0,
+        0.6,
+        0.2
+      ],
+      "terms": {
+        "penalty": true,
+        "offence": true,
+        "breach*": true,
+        "liability": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "Blair": true,
+        "Tony": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "💻 Digital Strategy & AI": {
+    "Technology & Cyber": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "data*": true,
+        "cyber": true,
+        "cloud": true,
+        "api": true,
+        "artificial intelligence": true,
+        "digital": true,
+        "ai": true,
+        "cyber security": true,
+        "national cyber security centre": true,
+        "data protection": true,
+        "encryption": true,
+        "ransomware": true,
+        "malware": true,
+        "phishing": true,
+        "patch management": true,
+        "access control": true,
+        "authentication": true,
+        "mfa": true,
+        "multi-factor authentication": true,
+        "digital government": true,
+        "digital transformation": true,
+        "govassure": true,
+        "ai safety": true,
+        "cloud computing": true,
+        "critical national infrastructure": true,
+        "cni": true,
+        "software lifecycle": true,
+        "biometric": true,
+        "gov.onelogin": true,
+        "gov.wallet": true,
+        "gov.chat": true,
+        "legacy IT": true,
+        "legacy system": true,
+        "cloud-first": true,
+        "SaaS": true,
+        "PaaS": true,
+        "IaaS": true,
+        "API": true,
+        "open source": true,
+        "open standards": true,
+        "interoperability": true,
+        "vendor lock-in": true,
+        "user-centred design": true,
+        "WCAG": true,
+        "technology code of practice": true,
+        "TCoP": true,
+        "DDaT": true,
+        "GDS": true,
+        "DSIT": true,
+        "automation": true,
+        "machine learning": true,
+        "generative AI": true,
+        "data governance": true,
+        "master data": true,
+        "data sharing": true,
+        "digital inclusion": true,
+        "govtech": true,
+        "IT procurement": true,
+        "digital poverty": true,
+        "technology": true,
+        "tech": true,
+        "technologies": true,
+        "digital public infrastruct": true,
+        "digital public infrastructure": true,
+        "new digital": true,
+        "Science, Innovation and Technology": true,
+        "technological threats": true,
+        "next-generation": true,
+        "digital era": true
+      }
+    },
+    "Procurement & Vendors": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "supplier": true,
+        "vendor": true,
+        "contract*": true,
+        "tender": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "Blair": true,
+        "Tony": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "💷 Financial Audit & Budget": {
+    "Funding & Grants": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "budget": true,
+        "grant*": true,
+        "funding": true,
+        "expenditure": true,
+        "allocation": true
+      }
+    },
+    "Value for Money": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "efficiency": true,
+        "audit": true,
+        "cost*": true,
+        "savings": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "Blair": true,
+        "Tony": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "🌱 Environmental & Sustainability": {
+    "Net Zero & Carbon": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon": true,
+        "emission*": true,
+        "sustainability": true
+      }
+    },
+    "Impact & Assessment": {
+      "color": [
+        1.0,
+        0.5,
+        0.75
+      ],
+      "terms": {
+        "environmental impact": true,
+        "biodiversity": true,
+        "waste": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "Blair": true,
+        "Tony": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "🤖 AI & Digital Government": {
+    "Artificial Intelligence": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "large language model*": true,
+        "automation": true,
+        "data governance": true
+      }
+    },
+    "Cybersecurity & Cloud": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "cybersecurity": true,
+        "cloud computing": true,
+        "encryption": true,
+        "vulnerability": true,
+        "zero trust": true,
+        "technological threats": true
+      }
+    }
+  },
+  "💷 Funding & Budget": {
+    "Funding & Budget": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "budget": true,
+        "grant*": true,
+        "funding": true,
+        "expenditure": true,
+        "allocation": true,
+        "efficiency": true,
+        "audit": true,
+        "cost*": true,
+        "savings": true
+      }
+    }
+  },
+  "🛡️ Governance & Security": {
+    "Governance & Security": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "7 principles of public life": true,
+        "opportunities": true,
+        "opportunity": true,
+        "warfare": true,
+        "private sector investment": true,
+        "war": true,
+        "statutory": true,
+        "act": true,
+        "clause": true,
+        "compliance": true,
+        "regulation*": true,
+        "penalty": true,
+        "offence": true,
+        "breach*": true,
+        "liability": true
+      }
+    }
+  },
+  "⚙️ Implementation & Testing": {
+    "Implementation & Testing": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "tests": true,
+        "trial": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "structural": true,
+        "analytics": true,
+        "intelligence": true,
+        "design": true,
+        "framework": true,
+        "experiment": true
+      }
+    }
+  },
+  "🌱 Net Zero & Energy Policy": {
+    "Carbon & Emissions": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon emission*": true,
+        "decarbonisation": true,
+        "renewable energy": true,
+        "greenhouse gas": true
+      }
+    }
+  },
+  "🌱 Net Zero & Carbon": {
+    "Net Zero & Carbon": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon": true,
+        "emission*": true,
+        "sustainability": true,
+        "environmental impact": true,
+        "biodiversity": true,
+        "waste": true
+      }
+    }
+  },
+  "🏥 Public Health & NHS Reform": {
+    "Healthcare Delivery": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "nhs trust": true,
+        "patient care": true,
+        "clinical trial*": true,
+        "hospital admission*": true,
+        "general practice": true
+      }
+    },
+    "Funding & Workforce": {
+      "color": [
+        1.0,
+        0.6,
+        0.2
+      ],
+      "terms": {
+        "workforce shortage": true,
+        "health budget": true,
+        "recruitment": true,
+        "nurse*": true,
+        "doctor*": true
+      }
+    }
+  },
+  "🎯 Strategic Focus": {
+    "Strategic & Planning": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "roadmap": true,
+        "vision": true,
+        "talent": true,
+        "focus": true,
+        "Kickstarters": true,
+        "Kickstarter": true,
+        "initiative": true,
+        "challenges": true,
+        "challenge": true,
+        "protect": true,
+        "reshaping": true,
+        "design": true,
+        "trust": true
+      }
+    },
+    "Implementation & Testing": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "tests": true,
+        "trial": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "structural": true,
+        "analytics": true,
+        "intelligence": true,
+        "design": true,
+        "framework": true,
+        "experiment": true
+      }
+    },
+    "Governance & Security": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "7 principles of public life": true,
+        "opportunities": true,
+        "opportunity": true,
+        "warfare": true,
+        "private sector investment": true,
+        "war": true
+      }
+    }
+  },
+  "🎯 Strategic & Planning": {
+    "Strategic & Planning": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "roadmap": true,
+        "vision": true,
+        "talent": true,
+        "focus": true,
+        "Kickstarters": true,
+        "Kickstarter": true,
+        "initiative": true,
+        "challenges": true,
+        "challenge": true,
+        "protect": true,
+        "reshaping": true,
+        "design": true,
+        "trust": true
+      }
+    }
+  },
+  "💻 Technology & Cyber": {
+    "Technology & Cyber": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "data*": true,
+        "cyber": true,
+        "cloud": true,
+        "api": true,
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "supplier": true,
+        "vendor": true,
+        "contract*": true,
+        "tender": true,
+        "new digital": true,
+        "Science, Innovation and Technology": true,
+        "technological threats": true,
+        "next-generation": true,
+        "digital era": true
+      }
+    }
+  },
+  "⭐ Custom User Lexicon": {
+    "Artificial Intelligence": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "large language model*": true,
+        "automation": true,
+        "data governance": true,
+        "ai": true,
+        "digital public infrastructure": true
+      }
+    },
+    "Cybersecurity & Cloud": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "cybersecurity": true,
+        "cloud computing": true,
+        "encryption": true,
+        "vulnerability": true,
+        "zero trust": true,
+        "cyber security": true,
+        "ncsc": true,
+        "national cyber security centre": true,
+        "information security": true,
+        "data protection": true,
+        "ransomware": true,
+        "malware": true,
+        "technological threats": true
+      }
+    },
+    "Funding & Budget": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "budget": true,
+        "grant*": true,
+        "funding": true,
+        "expenditure": true,
+        "allocation": true,
+        "efficiency": true,
+        "audit": true,
+        "cost*": true,
+        "savings": true
+      }
+    },
+    "Governance & Security": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "7 principles of public life": true,
+        "opportunities": true,
+        "opportunity": true,
+        "warfare": true,
+        "private sector investment": true,
+        "war": true,
+        "statutory": true,
+        "act": true,
+        "clause": true,
+        "compliance": true,
+        "regulation*": true,
+        "penalty": true,
+        "offence": true,
+        "breach*": true,
+        "liability": true
+      }
+    },
+    "Implementation & Testing": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "tests": true,
+        "trial": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "structural": true,
+        "analytics": true,
+        "intelligence": true,
+        "design": true,
+        "framework": true,
+        "experiment": true
+      }
+    },
+    "Carbon & Emissions": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon emission*": true,
+        "decarbonisation": true,
+        "renewable energy": true,
+        "greenhouse gas": true
+      }
+    },
+    "Net Zero & Carbon": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon": true,
+        "emission*": true,
+        "sustainability": true,
+        "environmental impact": true,
+        "biodiversity": true,
+        "waste": true
+      }
+    },
+    "Healthcare Delivery": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "nhs trust": true,
+        "patient care": true,
+        "clinical trial*": true,
+        "hospital admission*": true,
+        "general practice": true,
+        "nhs": true,
+        "medicine": true,
+        "nhs ai": true,
+        "digital nhs": true
+      }
+    },
+    "Funding & Workforce": {
+      "color": [
+        1.0,
+        0.6,
+        0.2
+      ],
+      "terms": {
+        "workforce shortage": true,
+        "health budget": true,
+        "recruitment": true,
+        "nurse*": true,
+        "doctor*": true
+      }
+    },
+    "Strategic & Planning": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "roadmap": true,
+        "digital public infrastructure": true,
+        "vision": true,
+        "talent": true,
+        "focus": true,
+        "Kickstarters": true,
+        "Kickstarter": true,
+        "initiative": true,
+        "challenges": true,
+        "challenge": true,
+        "protect": true,
+        "reshaping": true,
+        "design": true,
+        "trust": true
+      }
+    },
+    "Technology & Cyber": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "data*": true,
+        "cyber": true,
+        "cloud": true,
+        "api": true,
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "supplier": true,
+        "vendor": true,
+        "contract*": true,
+        "tender": true,
+        "tech": true,
+        "technology": true,
+        "data protection": true,
+        "technologies": true,
+        "digital public infrastructure": true,
+        "new digital": true,
+        "Science, Innovation and Technology": true,
+        "technological threats": true,
+        "next-generation": true,
+        "digital era": true
+      }
+    },
+    "Biotech": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "crispr": true,
+        "gene": true,
+        "gene-editing": true,
+        "gene therapy": true,
+        "dna": true,
+        "biotechnology": true,
+        "synthetic biology": true,
+        "gene editing": true,
+        "genomics": true,
+        "proteomics": true,
+        "transcriptomics": true,
+        "recombinant dna": true,
+        "bioengineering": true,
+        "cellular agriculture": true,
+        "clinical trial*": true,
+        "drug discovery": true,
+        "monoclonal antibodies": true,
+        "mrna technology": true,
+        "mrna": true,
+        "vaccine development": true,
+        "vaccine": true,
+        "precision medicine": true,
+        "precision": true,
+        "personalized medicine": true,
+        "orphan drug*": true,
+        "pharmacovigilance": true,
+        "biologics": true,
+        "medicines and healthcare products regulatory agency": true,
+        "mhra": true,
+        "health research authority": true,
+        "hra": true,
+        "genetics human authority": true,
+        "genetics": true,
+        "bioethics": true,
+        "dual-use research": true,
+        "biosecurity": true,
+        "bioeconomy strategy": true,
+        "intellectual property": true,
+        "patent protection": true,
+        "regulatory approval": true,
+        "clinical evaluation": true,
+        "treatments": true,
+        "precision bred": true,
+        "genome": true,
+        "crispr-cas9": true,
+        "cas": true,
+        "multiplex editing": true,
+        "base editing": true,
+        "sdn": true,
+        "precision bred organisms": true,
+        "modified": true,
+        "genetically altered": true,
+        "ga": true
+      }
+    },
+    "Social": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "cohesion": true,
+        "social": true,
+        "social cohesion": true,
+        "integration": true,
+        "tracking": true,
+        "intellectual property": true,
+        "social strategy": true,
+        "identity": true,
+        "data collection": true,
+        "talent": true,
+        "trust": true
+      }
+    },
+    "Surveillance & Biometrics": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "surveillance": true,
+        "biometric*": true,
+        "facial recognition": true,
+        "cctv": true,
+        "surveillance commissioner": true,
+        "privacy impact": true,
+        "mass capture": true,
+        "automated number plate recognition": true,
+        "anpr": true,
+        "data": true,
+        "id*": true,
+        "digital": true,
+        "data protection": true,
+        "digital public infrastructure": true,
+        "next-generation public services": true
+      }
+    },
+    "Strategic Focus": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "ai": true,
+        "technology": true,
+        "id": true,
+        "crispr": true,
+        "gene-editing": true,
+        "healthcare data": true,
+        "research": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "digital transformation": true,
+        "govtech": true,
+        "cloud computing": true,
+        "open source": true,
+        "data": true,
+        "data architecture": true,
+        "data sharing": true,
+        "digital identity": true,
+        "defrra": true,
+        "2020": true,
+        "2030": true,
+        "scientific": true,
+        "fertilizer shortage": true,
+        "economic": true,
+        "institute": true,
+        "technologies": true,
+        "tech": true,
+        "challenges": true,
+        "reshaping": true,
+        "reshaping of the public sector": true,
+        "digital era": true
+      }
+    },
+    "Deadlines & Timelines": {
+      "color": [
+        1.0,
+        0.5,
+        0.75
+      ],
+      "terms": {
+        "deadline": true,
+        "expires": true,
+        "timeline": true,
+        "target date": true,
+        "milestone": true,
+        "effective date": true,
+        "prioritisation": true,
+        "priority": true,
+        "modern": true
+      }
+    },
+    "Climate & Environment": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "defra": true,
+        "water": true,
+        "environment": true,
+        "weather": true,
+        "climate": true,
+        "climate change": true,
+        "soil": true,
+        "weather modification": true,
+        "geoengineering": true,
+        "air": true,
+        "environmental": true,
+        "environmental research": true,
+        "plant health": true,
+        "animal health": true,
+        "biosecurity": true,
+        "agri-environment": true
+      }
+    },
+    "Farming": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "soil": true,
+        "agriculture": true,
+        "farm": true,
+        "farming": true,
+        "crops": true,
+        "crop": true,
+        "harvest": true,
+        "wheat": true,
+        "fertilizer": true,
+        "fertilizer shortage": true,
+        "food": true,
+        "livestock": true,
+        "soil health": true,
+        "fertiliser": true,
+        "pesticide": true,
+        "sustainable farming": true,
+        "elm scheme": true,
+        "environmental land management": true,
+        "environmental": true,
+        "delinked payments": true,
+        "sfi": true,
+        "sustainable farming incentive": true,
+        "countryside stewardship": true,
+        "agricultural transition": true,
+        "rural payments": true,
+        "defra": true,
+        "food security": true,
+        "tenant farmer": true,
+        "animal health": true,
+        "plant health": true,
+        "biosecurity": true,
+        "agricultural productivity": true,
+        "farm diversification": true,
+        "agri-environment": true
+      }
+    },
+    "Companies": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "multiverse": true,
+        "oracle": true,
+        "palantir": true,
+        "blair": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "blair": true,
+        "Blair": true,
+        "tony": true,
+        "Tony": true,
+        "tony blair": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "🌐 Master Intelligence Overview": {
+    "Artificial Intelligence": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "large language model*": true,
+        "automation": true,
+        "data governance": true,
+        "ai": true,
+        "digital public infrastructure": true
+      }
+    },
+    "Cybersecurity & Cloud": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "cybersecurity": true,
+        "cloud computing": true,
+        "encryption": true,
+        "vulnerability": true,
+        "zero trust": true,
+        "cyber security": true,
+        "ncsc": true,
+        "national cyber security centre": true,
+        "information security": true,
+        "data protection": true,
+        "ransomware": true,
+        "malware": true,
+        "technological threats": true
+      }
+    },
+    "Funding & Budget": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "budget": true,
+        "grant*": true,
+        "funding": true,
+        "expenditure": true,
+        "allocation": true,
+        "efficiency": true,
+        "audit": true,
+        "cost*": true,
+        "savings": true
+      }
+    },
+    "Governance & Security": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "7 principles of public life": true,
+        "opportunities": true,
+        "opportunity": true,
+        "warfare": true,
+        "private sector investment": true,
+        "war": true,
+        "statutory": true,
+        "act": true,
+        "clause": true,
+        "compliance": true,
+        "regulation*": true,
+        "penalty": true,
+        "offence": true,
+        "breach*": true,
+        "liability": true
+      }
+    },
+    "Implementation & Testing": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "tests": true,
+        "trial": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "structural": true,
+        "analytics": true,
+        "intelligence": true,
+        "design": true,
+        "framework": true,
+        "experiment": true
+      }
+    },
+    "Carbon & Emissions": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon emission*": true,
+        "decarbonisation": true,
+        "renewable energy": true,
+        "greenhouse gas": true
+      }
+    },
+    "Net Zero & Carbon": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon": true,
+        "emission*": true,
+        "sustainability": true,
+        "environmental impact": true,
+        "biodiversity": true,
+        "waste": true
+      }
+    },
+    "Healthcare Delivery": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "nhs trust": true,
+        "patient care": true,
+        "clinical trial*": true,
+        "hospital admission*": true,
+        "general practice": true,
+        "nhs": true,
+        "medicine": true,
+        "nhs ai": true,
+        "digital nhs": true
+      }
+    },
+    "Funding & Workforce": {
+      "color": [
+        1.0,
+        0.6,
+        0.2
+      ],
+      "terms": {
+        "workforce shortage": true,
+        "health budget": true,
+        "recruitment": true,
+        "nurse*": true,
+        "doctor*": true
+      }
+    },
+    "Strategic & Planning": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "roadmap": true,
+        "digital public infrastructure": true,
+        "vision": true,
+        "talent": true,
+        "focus": true,
+        "kickstarters": true,
+        "Kickstarters": true,
+        "kickstarter": true,
+        "Kickstarter": true,
+        "initiative": true,
+        "challenges": true,
+        "challenge": true,
+        "protect": true,
+        "reshaping": true,
+        "design": true,
+        "trust": true
+      }
+    },
+    "Technology & Cyber": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "data*": true,
+        "cyber": true,
+        "cloud": true,
+        "api": true,
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "supplier": true,
+        "vendor": true,
+        "contract*": true,
+        "tender": true,
+        "tech": true,
+        "technology": true,
+        "data protection": true,
+        "technologies": true,
+        "digital public infrastructure": true,
+        "new digital": true,
+        "science, innovation and technology": true,
+        "Science, Innovation and Technology": true,
+        "technological threats": true,
+        "next-generation": true,
+        "digital era": true
+      }
+    },
+    "Biotech": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "crispr": true,
+        "gene": true,
+        "gene-editing": true,
+        "gene therapy": true,
+        "dna": true,
+        "biotechnology": true,
+        "synthetic biology": true,
+        "gene editing": true,
+        "genomics": true,
+        "proteomics": true,
+        "transcriptomics": true,
+        "recombinant dna": true,
+        "bioengineering": true,
+        "cellular agriculture": true,
+        "clinical trial*": true,
+        "drug discovery": true,
+        "monoclonal antibodies": true,
+        "mrna technology": true,
+        "mrna": true,
+        "vaccine development": true,
+        "vaccine": true,
+        "precision medicine": true,
+        "precision": true,
+        "personalized medicine": true,
+        "orphan drug*": true,
+        "pharmacovigilance": true,
+        "biologics": true,
+        "medicines and healthcare products regulatory agency": true,
+        "mhra": true,
+        "health research authority": true,
+        "hra": true,
+        "genetics human authority": true,
+        "genetics": true,
+        "bioethics": true,
+        "dual-use research": true,
+        "biosecurity": true,
+        "bioeconomy strategy": true,
+        "intellectual property": true,
+        "patent protection": true,
+        "regulatory approval": true,
+        "clinical evaluation": true,
+        "treatments": true,
+        "precision bred": true,
+        "genome": true,
+        "crispr-cas9": true,
+        "cas": true,
+        "multiplex editing": true,
+        "base editing": true,
+        "sdn": true,
+        "precision bred organisms": true,
+        "modified": true,
+        "genetically altered": true,
+        "ga": true
+      }
+    },
+    "Social": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "cohesion": true,
+        "social": true,
+        "social cohesion": true,
+        "integration": true,
+        "tracking": true,
+        "intellectual property": true,
+        "social strategy": true,
+        "identity": true,
+        "data collection": true,
+        "talent": true,
+        "trust": true
+      }
+    },
+    "Surveillance & Biometrics": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "surveillance": true,
+        "biometric*": true,
+        "facial recognition": true,
+        "cctv": true,
+        "surveillance commissioner": true,
+        "privacy impact": true,
+        "mass capture": true,
+        "automated number plate recognition": true,
+        "anpr": true,
+        "data": true,
+        "id*": true,
+        "digital": true,
+        "data protection": true,
+        "digital public infrastructure": true,
+        "next-generation public services": true
+      }
+    },
+    "Strategic Focus": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "ai": true,
+        "technology": true,
+        "id": true,
+        "crispr": true,
+        "gene-editing": true,
+        "healthcare data": true,
+        "research": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "digital transformation": true,
+        "govtech": true,
+        "cloud computing": true,
+        "open source": true,
+        "data": true,
+        "data architecture": true,
+        "data sharing": true,
+        "digital identity": true,
+        "defrra": true,
+        "2020": true,
+        "2030": true,
+        "scientific": true,
+        "fertilizer shortage": true,
+        "economic": true,
+        "institute": true,
+        "technologies": true,
+        "tech": true,
+        "challenges": true,
+        "reshaping": true,
+        "reshaping of the public sector": true,
+        "digital era": true
+      }
+    },
+    "Deadlines & Timelines": {
+      "color": [
+        1.0,
+        0.5,
+        0.75
+      ],
+      "terms": {
+        "deadline": true,
+        "expires": true,
+        "timeline": true,
+        "target date": true,
+        "milestone": true,
+        "effective date": true,
+        "prioritisation": true,
+        "priority": true,
+        "modern": true
+      }
+    },
+    "Climate & Environment": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "defra": true,
+        "water": true,
+        "environment": true,
+        "weather": true,
+        "climate": true,
+        "climate change": true,
+        "soil": true,
+        "weather modification": true,
+        "geoengineering": true,
+        "air": true,
+        "environmental": true,
+        "environmental research": true,
+        "plant health": true,
+        "animal health": true,
+        "biosecurity": true,
+        "agri-environment": true
+      }
+    },
+    "Farming": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "soil": true,
+        "agriculture": true,
+        "farm": true,
+        "farming": true,
+        "crops": true,
+        "crop": true,
+        "harvest": true,
+        "wheat": true,
+        "fertilizer": true,
+        "fertilizer shortage": true,
+        "food": true,
+        "livestock": true,
+        "soil health": true,
+        "fertiliser": true,
+        "pesticide": true,
+        "sustainable farming": true,
+        "elm scheme": true,
+        "environmental land management": true,
+        "environmental": true,
+        "delinked payments": true,
+        "sfi": true,
+        "sustainable farming incentive": true,
+        "countryside stewardship": true,
+        "agricultural transition": true,
+        "rural payments": true,
+        "defra": true,
+        "food security": true,
+        "tenant farmer": true,
+        "animal health": true,
+        "plant health": true,
+        "biosecurity": true,
+        "agricultural productivity": true,
+        "farm diversification": true,
+        "agri-environment": true
+      }
+    },
+    "Companies": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "multiverse": true,
+        "oracle": true,
+        "palantir": true,
+        "blair": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "blair": true,
+        "Blair": true,
+        "tony": true,
+        "Tony": true,
+        "tony blair": true,
+        "Tony Blair": true,
+        "elon musk": true,
+        "Elon Musk": true,
+        "trump": true,
+        "Trump": true,
+        "bill gates": true,
+        "Bill Gates": true
+      }
+    }
+  },
+  "Main Master": {
+    "Artificial Intelligence": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "large language model*": true,
+        "automation": true,
+        "data governance": true,
+        "ai": true,
+        "digital": true,
+        "digital public infrastruct": true,
+        "digital public infrastructure": true
+      }
+    },
+    "Cybersecurity & Cloud": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "cybersecurity": true,
+        "cloud computing": true,
+        "encryption": true,
+        "vulnerability": true,
+        "zero trust": true,
+        "cyber security": true,
+        "ncsc": true,
+        "national cyber security centre": true,
+        "information security": true,
+        "data protection": true,
+        "ransomware": true,
+        "malware": true,
+        "technological threats": true
+      }
+    },
+    "Funding & Budget": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "budget": true,
+        "grant*": true,
+        "funding": true,
+        "expenditure": true,
+        "allocation": true,
+        "efficiency": true,
+        "audit": true,
+        "cost*": true,
+        "savings": true
+      }
+    },
+    "Governance & Security": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "7 principles of public life": true,
+        "opportunities": true,
+        "opportunity": true,
+        "warfare": true,
+        "private sector investment": true,
+        "war": true,
+        "statutory": true,
+        "act": true,
+        "clause": true,
+        "compliance": true,
+        "regulation*": true,
+        "penalty": true,
+        "offence": true,
+        "breach*": true,
+        "liability": true
+      }
+    },
+    "Implementation & Testing": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "tests": true,
+        "trial": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "structural": true,
+        "analytics": true,
+        "intelligence": true,
+        "design": true,
+        "framework": true,
+        "experiment": true
+      }
+    },
+    "Carbon & Emissions": {
+      "color": [
+        0.3,
+        0.85,
+        0.4
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon emission*": true,
+        "decarbonisation": true,
+        "renewable energy": true,
+        "greenhouse gas": true
+      }
+    },
+    "Net Zero & Carbon": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "net zero": true,
+        "carbon": true,
+        "emission*": true,
+        "sustainability": true,
+        "environmental impact": true,
+        "biodiversity": true,
+        "waste": true
+      }
+    },
+    "Healthcare Delivery": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "nhs trust": true,
+        "patient care": true,
+        "clinical trial*": true,
+        "hospital admission*": true,
+        "general practice": true,
+        "nhs": true,
+        "medicines": true,
+        "medicine": true,
+        "nhs ai": true,
+        "digital nhs": true
+      }
+    },
+    "Funding & Workforce": {
+      "color": [
+        1.0,
+        0.6,
+        0.2
+      ],
+      "terms": {
+        "workforce shortage": true,
+        "health budget": true,
+        "recruitment": true,
+        "nurse*": true,
+        "doctor*": true
+      }
+    },
+    "Strategic & Planning": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "roadmap": true,
+        "impact": true,
+        "incentive": true,
+        "digital public infrastruct": true,
+        "digital public infrastructure": true,
+        "vision": true,
+        "talent": true,
+        "focus": true,
+        "Kickstarters": true,
+        "Kickstarter": true,
+        "initiative": true,
+        "challenges": true,
+        "challenge": true,
+        "protect": true,
+        "reshaping": true,
+        "design": true,
+        "trust": true
+      }
+    },
+    "Technology & Cyber": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "data*": true,
+        "cyber": true,
+        "cloud": true,
+        "api": true,
+        "artificial intelligence": true,
+        "machine learning": true,
+        "algorithm*": true,
+        "supplier": true,
+        "vendor": true,
+        "contract*": true,
+        "tender": true,
+        "digital": true,
+        "ai": true,
+        "cyber security": true,
+        "national cyber security centre": true,
+        "data protection": true,
+        "encryption": true,
+        "ransomware": true,
+        "malware": true,
+        "phishing": true,
+        "patch management": true,
+        "access control": true,
+        "authentication": true,
+        "mfa": true,
+        "multi-factor authentication": true,
+        "digital government": true,
+        "digital transformation": true,
+        "govassure": true,
+        "ai safety": true,
+        "cloud computing": true,
+        "critical national infrastructure": true,
+        "cni": true,
+        "software lifecycle": true,
+        "biometric": true,
+        "gov.onelogin": true,
+        "gov.wallet": true,
+        "gov.chat": true,
+        "legacy IT": true,
+        "legacy system": true,
+        "cloud-first": true,
+        "SaaS": true,
+        "PaaS": true,
+        "IaaS": true,
+        "API": true,
+        "open source": true,
+        "open standards": true,
+        "interoperability": true,
+        "vendor lock-in": true,
+        "user-centred design": true,
+        "WCAG": true,
+        "technology code of practice": true,
+        "TCoP": true,
+        "DDaT": true,
+        "GDS": true,
+        "DSIT": true,
+        "automation": true,
+        "generative AI": true,
+        "data governance": true,
+        "master data": true,
+        "data sharing": true,
+        "digital inclusion": true,
+        "govtech": true,
+        "IT procurement": true,
+        "digital poverty": true,
+        "technology": true,
+        "tech": true,
+        "technologies": true,
+        "digital public infrastruct": true,
+        "digital public infrastructure": true,
+        "new digital": true,
+        "Science, Innovation and Technology": true,
+        "technological threats": true,
+        "next-generation": true,
+        "digital era": true
+      }
+    },
+    "Biotech": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "crispr": true,
+        "gene": true,
+        "gene-editing": true,
+        "gene therapy": true,
+        "dna": true,
+        "biotechnology": true,
+        "synthetic biology": true,
+        "gene editing": true,
+        "genomics": true,
+        "proteomics": true,
+        "transcriptomics": true,
+        "recombinant dna": true,
+        "bioengineering": true,
+        "cellular agriculture": true,
+        "clinical trial*": true,
+        "drug discovery": true,
+        "monoclonal antibodies": true,
+        "mrna technology": true,
+        "mrna": true,
+        "vaccine development": true,
+        "vaccine": true,
+        "precision medicine": true,
+        "precision": true,
+        "personalized medicine": true,
+        "orphan drug*": true,
+        "pharmacovigilance": true,
+        "biologics": true,
+        "medicines and healthcare products regulatory agency": true,
+        "mhra": true,
+        "health research authority": true,
+        "hra": true,
+        "genetics human authority": true,
+        "genetics": true,
+        "bioethics": true,
+        "dual-use research": true,
+        "biosecurity": true,
+        "bioeconomy strategy": true,
+        "intellectual property": true,
+        "patent protection": true,
+        "regulatory approval": true,
+        "clinical evaluation": true,
+        "treatments": true,
+        "precision bred": true,
+        "genome": true,
+        "crispr-cas9": true,
+        "cas": true,
+        "multiplex editing": true,
+        "base editing": true,
+        "sdn": true,
+        "precision bred organisms": true,
+        "modified": true,
+        "genetically altered": true,
+        "ga": true
+      }
+    },
+    "Social": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "cohesion": true,
+        "social": true,
+        "social cohesion": true,
+        "integration": true,
+        "tracking": true,
+        "intellectual property": true,
+        "social strategy": true,
+        "identity": true,
+        "data collection": true,
+        "talent": true,
+        "trust": true
+      }
+    },
+    "Surveillance & Biometrics": {
+      "color": [
+        0.75,
+        0.4,
+        0.95
+      ],
+      "terms": {
+        "surveillance": true,
+        "biometric*": true,
+        "facial recognition": true,
+        "cctv": true,
+        "surveillance commissioner": true,
+        "privacy impact": true,
+        "mass capture": true,
+        "automated number plate recognition": true,
+        "anpr": true,
+        "data": true,
+        "id*": true,
+        "digital": true,
+        "data protection": true,
+        "digital public infrastruct": true,
+        "digital public infrastructure": true,
+        "next-generation public services": true
+      }
+    },
+    "Strategic Focus": {
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "terms": {
+        "blueprint": true,
+        "priority": true,
+        "key objective": true,
+        "reform": true,
+        "standard": true,
+        "strategy": true,
+        "framework": true,
+        "ai": true,
+        "technology": true,
+        "id": true,
+        "crispr": true,
+        "gene-editing": true,
+        "healthcare data": true,
+        "research": true,
+        "infrastructure": true,
+        "digital infrastructure": true,
+        "digital transformation": true,
+        "govtech": true,
+        "cloud computing": true,
+        "open source": true,
+        "data": true,
+        "data architecture": true,
+        "data sharing": true,
+        "digital identity": true,
+        "defrra": true,
+        "2020": true,
+        "2030": true,
+        "scientific": true,
+        "fertilizer shortage": true,
+        "economic": true,
+        "institute": true,
+        "technologies": true,
+        "tech": true,
+        "challenges": true,
+        "reshaping": true,
+        "reshaping of the public sector": true,
+        "digital era": true
+      }
+    },
+    "Deadlines & Timelines": {
+      "color": [
+        1.0,
+        0.5,
+        0.75
+      ],
+      "terms": {
+        "deadline": true,
+        "expires": true,
+        "timeline": true,
+        "target date": true,
+        "milestone": true,
+        "effective date": true,
+        "prioritisation": true,
+        "priority": true,
+        "modern": true
+      }
+    },
+    "Climate & Environment": {
+      "color": [
+        1.0,
+        0.9,
+        0.2
+      ],
+      "terms": {
+        "defra": true,
+        "water": true,
+        "environment": true,
+        "weather": true,
+        "climate": true,
+        "climate change": true,
+        "soil": true,
+        "weather modification": true,
+        "geoengineering": true,
+        "air": true,
+        "environmental": true,
+        "environmental research": true,
+        "plant health": true,
+        "animal health": true,
+        "biosecurity": true,
+        "agri-environment": true
+      }
+    },
+    "Farming": {
+      "color": [
+        1.0,
+        0.35,
+        0.35
+      ],
+      "terms": {
+        "soil": true,
+        "agriculture": true,
+        "farm": true,
+        "farming": true,
+        "crops": true,
+        "crop": true,
+        "harvest": true,
+        "wheat": true,
+        "fertilizer": true,
+        "fertilizer shortage": true,
+        "food": true,
+        "livestock": true,
+        "soil health": true,
+        "fertiliser": true,
+        "pesticide": true,
+        "sustainable farming": true,
+        "elm scheme": true,
+        "environmental land management": true,
+        "environmental": true,
+        "delinked payments": true,
+        "sfi": true,
+        "sustainable farming incentive": true,
+        "countryside stewardship": true,
+        "agricultural transition": true,
+        "rural payments": true,
+        "defra": true,
+        "food security": true,
+        "tenant farmer": true,
+        "animal health": true,
+        "plant health": true,
+        "biosecurity": true,
+        "agricultural productivity": true,
+        "farm diversification": true,
+        "agri-environment": true
+      }
+    },
+    "People": {
+      "color": [
+        0.3,
+        0.65,
+        1.0
+      ],
+      "terms": {
+        "Blair": true,
+        "Tony": true,
+        "Tony Blair": true,
+        "Elon Musk": true,
+        "Trump": true,
+        "Bill Gates": true
+      }
+    }
+  }
+}

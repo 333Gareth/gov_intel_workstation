@@ -1,5 +1,5 @@
 {
-  "profile_name": "⭐ Custom User Lexicon",
+  "profile_name": "Main Master",
   "rules": {
     "Artificial Intelligence": {
       "color": [
@@ -13,9 +13,7 @@
         "algorithm*": true,
         "large language model*": true,
         "automation": true,
-        "data governance": true,
-        "ai": true,
-        "digital public infrastructure": true
+        "data governance": true
       }
     },
     "Cybersecurity & Cloud": {
@@ -29,15 +27,7 @@
         "cloud computing": true,
         "encryption": true,
         "vulnerability": true,
-        "zero trust": true,
-        "cyber security": true,
-        "ncsc": true,
-        "national cyber security centre": true,
-        "information security": true,
-        "data protection": true,
-        "ransomware": true,
-        "malware": true,
-        "technological threats": true
+        "zero trust": true
       }
     },
     "Funding & Budget": {
@@ -95,10 +85,7 @@
         "digital infrastructure": true,
         "structural": true,
         "analytics": true,
-        "intelligence": true,
-        "design": true,
-        "framework": true,
-        "experiment": true
+        "intelligence": true
       }
     },
     "Carbon & Emissions": {
@@ -142,11 +129,7 @@
         "patient care": true,
         "clinical trial*": true,
         "hospital admission*": true,
-        "general practice": true,
-        "nhs": true,
-        "medicine": true,
-        "nhs ai": true,
-        "digital nhs": true
+        "general practice": true
       }
     },
     "Funding & Workforce": {
@@ -177,22 +160,7 @@
         "standard": true,
         "strategy": true,
         "framework": true,
-        "roadmap": true,
-        "digital public infrastructure": true,
-        "vision": true,
-        "talent": true,
-        "focus": true,
-        "kickstarters": true,
-        "Kickstarters": true,
-        "kickstarter": true,
-        "Kickstarter": true,
-        "initiative": true,
-        "challenges": true,
-        "challenge": true,
-        "protect": true,
-        "reshaping": true,
-        "design": true,
-        "trust": true
+        "roadmap": true
       }
     },
     "Technology & Cyber": {
@@ -212,18 +180,7 @@
         "supplier": true,
         "vendor": true,
         "contract*": true,
-        "tender": true,
-        "tech": true,
-        "technology": true,
-        "data protection": true,
-        "technologies": true,
-        "digital public infrastructure": true,
-        "new digital": true,
-        "science, innovation and technology": true,
-        "Science, Innovation and Technology": true,
-        "technological threats": true,
-        "next-generation": true,
-        "digital era": true
+        "tender": true
       }
     },
     "Biotech": {
@@ -303,9 +260,7 @@
         "intellectual property": true,
         "social strategy": true,
         "identity": true,
-        "data collection": true,
-        "talent": true,
-        "trust": true
+        "data collection": true
       }
     },
     "Surveillance & Biometrics": {
@@ -325,11 +280,7 @@
         "automated number plate recognition": true,
         "anpr": true,
         "data": true,
-        "id*": true,
-        "digital": true,
-        "data protection": true,
-        "digital public infrastructure": true,
-        "next-generation public services": true
+        "id*": true
       }
     },
     "Strategic Focus": {
@@ -368,14 +319,7 @@
         "2030": true,
         "scientific": true,
         "fertilizer shortage": true,
-        "economic": true,
-        "institute": true,
-        "technologies": true,
-        "tech": true,
-        "challenges": true,
-        "reshaping": true,
-        "reshaping of the public sector": true,
-        "digital era": true
+        "economic": true
       }
     },
     "Deadlines & Timelines": {
@@ -414,11 +358,7 @@
         "geoengineering": true,
         "air": true,
         "environmental": true,
-        "environmental research": true,
-        "plant health": true,
-        "animal health": true,
-        "biosecurity": true,
-        "agri-environment": true
+        "environmental research": true
       }
     },
     "Farming": {
@@ -438,65 +378,16 @@
         "wheat": true,
         "fertilizer": true,
         "fertilizer shortage": true,
-        "food": true,
-        "livestock": true,
-        "soil health": true,
-        "fertiliser": true,
-        "pesticide": true,
-        "sustainable farming": true,
-        "elm scheme": true,
-        "environmental land management": true,
-        "environmental": true,
-        "delinked payments": true,
-        "sfi": true,
-        "sustainable farming incentive": true,
-        "countryside stewardship": true,
-        "agricultural transition": true,
-        "rural payments": true,
-        "defra": true,
-        "food security": true,
-        "tenant farmer": true,
-        "animal health": true,
-        "plant health": true,
-        "biosecurity": true,
-        "agricultural productivity": true,
-        "farm diversification": true,
-        "agri-environment": true
+        "food": true
       }
     },
-    "Companies": {
+    "companies": {
       "color": [
         0.3,
         0.85,
         0.4
       ],
-      "terms": {
-        "multiverse": true,
-        "oracle": true,
-        "palantir": true,
-        "blair": true
-      }
-    },
-    "People": {
-      "color": [
-        0.3,
-        0.65,
-        1.0
-      ],
-      "terms": {
-        "blair": true,
-        "Blair": true,
-        "tony": true,
-        "Tony": true,
-        "tony blair": true,
-        "Tony Blair": true,
-        "elon musk": true,
-        "Elon Musk": true,
-        "trump": true,
-        "Trump": true,
-        "bill gates": true,
-        "Bill Gates": true
-      }
+      "terms": {}
     }
   }
 }

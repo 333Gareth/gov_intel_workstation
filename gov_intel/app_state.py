@@ -50,15 +50,24 @@ class AppState:
         if not isinstance(loaded_profiles, dict):
             loaded_profiles = dict(DEFAULT_PROFILES)
         
-        # 1. Dynamically scan config.PROFILES_DIR for individual .json files
+        # 1. Load active keywords directly from KEYWORDS_FILE first (ensuring user additions persist)
+        config.ensure_data_dirs()
+        raw_keywords = load_json(config.KEYWORDS_FILE, {})
+        
+        # If keywords.json doesn't exist yet, fall back to default keywords and write it immediately
+        if not raw_keywords:
+            raw_keywords = config.DEFAULT_KEYWORDS
+            save_json(config.KEYWORDS_FILE, raw_keywords)
+
+        normalized_keywords = normalize_keyword_rules(raw_keywords)
+
+        # 2. Dynamically scan config.PROFILES_DIR for individual .json files
         external_profiles_dir = config.PROFILES_DIR
-        scanned_rules_collection = {}
+        scanned_rules_collection = dict(normalized_keywords)  # Seed with current active keywords
         
         try:
-            config.ensure_data_dirs()
             if external_profiles_dir.exists():
                 for file_path in external_profiles_dir.glob("*.json"):
-                    # Skip any old static master overview file if it exists
                     if "master" in file_path.name.lower():
                         continue
                     data = load_json(file_path, {})
@@ -67,7 +76,6 @@ class AppState:
                         profile_rules = data["rules"]
                         loaded_profiles[profile_name] = profile_rules
                         
-                        # Collect rules for dynamic master aggregation
                         if isinstance(profile_rules, dict):
                             for cat_name, cat_data in profile_rules.items():
                                 if cat_name not in scanned_rules_collection:
@@ -75,16 +83,13 @@ class AppState:
         except Exception:
             pass
 
-        # 2. Automatically generate/update the "🌐 Master Intelligence Overview" profile
-        if scanned_rules_collection:
-            loaded_profiles["🌐 Master Intelligence Overview"] = scanned_rules_collection
+        # 3. Build/update the Master Intelligence Overview profile including all custom additions
+        loaded_profiles["🌐 Master Intelligence Overview"] = scanned_rules_collection
 
         return cls(
             favorite_topics=load_json(config.FAV_TOPICS_FILE, []),
             favorite_sources=load_json(config.FAV_SOURCES_FILE, {}),
-            keyword_rules=normalize_keyword_rules(
-                load_json(config.KEYWORDS_FILE, config.DEFAULT_KEYWORDS)
-            ),
+            keyword_rules=normalized_keywords,
             research_profiles=loaded_profiles,
             search_history=load_json(config.HISTORY_FILE, []),
             document_tags=load_json(config.TAGS_FILE, {}),
@@ -147,7 +152,6 @@ class AppState:
         """Saves current category rules and colors permanently to disk and syncs to a user custom profile file."""
         save_json(config.KEYWORDS_FILE, self.keyword_rules)
         
-        # Also persist custom additions to a dedicated user profile json so dynamic loading preserves it
         try:
             config.ensure_data_dirs()
             custom_profile_path = Path(config.PROFILES_DIR) / "user_custom_lexicon.json"
@@ -174,6 +178,17 @@ class AppState:
             return False
         del self.keyword_rules[name]
         self.save_keywords()
+        
+        # Also clean up any individual custom files if they contain this category
+        try:
+            if config.PROFILES_DIR.exists():
+                for file_path in config.PROFILES_DIR.glob("*.json"):
+                    data = load_json(file_path, {})
+                    if isinstance(data, dict) and "rules" in data and name in data["rules"]:
+                        del data["rules"][name]
+                        save_json(file_path, data)
+        except Exception:
+            pass
         return True
 
     def add_keyword_term(self, category: str, term: str) -> bool:
@@ -205,7 +220,6 @@ class AppState:
         self.research_profiles[name] = dict(self.keyword_rules)
         save_json(PROFILES_FILE, self.research_profiles)
         
-        # Also save as an individual profile file in profiles dir
         try:
             config.ensure_data_dirs()
             filename = name.lower().replace(" ", "_") + ".json"
@@ -221,7 +235,6 @@ class AppState:
             del self.research_profiles[profile_name]
             save_json(PROFILES_FILE, self.research_profiles)
             
-            # Try removing corresponding file from profiles dir if it exists
             try:
                 filename = profile_name.lower().replace(" ", "_") + ".json"
                 profile_path = Path(config.PROFILES_DIR) / filename
